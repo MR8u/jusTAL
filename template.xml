@@ -1300,5 +1300,148 @@
 				</listPerson>
             </particDesc>
          </profileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <!-- présentation du projet scientifique -->
+               <p> Présentation</p>
+               <p>Comment se détermine une décision devant le Conseil constitutionnel ? Il existe de
+                  multiples théories : politique, juridique, sociale, économique... Il est intéressant
+                  de tenter de lever le voile des modalités des délibérations du Conseil
+                  constitutionnel</p>
+   
+               <p>L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+                  principes constitutionnels par une instance collégiale, depuis ses modalités jusque
+                  dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière dont
+                  le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+                  constitutionnel français.</p>
+               <p>Mais contrairement aux recherches existantes qui se concentrent sur les décisions
+                  finales du Conseil, le projet repose sur l’étude systématique du principe d’égalité
+                  dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
+                  corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+                  dactylographiés des délibérations du Conseil.</p>
+               <p>Il s’agit d’un ensemble de données uniques puisque sont fournies les transcriptions,
+                  détaillées et nominatives, des prises de parole des conseillers. Elles comportent
+                  aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent ainsi le
+                  voile sur le processus concret de la décision. C’est donc un corpus unique par son
+                  importance (plus de 500 délibérations exploitables pour de 1959 à 1995)</p>
+   
+               <p>C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent que
+                  rarement à disposition des chercheurs leurs documents préparatoires ou leur
+                  délibération Comment se détermine une décision devant le Conseil constitutionnel ? De
+                  multiples théories : politique, juridique, sociale, économique... Intéressant de
+                  tenter de lever le voile des modalités des délibérations du Conseil
+                  constitutionnel</p>
+               <p>la description scientifique du projet</p>
+            </projectDesc>
+            <samplingDecl>
+               <!-- description en texte libre du raisonnement et des méthodes utilisés pour l'échantillonnage des textes dans la création d’un corpus-->
+               <p>L'élément de base du corpus est le procès-verbal</p>
+               <p>Dans les textes OCRisés, les annexes n'ont pas été transcrites et ont été
+                  retirées.</p>
+               <p>Les procès-verbaux traitant de contentieux électoraux n'ont pas été retenus.</p>
+               <p>A l'issue des séances de sciences participatives, l'ensemble des textes corrigés n'a
+                  pas été entièrement structuré avec des balises XML pour indiquer les questions à
+                  l'ordre du jour. Il est apparu qu'une structuration plus complète par les étudiants
+                  sur une sélection des textes serait plus pédagogique. Les étudiants expérimentent
+                  l'avancée de leur travail sur un même texte à différentes phases de structuration</p>
+            </samplingDecl>
+            <editorialDecl>
+               <!--précisions sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
+               <!--<revision> et <hyphenation> n'ont pas été utilisés -->
+               <p>Les choix suivants ont été appliqués lors de la correction de l'ocrisation et des
+                  premières structurations: <lb/>
+                  <list>
+                     <item>Les corrections ne sont pas encodées.</item>
+                     <item>Les fautes d’orthographe sont corrigées si elles proviennent d’une erreur de
+                        l’océrisation. En revanche, elles sont conservées si elles viennent du document
+                        lui-même, dans ce cas une correction a été proposée sous forme de
+                        commentaire.</item>
+                     <item>Les lettres majuscules accentuées présentes dans le texte d’origine sont
+                        remplacées par la lettre équivalente sans accent.</item>
+                     <item>Les numéros de page dans les documents d'origine sont indiqués par une
+                        balise autofermante.</item>
+                  </list></p>
+            </editorialDecl>
+            <classDecl>
+               <taxonomy xml:id="deliberation">
+                  <category xml:id="PV1982-12-28">
+                     <catDesc/>
+                  </category>
+                  <!-- liste des délibérations du corpus -->
+               </taxonomy>
+               <taxonomy xml:id="decision">
+                  <category xml:id="DC-82-149">
+                     <catDesc><term>Décision n° 82-149 DC du 28 décembre 1982</term>
+                      <gloss>Loi relative à l'organisation administrative de Paris, Marseille, Lyon et des établissements publics de coopération intercommunale
+                      </gloss>
+                     </catDesc>
+                  </category>
+                  <!-- liste des décisions du corpus -->
+               </taxonomy>
+               <taxonomy xml:id="classementDuConseil">
+                  <category xml:id="AN">
+                     <catDesc>Élections à l'Assemblée nationale</catDesc>
+                  </category>
+                  <category xml:id="AR16">
+                     <catDesc>Avis de l'article 16</catDesc>
+                  </category>
+                  <category xml:id="AUTR">
+                     <catDesc>Autres textes et décisions</catDesc>
+                  </category>
+                  <category xml:id="D">
+                     <catDesc>Déchéance</catDesc>
+                  </category>
+                  <category xml:id="DC">
+                     <catDesc>Contrôle de constitutionnalité des lois ordinaires, lois organiques, des
+                        traités, des règlements des Assemblées</catDesc>
+                  </category>
+                  <category xml:id="ELEC">
+                     <catDesc>Divers élections</catDesc>
+                  </category>
+                  <category xml:id="FNR">
+                     <catDesc>Fins de non-recevoir</catDesc>
+                  </category>
+                  <category xml:id="I">
+                     <catDesc>Incompatibilité</catDesc>
+                  </category>
+                  <category xml:id="L">
+                     <catDesc>Déclassement</catDesc>
+                  </category>
+                  <category xml:id="ORGA">
+                     <catDesc>Décisions intéressant le fonctionnement du Conseil
+                        constitutionnel</catDesc>
+                  </category>
+                  <category xml:id="PDR">
+                     <catDesc>Élection présidentielle</catDesc>
+                  </category>
+                  <category xml:id="R2_AN">
+                     <catDesc>?</catDesc>
+                  </category>
+                  <category xml:id="REF">
+                     <catDesc>Référendum</catDesc>
+                  </category>
+                  <category xml:id="SEN">
+                     <catDesc>Élections au Sénat</catDesc>
+                  </category>
+               </taxonomy>
+            </classDecl>
+         </encodingDesc>
+         <revisionDesc>
+            <!--l'historique des révisions du fichier électronique-->
+            <!--sur le modèle présenté dans TEI_2010_Header.pdf pour la date  -->
+            <change who="#IC #EP"><date>2021/2022</date>OCRisation des fichiers PDF correspondants aux
+               Archives des comptes rendus de séances du Conseil constitutionnel</change>
+            <change who="#correcteur"><date>2022-04 ou 2022-10</date>Correction et premières
+               structurations des textes à l'aide de balisages simples issus de l'OCR lors de deux
+               sessions de sciences participatives (marathon)</change>
+            <change who="#relecteur"><date>2022-12</date>Structuration plus poussée avec des balises
+               XML des textes avec l'indication de la ou des question.s à l'ordre du jour et pour
+               chaque question, le mot d'introduction, le rapport par un des conseillers, la
+               discussion, le vote des conseillers</change>
+            <change who="#balisageTei">
+               <date>2022-12</date>Transformation des textes ainsi structurés en TEI</change>
+            <change who="#relecteur"><date>2023</date>Structuration des textes en Legal Doc ML hormis
+               pour les métadonnées</change>
+         </revisionDesc>
     </teiHeader>
 </TEI>
