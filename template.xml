@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title>Transcription XML TEI du corpus des délibérations du Conseil constitutionnel français de 1959 à 1995</title>
+   
+               <!-- 0 -->
+               <respStmt>
+                  <resp>Responsable du projet</resp>
+                  <name>FEREY Samuel<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+               </respStmt>
+   
+               <!-- 0 -->
+               <respStmt>
+                  <resp>Construction d’un corpus analysable et préparation des données</resp>
+                  <name>AMBLARD Maxime<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+               </respStmt>
+   
+               <!-- 2 -->
+               <respStmt><!--faut-il ne conserver que les responsables d'un traitement appliqué au corpus déposé dans ortolang ou tous les responsables dans le projet scientifique? -->
+                  <resp>Paradoxe doctrinal et traitement logique</resp>
+                  <name>IGERSHEIM Herrade<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+               </respStmt>
+   
+               <!-- 3 -->
+               <respStmt><!--faut-il ne conserver que les responsables d'un traitement appliqué au corpus déposé dans ortolang ou tous les responsables dans le projet scientifique? -->
+                  <resp>La construction progressive du principe d’égalité</resp>
+                  <name>DISANT Mathieu<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+               </respStmt>
+   
+               <!-- 4 -->
+               <respStmt><!--faut-il ne conserver que les responsables d'un traitement appliqué au corpus déposé dans ortolang ou tous les responsables dans le projet scientifique? -->
+                  <resp>Le Conseil constitutionnel et l’évolution de l’État providence en France</resp>
+                  <name>BLAIRON Katia<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+                  <name>ZIELINSKA Anna<affiliation/></name>
+                  <!--on peut préciser l'affiliation -->
+               </respStmt>
+   
+               <!-- 5 -->
+               <respStmt>
+                  <resp>Relecture et première structuration</resp>
+                  <!--Ici le nom des participants aux marathons -->
+                  <name>ACKERMANN Romane</name>
+                  <name>ADENOT Léa</name>
+                  <name>AGASTRA Kejsi</name>
+                  <name>ALESSI Océane</name>
+                  <name>ANDRIAMANOMANA Mialy</name>
+                  <name>ANTOINE Camille</name>
+                  <name>ANTOINE Cécile</name>
+                  <name>ANTOINE Ludivine</name>
+                  <name>AUBERTIN Mateo</name>
+                  <name>AUSWEGER Solenne</name>
+                  <name>AZIEZE Rayan</name>
+                  <name>BAGUET Fanny</name>
+                  <name>BARBIER Louis-joseph</name>
+                  <name>BARNIER Jade</name>
+                  <name>BARRIERE Alice</name>
+                  <name>BARROIS Loona</name>
+                  <name>BAUMONT Flavy</name>
+                  <name>BECK Juliette</name>
+                  <name>BECKER Judith</name>
+                  <name>BELHUMEUR Brice</name>
+                  <name>BENA Solène</name>
+                  <name>BENOIT Marie Sandy</name>
+                  <name>BERAUD Mathilde</name>
+                  <name>BESSE Samuel</name>
+                  <name>BETARD Clémence</name>
+                  <name>BIER Angélique</name>
+                  <name>BIGELOT Clara</name>
+                  <name>BIGNOT Oranne</name>
+                  <name>BLAISE Arnaud</name>
+                  <name>BLAISE Luana-shani</name>
+                  <name>BLONDIN Charlotte</name>
+                  <name>BOCKHORNI Loïs</name>
+                  <name>BOHL--LAMORCE Marie-sarah</name>
+                  <name>BONNET Hana-malia</name>
+                  <name>BORELLA Audrey</name>
+                  <name>BORHOVEN Maxime</name>
+                  <name>BOTTIN Juliette</name>
+                  <name>BOUCETTA Sophia</name>
+                  <name>BOUDACHE Layla</name>
+                  <name>BOULMEDAIS Leïa</name>
+                  <name>BOUQUET Juliette</name>
+                  <name>BOURAOUI Sabri</name>
+                  <name>BOUSTER Gabriel</name>
+                  <name>BOUTRA Emma</name>
+                  <name>BRAHIMI Rajaa</name>
+                  <name>BROCHARD Arnaud</name>
+                  <name>BRUGE Margot</name>
+                  <name>BULLOT Léa</name>
+                  <name>CANDAS Luna</name>
+                  <name>CASCIOLI-STEYER Anton</name>
+                  <name>CEVIK Gulcan</name>
+                  <name>CHACHAY Louise</name>
+                  <name>CHAFFAUT Rose</name>
+                  <name>CHARY Jean</name>
+                  <name>CHAUVEAU Andréa</name>
+                  <name>CHELLI Laura</name>
+                  <name>CHIKHOUNE Célia</name>
+                  <name>CHOPIN Jeanne</name>
+                  <name>CHRAIBI Marwa</name>
+                  <name>COHU Aurélien</name>
+                  <name>COLIN Jules</name>
+                  <name>COLIN Ludovic</name>
+                  <name>COLLOT Jade</name>
+                  <name>COLSON Mina</name>
+                  <name>CONZELMANN Damien</name>
+                  <name>COSTA Morgane</name>
+                  <name>COUDE Elouan</name>
+                  <name>COURROUX Léa</name>
+                  <name>CREMEL Mahaut</name>
+                  <name>CROIZIER Maximilien</name>
+                  <name>DAMBRINE Gabrielle</name>
+                  <name>D'ANNA Nils</name>
+                  <name>DEFRANOUX Flavien</name>
+                  <name>DEMAIN Canelle</name>
+                  <name>DEMOUGIN Lou</name>
+                  <name>DERVAUX Isaline</name>
+                  <name>DESCLE Chloé</name>
+                  <name>DIAZ Coline</name>
+                  <name>DJITLI Chloé</name>
+                  <name>DORKEL Emma</name>
+                  <name>DOS SANTOS Tom</name>
+                  <name>DUMAS Baptiste</name>
+                  <name>DUPONT Océane</name>
+                  <name>DUTREMEZ Elen</name>
+                  <name>DUVAL Louane</name>
+                  <name>EGLOFF Mélanie</name>
+                  <name>FANTAUZZO Alexis</name>
+                  <name>FARQUE Cloé</name>
+                  <name>FELLER Rémy</name>
+                  <name>FELTIN Emmy</name>
+                  <name>FERBER Jules</name>
+                  <name>FOFANA Mariam</name>
+                  <name>FONTAINE Vanessa</name>
+                  <name>FORMET Floriane</name>
+                  <name>FOURNEAU Amélie</name>
+                  <name>FRANCOIS Luka</name>
+                  <name>FUSIER Celine</name>
+                  <name>FUSIER Céline</name>
+                  <name>GABEL Maureen</name>
+                  <name>GALHAUT Camille</name>
+                  <name>GARNIER Léa</name>
+                  <name>GAUDICHAU Lison</name>
+                  <name>GENEVAUX Amandine</name>
+                  <name>GEORG Melvyn</name>
+                  <name>GERDOLLE Adrien</name>
+                  <name>GILLET Gabriel</name>
+                  <name>GODOY-SALA Isabel</name>
+                  <name>GRANDJEAN Claire</name>
+                  <name>GROSSE Mao</name>
+                  <name>GUILLI Sabry</name>
+                  <name>HABRAN Zoé</name>
+                  <name>HAMMANN Maxence</name>
+                  <name>HENNEVILLE Logan</name>
+                  <name>HERTER COLLIGNON Quentin</name>
+                  <name>JACQUINOT Baptiste</name>
+                  <name>JANATI IDRISSI Ines</name>
+                  <name>JASINSKI Emma</name>
+                  <name>JEANNEROD Manon</name>
+                  <name>JEANNIN Marine</name>
+                  <name>JUNG Mael</name>
+                  <name>KEDZA Jean Jaures</name>
+                  <name>LAMBOEUF Clémence</name>
+                  <name>LECLERC Aline</name>
+                  <name>LELEU Maxence</name>
+                  <name>LORRAIN Capucine</name>
+                  <name>LORY Célia</name>
+                  <name>MALIMPENSA Lucas Louis Alexandre</name>
+                  <name>MANSDRAS Mélina</name>
+                  <name>MARCHANDE Lucie</name>
+                  <name>MARTIN Lilou</name>
+                  <name>MASSON Lucie</name>
+                  <name>MATHIEU Stéfi</name>
+                  <name>MEISTELMAN Clément</name>
+                  <name>MOKCI Denisa</name>
+                  <name>MOUGEL Camille</name>
+                  <name>MRAOVIC Lucas</name>
+                  <name>MURILLO Luis</name>
+                  <name>NEGRI Charlène</name>
+                  <name>NOGUEIRA Zoé</name>
+                  <name>PALIX CHARBONIER Joakim</name>
+                  <name>PARET Manon</name>
+                  <name>RAVIGNON Adrien</name>
+                  <name>RISSE Agathe</name>
+                  <name>ROCHETTE Eléa</name>
+                  <name>ROGALA Lise</name>
+                  <name>ROLLAND Armand</name>
+                  <name>ROSSION Eloïse</name>
+                  <name>SALILLARI Mélissa</name>
+                  <name>SARRAZIN Léna</name>
+                  <name>SIMON Chloé</name>
+                  <name>SIRGHIE-COVACI Isabelle</name>
+                  <name>STCHERBININE Basile</name>
+                  <name>TANGUY Clara</name>
+                  <name>THIRIET Suzon</name>
+                  <name>THOUVENIN Elisa</name>
+                  <name>TOMCZAK Emilie</name>
+                  <name>VAUTRIN Nil</name>
+                  <name>VENARD Gautier</name>
+               </respStmt>
+   
+               <!-- 6 -->
+               <respStmt>
+                  <resp>Relecture, structuration poussée en XML puis en Legal DocML</resp>
+                  <!--Ici le nom des étudiants en L3 si ce sont eux qui font les deux types de structuration -->
+                  <name></name>
+               </respStmt>
+   
+               <!-- 7 -->
+               <respStmt>
+                  <resp>OCRisation des procès-verbaux</resp>
+                  <name xml:id="EP">PETITJEAN Etienne, ATILF</name>
+                  <name xml:id="IC">CLEMENT Isabelle, ATILF</name>
+               </respStmt>
+              
+               <!-- 8 -->
+               <respStmt>
+                  <resp>Balisage TEI</resp>
+                  <name>DESILES Camille, INIST-CNRS</name>
+                  <name>PIGNONE Isabelle, MSHL</name>
+               </respStmt>
+   
+               <funder>Agence nationale de la Recherche</funder>
+               <!--désigne le nom d’une personne ou d’un organisme responsable du financement d’un projet ou d’un texte, Isabelle -->
+               <sponsor>Maison des Sciences de l'Homme Lorraine</sponsor>
+               <!--(commanditaire) indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+   
+            </titleStmt>
+            <publicationStmt>
+              <authority>Maison des Sciences de l'Homme Lorraine</authority>
+               <availability>
+                  <p>Ce corpus est partagé  selon les termes de la <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Licence
+                     Creative Commons Attribution - Pas d'utilisation commerciale - Partage dans les mêmes
+                     conditions 4.0 International</ref></p></availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Archives des <ref target="https://www.conseil-constitutionnel.fr/comptes-rendus-des-seances">comptes rendus de séances de 1958 à 1995 mises en ligne sur le site web
+                  du Conseil constitutionnel</ref></p>
+            </sourceDesc>
+         </fileDesc>
+    </teiHeader>
+
+</TEI>
