@@ -248,6 +248,26 @@
                   du Conseil constitutionnel</ref></p>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+            <particDesc>
+                     
+               <listPerson>
+                  <!-- liste des personnes qui ont parlé au cours des délibérations membres, président, secrétaire général...-->
+                  <!--Isabelle, fevrier 2023 essai à partir de la doc Parla Clarina le role serait spécifié dans le Header si je comprends bien -->
+                  <!--Cette partie peut sans doute être alimentée par les étudiants en TAL à partir du corpus, ci-dessous les valeurs sont là pour donner un exemple-->
+                  <person><persName xml:id="BROUILLET">Monsieur BROUILLET</persName><affiliation role="membre" from="1974-03-05" to="1983-03-03">Membre du conseil constitutionnel</affiliation></person>
+                  <person><persName xml:id="GROS">Monsieur GROS</persName></person>
+                  <person><persName xml:id="JOXE">Monsieur JOXE</persName></person>
+                  <person><persName xml:id="FREY">Monsieur FREY</persName><affiliation role="president" from="1974-03-05" to="1983-03-03">Président du conseil constitutionnel</affiliation></person>
+                  <person><persName xml:id="LECOURT">Monsieur LECOURT</persName></person>
+                  <person><persName xml:id="MONNERVILLE">Monsieur MONNERVILLE</persName></person>
+                  <person><persName xml:id="PERETTI">Monsieur PERETTI</persName></person>
+                  <person><persName xml:id="SEGALAT">Monsieur SEGALAT</persName></person>
+                  <person><persName xml:id="VEDEL">Monsieur VEDEL</persName><affiliation role="membre" from="1980-02-29" to="1989-02-28">Membre du conseil constitutionnel</affiliation></person>
+               </listPerson>
+   
+   
+            </particDesc>
+         </profileDesc>
     </teiHeader>
-
 </TEI>
