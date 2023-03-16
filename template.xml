@@ -250,6 +250,14 @@
          </fileDesc>
          <profileDesc>
             <particDesc>
+				<listOrg>
+				   <org xml:id="CC">
+					  <orgName full="yes" xml:lang="fr">Conseil Constitutionnel</orgName>
+					  <event from="1958-10-04">
+						 <label xml:lang="en">existence</label>
+					  </event>
+				   </org>
+				</listOrg>
 				<listPerson>
 					<person xml:id="abadie_georges">
 						<persName>
@@ -261,7 +269,7 @@
 							<placeName>Tarbes (Hautes-Pyrénées)</placeName>
 						</birth>
 						<death when="2017-10-23"></death>
-						<affiliation role="membre" ref="?" from="1992-03-11" to="2001-03-11"/>
+						<affiliation role="membre" ref="#CC" from="1992-03-11" to="2001-03-11"/>
 					</person>
 					<person xml:id="ameller_michel">
 						<persName>
@@ -273,7 +281,7 @@
 							<placeName>El Attaf (Algérie)</placeName>
 						</birth>
 						<death when="2022-09-28"></death>
-						<affiliation role="membre" ref="?" from="1995-03-08" to="2004-03-08"/>
+						<affiliation role="membre" ref="#CC" from="1995-03-08" to="2004-03-08"/>
 					</person>
 					<person xml:id="antonini_jules">
 						<persName>
@@ -285,7 +293,7 @@
 							<placeName>Ajaccio (Corse-du-Sud)</placeName>
 						</birth>
 						<death when="1987-11-29"></death>
-						<affiliation role="membre" ref="?" from="1967-04-08" to="1971-03-02"/>
+						<affiliation role="membre" ref="#CC" from="1967-04-08" to="1971-03-02"/>
 					</person>
 					<person xml:id="auriol_vincent">
 						<persName>
@@ -297,7 +305,7 @@
 							<placeName>Revel (Haute-Garonne)</placeName>
 						</birth>
 						<death when="1966-01-01"></death>
-						<affiliation role="membrededroit" ref="?" from="1959-03-05" to="1960-05-25"/>
+						<affiliation role="membrededroit" ref="#CC" from="1959-03-05" to="1960-05-25"/>
 					</person>
 					<person xml:id="badinter_robert">
 						<persName>
@@ -308,7 +316,7 @@
 						<birth when="1928-03-30">
 							<placeName>Paris (16ème)</placeName>
 						</birth>
-						<affiliation role="president" ref="?" from="1986-03-04" to="1995-03-04"/>
+						<affiliation role="president" ref="#CC" from="1986-03-04" to="1995-03-04"/>
 					</person>
 					<person xml:id="barrot_jacques">
 						<persName>
@@ -320,7 +328,7 @@
 							<placeName>Yssingeaux (Haute-Loire)</placeName>
 						</birth>
 						<death when="2014-12-03"></death>
-						<affiliation role="membre" ref="?" from="2010-03-12" to="2014-12-03"/>
+						<affiliation role="membre" ref="#CC" from="2010-03-12" to="2014-12-03"/>
 					</person>
 					<person xml:id="bazy-malaurie_claire">
 						<persName>
@@ -331,7 +339,7 @@
 						<birth when="1949-04-14">
 							<placeName>Paris (18ème)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2010-09-07" to="2022-03-13"/>
+						<affiliation role="membre" ref="#CC" from="2010-09-07" to="2022-03-13"/>
 					</person>
 					<person xml:id="belloubet_nicole">
 						<persName>
@@ -342,7 +350,7 @@
 						<birth when="1955-06-15">
 							<placeName>Paris (14ème)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2013-03-14" to="2017-06-22"/>
+						<affiliation role="membre" ref="#CC" from="2013-03-14" to="2017-06-22"/>
 					</person>
 					<person xml:id="brouillet_rene">
 						<persName>
@@ -354,7 +362,7 @@
 							<placeName>Cleppé (Loire)</placeName>
 						</birth>
 						<death when="1992-11-28"></death>
-						<affiliation role="membre" ref="?" from="1974-03-05" to="1983-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1974-03-05" to="1983-03-03"/>
 					</person>
 					<person xml:id="cabannes_jean">
 						<persName>
@@ -366,7 +374,7 @@
 							<placeName>Mirande (Gers)</placeName>
 						</birth>
 						<death when="2020-07-01"></death>
-						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+						<affiliation role="membre" ref="#CC" from="1989-03-01" to="1998-03-01"/>
 					</person>
 					<person xml:id="canivet_guy">
 						<persName>
@@ -377,7 +385,7 @@
 						<birth when="1943-09-23">
 							<placeName>Lons-le-Saunier (Jura)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2007-03-05" to="2016-03-04"/>
+						<affiliation role="membre" ref="#CC" from="2007-03-05" to="2016-03-04"/>
 					</person>
 					<person xml:id="cassin_rene">
 						<persName>
@@ -389,7 +397,7 @@
 							<placeName>Bayonne (Pyrénées-Atlantiques)</placeName>
 						</birth>
 						<death when="1976-02-20"></death>
-						<affiliation role="membre" ref="?" from="1960-07-11" to="1971-03-02"/>
+						<affiliation role="membre" ref="#CC" from="1960-07-11" to="1971-03-02"/>
 					</person>
 					<person xml:id="charasse_michel">
 						<persName>
@@ -401,7 +409,7 @@
 							<placeName>Chamalières (Puy-de-Dôme)</placeName>
 						</birth>
 						<death when="2020-02-21"></death>
-						<affiliation role="membre" ref="?" from="2010-03-12" to="2019-03-11"/>
+						<affiliation role="membre" ref="#CC" from="2010-03-12" to="2019-03-11"/>
 					</person>
 					<person xml:id="chatenay_victor">
 						<persName>
@@ -413,7 +421,7 @@
 							<placeName>Doué-la-Fontaine (Maine-et-Loire)</placeName>
 						</birth>
 						<death when="1985-03-12"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1962-03-04"/>
 					</person>
 					<person xml:id="chatenet_pierre">
 						<persName>
@@ -425,7 +433,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1997-09-04"></death>
-						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1968-03-05" to="1977-03-03"/>
 					</person>
 					<person xml:id="chenot_bernard">
 						<persName>
@@ -437,7 +445,7 @@
 							<placeName>Paris (6ème)</placeName>
 						</birth>
 						<death when="1995-06-05"></death>
-						<affiliation role="membre" ref="?" from="1962-05-11" to="1964-07-31"/>
+						<affiliation role="membre" ref="#CC" from="1962-05-11" to="1964-07-31"/>
 					</person>
 					<person xml:id="chirac_jacques">
 						<persName>
@@ -449,7 +457,7 @@
 							<placeName>Paris (5ème)</placeName>
 						</birth>
 						<death when="2019-09-26"></death>
-						<affiliation role="membrededroit" ref="?" from="2007-05-16"/>
+						<affiliation role="membrededroit" ref="#CC" from="2007-05-16"/>
 					</person>
 					<person xml:id="colliard_jean-claude">
 						<persName>
@@ -461,7 +469,7 @@
 							<placeName>Paris (16ème)</placeName>
 						</birth>
 						<death when="2014-03-26"></death>
-						<affiliation role="membre" ref="?" from="1998-03-03" to="2007-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1998-03-03" to="2007-03-03"/>
 					</person>
 					<person xml:id="coste-floret_paul">
 						<persName>
@@ -473,7 +481,7 @@
 							<placeName>Montpellier (Hérault)</placeName>
 						</birth>
 						<death when="1979-08-27"></death>
-						<affiliation role="membre" ref="?" from="1971-03-03" to="1979-08-27"/>
+						<affiliation role="membre" ref="#CC" from="1971-03-03" to="1979-08-27"/>
 					</person>
 					<person xml:id="coty_rene">
 						<persName>
@@ -485,7 +493,7 @@
 							<placeName>Havre (Seine-Maritime)</placeName>
 						</birth>
 						<death when="1962-11-22"></death>
-						<affiliation role="membrededroit" ref="?" from="1959-03-05" to="1962-11-22"/>
+						<affiliation role="membrededroit" ref="#CC" from="1959-03-05" to="1962-11-22"/>
 					</person>
 					<person xml:id="dailly_etienne">
 						<persName>
@@ -497,7 +505,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1996-12-25"></death>
-						<affiliation role="membre" ref="?" from="1995-03-08" to="1996-12-25"/>
+						<affiliation role="membre" ref="#CC" from="1995-03-08" to="1996-12-25"/>
 					</person>
 					<person xml:id="de-guillenchmidt_jacqueline">
 						<persName>
@@ -508,7 +516,7 @@
 						<birth when="1943-09-25">
 							<placeName>Pékin (Chine)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2004-03-10" to="2013-03-09"/>
+						<affiliation role="membre" ref="#CC" from="2004-03-10" to="2013-03-09"/>
 					</person>
 					<person xml:id="debre_jean-louis">
 						<persName>
@@ -519,7 +527,7 @@
 						<birth when="1944-09-30">
 							<placeName>Toulouse (Haute Garonne)</placeName>
 						</birth>
-						<affiliation role="president" ref="?" from="2007-03-05" to="2016-03-04"/>
+						<affiliation role="president" ref="#CC" from="2007-03-05" to="2016-03-04"/>
 					</person>
 					<person xml:id="delepine_maurice">
 						<persName>
@@ -531,7 +539,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1960-04-30"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1960-04-30"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1960-04-30"/>
 					</person>
 					<person xml:id="denoix-de-saint-marc_renaud">
 						<persName>
@@ -542,7 +550,7 @@
 						<birth when="1938-09-24">
 							<placeName>Boulogne-sur-Seine (Hauts-de-Seine)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2007-03-05" to="2016-03-04"/>
+						<affiliation role="membre" ref="#CC" from="2007-03-05" to="2016-03-04"/>
 					</person>
 					<person xml:id="deschamps_andre">
 						<persName>
@@ -554,7 +562,7 @@
 							<placeName>Romilly-sur-Seine (Aube)</placeName>
 						</birth>
 						<death when="1968-10-21"></death>
-						<affiliation role="membre" ref="?" from="1964-09-16" to="1968-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1964-09-16" to="1968-03-04"/>
 					</person>
 					<person xml:id="dubois_georges-leon">
 						<persName>
@@ -566,7 +574,7 @@
 							<placeName>Orthez (Basses-Pyrénées)</placeName>
 						</birth>
 						<death when=" 2003-02-08"></death>
-						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1968-03-05" to="1977-03-03"/>
 					</person>
 					<person xml:id="dumas_roland">
 						<persName>
@@ -577,7 +585,7 @@
 						<birth when="1922-08-23">
 							<placeName>Limoges (Haute-Vienne)</placeName>
 						</birth>
-						<affiliation role="president" ref="?" from="1995-03-08" to="2000-03-01"/>
+						<affiliation role="president" ref="#CC" from="1995-03-08" to="2000-03-01"/>
 					</person>
 					<person xml:id="dutheillet-de-lamothe_olivier">
 						<persName>
@@ -588,7 +596,7 @@
 						<birth when="1949-11-10">
 							<placeName>Neuilly-sur-Seine (Hauts-de-Seine)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+						<affiliation role="membre" ref="#CC" from="2001-03-12" to="2010-03-12"/>
 					</person>
 					<person xml:id="fabius_laurent">
 						<persName>
@@ -599,7 +607,7 @@
 						<birth when="1946-08-20">
 							<placeName>Paris (16ème)</placeName>
 						</birth>
-						<affiliation role="president" ref="?" from="2016-03-08"/>
+						<affiliation role="president" ref="#CC" from="2016-03-08"/>
 					</person>
 					<person xml:id="fabre_robert">
 						<persName>
@@ -611,7 +619,7 @@
 							<placeName>Villefranche-de-Rouergue (Aveyron)</placeName>
 						</birth>
 						<death when="2006-12-23"></death>
-						<affiliation role="membre" ref="?" from="1986-03-04" to="1995-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1986-03-04" to="1995-03-04"/>
 					</person>
 					<person xml:id="faure_maurice">
 						<persName>
@@ -623,7 +631,7 @@
 							<placeName>Azerat (Dordogne)</placeName>
 						</birth>
 						<death when="2014-03-06"></death>
-						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+						<affiliation role="membre" ref="#CC" from="1989-03-01" to="1998-03-01"/>
 					</person>
 					<person xml:id="frey_roger">
 						<persName>
@@ -635,7 +643,7 @@
 							<placeName>Nouméa (Nouvelle-Calédonie)</placeName>
 						</birth>
 						<death when="1997-09-13"></death>
-						<affiliation role="president" ref="?" from="1974-03-05" to="1983-03-03"/>
+						<affiliation role="president" ref="#CC" from="1974-03-05" to="1983-03-03"/>
 					</person>
 					<person xml:id="gilbert-jules_jean">
 						<persName>
@@ -647,7 +655,7 @@
 							<placeName>Chaulnes (Somme)</placeName>
 						</birth>
 						<death when="1985-01-02"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1968-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1968-03-04"/>
 					</person>
 					<person xml:id="giscard-d-estaing_valery">
 						<persName>
@@ -659,7 +667,7 @@
 							<placeName>Coblence (Allemagne)</placeName>
 						</birth>
 						<death when="2020-12-02"></death>
-						<affiliation role="membrededroit" ref="?" from="e mai 1981" to="2020-12-02"/>
+						<affiliation role="membrededroit" ref="#CC" from="e mai 1981" to="2020-12-02"/>
 					</person>
 					<person xml:id="goguel_francois">
 						<persName>
@@ -671,7 +679,7 @@
 							<placeName>Paris  (17ème)</placeName>
 						</birth>
 						<death when="1999-04-15"></death>
-						<affiliation role="membre" ref="?" from="1971-03-03" to="1980-02-28"/>
+						<affiliation role="membre" ref="#CC" from="1971-03-03" to="1980-02-28"/>
 					</person>
 					<person xml:id="gourault_jacqueline">
 						<persName>
@@ -682,7 +690,7 @@
 						<birth when="1950-11-20">
 							<placeName>Montoire (Loir-et-Cher)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2022-03-14"/>
 					</person>
 					<person xml:id="gros_louis">
 						<persName>
@@ -694,7 +702,7 @@
 							<placeName>Marseille (Bouches-du-Rhône)</placeName>
 						</birth>
 						<death when="1984-10-08"></death>
-						<affiliation role="membre" ref="?" from="1977-03-04" to="1984-10-08"/>
+						<affiliation role="membre" ref="#CC" from="1977-03-04" to="1984-10-08"/>
 					</person>
 					<person xml:id="guena_yves">
 						<persName>
@@ -706,7 +714,7 @@
 							<placeName>Brest (Finistère)</placeName>
 						</birth>
 						<death when="2016-03-03"></death>
-						<affiliation role="president" ref="?" from="1997-01-20" to="2004-03-08"/>
+						<affiliation role="president" ref="#CC" from="1997-01-20" to="2004-03-08"/>
 					</person>
 					<person xml:id="haenel_hubert">
 						<persName>
@@ -718,7 +726,7 @@
 							<placeName>Pompey (Meurthe-et-Moselle)</placeName>
 						</birth>
 						<death when="2015-08-10"></death>
-						<affiliation role="membre" ref="?" from="2010-03-12" to="2015-08-10"/>
+						<affiliation role="membre" ref="#CC" from="2010-03-12" to="2015-08-10"/>
 					</person>
 					<person xml:id="hyest_jean-jacques">
 						<persName>
@@ -729,7 +737,7 @@
 						<birth when="1943-03-02">
 							<placeName>Fontaineble</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2015-10-12" to="2019-03-11"/>
+						<affiliation role="membre" ref="#CC" from="2015-10-12" to="2019-03-11"/>
 					</person>
 					<person xml:id="jospin_lionel">
 						<persName>
@@ -740,7 +748,7 @@
 						<birth when="1937-07-12">
 							<placeName>Meudon (Hauts-de-Seine)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2015-01-06" to="2019-03-11"/>
+						<affiliation role="membre" ref="#CC" from="2015-01-06" to="2019-03-11"/>
 					</person>
 					<person xml:id="joxe_louis">
 						<persName>
@@ -752,7 +760,7 @@
 							<placeName>Bourg-la-Reine (Hauts-de-Seine)</placeName>
 						</birth>
 						<death when="1991-04-06"></death>
-						<affiliation role="membre" ref="?" from="1977-11-04" to="1989-02-28"/>
+						<affiliation role="membre" ref="#CC" from="1977-11-04" to="1989-02-28"/>
 					</person>
 					<person xml:id="joxe_pierre">
 						<persName>
@@ -763,7 +771,7 @@
 						<birth when="1934-11-28">
 							<placeName>Paris (1er)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+						<affiliation role="membre" ref="#CC" from="2001-03-12" to="2010-03-12"/>
 					</person>
 					<person xml:id="jozeau-marigne_leon">
 						<persName>
@@ -775,7 +783,7 @@
 							<placeName>Angers (Maine-et-Loire)</placeName>
 						</birth>
 						<death when="2003-07-18"></death>
-						<affiliation role="membre" ref="?" from="1983-03-04" to="1992-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1983-03-04" to="1992-03-04"/>
 					</person>
 					<person xml:id="juppe_alain">
 						<persName>
@@ -786,7 +794,7 @@
 						<birth when="1945-08-15">
 							<placeName>Mont-de-Marsan (Landes)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2019-03-12"/>
 					</person>
 					<person xml:id="lancelot_alain">
 						<persName>
@@ -798,7 +806,7 @@
 							<placeName>Chêne-Bougeries (Suisse)</placeName>
 						</birth>
 						<death when="2020-12-14"></death>
-						<affiliation role="membre" ref="?" from="1996-04-10" to="2001-02-26"/>
+						<affiliation role="membre" ref="#CC" from="1996-04-10" to="2001-02-26"/>
 					</person>
 					<person xml:id="latscha_jacques">
 						<persName>
@@ -810,7 +818,7 @@
 							<placeName>Mulhouse (Haut-Rhin)</placeName>
 						</birth>
 						<death when="2005-03-21"></death>
-						<affiliation role="membre" ref="?" from="1988-09-06" to="1995-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1988-09-06" to="1995-03-04"/>
 					</person>
 					<person xml:id="le-coq-de-kerland_charles">
 						<persName>
@@ -822,7 +830,7 @@
 							<placeName>Bordeaux (Gironde)</placeName>
 						</birth>
 						<death when="1978-11-07"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1965-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1965-03-03"/>
 					</person>
 					<person xml:id="lecourt_robert">
 						<persName>
@@ -834,7 +842,7 @@
 							<placeName>Pavilly (Seine-Maritime)</placeName>
 						</birth>
 						<death when="2004-08-09"></death>
-						<affiliation role="membre" ref="?" from="1979-09-06" to="1989-02-28"/>
+						<affiliation role="membre" ref="#CC" from="1979-09-06" to="1989-02-28"/>
 					</person>
 					<person xml:id="legatte_paul">
 						<persName>
@@ -846,7 +854,7 @@
 							<placeName>Saint-Hilaire-la-Palud (Deux-Sèvres)</placeName>
 						</birth>
 						<death when="2002-02-26"></death>
-						<affiliation role="membre" ref="?" from="1983-05-11" to="1986-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1983-05-11" to="1986-03-03"/>
 					</person>
 					<person xml:id="lenoir_noelle">
 						<persName>
@@ -857,7 +865,7 @@
 						<birth when="1948-04-27">
 							<placeName>Neuilly-sur-Seine (Hauts-de-Seine)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="1992-03-11" to="2001-03-11"/>
+						<affiliation role="membre" ref="#CC" from="1992-03-11" to="2001-03-11"/>
 					</person>
 					<person xml:id="lottin_dominique">
 						<persName>
@@ -868,7 +876,7 @@
 						<birth when="1958-08-18">
 							<placeName>Paris (15ème)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2017-11-06" to="2022-03-13"/>
+						<affiliation role="membre" ref="#CC" from="2017-11-06" to="2022-03-13"/>
 					</person>
 					<person xml:id="luchaire_francois">
 						<persName>
@@ -880,7 +888,7 @@
 							<placeName>La Rochelle (Charente-Maritime)</placeName>
 						</birth>
 						<death when="2009-08-07"></death>
-						<affiliation role="membre" ref="?" from="1965-03-04" to="1974-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1965-03-04" to="1974-03-04"/>
 					</person>
 					<person xml:id="luquiens_corinne">
 						<persName>
@@ -891,7 +899,7 @@
 						<birth when="1952-08-28">
 							<placeName>Paris (17e)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2016-03-08"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2016-03-08"/>
 					</person>
 					<person xml:id="maestracci_nicole">
 						<persName>
@@ -902,7 +910,7 @@
 						<birth when="1951-02-03">
 							<placeName>Paris (17ème)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2013-03-14" to="2022-03-13"/>
+						<affiliation role="membre" ref="#CC" from="2013-03-14" to="2022-03-13"/>
 					</person>
 					<person xml:id="malbec_veronique">
 						<persName>
@@ -913,7 +921,7 @@
 						<birth when="1958-10-01">
 							<placeName>Mont-de-Marsan (Landes)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2022-03-14"/>
 					</person>
 					<person xml:id="marcilhacy_pierre">
 						<persName>
@@ -925,7 +933,7 @@
 							<placeName>Paris (8ème)</placeName>
 						</birth>
 						<death when="1987-07-06"></death>
-						<affiliation role="membre" ref="?" from="1983-03-04" to="1987-07-05"/>
+						<affiliation role="membre" ref="#CC" from="1983-03-04" to="1987-07-05"/>
 					</person>
 					<person xml:id="mayer_daniel">
 						<persName>
@@ -937,7 +945,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1996-12-28"></death>
-						<affiliation role="president" ref="?" from="1983-03-04" to="1992-03-04"/>
+						<affiliation role="president" ref="#CC" from="1983-03-04" to="1992-03-04"/>
 					</person>
 					<person xml:id="mazeaud_pierre">
 						<persName>
@@ -948,7 +956,7 @@
 						<birth when="1929-08-24">
 							<placeName>Lyon (4ème)</placeName>
 						</birth>
-						<affiliation role="president" ref="?" from="1998-03-03" to="2007-03-03"/>
+						<affiliation role="president" ref="#CC" from="1998-03-03" to="2007-03-03"/>
 					</person>
 					<person xml:id="mezard_jacques">
 						<persName>
@@ -959,7 +967,7 @@
 						<birth when="1947-12-03">
 							<placeName>Aurillac (Cantal)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2019-03-12"/>
 					</person>
 					<person xml:id="michard-pellissier_jean">
 						<persName>
@@ -971,7 +979,7 @@
 							<placeName>Gap (Hautes-Alpes)</placeName>
 						</birth>
 						<death when="1976-10-31"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1968-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1968-03-04"/>
 					</person>
 					<person xml:id="michelet_edmond">
 						<persName>
@@ -983,7 +991,7 @@
 							<placeName>Paris (19ème)</placeName>
 						</birth>
 						<death when="1970-10-09"></death>
-						<affiliation role="membre" ref="?" from="1962-03-05" to="1967-03-12"/>
+						<affiliation role="membre" ref="#CC" from="1962-03-05" to="1967-03-12"/>
 					</person>
 					<person xml:id="mollet-vieville_francis">
 						<persName>
@@ -995,7 +1003,7 @@
 							<placeName>Nice (Alpes-Maritimes)</placeName>
 						</birth>
 						<death when="2008-05-18"></death>
-						<affiliation role="membre" ref="?" from="1987-07-22" to="1992-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1987-07-22" to="1992-03-04"/>
 					</person>
 					<person xml:id="monnerville_gaston">
 						<persName>
@@ -1007,7 +1015,7 @@
 							<placeName>Cayenne (Guyane)</placeName>
 						</birth>
 						<death when="1991-11-07"></death>
-						<affiliation role="membre" ref="?" from="1974-03-05" to="1983-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1974-03-05" to="1983-03-03"/>
 					</person>
 					<person xml:id="monnet_henri">
 						<persName>
@@ -1019,7 +1027,7 @@
 							<placeName>Montluçon (Allier)</placeName>
 						</birth>
 						<death when="1983-08-07"></death>
-						<affiliation role="membre" ref="?" from="1965-03-04" to="1974-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1965-03-04" to="1974-03-04"/>
 					</person>
 					<person xml:id="noel_leon">
 						<persName>
@@ -1031,7 +1039,7 @@
 							<placeName>Paris (9ème)</placeName>
 						</birth>
 						<death when="1987-08-06"></death>
-						<affiliation role="president" ref="?" from="1959-03-05" to="1965-03-03"/>
+						<affiliation role="president" ref="#CC" from="1959-03-05" to="1965-03-03"/>
 					</person>
 					<person xml:id="palewski_gaston">
 						<persName>
@@ -1043,7 +1051,7 @@
 							<placeName>Paris (9ème)</placeName>
 						</birth>
 						<death when="1984-09-03"></death>
-						<affiliation role="president" ref="?" from="1965-03-04" to="1974-03-04"/>
+						<affiliation role="president" ref="#CC" from="1965-03-04" to="1974-03-04"/>
 					</person>
 					<person xml:id="pasteur-vallery-radot_louis">
 						<persName>
@@ -1055,7 +1063,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1970-10-09"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1965-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1965-03-03"/>
 					</person>
 					<person xml:id="patin_maurice">
 						<persName>
@@ -1067,7 +1075,7 @@
 							<placeName>Aix-en-Provence (Bouches-du-Rhône)</placeName>
 						</birth>
 						<death when="1962-12-22"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-03-04"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1962-03-04"/>
 					</person>
 					<person xml:id="pelletier_monique">
 						<persName>
@@ -1078,7 +1086,7 @@
 						<birth when="1926-07-25">
 							<placeName>Trouville-sur-Mer (Calvados)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2000-03-28" to="2004-03-08"/>
+						<affiliation role="membre" ref="#CC" from="2000-03-28" to="2004-03-08"/>
 					</person>
 					<person xml:id="peretti_achille">
 						<persName>
@@ -1090,7 +1098,7 @@
 							<placeName>Ajaccio (Corse)</placeName>
 						</birth>
 						<death when="1983-04-14"></death>
-						<affiliation role="membre" ref="?" from="1977-03-04" to="1983-04-14"/>
+						<affiliation role="membre" ref="#CC" from="1977-03-04" to="1983-04-14"/>
 					</person>
 					<person xml:id="pezant_jean-louis">
 						<persName>
@@ -1102,7 +1110,7 @@
 							<placeName>Dun-le-Palestel (Creuse)</placeName>
 						</birth>
 						<death when="2010-07-24"></death>
-						<affiliation role="membre" ref="?" from="2004-03-10" to="2010-07-24"/>
+						<affiliation role="membre" ref="#CC" from="2004-03-10" to="2010-07-24"/>
 					</person>
 					<person xml:id="pillet_francois">
 						<persName>
@@ -1113,7 +1121,7 @@
 						<birth when="1950-05-13">
 							<placeName>Bourges (Cher)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2019-03-12"/>
 					</person>
 					<person xml:id="pinault_michel">
 						<persName>
@@ -1124,7 +1132,7 @@
 						<birth when="1947-05-09">
 							<placeName>Paris (16ème)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2016-03-08"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2016-03-08"/>
 					</person>
 					<person xml:id="pompidou_georges">
 						<persName>
@@ -1136,7 +1144,7 @@
 							<placeName>Montboudif (Cantal)</placeName>
 						</birth>
 						<death when="1974-04-02"></death>
-						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-04-14"/>
+						<affiliation role="membre" ref="#CC" from="1959-03-05" to="1962-04-14"/>
 					</person>
 					<person xml:id="rey_henri">
 						<persName>
@@ -1148,7 +1156,7 @@
 							<placeName>Pont-Aven (Finistère)</placeName>
 						</birth>
 						<death when="1977-10-12"></death>
-						<affiliation role="membre" ref="?" from="1971-03-03" to="1977-10-12"/>
+						<affiliation role="membre" ref="#CC" from="1971-03-03" to="1977-10-12"/>
 					</person>
 					<person xml:id="robert_jacques">
 						<persName>
@@ -1159,7 +1167,7 @@
 						<birth when="1928-09-29">
 							<placeName>Alger (Algérie)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+						<affiliation role="membre" ref="#CC" from="1989-03-01" to="1998-03-01"/>
 					</person>
 					<person xml:id="rudloff_marcel">
 						<persName>
@@ -1171,7 +1179,7 @@
 							<placeName>Strasbourg (Bas-Rhin)</placeName>
 						</birth>
 						<death when="1996-03-23"></death>
-						<affiliation role="membre" ref="?" from="1992-03-11" to="1996-03-23"/>
+						<affiliation role="membre" ref="#CC" from="1992-03-11" to="1996-03-23"/>
 					</person>
 					<person xml:id="sainteny_jean">
 						<persName>
@@ -1183,7 +1191,7 @@
 							<placeName>Vésinet (Yvelines)</placeName>
 						</birth>
 						<death when="1978-02-26"></death>
-						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1968-03-05" to="1977-03-03"/>
 					</person>
 					<person xml:id="sarkozy_nicolas">
 						<persName>
@@ -1194,7 +1202,7 @@
 						<birth when="1955-01-28">
 							<placeName>Paris (17ème)</placeName>
 						</birth>
-						<affiliation role="membrededroit" ref="?" from=" mai 2012"/>
+						<affiliation role="membrededroit" ref="#CC" from=" mai 2012"/>
 					</person>
 					<person xml:id="schnapper_dominique">
 						<persName>
@@ -1205,7 +1213,7 @@
 						<birth when="1934-11-09">
 							<placeName>Paris</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+						<affiliation role="membre" ref="#CC" from="2001-03-12" to="2010-03-12"/>
 					</person>
 					<person xml:id="segalat_andre">
 						<persName>
@@ -1217,7 +1225,7 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1986-11-24"></death>
-						<affiliation role="membre" ref="?" from="1977-03-04" to="1986-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1977-03-04" to="1986-03-03"/>
 					</person>
 					<person xml:id="seners_francois">
 						<persName>
@@ -1228,7 +1236,7 @@
 						<birth when="1958-02-04">
 							<placeName>Metz (Moselle)</placeName>
 						</birth>
-						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+						<affiliation role="membresiegeant" ref="#CC" from="2022-03-14"/>
 					</person>
 					<person xml:id="simonnet_maurice-rene">
 						<persName>
@@ -1240,7 +1248,7 @@
 							<placeName>Lyon (Rhône)</placeName>
 						</birth>
 						<death when="1988-08-21"></death>
-						<affiliation role="membre" ref="?" from="1984-10-10" to="1988-08-21"/>
+						<affiliation role="membre" ref="#CC" from="1984-10-10" to="1988-08-21"/>
 					</person>
 					<person xml:id="steinmetz_pierre">
 						<persName>
@@ -1251,7 +1259,7 @@
 						<birth when="1943-01-23">
 							<placeName>Sainte-Colombe (Rhône)</placeName>
 						</birth>
-						<affiliation role="membre" ref="?" from="2004-03-10" to="2013-03-09"/>
+						<affiliation role="membre" ref="#CC" from="2004-03-10" to="2013-03-09"/>
 					</person>
 					<person xml:id="vedel_georges">
 						<persName>
@@ -1263,7 +1271,7 @@
 							<placeName>Auch (Gers)</placeName>
 						</birth>
 						<death when="2002-02-21"></death>
-						<affiliation role="membre" ref="?" from="1980-02-29" to="1989-02-28"/>
+						<affiliation role="membre" ref="#CC" from="1980-02-29" to="1989-02-28"/>
 					</person>
 					<person xml:id="veil_simone">
 						<persName>
@@ -1275,7 +1283,7 @@
 							<placeName>Nice (Alpes-Maritimes)</placeName>
 						</birth>
 						<death when="2017-06-30"></death>
-						<affiliation role="membre" ref="?" from="1998-03-03" to="2007-03-03"/>
+						<affiliation role="membre" ref="#CC" from="1998-03-03" to="2007-03-03"/>
 					</person>
 					<person xml:id="waline_marcel">
 						<persName>
@@ -1287,7 +1295,7 @@
 							<placeName>Épernay (Marne)</placeName>
 						</birth>
 						<death when="1982-10-14"></death>
-						<affiliation role="membre" ref="?" from="1962-03-05" to="1971-03-02"/>
+						<affiliation role="membre" ref="#CC" from="1962-03-05" to="1971-03-02"/>
 					</person>
 				</listPerson>
             </particDesc>
