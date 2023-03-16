@@ -250,23 +250,1046 @@
          </fileDesc>
          <profileDesc>
             <particDesc>
-                     
-               <listPerson>
-                  <!-- liste des personnes qui ont parlé au cours des délibérations membres, président, secrétaire général...-->
-                  <!--Isabelle, fevrier 2023 essai à partir de la doc Parla Clarina le role serait spécifié dans le Header si je comprends bien -->
-                  <!--Cette partie peut sans doute être alimentée par les étudiants en TAL à partir du corpus, ci-dessous les valeurs sont là pour donner un exemple-->
-                  <person><persName xml:id="BROUILLET">Monsieur BROUILLET</persName><affiliation role="membre" from="1974-03-05" to="1983-03-03">Membre du conseil constitutionnel</affiliation></person>
-                  <person><persName xml:id="GROS">Monsieur GROS</persName></person>
-                  <person><persName xml:id="JOXE">Monsieur JOXE</persName></person>
-                  <person><persName xml:id="FREY">Monsieur FREY</persName><affiliation role="president" from="1974-03-05" to="1983-03-03">Président du conseil constitutionnel</affiliation></person>
-                  <person><persName xml:id="LECOURT">Monsieur LECOURT</persName></person>
-                  <person><persName xml:id="MONNERVILLE">Monsieur MONNERVILLE</persName></person>
-                  <person><persName xml:id="PERETTI">Monsieur PERETTI</persName></person>
-                  <person><persName xml:id="SEGALAT">Monsieur SEGALAT</persName></person>
-                  <person><persName xml:id="VEDEL">Monsieur VEDEL</persName><affiliation role="membre" from="1980-02-29" to="1989-02-28">Membre du conseil constitutionnel</affiliation></person>
-               </listPerson>
-   
-   
+				<listPerson>
+					<person xml:id="abadie_georges">
+						<persName>
+							<surname>Abadie</surname>
+							<forename>Georges</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1924-11-21">
+							<placeName>Tarbes (Hautes-Pyrénées)</placeName>
+						</birth>
+						<death when="2017-10-23"></death>
+						<affiliation role="membre" ref="?" from="1992-03-11" to="2001-03-11"/>
+					</person>
+					<person xml:id="ameller_michel">
+						<persName>
+							<surname>Ameller</surname>
+							<forename>Michel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1926-01-01">
+							<placeName>El Attaf (Algérie)</placeName>
+						</birth>
+						<death when="2022-09-28"></death>
+						<affiliation role="membre" ref="?" from="1995-03-08" to="2004-03-08"/>
+					</person>
+					<person xml:id="antonini_jules">
+						<persName>
+							<surname>Antonini</surname>
+							<forename>Jules</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1903-01-01">
+							<placeName>Ajaccio (Corse-du-Sud)</placeName>
+						</birth>
+						<death when="1987-11-29"></death>
+						<affiliation role="membre" ref="?" from="1967-04-08" to="1971-03-02"/>
+					</person>
+					<person xml:id="auriol_vincent">
+						<persName>
+							<surname>Auriol</surname>
+							<forename>Vincent</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1884-08-25">
+							<placeName>Revel (Haute-Garonne)</placeName>
+						</birth>
+						<death when="1966-01-01"></death>
+						<affiliation role="membrededroit" ref="?" from="1959-03-05" to="1960-05-25"/>
+					</person>
+					<person xml:id="badinter_robert">
+						<persName>
+							<surname>Badinter</surname>
+							<forename>Robert</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1928-03-30">
+							<placeName>Paris (16ème)</placeName>
+						</birth>
+						<affiliation role="president" ref="?" from="1986-03-04" to="1995-03-04"/>
+					</person>
+					<person xml:id="barrot_jacques">
+						<persName>
+							<surname>Barrot</surname>
+							<forename>Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1937-02-03">
+							<placeName>Yssingeaux (Haute-Loire)</placeName>
+						</birth>
+						<death when="2014-12-03"></death>
+						<affiliation role="membre" ref="?" from="2010-03-12" to="2014-12-03"/>
+					</person>
+					<person xml:id="bazy-malaurie_claire">
+						<persName>
+							<surname>Bazy malaurie</surname>
+							<forename>Claire</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1949-04-14">
+							<placeName>Paris (18ème)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2010-09-07" to="2022-03-13"/>
+					</person>
+					<person xml:id="belloubet_nicole">
+						<persName>
+							<surname>Belloubet</surname>
+							<forename>Nicole</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1955-06-15">
+							<placeName>Paris (14ème)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2013-03-14" to="2017-06-22"/>
+					</person>
+					<person xml:id="brouillet_rene">
+						<persName>
+							<surname>Brouillet</surname>
+							<forename>René</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-05-09">
+							<placeName>Cleppé (Loire)</placeName>
+						</birth>
+						<death when="1992-11-28"></death>
+						<affiliation role="membre" ref="?" from="1974-03-05" to="1983-03-03"/>
+					</person>
+					<person xml:id="cabannes_jean">
+						<persName>
+							<surname>Cabannes</surname>
+							<forename>Jean</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1925-03-02">
+							<placeName>Mirande (Gers)</placeName>
+						</birth>
+						<death when="2020-07-01"></death>
+						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+					</person>
+					<person xml:id="canivet_guy">
+						<persName>
+							<surname>Canivet</surname>
+							<forename>Guy</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1943-09-23">
+							<placeName>Lons-le-Saunier (Jura)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2007-03-05" to="2016-03-04"/>
+					</person>
+					<person xml:id="cassin_rene">
+						<persName>
+							<surname>Cassin</surname>
+							<forename>René</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1887-10-05">
+							<placeName>Bayonne (Pyrénées-Atlantiques)</placeName>
+						</birth>
+						<death when="1976-02-20"></death>
+						<affiliation role="membre" ref="?" from="1960-07-11" to="1971-03-02"/>
+					</person>
+					<person xml:id="charasse_michel">
+						<persName>
+							<surname>Charasse</surname>
+							<forename>Michel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1941-07-08">
+							<placeName>Chamalières (Puy-de-Dôme)</placeName>
+						</birth>
+						<death when="2020-02-21"></death>
+						<affiliation role="membre" ref="?" from="2010-03-12" to="2019-03-11"/>
+					</person>
+					<person xml:id="chatenay_victor">
+						<persName>
+							<surname>Chatenay</surname>
+							<forename>Victor</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1886-04-03">
+							<placeName>Doué-la-Fontaine (Maine-et-Loire)</placeName>
+						</birth>
+						<death when="1985-03-12"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-03-04"/>
+					</person>
+					<person xml:id="chatenet_pierre">
+						<persName>
+							<surname>Chatenet</surname>
+							<forename>Pierre</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1917-03-06">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1997-09-04"></death>
+						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+					</person>
+					<person xml:id="chenot_bernard">
+						<persName>
+							<surname>Chenot</surname>
+							<forename>Bernard</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-05-20">
+							<placeName>Paris (6ème)</placeName>
+						</birth>
+						<death when="1995-06-05"></death>
+						<affiliation role="membre" ref="?" from="1962-05-11" to="1964-07-31"/>
+					</person>
+					<person xml:id="chirac_jacques">
+						<persName>
+							<surname>Chirac</surname>
+							<forename>Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1932-11-29">
+							<placeName>Paris (5ème)</placeName>
+						</birth>
+						<death when="2019-09-26"></death>
+						<affiliation role="membrededroit" ref="?" from="2007-05-16"/>
+					</person>
+					<person xml:id="colliard_jean-claude">
+						<persName>
+							<surname>Colliard</surname>
+							<forename>Jean-Claude</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1946-03-15">
+							<placeName>Paris (16ème)</placeName>
+						</birth>
+						<death when="2014-03-26"></death>
+						<affiliation role="membre" ref="?" from="1998-03-03" to="2007-03-03"/>
+					</person>
+					<person xml:id="coste-floret_paul">
+						<persName>
+							<surname>Coste-floret</surname>
+							<forename>Paul</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1911-04-09">
+							<placeName>Montpellier (Hérault)</placeName>
+						</birth>
+						<death when="1979-08-27"></death>
+						<affiliation role="membre" ref="?" from="1971-03-03" to="1979-08-27"/>
+					</person>
+					<person xml:id="coty_rene">
+						<persName>
+							<surname>Coty</surname>
+							<forename>René</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1882-03-20">
+							<placeName>Havre (Seine-Maritime)</placeName>
+						</birth>
+						<death when="1962-11-22"></death>
+						<affiliation role="membrededroit" ref="?" from="1959-03-05" to="1962-11-22"/>
+					</person>
+					<person xml:id="dailly_etienne">
+						<persName>
+							<surname>Dailly</surname>
+							<forename>Etienne</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1918-01-01">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1996-12-25"></death>
+						<affiliation role="membre" ref="?" from="1995-03-08" to="1996-12-25"/>
+					</person>
+					<person xml:id="de-guillenchmidt_jacqueline">
+						<persName>
+							<surname>De guillenchmidt</surname>
+							<forename>Jacqueline</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1943-09-25">
+							<placeName>Pékin (Chine)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2004-03-10" to="2013-03-09"/>
+					</person>
+					<person xml:id="debre_jean-louis">
+						<persName>
+							<surname>Debré</surname>
+							<forename>Jean-Louis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1944-09-30">
+							<placeName>Toulouse (Haute Garonne)</placeName>
+						</birth>
+						<affiliation role="president" ref="?" from="2007-03-05" to="2016-03-04"/>
+					</person>
+					<person xml:id="delepine_maurice">
+						<persName>
+							<surname>Delépine</surname>
+							<forename>Maurice</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1883-07-15">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1960-04-30"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1960-04-30"/>
+					</person>
+					<person xml:id="denoix-de-saint-marc_renaud">
+						<persName>
+							<surname>Denoix de saint marc</surname>
+							<forename>Renaud</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1938-09-24">
+							<placeName>Boulogne-sur-Seine (Hauts-de-Seine)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2007-03-05" to="2016-03-04"/>
+					</person>
+					<person xml:id="deschamps_andre">
+						<persName>
+							<surname>Deschamps</surname>
+							<forename>André</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1895-12-01">
+							<placeName>Romilly-sur-Seine (Aube)</placeName>
+						</birth>
+						<death when="1968-10-21"></death>
+						<affiliation role="membre" ref="?" from="1964-09-16" to="1968-03-04"/>
+					</person>
+					<person xml:id="dubois_georges-leon">
+						<persName>
+							<surname>Dubois</surname>
+							<forename>Georges-Léon</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-11-28">
+							<placeName>Orthez (Basses-Pyrénées)</placeName>
+						</birth>
+						<death when=" 2003-02-08"></death>
+						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+					</person>
+					<person xml:id="dumas_roland">
+						<persName>
+							<surname>Dumas</surname>
+							<forename>Roland</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1922-08-23">
+							<placeName>Limoges (Haute-Vienne)</placeName>
+						</birth>
+						<affiliation role="president" ref="?" from="1995-03-08" to="2000-03-01"/>
+					</person>
+					<person xml:id="dutheillet-de-lamothe_olivier">
+						<persName>
+							<surname>Dutheillet de lamothe</surname>
+							<forename>Olivier</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1949-11-10">
+							<placeName>Neuilly-sur-Seine (Hauts-de-Seine)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+					</person>
+					<person xml:id="fabius_laurent">
+						<persName>
+							<surname>Fabius</surname>
+							<forename>Laurent</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1946-08-20">
+							<placeName>Paris (16ème)</placeName>
+						</birth>
+						<affiliation role="president" ref="?" from="2016-03-08"/>
+					</person>
+					<person xml:id="fabre_robert">
+						<persName>
+							<surname>Fabre</surname>
+							<forename>Robert</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1915-12-21">
+							<placeName>Villefranche-de-Rouergue (Aveyron)</placeName>
+						</birth>
+						<death when="2006-12-23"></death>
+						<affiliation role="membre" ref="?" from="1986-03-04" to="1995-03-04"/>
+					</person>
+					<person xml:id="faure_maurice">
+						<persName>
+							<surname>Faure</surname>
+							<forename>Maurice</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1922-01-02">
+							<placeName>Azerat (Dordogne)</placeName>
+						</birth>
+						<death when="2014-03-06"></death>
+						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+					</person>
+					<person xml:id="frey_roger">
+						<persName>
+							<surname>Frey</surname>
+							<forename>Roger</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1913-06-11">
+							<placeName>Nouméa (Nouvelle-Calédonie)</placeName>
+						</birth>
+						<death when="1997-09-13"></death>
+						<affiliation role="president" ref="?" from="1974-03-05" to="1983-03-03"/>
+					</person>
+					<person xml:id="gilbert-jules_jean">
+						<persName>
+							<surname>Gilbert-jules</surname>
+							<forename>Jean</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1903-09-01">
+							<placeName>Chaulnes (Somme)</placeName>
+						</birth>
+						<death when="1985-01-02"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1968-03-04"/>
+					</person>
+					<person xml:id="giscard-d-estaing_valery">
+						<persName>
+							<surname>Giscard d'estaing</surname>
+							<forename>Valéry</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1926-02-02">
+							<placeName>Coblence (Allemagne)</placeName>
+						</birth>
+						<death when="2020-12-02"></death>
+						<affiliation role="membrededroit" ref="?" from="e mai 1981" to="2020-12-02"/>
+					</person>
+					<person xml:id="goguel_francois">
+						<persName>
+							<surname>Goguel</surname>
+							<forename>François</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-02-03">
+							<placeName>Paris  (17ème)</placeName>
+						</birth>
+						<death when="1999-04-15"></death>
+						<affiliation role="membre" ref="?" from="1971-03-03" to="1980-02-28"/>
+					</person>
+					<person xml:id="gourault_jacqueline">
+						<persName>
+							<surname>Gourault</surname>
+							<forename>Jacqueline</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1950-11-20">
+							<placeName>Montoire (Loir-et-Cher)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+					</person>
+					<person xml:id="gros_louis">
+						<persName>
+							<surname>Gros</surname>
+							<forename>Louis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1902-05-18">
+							<placeName>Marseille (Bouches-du-Rhône)</placeName>
+						</birth>
+						<death when="1984-10-08"></death>
+						<affiliation role="membre" ref="?" from="1977-03-04" to="1984-10-08"/>
+					</person>
+					<person xml:id="guena_yves">
+						<persName>
+							<surname>Guéna</surname>
+							<forename>Yves</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1922-07-06">
+							<placeName>Brest (Finistère)</placeName>
+						</birth>
+						<death when="2016-03-03"></death>
+						<affiliation role="president" ref="?" from="1997-01-20" to="2004-03-08"/>
+					</person>
+					<person xml:id="haenel_hubert">
+						<persName>
+							<surname>Haenel</surname>
+							<forename>Hubert</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1942-05-20">
+							<placeName>Pompey (Meurthe-et-Moselle)</placeName>
+						</birth>
+						<death when="2015-08-10"></death>
+						<affiliation role="membre" ref="?" from="2010-03-12" to="2015-08-10"/>
+					</person>
+					<person xml:id="hyest_jean-jacques">
+						<persName>
+							<surname>Hyest</surname>
+							<forename>Jean-Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1943-03-02">
+							<placeName>Fontaineble</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2015-10-12" to="2019-03-11"/>
+					</person>
+					<person xml:id="jospin_lionel">
+						<persName>
+							<surname>Jospin</surname>
+							<forename>Lionel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1937-07-12">
+							<placeName>Meudon (Hauts-de-Seine)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2015-01-06" to="2019-03-11"/>
+					</person>
+					<person xml:id="joxe_louis">
+						<persName>
+							<surname>Joxe</surname>
+							<forename>Louis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1901-09-16">
+							<placeName>Bourg-la-Reine (Hauts-de-Seine)</placeName>
+						</birth>
+						<death when="1991-04-06"></death>
+						<affiliation role="membre" ref="?" from="1977-11-04" to="1989-02-28"/>
+					</person>
+					<person xml:id="joxe_pierre">
+						<persName>
+							<surname>Joxe</surname>
+							<forename>Pierre</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1934-11-28">
+							<placeName>Paris (1er)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+					</person>
+					<person xml:id="jozeau-marigne_leon">
+						<persName>
+							<surname>Jozeau-marigne</surname>
+							<forename>Léon</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-07-21">
+							<placeName>Angers (Maine-et-Loire)</placeName>
+						</birth>
+						<death when="2003-07-18"></death>
+						<affiliation role="membre" ref="?" from="1983-03-04" to="1992-03-04"/>
+					</person>
+					<person xml:id="juppe_alain">
+						<persName>
+							<surname>Juppé</surname>
+							<forename>Alain</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1945-08-15">
+							<placeName>Mont-de-Marsan (Landes)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+					</person>
+					<person xml:id="lancelot_alain">
+						<persName>
+							<surname>Lancelot</surname>
+							<forename>Alain</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1937-01-12">
+							<placeName>Chêne-Bougeries (Suisse)</placeName>
+						</birth>
+						<death when="2020-12-14"></death>
+						<affiliation role="membre" ref="?" from="1996-04-10" to="2001-02-26"/>
+					</person>
+					<person xml:id="latscha_jacques">
+						<persName>
+							<surname>Latscha</surname>
+							<forename>Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1927-09-25">
+							<placeName>Mulhouse (Haut-Rhin)</placeName>
+						</birth>
+						<death when="2005-03-21"></death>
+						<affiliation role="membre" ref="?" from="1988-09-06" to="1995-03-04"/>
+					</person>
+					<person xml:id="le-coq-de-kerland_charles">
+						<persName>
+							<surname>Le coq de kerland</surname>
+							<forename>Charles</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1887-12-21">
+							<placeName>Bordeaux (Gironde)</placeName>
+						</birth>
+						<death when="1978-11-07"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1965-03-03"/>
+					</person>
+					<person xml:id="lecourt_robert">
+						<persName>
+							<surname>Lecourt</surname>
+							<forename>Robert</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1908-09-19">
+							<placeName>Pavilly (Seine-Maritime)</placeName>
+						</birth>
+						<death when="2004-08-09"></death>
+						<affiliation role="membre" ref="?" from="1979-09-06" to="1989-02-28"/>
+					</person>
+					<person xml:id="legatte_paul">
+						<persName>
+							<surname>Legatte</surname>
+							<forename>Paul</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1916-08-26">
+							<placeName>Saint-Hilaire-la-Palud (Deux-Sèvres)</placeName>
+						</birth>
+						<death when="2002-02-26"></death>
+						<affiliation role="membre" ref="?" from="1983-05-11" to="1986-03-03"/>
+					</person>
+					<person xml:id="lenoir_noelle">
+						<persName>
+							<surname>Lenoir</surname>
+							<forename>Noëlle</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1948-04-27">
+							<placeName>Neuilly-sur-Seine (Hauts-de-Seine)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="1992-03-11" to="2001-03-11"/>
+					</person>
+					<person xml:id="lottin_dominique">
+						<persName>
+							<surname>Lottin</surname>
+							<forename>Dominique</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1958-08-18">
+							<placeName>Paris (15ème)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2017-11-06" to="2022-03-13"/>
+					</person>
+					<person xml:id="luchaire_francois">
+						<persName>
+							<surname>Luchaire</surname>
+							<forename>François</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1919-01-01">
+							<placeName>La Rochelle (Charente-Maritime)</placeName>
+						</birth>
+						<death when="2009-08-07"></death>
+						<affiliation role="membre" ref="?" from="1965-03-04" to="1974-03-04"/>
+					</person>
+					<person xml:id="luquiens_corinne">
+						<persName>
+							<surname>Luquiens</surname>
+							<forename>Corinne</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1952-08-28">
+							<placeName>Paris (17e)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2016-03-08"/>
+					</person>
+					<person xml:id="maestracci_nicole">
+						<persName>
+							<surname>Maestracci</surname>
+							<forename>Nicole</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1951-02-03">
+							<placeName>Paris (17ème)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2013-03-14" to="2022-03-13"/>
+					</person>
+					<person xml:id="malbec_veronique">
+						<persName>
+							<surname>Malbec</surname>
+							<forename>Véronique</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1958-10-01">
+							<placeName>Mont-de-Marsan (Landes)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+					</person>
+					<person xml:id="marcilhacy_pierre">
+						<persName>
+							<surname>Marcilhacy</surname>
+							<forename>Pierre</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1910-02-14">
+							<placeName>Paris (8ème)</placeName>
+						</birth>
+						<death when="1987-07-06"></death>
+						<affiliation role="membre" ref="?" from="1983-03-04" to="1987-07-05"/>
+					</person>
+					<person xml:id="mayer_daniel">
+						<persName>
+							<surname>Mayer</surname>
+							<forename>Daniel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-04-29">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1996-12-28"></death>
+						<affiliation role="president" ref="?" from="1983-03-04" to="1992-03-04"/>
+					</person>
+					<person xml:id="mazeaud_pierre">
+						<persName>
+							<surname>Mazeaud</surname>
+							<forename>Pierre</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1929-08-24">
+							<placeName>Lyon (4ème)</placeName>
+						</birth>
+						<affiliation role="president" ref="?" from="1998-03-03" to="2007-03-03"/>
+					</person>
+					<person xml:id="mezard_jacques">
+						<persName>
+							<surname>Mézard</surname>
+							<forename>Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1947-12-03">
+							<placeName>Aurillac (Cantal)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+					</person>
+					<person xml:id="michard-pellissier_jean">
+						<persName>
+							<surname>Michard-pellissier</surname>
+							<forename>Jean</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1909-10-03">
+							<placeName>Gap (Hautes-Alpes)</placeName>
+						</birth>
+						<death when="1976-10-31"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1968-03-04"/>
+					</person>
+					<person xml:id="michelet_edmond">
+						<persName>
+							<surname>Michelet</surname>
+							<forename>Edmond</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1899-10-08">
+							<placeName>Paris (19ème)</placeName>
+						</birth>
+						<death when="1970-10-09"></death>
+						<affiliation role="membre" ref="?" from="1962-03-05" to="1967-03-12"/>
+					</person>
+					<person xml:id="mollet-vieville_francis">
+						<persName>
+							<surname>Mollet-vieville</surname>
+							<forename>Francis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1918-03-20">
+							<placeName>Nice (Alpes-Maritimes)</placeName>
+						</birth>
+						<death when="2008-05-18"></death>
+						<affiliation role="membre" ref="?" from="1987-07-22" to="1992-03-04"/>
+					</person>
+					<person xml:id="monnerville_gaston">
+						<persName>
+							<surname>Monnerville</surname>
+							<forename>Gaston</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1897-01-02">
+							<placeName>Cayenne (Guyane)</placeName>
+						</birth>
+						<death when="1991-11-07"></death>
+						<affiliation role="membre" ref="?" from="1974-03-05" to="1983-03-03"/>
+					</person>
+					<person xml:id="monnet_henri">
+						<persName>
+							<surname>Monnet</surname>
+							<forename>Henri</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1896-03-07">
+							<placeName>Montluçon (Allier)</placeName>
+						</birth>
+						<death when="1983-08-07"></death>
+						<affiliation role="membre" ref="?" from="1965-03-04" to="1974-03-04"/>
+					</person>
+					<person xml:id="noel_leon">
+						<persName>
+							<surname>Noël</surname>
+							<forename>Léon</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1888-03-28">
+							<placeName>Paris (9ème)</placeName>
+						</birth>
+						<death when="1987-08-06"></death>
+						<affiliation role="president" ref="?" from="1959-03-05" to="1965-03-03"/>
+					</person>
+					<person xml:id="palewski_gaston">
+						<persName>
+							<surname>Palewski</surname>
+							<forename>Gaston</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1901-03-20">
+							<placeName>Paris (9ème)</placeName>
+						</birth>
+						<death when="1984-09-03"></death>
+						<affiliation role="president" ref="?" from="1965-03-04" to="1974-03-04"/>
+					</person>
+					<person xml:id="pasteur-vallery-radot_louis">
+						<persName>
+							<surname>Pasteur vallery radot</surname>
+							<forename>Louis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1886-05-13">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1970-10-09"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1965-03-03"/>
+					</person>
+					<person xml:id="patin_maurice">
+						<persName>
+							<surname>Patin</surname>
+							<forename>Maurice</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1895-12-04">
+							<placeName>Aix-en-Provence (Bouches-du-Rhône)</placeName>
+						</birth>
+						<death when="1962-12-22"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-03-04"/>
+					</person>
+					<person xml:id="pelletier_monique">
+						<persName>
+							<surname>Pelletier</surname>
+							<forename>Monique</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1926-07-25">
+							<placeName>Trouville-sur-Mer (Calvados)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2000-03-28" to="2004-03-08"/>
+					</person>
+					<person xml:id="peretti_achille">
+						<persName>
+							<surname>Peretti</surname>
+							<forename>Achille</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1911-06-13">
+							<placeName>Ajaccio (Corse)</placeName>
+						</birth>
+						<death when="1983-04-14"></death>
+						<affiliation role="membre" ref="?" from="1977-03-04" to="1983-04-14"/>
+					</person>
+					<person xml:id="pezant_jean-louis">
+						<persName>
+							<surname>Pezant</surname>
+							<forename>Jean-Louis</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1938-10-05">
+							<placeName>Dun-le-Palestel (Creuse)</placeName>
+						</birth>
+						<death when="2010-07-24"></death>
+						<affiliation role="membre" ref="?" from="2004-03-10" to="2010-07-24"/>
+					</person>
+					<person xml:id="pillet_francois">
+						<persName>
+							<surname>Pillet</surname>
+							<forename>François</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1950-05-13">
+							<placeName>Bourges (Cher)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2019-03-12"/>
+					</person>
+					<person xml:id="pinault_michel">
+						<persName>
+							<surname>Pinault</surname>
+							<forename>Michel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1947-05-09">
+							<placeName>Paris (16ème)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2016-03-08"/>
+					</person>
+					<person xml:id="pompidou_georges">
+						<persName>
+							<surname>Pompidou</surname>
+							<forename>Georges</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1911-07-05">
+							<placeName>Montboudif (Cantal)</placeName>
+						</birth>
+						<death when="1974-04-02"></death>
+						<affiliation role="membre" ref="?" from="1959-03-05" to="1962-04-14"/>
+					</person>
+					<person xml:id="rey_henri">
+						<persName>
+							<surname>Rey</surname>
+							<forename>Henri</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1903-11-02">
+							<placeName>Pont-Aven (Finistère)</placeName>
+						</birth>
+						<death when="1977-10-12"></death>
+						<affiliation role="membre" ref="?" from="1971-03-03" to="1977-10-12"/>
+					</person>
+					<person xml:id="robert_jacques">
+						<persName>
+							<surname>Robert</surname>
+							<forename>Jacques</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1928-09-29">
+							<placeName>Alger (Algérie)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="1989-03-01" to="1998-03-01"/>
+					</person>
+					<person xml:id="rudloff_marcel">
+						<persName>
+							<surname>Rudloff</surname>
+							<forename>Marcel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1923-03-15">
+							<placeName>Strasbourg (Bas-Rhin)</placeName>
+						</birth>
+						<death when="1996-03-23"></death>
+						<affiliation role="membre" ref="?" from="1992-03-11" to="1996-03-23"/>
+					</person>
+					<person xml:id="sainteny_jean">
+						<persName>
+							<surname>Sainteny</surname>
+							<forename>Jean</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1907-05-29">
+							<placeName>Vésinet (Yvelines)</placeName>
+						</birth>
+						<death when="1978-02-26"></death>
+						<affiliation role="membre" ref="?" from="1968-03-05" to="1977-03-03"/>
+					</person>
+					<person xml:id="sarkozy_nicolas">
+						<persName>
+							<surname>Sarkozy</surname>
+							<forename>Nicolas</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1955-01-28">
+							<placeName>Paris (17ème)</placeName>
+						</birth>
+						<affiliation role="membrededroit" ref="?" from=" mai 2012"/>
+					</person>
+					<person xml:id="schnapper_dominique">
+						<persName>
+							<surname>Schnapper</surname>
+							<forename>Dominique</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1934-11-09">
+							<placeName>Paris</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2001-03-12" to="2010-03-12"/>
+					</person>
+					<person xml:id="segalat_andre">
+						<persName>
+							<surname>Segalat</surname>
+							<forename>André</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1910-08-10">
+							<placeName>Paris</placeName>
+						</birth>
+						<death when="1986-11-24"></death>
+						<affiliation role="membre" ref="?" from="1977-03-04" to="1986-03-03"/>
+					</person>
+					<person xml:id="seners_francois">
+						<persName>
+							<surname>Seners</surname>
+							<forename>François</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1958-02-04">
+							<placeName>Metz (Moselle)</placeName>
+						</birth>
+						<affiliation role="membresiegeant" ref="?" from="2022-03-14"/>
+					</person>
+					<person xml:id="simonnet_maurice-rene">
+						<persName>
+							<surname>Simonnet</surname>
+							<forename>Maurice-René</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1919-10-04">
+							<placeName>Lyon (Rhône)</placeName>
+						</birth>
+						<death when="1988-08-21"></death>
+						<affiliation role="membre" ref="?" from="1984-10-10" to="1988-08-21"/>
+					</person>
+					<person xml:id="steinmetz_pierre">
+						<persName>
+							<surname>Steinmetz</surname>
+							<forename>Pierre</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1943-01-23">
+							<placeName>Sainte-Colombe (Rhône)</placeName>
+						</birth>
+						<affiliation role="membre" ref="?" from="2004-03-10" to="2013-03-09"/>
+					</person>
+					<person xml:id="vedel_georges">
+						<persName>
+							<surname>Vedel</surname>
+							<forename>Georges</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1910-07-05">
+							<placeName>Auch (Gers)</placeName>
+						</birth>
+						<death when="2002-02-21"></death>
+						<affiliation role="membre" ref="?" from="1980-02-29" to="1989-02-28"/>
+					</person>
+					<person xml:id="veil_simone">
+						<persName>
+							<surname>Veil</surname>
+							<forename>Simone</forename>
+						</persName>
+						<sex value="F"/>
+						<birth when="1927-07-13">
+							<placeName>Nice (Alpes-Maritimes)</placeName>
+						</birth>
+						<death when="2017-06-30"></death>
+						<affiliation role="membre" ref="?" from="1998-03-03" to="2007-03-03"/>
+					</person>
+					<person xml:id="waline_marcel">
+						<persName>
+							<surname>Waline</surname>
+							<forename>Marcel</forename>
+						</persName>
+						<sex value="H"/>
+						<birth when="1900-10-01">
+							<placeName>Épernay (Marne)</placeName>
+						</birth>
+						<death when="1982-10-14"></death>
+						<affiliation role="membre" ref="?" from="1962-03-05" to="1971-03-02"/>
+					</person>
+				</listPerson>
             </particDesc>
          </profileDesc>
     </teiHeader>
