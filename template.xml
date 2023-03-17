@@ -6,9 +6,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Transcription XML TEI du corpus des délibérations du Conseil constitutionnel
-					français de 1959 à 1995</title>
-
+				<title type="main">Transcription XML TEI du corpus des délibérations du Conseil constitutionnel français de 1959 à 1995</title>
+            <title type="sub"></title>
 				<!-- 0 -->
 				<respStmt>
 					<resp>Responsable du projet</resp>
