@@ -11651,7 +11651,7 @@
         <body>
             <!--identifiant
             de la délibération -->
-            <div1 corresp="PV1982-01-05" type="pv">
+            <div1 corresp="#PV1982-01-05" type="pv">
                 <head>
                     <!--identifiant
                     de la délibération -->
