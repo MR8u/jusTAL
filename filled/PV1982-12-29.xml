@@ -9,7 +9,7 @@
      Transcription XML TEI du corpus des délibérations du Conseil constitutionnel français de 1959 à 1995
     </title>
     <title type="sub">
-     PV1982-11-18
+     PV1982-12-29
     </title>
     <!-- 0 -->
     <respStmt>
@@ -577,7 +577,7 @@
 					le nom des étudiants en L3 si ce sont eux qui font les deux types de
 					structuration -->
      <name>
-      BAUMONT Flavy
+      SIMON Chloé
      </name>
     </respStmt>
     <!-- 7 -->
@@ -11669,14 +11669,253 @@
  <text>
   <body>
    <!--identifiant de la délibération -->
-   <div1 corresp="PV1982-11-18" type="seance">
+   <div1 corresp="#PV1982-12-29" type="pv">
     <head>
      <!--identifiant de la délibération -->
      <title>
-      PV1982-11-18
+      PV1982-12-29
      </title>
     </head>
+    <pb n="1"/>
+    <div2 type="seance">
+        <head type="1">SEANCE DU MERCREDI 29 DECEMBRE 1982</head>
+        <div3 type="ouverture">
+            <!-- C'est Monsieur Monerville qui joue le rôle de président-->
+            <div4 type="membrePresent">
+                <p>Le Conseil constitutionnel se réunit à 14 h 15 tous ses membres étant présents, à l'exception de Monsieur Roger FREY empêché et de Monsieur Valéry GISCARD d'ESTAING excusé.</p>		   
+            </div4>
+            <div4 type="ordreDuJour">
+                <p><hi rend="underline">Monsieur MONNERVILLE</hi>, après avoir rappelé que l'ordre du jour porte sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la loi de finances pour 1983, donne la parole à Monsieur SEGALAT qui présente le rapport suivant :</p>
+            </div4>
+        </div3>
+        <div3 type="question" n="1" corresp="#DC-82-154">
+            <writing type="rapport" who="#segalat_andre" n="1">	
+                <seg>Le recours dont est saisi le Conseil se révèle être à la fois minutieux, subtil et parfois pervers. Il semble que les saisissants cherchent, non à signaler une irrégularité pour la redresser, mais à faire tomber la loi de finances dans son ensemble. En partant de tels points considérés comme irréguliers, ils s'efforcent de remonter à l'article d'équilibre, article central dans la loi de finances, pour en obtenir l'annulation. Il y a là ce que l'on pourrait qualifier de technique de "mise à mort".</seg>
+                <seg>Tout au long de la discussion parlementaire, il a longuement été débattu des chiffres avancés par le Gouvernement en matière de dépenses, de recettes et de déficit. L'opposition a considéré que le Gouvernement manipulait les chiffres inscrits au budget. C'est cette idée qui inspire la saisine.</seg>
+                <seg><hi rend="underline">Pour les dépenses</hi>, le Gouvernement considère que le budget pour 1983 qui connaît une augmentation des dépenses de 12 % est un budget de rigueur. On est loin de l'augmentation supérieure à 25% qu'avait connu le budget pour 1982. Néanmoins, l'opposition estime que les dépenses augmentent non de 12 % mais de 15 %.</seg>
+                <seg><hi rend="underline">Pour les recettes</hi>, le Gouvernement s'est vanté de leur stabilité. il n'y a pas d'augmentation de la pression fiscale ni création d'un impôt nouveau. Ces chiffres ont été discutés par les parlemen- taires de l'opposition qui estiment que la pression fiscale s'élève non pas à un total de 44 % mais de 45 %.</seg>
+                <seg>Enfin, <hi rend="underline">en ce qui concerne le déficit</hi> fixé à 117 milliards par le Gouvernement, ce qui représente 3 % du produit national brut, l'opposition affirme qu'il dépassera, en réalité, 130 milliards.</seg>
+                <seg>Il convient, à présent, d'examiner les six griefs de la saisine présentée parfois d'une façon désordonnée. Ces griefs touchent à la procédure parlementaire, à la technique budgétaire et à des questions de fonds.</seg>
+                <seg><hi rend="underline">Monsieur le Rapporteur</hi> se propose de suivre l'ordre de présentation de la saisine.</seg>
+                <incident>
+                    <desc><hi rend="underline">Monsieur VEDEL</hi> suggère à ses collègues qu'après l'examen de chaque moyen de la saisine une discussion puisse s'engager, ce qui aurait le mérite d'éviter des risques d'oubli ou de chevauchement si le Conseil, comme il le fait habituellement, n'engage la discussion général qu'à la fin du rapport complet.</desc>
+                    <pb n="2"/>
+                    <desc><hi rend="underline">Monsieur MONNERVILLE</hi> soumet cette proposition de Monsieur VEDEL qui recuei1le 1'accord de l'ensemble des membres du Conseil.</desc>
+                </incident>
+                <seg><hi rend="underline">Monsieur SEGALAT</hi> :</seg>
+                <seg><hi rend="underline">I. Le premier point</hi> soulevé par la saisine est relatif à la procédure d'élaboration et d'adoption de la loi de finances.</seg>
+                <seg>Les auteurs de cette saisine soutiennent que la loi de finances pour 1983 aurait été adoptée en violation de l'article 38 de l'ordonnance du 2 janvier 1959 qui dispose : "Le projet de loi de finances de l'année, y compris le rapport et les annexes explicatives prévues à l'article 32, est déposé et distribué au plus tard le premier mardi d'octobre de l'année qui précède l'exécution du budget". Un certain nombre des annexes explicatives auraient été distribuées non le mardi 5 octobre mais quatre jours plus tard, c'est-à-dire le 9 octobre.</seg>
+                <seg>Il est surprenant de voir ressurgir cette question que l'on pensait réglée. Chacun se souvient des remous soulevés en 1959 par ces dispositions mais, depuis, la pratique avait fait son oeuvre en conciliant les exigences du calendrier et celles du bon travail parlementaire. Le dépôt des annexes s'effectue avec un certain échelonnement afin d'assurer aux assemblées, et notamment aux commissions des finances, un délai maximum. Cet échelonnement permet de respecter les délais de quarante jours et de quinze jours mentionnés à l'article 47 de la Constitution, tout en accordant à l'Assemblée nationale et au Sénat des délais supérieurs. Le Président de l'Assemblée nationale a d'ailleurs contesté qu'il y ait eu retard. Selon lui, le feuilleton sur lequel s'appuient les saisissants contenait des indications inexactes.</seg>
+                <seg>Pour sa part, Monsieur le rapporteur propose à ses collègues de ne pas entrer dans la discussion du calcul des délais. A supposer même qu'il y ait eu un retard de quatre jours, cela n'a pu priver le Parlement de la garantie des délais constitutionnels.</seg>
+            </writing>
+            <div4 type="discussion" n="1">
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> invite alors Monsieur SEGALAT à lire son projet de décision, après quoi il déclare ouverte la discussion sur le premier point.</seg>
+                </u>
+                <u who="#lecourt_robert">
+                    <seg><hi rend="underline">Monsieur LECOURT</hi> craint que la mention "Les membres du Parlement", au dernier considérant de la page 2, laisse croire que le Conseil oublie les impératifs du travail de la Commission des finances.</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT </hi>: en réalité, chacun sait que la Commission des finances dispose du projet et des annexes bien avant leur dépôt officiel. Cette année, la Commission a disposé de ces pièces dès le 15 septembre.</seg>
+                </u>
+                <u who="#gros_louis">
+                    <seg><hi rend="underline">Monsieur GROS</hi> craint que la décision proposée n'institue le Conseil constitutionnel en juge de la valeur des dé1ais constitutionnels Ne serait-il pas préférable que la décision indique, comme le soutient le Président de l'Assemblée nationale, que les délais ont été respectés. Cela serait préférable que de dire que le non-respect de ces délais ne mérite pas nécessairement sanction.</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsleur VEDEL</hi> ; il serait ubuesque d'annuler une loi de finances si le délai de l'article 38 de l'ordonnance n'était pas respecté. Il ne s'agit pas d'un délai de procédure civile. Le Conseil est un juge constitutionnel. Ce qui lui importe de censurer ce serait une volonté de fraude de la part du Gouvernement. A défaut d'une telle volonté, il serait impensable de déclarer nulle la loi de finances.</seg>
+                    <pb n="3"/>
+                    <seg>L'article 38 ne prévoit pas de sanction au non-respect du délai qu'il pose. La solution proposée par le rapporteur est la plus sage car elle laisse entendre que le Conseil n'annulerait pas une loi de finances si le projet, au lieu d'être déposé le premier mardi, était déposé le premier mercredi, par exemple.</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> : il faut distinguer l'article 47 de la Constitution de l'article 38 de l'ordonnance. Les délais constitu- tionnels de l'article 47 sont les suivants : le Parlement doit se prononcer sur la loi de finances dans un délai de soixante-dix jours, l'Assemblée nationale disposant de quarante jours et le Sénat de quinze jours. Il s'agit là d'une sorte de guillotine. Le délai de l'article 38 de l'ordonnance vient à l'appui des délais de l'article 47. Il a pour objet d'assurer que le Parlement reçoive, dans les délais nécessaires, les documents. Ce qui compte, c'est que les assemblées disposent, en fait, du temps qui leur est garanti. Il ne faut pas inverser les problèmes. Ce qui serait critiquable ce serait une manoeuvre du Gouvernement au détriment des assemblées ce qui n'est manifestement pas le cas puisque, et l'Assemblée nationale et le Sénat ont disposé de délais supérieurs aux quarante et aux quinze jours de l'article 47.</seg>
+                </u>
+                <u who="#peretti_achille">
+                    <seg><hi rend="underline">Monsieur PERETTI</hi> se déclare embarassé par le dernier considérant en ce qu'il serait de nature à mettre en doute la parole du Président de l'Assemblée nationale. Il souhaiterait que la mention suivante, "retard invoqué, à le supposer établi", soit remplacée par "retard invoqué qui d'ailleurs n'est pas établi". D'autre part, à partir de quand le Conseil jugerait-il qu'un retard dans le dépôt mériterait  d'être mentionné ?</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> : les dispositions des articles 47 et 38 ne doivent pas être interprétées comme des textes destinés à des huissiers. Le Conseil doit rechercher s'il y a ou non perturbation dans le fonctionnement normal des pouvoirs publics. Il y a une contradiction entre les affirmations du Président de l'Assemblée nationale et celles des députés saisissants. Il serait regrettable de prendre parti dans cette querelle. Mieux vaut donc trancher en droit, comme le suggère le rapporteur.</seg>
+                </u>
+                <u who="#peretti_achille">
+                    <seg><hi rend="underline">Monsieur PERETTI</hi> considère, pour sa part, que le Conseil doit croire le Président de l'Assemblée nationale. Il est tout à fait possible que des erreurs matérielles se soient glissées dans le feui1leton.</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> : il n'est pas rare que le droit mentionne des délais en laissant aux juges la faculté d'apprécier s'ils sont dépassés. Pensons, en droit civil, au retard des entrepreneurs, en droit administratif, au retard en matière d'expulsion. La loi peut poser une règle de délai sans en prévoir de sanction.</seg>
+                </u>
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> confirme les propos de Monsieur SEGALAT en ce qui concerne la pratique du dépôt de fait anticipé.</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <p><hi rend="underline">Monsieur SEGALAT</hi> considère que le Conseil constitutionnel doit faire respecter les délais de l'article 47 de la Constitution. L'article 38 n'est qu'une disposition d'application qui prévoit un délai intermédiaire pour le dépôt des documents. Il s'explique par la crainte que le Gouvernement ne raccourcisse la période dont doit bénéficier le Parlement.</p>
+                </u>
+                <pb n="4"/>
+                <u who="#lecourt_robert">
+                    <seg><hi rend="underline">Monsieur LECOURT</hi> n'éprouve aucune difficulté pour aller dans le sens des conclusions du rapporteur. Il craint seulement que la rédaction proposée n'incite le Gouvernement à inclure dans le délai partant du premier mardi d'octobre les travaux de la Commission des finances.</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsleur SEGALAT</hi> comprend les appréhensions de Monsieur LECOURT. Il lui suggère de remplacer le terme "les membres du Parlement" par les termes "le Parlement". Il ajoute, pour répondre à Monsieur PERETTI, que la mention "à le supposer établi" constitue, à ses yeux, une courtoisie du Conseil à l'égard du Président de l'Assemblée nationale.</seg>
+                </u>
+                <u who="#brouillet_rene">
+                    <seg><hi rend="underline">Monsieur BROUILLET</hi> regrette la rédaction trop générale et péremptoire proposée par le rapporteur. Il est gêné par le conditionnel "aurait".</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> réplique à Monsieur BROUILLET que, si un fait n'est pas établi, il ne peut avoir de conséquences, d'où l'emploi du conditionnel. Il serait incompréhensible de mettre "le retard invoqué, à le supposer établi, n'a pas privé le Parlement".</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> propose alors la formule suivante avec l'agrément de Monsieur BROUILLET : "le retard invoqué, à le supposer établi, n'a pu avoir pour effet de priver le Parlement...".</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <desc><hi rend="underline">Monsieur MONNERVILLE</hi> constatant l'accord des membres du Conseil sur le fond et la forme invite Monsieur SEGALAT à poursuivre son rapport.</desc>
+                </div5>
+            </div4>
+            <writing type="rapport" who="#segalat_andre" n="2">
+                <seg><hi rend="underline">II. Le deuxième point</hi> concerne les services votés (article, 28 devenu 41)</seg>
+                <seg>L'ordonnance de 1959 distingue entre les services votés et les "autorisa- tions nouvelles", c'est-à-dire les mesures nouvelles. Aux termes de l'article 33, les services votés représentent la poursuite de l'exécution des services publics,dans les conditions approuvées l'année précédente par le Parlement. Le vote global des crédits applicables aux services votés a pour mérite d'alléger le débat parlementaire qui ne porte que sur les questions nouvelles.</seg>
+                <seg>Le Conseil a déjà eu à connaître de cette question. Dans la décision n° 74-53 DC du 30 décembre 1974 (page 23), à propos de la délégation générale de l'information, le Conseil a considéré que, tant par l'étendue de ses attributions que par le rang et les conditions de nomination du fonctionnaire placé à sa tête, cet organisme devait être considéré, non comme une extension d'un comité existant antérieurement mais comme la création d'un organisme nouveau. En conséquence, le Conseil avait censuré pour non respect de l'article 33 de l'ordonnance, les dispositions de la loi de finances relatives à cet organisme et qui figuraient parmi les services votés.</seg>
+                <seg>La présente saisine reprend le grief en s'attaquant au Service national d'examen des permis de conduire, à l'Agence française pour la maîtrise de l'énergie et aux Organismes d'intervention agricole.</seg>
+                <seg>Examinons chacun de ces organismes.</seg>
+                <seg>Le Service national d'examen du permis de conduire est supprimé par la présente loi de finances. La date de cette suppression sera fixée par un décret pris en cours d'année. En l'état, il continue donc à subsister sur ses bases antérieures. Les crédits afférants à ce service entrent bien dans la catégorie des services votés.</seg>
+                <pb n="5"/>
+                <seg>A supposer qu'il y ait suppression posée directement par la loi, y aurait-il cavaliers ? Ce moyen est soulevé subsidiairement.</seg>
+                <seg>Monsieur le rapporteur ne le pense pas car une telle disposition commandant l'existence d'un service public a sa place dans une loi de finances.</seg>
+                <seg>-Les Offices agricoles créés par la loi du 6 octobre 1982 ne verront le jour que dans le courant de l'année 1983. Le vote des crédits destinés à divers organismes agricoles a donc été adopté selon les bases anciennes qui ont été approuvées l'année précédente par le parlement.</seg>
+                <seg>-L'Agence française pour la maîtrise de l'énergie, établissement public, a été créée par un décret du 13 mai 1982 et elle succède à une série d'autres organismes : agences pour les économies d'énergie, commissariat à l'énergie solaire, réunion nationale pour la valorisation de la chaleur et comité de la géothermie. l'Agence française pour la maîtrise de l'énergie recueille l'ensemble des attributions et personnel de ces organismes auxquels elle se substitue dans un but de plus grande efficacité. Les crédits relatifs à cette agence peuvent donc être rangés dans la catégorie des services votés.</seg>
+            </writing>
+            <div4 type="discussion" n="2">
+                <seg><hi rend="underline">Monsieur MONNERVILLE</hi> invite alors le rapporteur à lire son projet de décision sur le deuxième point. Après quoi, il déclare ouverte 1a discussion.</seg>
+                <seg><hi rend="underline">Monsieur SEGALAT</hi>, suite à une question de Monsieur VEDEL, lui précise que le regroupement en services votés de certains crédits présente un intérêt non seulement pour la répartition de ces crédits par décrets mais essentiellement au moment du déroulement de la discussion parlementaire qui se trouve allégée.</seg>
+                <div5 type="vote" n="1">
+                    <p><hi rend="underline">Monsieur MONNERVILLE</hi> constatant l'accord du Conseil au projet du rapporteur invite celui-ci à poursuivre son exposé.</p>
+                <div5>                    
+            </div4>
+            <writing type="rapport" who="#segalat_andre" n="3">
+                <seg><hi rend="underline">III. Le troisième point</hi> est relatif à l'article 40 de l'ordonnance du 2 janvier 1959 aux termes duquel "la seconde partie de la loi de finances de l'année ne peut être mise en discussion avant le vote de la première partie".</seg>
+                <seg>Il est soutenu que deux articles ont été adoptés en seconde partie alors qu'en réalité ils répondaient à la définition organique des dispositions de la première partie de la loi de finances. Cette irrégularité qui viole l'article 40 affecte aussi l'article d'équilibre.</seg>
+                <seg>Il convient, à présent, d'envisager les deux articles critiqués. Si le rapporteur n'éprouve pas de doute quant à la solution à apporter à la question soulevée, il indique que celle-ci se trouve compliquée par deux facteurs, à savoir, d'une part, une maladresse imputable au Gouvernement dans la conduite de la discussion parlementaire et, d'autre part, le caractère subtil de la saisine qui ne permet pas de caractériser nettement le moyen soulevé.</seg>
+                <pb n="6"/>
+                <seg>1° <hi rend="underline">Article 75 devenu 31</hi> :</seg>
+                <seg>Cet article est relatif au plafond légal de densité. En cours de discussion de la deuxième partie de la loi de finances, le Gouvernement a décidé d'attribuer aux collectivités locales la totalité du versement dû au titre du dépassement du plafond légal de densité (P.L.D.). Tirant ensuite les conséquences de cette modification, le Gouvernement a supprimé la recette lui correspondai à l'Etat A.</seg>
+                <seg>Pour les auteurs de la saisine, la modification de l'attribution de cette ressource lui confère le caractère d'une disposition relative aux recettes de l'Etat et qui devait, donc, figurer dans la première partie de la loi de finances. Son adoption dans la deuxième partie violerait l'article 40.</seg>
+                <seg>Ce grief ne semble pas devoir être retenu. Dans la décision du 24 décembre 1979 relative à la loi de finances pour 1980, le Conseil avait indiqué que la répartition des recettes et des dépenses n'était pas effectuée ne varietur. Des modifications résultant de la deuxième partie de la loi de finances peuvent affecter la première partie et être introduites en seconde délibération. Ce qui compte c'est que les grandes lignes de l'équilibre arrêtées par le vote de la première partie ne soient pas bouleversées. En l'espèce, les sommes dues au titre du plafond légal de densité ne s'élèvent qu'à 100 millions de francs sur un budget de l'ordre de 1 000 milliards.</seg>
+                <seg>2° <u>Article 58 devenu 80</u> :</seg>
+                <seg>Il est relatif aux redevances versées par les sociétés nationa- lisées aux caisses nationales de l'industrie et des banques. Cette redevance a pour objet de concourir au financement des intérêts servis aux titulaires des obligations indemnitaires. Il s'agit, comme il a été indiqué dans la décision du 11 février 1982 sur le deuxième texte de nationalisation, d'un impôt perçu, non par l'Etat mais par ces deux établissements publics. Le montant de cette redevance est fixé chaque année par la loi de finances en tenant compte des résultats de chaque société.</seg>
+                <seg>Cette disposition a fait l'objet de différentes variantes au cours de la procédure parlementaire. Dans le projet initial, le montant de cette redevance était fixé, non d'après les résultats des sociétés mais d'après la valeur des obligations. Lors de l'examen du texte en première lecture, le Gouvernement s'apercevant qu'il ne respectait pas les dispositions de la loi de nationalisation a prévu que la redevance serait prélevée sur les dividendes dûs à l'Etat. Il s'agit là d'une imprudence qui a été source de bien des difficultés car cette modification jette un doute sur la nature de la redevance. Cet impôt affecté à des établissements publics ne devrait pas concerner l'Etat.</seg>
+                <seg>En deuxième lecture, le Gouvernement est revenu à l'ortodoxie puisque l'article 82 respecte la loi de nationalisation et fixe à 1 000 millions de francs le montant total des redevances prévues aux articles 11 et 26 de cette loi.</seg>
+                <pb n="7"/>
+                <seg>Le moyen des saisissants se décompose en deux branches.</seg>
+                <seg><hi rend="underline">Première branche</hi> : les saisissants prennent appui sur la rédaction intermédiaire. Ils considèrent qu'en prélevant le montant de la redevance sur les dividendes dûs par les sociétés nationalisées à l'Etat la disposition intermédiaire retentit sur les recettes de l'Etat et affecte donc les indications des recettes non fiscales figurant à l'Etat A qui se voit diminuer du montant de cette redevance. Les saisissants mettent en cause la sincérité de cet Etat A et de l'article d'équilibre de la loi. Ils ajoutent que les dispositions de l'article 58 devenu 82 auraient dû figurer non dans la seconde partie de la loi de finances mais dans la première. On ne peut que répondre que,si cette modification a pu avoir une incidence sur le montant des recettes de l'Etat, elle ne remet pas en cause, fondamentalement, l'équilibre.</seg>
+                <seg><hi rend="underline">Deuxième branche</hi> : l'imputation de la redevance dûe, par les sociétés nationalisées, aux deux caisses, a nécessairement une incidence sur l'Etat A en ce qu'elle diminue l'évaluation des recettes non fiscales figurant dans cet état. On notera tout de suite que cet argument est en contradiction avec la première branche ci-dessus exposée.</seg>
+                <seg>Cet argument soulève la difficile question de savoir à quel moment doit s'apprécier la régularité de l'article d'équilibre. La saisine se place sur le terrain de la rédaction intermédiaire qui n'est pas celle du texte définitivement adopté. Le Conseil doit-il ou non s'attacher au texte définitif ? Pour sa part, Monsieur le rapporteur souhaite éviter de trancher cette délicate question. Il ne faut pas, en effet, que le Conseil oublie sa décision n° 79-110 DC du 24 décembre 1979 relative à la loi de finances pour 1980. Dans la mesure où il est possible de sortir-de la difficulté en suivant les auteurs de la saisine sur le terrain de la rédaction intermédiaire , il n'est pas utile d'affronter une question complexe qui ne se révèle pas, en la circonstance, dans toute son étendue. La question qui se pose, est donc de savoir si le prélèvement sur les dividendes dûs à l'Etat par les sociétés nationalisées devait entraîner une rectification de l'Etat A par minoration des recettes de l'Etat. Pour sa part, Monsieur le rapporteur n'hésite pas à proposer une réponse négative. On ne peut affirmer que le paiement des dividendes se répercute nécessairement sur les recettes de l'Etat. Le paiement par les sociétés nationaliséi du prélèvement dû aux caisses affectera nécessairement les disponibilités de ces sociétés et donc 1es dividendes qu'elles devront verser à l'Etat. Le Gouvernement, pour fixer le montant de ces dividendes doit prendre en compte la situation réelle de ces sociétés qui sera automatiquement affectée par le paiement du prélèvement. Par ailleurs, comme au sein de chacune de ces sociétés, l'Etat est l'actionnaire majoritaire, il lui est possible de jouer sur les sommes mises en distribution. Il pourra décider de l'importance des provisions à effectuer dans les comptes de ces sociétés ou les reports de bénéfice. Ceci tend à démontrer que le système intermédiaire (prélèvement de la redevance sur les dividendes de l'Etat) n'implique pas nécessairement une mise en cause de l'équilibre de l'Etat A. Par ailleurs, le grief invoqué serait de nature à entraîner le Conseil constitutionnel sur le terrain de l'évaluation des recettes et des dépenses budgétaires. Il n'appartient pas au Conseil d'apprécier une évaluation, sous réserve bien entendu, que cette évaluation ne dénature pas l'équilibre de la loi de finances.</seg>
+                <pb n="8"/>
+            </writing>
+            <div4 type="discussion" n="3">
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> invite Monsieur SEGALAT à lire son projet de décision. Après quoi, il déclare ouverte la discussion générale.</seg>
+                </u>
+                <u who="#lecourt_robert">
+                    <seg><hi rend="underline">Monsieur LECOURT</hi> approuve les conclusions du rapporteur. En la forme, il aimerait savoir si les mentions de "grandes lignes de l'équilibre" et de "données de l'équilibre" doivent être considérées ou non comme synonymes.</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> indique qu'il s'agit du même concept. Il se propose d'ailleurs de n'employer que la seule formule de "grandes lignes de l'équilibre".</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> approuve les observations du rapporteur. La réserve de la dénaturation des grandes lignes de l'équilibre budgétaire est parallèle à la technique de l'erreur manifeste dans le contentieux administratif.</seg>
+                </u>
+                <u who="#brouillet_rene">
+                    <seg><hi rend="underline">Monsieur BROUILLET</hi> souhaiterait que le terme "dénaturé" soit remplacé par celui d'"a1téré".</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> accepte cette suggestion de Monsieur BROUILLET.</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi>, en la forme, rappelle que le Conseil avait adopté, en matière de division, le classement suivant :</seg>
+                    <seg>- La division suprême d'une décision est introduite par "sur".</seg>
+                    <seg>- Les sous-divisions par "en ce qui concerne", cesdites sous-division étant elles-mêmes divisées par "quant à". </seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> propose de rectifier son projet danS le sens des divisions rappelées par Monsieur VEDEL.</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <p><hi rend="underline">Monsieur MONNERVILLE</hi> constatant que le troisième point est adopté par le Consei1 invite Monsieur SEGALAT à poursuivre son exposé.</p>
+                </div5>
+            </div4>
+            <writing type="rapport" who="#segalat_andre" n="4">	
+                <seg><hi rend="underline">IV. Le quatrième point</hi> est relatif au prélèvement sur les recettes de l'Etat</seg>
+                <seg>Depuis 1969, la pratique budgétaire française connaît une technique nouvelle de présentation des recettes du budget : celle des prélèvements sur les recettes du budget général. Cette technique est apparue au profit des collectivités locales en remplacement d'une série d'impôts locaux telles la taxe locale sur le chiffre d'affaire, la taxe sur les spectacles ou la taxe sur les salaires.</seg>
+                <seg>A partir de 1971, elle a été employée au profit des communautés européennes.</seg>
+                <seg>Entre 1975 et 1979, le régime général de la sécurité sociale a lui aussi bénéficié de ces prélèvements.</seg>
+                <seg>A l'heure actuelle, il existe une série de prélèvements de cette nature énumérés à l'Etat A. Il s'agit de prélèvements dépassant 71 milliards au profit des collectivités locales et d'un prélèvement atteignant presque 30 milliards au profit de la communauté économique européenne.</seg>
+                <pb n="9"/>
+                <seg>Comment cette technique s'insère-t-elle dans la procédure budgétaire ? Ces recettes sont évaluées et inscrites à l'Etat A et les éléments les constituant sont détai1lés dans un "bleu" intitulé : "évaluation des voies et moyens."</seg>
+                <seg>Le total ainsi énuméré est additionné puis déduit du montant de l'ensemble des recettes fiscales et non fiscales de l'Etat. On dégage un montant brut des ressources moins les prélèvements et c'est ce montant qui est porté au tableau d'équilibre de l'article 4 de la loi de finances.</seg>
+                <seg>Pour les saisissants, cette technique est contraire aux dispositions de l'article 18 de l'ordonnance en ce qu'elle ne respecte pas les règles de la non contraction et de la non affectation. Ils ajoutent qu'elle méconnaît également les articles 4 et 5 de l'ordonnance. Sur ce point, leurs arguments sont moins clairs. Les saisissants concluent que ces violations de l'ordonnance organique affecte l'Etat A et donc l'article d'équilibre de la loi de finances qui doit tomber dans son ensemble. La lecture de l'article 18, alinéas 1 et 2, de l'ordonnance, permet de constater l'affirmation du principe de l'universalité du budget sous l'aspect de la non contraction des recettes et des dépenses et de l'interdiction d'affecter telle recette à telle dépense. Les prélèvements dont il s'agit violent-ils réellement cet article 18 ?</seg>
+                <seg>Qu'en est-il au regard du principe de non contraction ? Ces prélèvements ne procèdent à aucune contraction. On ne dissimule aucune recette ni aucune charge. L'Etat A ne méconnaît donc pas les dispositions de l'article 18 de l'ordonnance et les chiffres figurant à l'article d'équi1ibre,dans la mesure où vis émanent de cet Etat A avec qui ils font corps, ne recèlent aucune méconnaissance de l'article 18.</seg>
+                <seg>Qu'en est-il, à présent, au regard du principe de la non affectation L'affectation constitue une corrélation entre une recette de l'Etat et une dépense de l'Etat. Dans le mécanisme du prélèvement, il n'y a pas de dépense de l'Etat. La dépense est affectée, en réalité, par le bénéficiaire du prélèvement qui utilisera ces sommes 1ibrement L'Etat n'a aucune maîtrise sur la dépense qui est décidée soit par la collectivité locale, soit par la Communauté économique européenne.</seg>
+                <seg>Quelle est donc la nature de ces prélèvement ? Il s'agit de rétrocessions de recettes d'un montant déterminé par l'Etat. Il y a en quelque sorte une création d'un circuit court de l'établis- sement de la recette au destinataire. Si une loi de finances intervient, en la matière, c'est sur la base de l'article 1er de l'ordonnance organique qui énonce que les lois de finances déterminent la nature, le montant et l'affectation des ressources et des charges de l'Etat. Cette technique qui répond à des nécessité : pratiques, ne viole aucune disposition de l'ordonnance. Il s'agit d'un moyen pour permettre à l'Etat de faire face à certains besoins, ceux des collectivités locales ou de la Communauté économique européenne. Cette technique permet de parer aux déficiences du système fiscal. C'est qu'en effet le régime fiscal des collectivités locales est dépassé. L'Etat ne souhaite pas cependant abandonner à  leur profit un des grands impôts nationaux. La technique du prélèvement permet donc de résoudre ce problème par la mise à la disposition des collectivités locales d'une part des ressources de l'Etat. Il y a donc, en l'espèce, une répartition des disponibilités fiscales du pays. Certes, cette technique des prélè- vements ne peut jouer dans tous les cas II doit s'agir d'une rétrocession de recettes. Ces prélèvements ne doivent pas servir à <pb n="10"/> couvrir des dépenses de l'Etat telles qu'elles sont énumérées à l'article 6 de 1'ordonnance. Ces limites sont d'ailleurs mentionné dans le projet de décision que Monsieur le rapporteur propose au Conseil.</seg>
+                <seg><hi rend="underline">Monsieur le rapporteur</hi> indique, pour terminer, que son projet porte mention des articles 4 et 5 de l'ordonnance soulevés par les saisissants mais, en réalité, la saisine, sur ce point, lui paraît difficilement compréhensible.</seg>
+            </writing>
+            <div4 type="discussion" n="4">
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> demande alors à Monsieur SEGALAT de lire son projet de décision et déclare ouverte la discussion générale.</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> approuve le projet du rapporteur qui a le mérite d'institutionna1iser une technique qui doit être canalisée. Ce qui compte c'est la loyauté. Il faut que le Parlement ait connaissan de documents, budgétaires exempts de fraude. La technique du prélèvement traduit le réalisme du droit budgétaire qui s'efforce d'assister concrètement les collectivités locales dont les finances se dé1abrent.</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> constatant l'accord du Conseil sur cette partie du rapport demande â Monsieur SEGALAT de poursuivre son exposé.</seg>
+                </div5>
+            </div4>
+            <writing type="rapport" who="#segalat_andre" n="5">	
+                <seg><hi rend="underline">V. Le cinquième point</hi> est relatif à la méconnaissance de l'article 42 de l'ordonnance.</seg>
+                <seg>Au cours de la discussion parlementaire, le Président de l'Assemblée nationale a refusé d'opposeràun amendement gouvernemental l'irrecevabilité de l'article 42. La discussion s'est poursuivie et l'amendement en question n'a pas été voté. Il est soutenu que la discussion parlementaire aurait été viciée partir du refus par le Président d'adopter l'irrecevabilité à cet amendement.</seg>
+                <seg>Il est tout à fait étrange, cet amendement n'ayant pas été adopté, que cette question soit soumise au Conseil.</seg>
+            </writing>
+            <div4 type="discussion" n="5">
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> manifeste son étonnement. Soulever ce grief 1ui paraît inconcevable dans la mesure où il n'y a pas de texte législatif à sa base.</seg>
+                </u>
+                <u who="#gros_louis">
+                    <seg><hi rend="underline">Monsieur GROS</hi> considère que cela pose le problème plus général de 1'opposabilité de l'article 42 aux amendements gouvernementaux.</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <p><hi rend="underline">Monsieur MONNERVILLE</hi>, aucune autre observation n'étant formulée, constate que leprojet du rapporteur est adopté.</p>
+                </div5>
+            </div4>
+            <writing type="rapport" who="#segalat_andre" n="6">
+                <seg><hi rend="underline">VI.Le sixième point est relatif aux cavaliers budgétaires.</hi></seg>
+                <seg>Les saisines font état d'un certain nombre de dispositions qui auraient un contenu n'entrant pas dans l'objet des lois de finances tel qu'il est défini par l'article 1er de l'ordonnance.</seg>
+                <seg>1° <hi rend="underline">Article 18-III-2</hi> : cet article réaménage l'ensemble des droits en matière de débits de tabacs. Il concerne, notamment, le régime de remise des débitants. Cet article relatif au fonctionnement du
+                monopole des tabacs a donc une incidence sur une ressource de 1'Etat ;</seg>
+                <seg>2° <hi rend="underline">L'article 78</hi>	reforme le régime des prestations familiales agricob qui sont p Racées sous la coupe de la caisse nationale d'allocations familiales. Il s'agit d'une mesure d'unification qui permet à l'Etat de faire contribuer cette caisse nationale au déficit du régime agricole. Cette mesure s'insère dans le plan de réforme des finances de la sécurité sociale et elle a sa place dans une loi de finances.</seg>
+                <pb n="11"/>
+                <seg>3° <hi rend="underline">L'article 109</hi> traite de la répartition des cotisations perçues survies agriculteurs. Il s'agit d'un mécanisme complexe de répartition.  Au début de chaque année, le montant global des cotisations est fixé dans un budget annexe puis réparti par département puis par exploitant. Cette mesure est relative à un budget annexe et a sa place dans une loi de finances ;</seg>
+                <seg>4° <hi rend="underline">Les articles 106 et 108</hi> réservent, parmi les postes nouveaux créés au profit de l'éducation nationale un certain nombre à des vacataires en coopération. Ces articles traitent des conditions d'accès et de procédure à ces postes. Il s'agit, en réalité, de dispositions statutaires qui n'ont pas leur place dans une loi de finances.</seg>
+            </writing>
+            <div4 type="discussion" n="6">
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> déclare ouverte la discussion générale.</seg>
+                </u>
+                <u who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> se demande si les postes créés par le présent budget de 1'éducation nationale ne sont pas liés à leur attribution aux enseignants coopérants ?</seg>
+                </u>
+                <u who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> lui répond que ce n'est pas le cas.</seg>
+                </u>
+                <u who="#monnerville_gaston">
+                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> constatant qu'aucune observation n'est formulée, soumet l'ensemble du projet de Monsieur SEGALAT au vote du Consei1.</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <p>Le projet est adopté à l'unanimité des membres du Conseil.</p>
+                </div5>
+            </div4>
+        </div3>
+        <div3 type="cloture">
+            <p><hi rend="underline">Monsieur MONNERVILLE</hi> lève alors la séance à 18 h 10.</p>
+        </div3>
+    </div2>
    </div1>
   </body>
+  <back>
+    <p>Cette décision ne comporte pas d'annexe</p>
+ </back>
  </text>
 </TEI>

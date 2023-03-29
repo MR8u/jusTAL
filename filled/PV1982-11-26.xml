@@ -9,7 +9,7 @@
      Transcription XML TEI du corpus des délibérations du Conseil constitutionnel français de 1959 à 1995
     </title>
     <title type="sub">
-     PV1982-12-29
+     PV1982-11-26
     </title>
     <!-- 0 -->
     <respStmt>
@@ -577,7 +577,7 @@
 					le nom des étudiants en L3 si ce sont eux qui font les deux types de
 					structuration -->
      <name>
-      SIMON Chloé
+      THIRIET Suzon
      </name>
     </respStmt>
     <!-- 7 -->
@@ -11669,14 +11669,64 @@
  <text>
   <body>
    <!--identifiant de la délibération -->
-   <div1 corresp="PV1982-12-29" type="seance">
+   <div1 corresp="#PV1982-11-26" type="pv">
     <head>
      <!--identifiant de la délibération -->
      <title>
-      PV1982-12-29
+      PV1982-11-26
      </title>
     </head>
+    <pb n="1"/>
+    <div2 type="seance">
+        <head type="1">SEANCE DU 26 NOVEMBRE 1982</head>
+        <div3 type="ouverture">
+            <div4 type="membrePresent">
+                <p>Le Conseil se réunit à 10 heures tous ses membres étant présents à l'exception de Messieurs Valéry GISCARD d'ESTAING et VEDEL, excusés.</p>			   
+            </div4>
+            <div4 type="ordreDuJour">
+                <p><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour est le suivant :</p>
+                <p>- Examen, en application de l'article 37, alinéa 2, de la Constitution, d'une demande d'appréciation de la nature juridique de diverses dispositions du Code des douanes.</p>
+                <p>Rapporteur : Monsieur André SEGALAT</p>
+            </div4>
+        </div3>
+        <div3 type="question" n="1" corresp="#L-82-129">
+            <div4 type="introduction">
+                <p><hi rend="underline">Monsieur le Président</hi> passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.</p>                 
+            </div4>
+            <writing type="rapport" who="#segalat_andre">
+                <seg>C'est la première fois que le Conseil constitutionnel aura à apprécier des dispositions du Code des douanes. Ce Code est né à la suite d'une invitation faite à l'article 5 d’une loi du 17 août 1948, au Gouvernement de refondre l'ensemble des textes et codes fiscaux jusque-là épars. Cette codification devait être annexée au projet de loi de finances pour 1949. C'est ainsi qu'un décret du 10 décembre 1948 a mis en vigueur le nouveau Code des douanes. Code qui a acquis force de loi le 1er janvier 1949. Depuis lors, ce Code des douanes a été modifié suivant deux techniques. Des lois postérieures ont modifié tel ou tel article expressément en s'incorporant au Code. Par ailleurs, il a été recouru à des modifications que l'on peut qualifier d'autonomes sans référence expresse à une disposition. L'incorporation d'une disposition s'effectuant par voie de décret ayant force exécutoire. Ce procédé est d'ailleurs exceptionnel. Citons l'article 221 tiré d'une ordonnance du 27 décembre 1958.</seg>
+                <seg>La Constitution de 1958 a ouvert une nouvelle période dans la vie du Code des douanes. Avec l'extension du domaine de la matière réglementaire, l'administration des douanes s'est préoccupée de dresser le catalogue des dispositions de ce Code ayant une nature réglementaire. C'est d'ailleurs ce travail qui est à l'origine de la présente demande.</seg>
+                <seg>La saisine dont le Conseil a à connaître se révèle très prudente, l'administration a en effet décanté sa saisine initiale au moyen de deux lettres rectificatives qui ont soustrait un certain nombre de dispositions à l'appréciation du Conseil. On serait tenté de dire que les services des douanes qui n'ont guère d'expérience n'ont pas mesuré l'aventure dans laquelle ils se sont lancés.</seg>
+                <seg>Monsieur le Rapporteur rappelle à ses collègues que lors de l'examen d'une loi de finances, il leur avait signalé l'audace vis-à-vis des règles constitutionnelles de certaines dispositions douanières.</seg>
+                <pb n="2"/>
+                <seg>Par ailleurs, des règles découlant d'une réglementation européenne ont encore compliqué la matière. La saisine ne concerne que des dispositions postérieures à 1958. Toutes ont pour origine des textes législatifs à l'exception de trois articles pris en vertu d'ordonnances de l'article 92 de la Constitution. La saisine se présente matériellement  sur un document qui est familier au Conseil à savoir un tableau mis au point sous les directives du Conseil et divisé en cinq colonnes. La première colonne vise le numéro de l'article concerné. La deuxième colonne cite le texte de ces dispositions. La troisième colonne vise 1'origine de ces textes. La quatrième colonne mentionne le texte réglementaire de substitution proposé et la cinquième colonne contient les observations.</seg>
+                <seg>Soixante douze dispositions sont soumises à l'appréciation du Conseil. On peut les regrouper en trois catégories. Celles qui désignent des autorités, celles-qui sont relatives à des modalités d'application et celles qui ont trait à des procédures douanières. Monsieur le Rapporteur indique à ses collègues qu'il s'est efforcé de retenir le plan du Code des douanes dans son projet de décision.</seg>
+                <seg><hi rend="underline">Monsieur SEGALAT</hi> propose alors à ses collègues d'examiner rapidement les dispositions dont il s'agit :</seg>
+                <seg>- Les dispositions comportant désignation d'une autorité compétente. Cette question a fait l'objet d’une jurisprudence constante et abondante du Conseil. Il convient de citer par exemple l'article 7 qui fait référence à un arrêt du Ministre de l'économie et des finances. La désignation de ce Ministre est manifestement réglementaire. Notons que désormais, il y aura un émiettement des dispositions douanières.  Nous sommes bien loin de la simplification qu'implique une codification. Dorénavant, il faudra que le lecteur se réfère au minimum à deux textes, l'un législatif, et l'autre réglementaire.</seg>
+                <seg>- Mesures d'application. Si les règles de principe doivent demeurer dans la partie législative du Code, leurs conditions et modalités d'application sont de nature réglementaire. Ces mesures d'application sont relatives à des règles de transport, de magasins, de dédouanement etc. L'article 77-3 constitue un exemple de ce type de mesures d'application. Cet article prend en quelque sorte le contribuable par la main pour le guider dans les questions de détails.</seg>
+                <seg>- Opérations de dédouanement. Ces règles traitent du régime de la déclaration en détail suivant une terminologie ancienne. Citons les articles 85 , 99 bis, 100-3 ou 100 bis. Il s'agit : de mesures d’application de la règle de l'article 84 du Code des douanes qui pose le principe de la déclaration en détail.</seg>
+                <seg>- Régime douanier suspensif. Il s'agit là de questions de transit, d'entrepôts de stockage qui ne posent guère de difficultés. Citons l'article 127-1 à titre d'exemple.</seg>
+                <seg>- Les zones franches. L'article 289 traite des procédures relatives aux marchandises lorsqu'elles sont placées en zones franches. Là encore, il s'agit d'une disposition réglementaire qui ne mérite guère de retenir l'attention du Conseil.</seg>
+                <seg>Monsieur le Rapporteur déclare en avoir alors terminé. Il demande à ses collègues de bien vouloir l'excuser pour l'aridité de son exposé. Aridité qu'il s'est efforcé de compenser par sa brièveté.</seg>
+            </writing>
+            <pb n="3"/>
+            <div4 type="discussion">
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de ce projet de décision. Après lecture de son projet de décision, Monsieur le Président invite les membres du Conseil à formuler toutes les observations qui leur semblent utiles.</seg>
+                </u>
+                <div5 type="vote" n="1">
+                    <p>Aucune observation n'étant présentée Monsieur le Président soumet le projet de décision de Monsieur SEGALAT au vote du Conseil. Ce projet est adopté à l'unanimité.</p>
+                </div5>
+            </div4>
+        </div3>
+        <div3 type="cloture">
+            <p>Monsieur le Président lève la séance à 10 h 55.</p>
+        </div3>
+    </div2>
    </div1>
   </body>
+  <back>
+    <p>Cette décision ne comporte pas d'annexe</p>
+  </back>
  </text>
 </TEI>
