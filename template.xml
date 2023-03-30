@@ -971,7 +971,8 @@
 							<placeName>Paris</placeName>
 						</birth>
 						<death when="1996-12-28"></death>
-						<affiliation role="president" ref="#CC" from="1983-03-04" to="1992-03-04" />
+						<affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+						<affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
 					</person>
 					<person xml:id="mazeaud_pierre">
 						<persName>
