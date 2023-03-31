@@ -80,13 +80,13 @@ La balise \<incident\> peut être utilisé pour représenter trois cas :
 - Les problèmes lié directement a la transcription qui perturbe le modèle que nous avons établis. La balise sert alors a isoler les élements pour éviter qu'il perturbe les différents scripts d'automatisation.
 -  les différentes pauses au cours d'une séance. 
     - Nous voulions utiliser la balise \<pause\> mais après vérification elle ne peut contenir ni texte ni autres balise. 
-    - Attention : Les changements de séance ne sont pas considéré comme des pauses. Un bon moyen de différencier les deux est que lors d'une pause le séance est généralement "suspendue" alors qu'elle est "levée" lors d'un changement.
+    - Attention : Les changements de séance ne sont pas considéré comme des pauses. Un bon moyen de différencier les deux est que lors d'une pause la séance est généralement "suspendue" alors qu'elle est "levée" lors d'un changement.
 
 Les elements contenu dans la balise \<incident\> doivent être représenter par une balise \<desc\>.
 
 Pour le moment cette balise fait l'affaire mais nous avons quand même deux remarques:
-    - \<incident\> ne permets pas d'inclure une balise \<u\> ou même \<writing\>. Dans le cas de Vedel qui quitte la séance a cause de l'article du journal Le Monde (PV1982-11-18), Vedel prend clairement la parole et c'est dommage de perdre l'information.
-    - Il faudrait pouvoir différencier les deux cas d'usages. Nous pensons pouvoir a terme trouver une balise plus approprier pour les problèmes liées directement a la transcription.
+- \<incident\> ne permets pas d'inclure une balise \<u\> ou même \<writing\>. Dans le cas de Vedel qui quitte la séance a cause de l'article du journal Le Monde (PV1982-11-18), Vedel prend clairement la parole et c'est dommage de perdre l'information.
+- Il faudrait pouvoir différencier les deux cas d'usages. Nous pensons pouvoir a terme trouver une balise plus approprier pour les problèmes liées directement a la transcription.
 
 ```xml
 <incident>
