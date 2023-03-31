@@ -2,9 +2,9 @@
 
 ## Structure des PVs
 
-Nous avons volontairement supprimer le paramètre @n (e. g. \<div3 question n="1" \>). Tel que nous l'utilisions jusqu'à présent, celà revient a dénombré le nombre d'element enfant d'un élement parent (exemple 3 question dans une séance), c'est quelque choses que l'on peut faire automatiquement très simplement et nous pensons qu'il n'est pas tellement nécéssaire de le précisé.
+Nous avons volontairement supprimé le paramètre @n (e. g. \<div3 question n="1" \>). Tel que nous l'utilisions jusqu'à présent, cela revenait à dénombrer le nombre d'éléments enfant d'un élément parent (exemple 3 questions dans une séance), c'est quelque chose que l'on peut faire automatiquement très simplement et nous pensons qu'il n'est pas nécessaire de le préciser.
 
-Nous avons laissez la div4 pv.seance.question.conclusion même si elle n'est actuellement pas utilisé. Nous estimons qu'elle pourrait être utile par la suite.
+Nous avons laissé la div4 pv.seance.question.conclusion même si elle n'est actuellement pas utilisée. Nous estimons qu'elle pourrait être utile par la suite.
 
 ```xml
 <div1 type="pv" corresp="#pv">
@@ -26,29 +26,29 @@ Nous avons laissez la div4 pv.seance.question.conclusion même si elle n'est act
 
 - "#pv" représente l'identifiant du pv de ce fichier. Ex : 
     - #PV1982-01-05
-- "#date?(_[a-z])" représente la date de la séance suivi optionellement d'une lettre si plusieurs séance on eu lieu à la même date. Ex : 
-    - 1 séance a cette date : "#1982-01-05"
-    - 2 séances a cette date :  "#1982-01-05_a", "#1982-01-05_b"
+- "#date?(_[a-z])" représente la date de la séance suivi optionellement d'une lettre si plusieurs séances ont eu lieu à la même date. Ex : 
+    - 1 séance à cette date : "#1982-01-05"
+    - 2 séances à cette date :  "#1982-01-05_a", "#1982-01-05_b"
 - "#decision" l'identifiant de la décision traiter dans la balise. Ex
     - #DC-81-134
 
 ## Writing et Utterance
 
-Pour réprensenter le contenu d'un élément de structure (ouverture, rapport, discussion ...) nous utilisons soit la balise \<u\> soit la balise \<writing\>. Il est a se stade encore difficile de définir clairement l'une et l'autre mais pour résumer :
+Pour représenter le contenu d'un élément de structure (ouverture, rapport, discussion ...) nous utilisons soit la balise \<u\> soit la balise \<writing\>. Il est à ce stade encore difficile de définir clairement l'une et l'autre mais pour résumer :
 
-- La balise \<u\> doit être utiliser pour réprésenter les élements de dialogues direct entre les conseillers.
+- La balise \<u\> doit être utilisée pour représenter les éléments de dialogues directs entre les conseillers.
 
-- La balise \<writing\> doit être utiliser pour représenter le reste des élements : les parties d'une rapport, les notes de transcriptions ...
+- La balise \<writing\> doit être utilisée pour représenter le reste des éléments : les parties d'un rapport, les notes de transcriptions ...
 
-Le texte a l'interieur des deux balises est représenté a l'aide de balise \<seg\>.
+Le texte à l'intérieur des deux balises est représenté à l'aide de balises \<seg\>.
 
-L'intervenant doit être renseigné par le paramètre @who et il peut prendre plusieurs valeurs :
+L'intervenant doit être renseigné par le paramètre @who et peut prendre plusieurs valeurs :
 
-- Un ou plusieurs identifiant de conseiller, lorsque ceux-ci que la transcription regroupe plusieurs prise de parole en une seul. Les identifiantes doivent alors être séparé par un espace Ex :
+- Un ou plusieurs identifiants de conseillers, lorsque la transcription regroupe plusieurs prises de parole en une seule. Les identifiants doivent alors être séparés par un espace. Ex :
     - "#vedel_george" ou "#vedel_george #frey_roger"
-- Le raccourcis "#president" lorsqu'il est question du président du conseil. Cela permets de gagner du temps lorsque l'on a un doute sur l'identité de celui-ci durant la séance. Le bonne identifiant sera remis lors de l'automatisation. 
-- le raccourcis "#all" lorsqu'il est question de l'ensemble des conseillers présent durant la séance.
-- Aucune valeur lorsque l'intervenant n'est pas clairement identifier ou pour des notes de transcriptions. Le paramètre @who est alors retirer.
+- Le raccourci "#president" lorsqu'il est question du président du conseil. Cela permet de gagner du temps lorsque l'on a un doute sur l'identité de celui-ci durant la séance. Le bon identifiant sera remis lors de l'automatisation
+- le raccourci "#all" lorsqu'il est question de l'ensemble des conseillers présents durant la séance
+- aucune valeur lorsque l'intervenant n'est pas clairement identifié ou pour des notes de transcriptions. Le paramètre @who est alors retiré.
 
 
 ```xml
@@ -76,18 +76,18 @@ Il faudra ajouter par la suite la balise \<floatingText\> ici.
 
 ## Incident et Pause
 
-La balise \<incident\> peut être utilisé pour représenter trois cas : 
-- Les éléments inhabituel au cours d'une séance, comme la sortie d'un conseillé ou (manque d'exemple pour le moment)
-- Les problèmes lié directement a la transcription qui perturbe le modèle que nous avons établis. La balise sert alors a isoler les élements pour éviter qu'il perturbe les différents scripts d'automatisation.
+La balise \<incident\> peut être utilisée pour représenter trois cas : 
+- Les éléments inhabituels au cours d'une séance, comme la sortie d'un conseiller ou (manque d'exemple pour le moment)
+- Les problèmes liés directement à la transcription qui perturbent le modèle que nous avons établi. La balise sert alors à isoler ces éléments pour éviter qu'ils perturbent les différents scripts d'automatisation.
 -  les différentes pauses au cours d'une séance. 
-    - Nous voulions utiliser la balise \<pause\> mais après vérification elle ne peut contenir ni texte ni autres balise. 
-    - Attention : Les changements de séance ne sont pas considéré comme des pauses. Un bon moyen de différencier les deux est que lors d'une pause la séance est généralement "suspendue" alors qu'elle est "levée" lors d'un changement.
+    - Nous voulions utiliser la balise \<pause\> mais après vérification elle ne peut contenir de texte ou d'autres balises. 
+    - Attention : Les changements de séance ne sont pas considérés comme des pauses. Un bon moyen de différencier les deux est que lors d'une pause la séance est généralement "suspendue" alors qu'elle est "levée" lors d'un changement.
 
-Les elements contenu dans la balise \<incident\> doivent être représenter par une balise \<desc\>.
+Les éléments contenus dans la balise \<incident\> doivent être représentés par une balise \<desc\>.
 
 Pour le moment cette balise fait l'affaire mais nous avons quand même deux remarques:
-- \<incident\> ne permets pas d'inclure une balise \<u\> ou même \<writing\>. Dans le cas de Vedel qui quitte la séance a cause de l'article du journal Le Monde (PV1982-11-18), Vedel prend clairement la parole et c'est dommage de perdre l'information.
-- Il faudrait pouvoir différencier les deux cas d'usages. Nous pensons pouvoir a terme trouver une balise plus approprier pour les problèmes liées directement a la transcription.
+- \<incident\> ne permet pas d'inclure une balise \<u\> ou même \<writing\>. Dans le cas de Vedel qui quitte la séance à cause de l'article du journal Le Monde (PV1982-11-18), Vedel prend clairement la parole et c'est dommage de perdre l'information.
+- Il faudrait pouvoir différencier les deux cas d'usages. Nous pensons pouvoir à terme trouver une balise plus appropriée pour les problèmes liés directement à la transcription.
 
 ```xml
 <incident>
@@ -102,7 +102,7 @@ Pour le moment cette balise fait l'affaire mais nous avons quand même deux rema
 
 ## Vote
 
-Le vote est représenter par une balise \<span\> et un paramètre @type="vote". Il est essentiel que le vote soit contenu dans une balise seg d'une balise \<u\> ou \<writing\>. 
+Le vote est représenté par une balise \<span\> et un paramètre @type="vote". Il est essentiel que le vote soit contenu dans une balise seg d'une balise \<u\> ou \<writing\>. 
 
 Même remarque que plus haut pour le paramètre @n.
 
@@ -120,9 +120,9 @@ Même remarque que plus haut pour le paramètre @n.
 
 # Titres et Soulignement
 
-Les titres qui structures le rapport et qui sont représenter dans les transcription par des \<h1\>, \<h2\>, \<h3\> ... doivent être représenter avec la balise \<hi\> et le paramètre @style="titreN" où N représente la hierarchie du titre.
+Les titres qui structurent le rapport et qui sont représentés dans les transcription par des \<h1\>, \<h2\>, \<h3\> ... doivent être représentés avec la balise \<hi\> et le paramètre @style="titreN" où N représente la hiérarchie du titre.
 
-Le texte souligné qui est représenter dans les transcription par la balise \<u\> doit être représenter avec la balise \<hi\> et le paramètre @rend="underline".
+Le texte souligné qui est représenté dans les transcriptions par la balise \<u\> doit être représenté avec la balise \<hi\> et le paramètre @rend="underline".
 
 ```xml
 <hi style="titre2"></hi>
