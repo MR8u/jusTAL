@@ -2,7 +2,7 @@
 
 ## Structure des PVs
 
-Nous avons volontairement supprimer le paramètre @n (e. g. \<div3 question n="1" \>). Tel que nous l'utilisions jusqu'à présent, celà revient a dénombré le nombre d'element enfant d'un élement parent (exemple 3 question dans une séance), c'est quelque choses que l'on peut faire automatiquement très simplement et qui nous pensons qu'il n'est pas tellement nécéssaire de le précisé.
+Nous avons volontairement supprimer le paramètre @n (e. g. \<div3 question n="1" \>). Tel que nous l'utilisions jusqu'à présent, celà revient a dénombré le nombre d'element enfant d'un élement parent (exemple 3 question dans une séance), c'est quelque choses que l'on peut faire automatiquement très simplement et nous pensons qu'il n'est pas tellement nécéssaire de le précisé.
 
 Nous avons laissez la div4 pv.seance.question.conclusion même si elle n'est actuellement pas utilisé. Nous estimons qu'elle pourrait être utile par la suite.
 
