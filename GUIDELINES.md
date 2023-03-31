@@ -102,7 +102,7 @@ Pour le moment cette balise fait l'affaire mais nous avons quand même deux rema
 
 ## Vote
 
-Le vote est représenter par une balise \<span\> et un paramètre @type="vote". Il est essentiel que le vote soit contenu dans une balise seg d'une balise \<u\> ou \<writing\> mais ce n'est pas impossible par la suite et cela ne pause aucun problème. 
+Le vote est représenter par une balise \<span\> et un paramètre @type="vote". Il est essentiel que le vote soit contenu dans une balise seg d'une balise \<u\> ou \<writing\>. 
 
 Même remarque que plus haut pour le paramètre @n.
 
