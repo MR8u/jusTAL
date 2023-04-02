@@ -25,7 +25,7 @@
                 <!-- 0 -->
                 <respStmt>
                     <resp>
-                        Construction d’un corpus analysable et préparation des données
+                        Construction d'un corpus analysable et préparation des données
                     </resp>
                     <name> AMBLARD Maxime <affiliation />
                     </name>
@@ -51,7 +51,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
                     <resp>
-                        La construction progressive du principe d’égalité
+                        La construction progressive du principe d'égalité
                     </resp>
                     <name> DISANT Mathieu <affiliation />
                     </name>
@@ -64,7 +64,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
                     <resp>
-                        Le Conseil constitutionnel et l’évolution de l’État providence en France
+                        Le Conseil constitutionnel et l'évolution de l'État providence en France
                     </resp>
                     <name> BLAIRON Katia <affiliation />
                     </name>
@@ -597,13 +597,13 @@
                     Agence nationale de la Recherche
                 </funder>
                 <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
                 <sponsor>
                     Maison des Sciences de l'Homme Lorraine
                 </sponsor>
                 <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
             </titleStmt>
             <publicationStmt>
                 <authority>
@@ -1689,7 +1689,8 @@
                             </placeName>
                         </birth>
                         <death when="1996-12-28" />
-                        <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04" />
+						<affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+						<affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
                     </person>
                     <person xml:id="mazeaud_pierre">
                         <persName>
@@ -2239,37 +2240,37 @@
                     constitutionnel
                 </p>
                 <p>
-                    L’objectif du projet Isovote est de reprendre la question de l’interprétation
+                    L'objectif du projet Isovote est de reprendre la question de l'interprétation
                     des
                     principes constitutionnels par une instance collégiale, depuis ses modalités
                     jusque
-                    dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+                    dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
                     dont
-                    le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+                    le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
                     constitutionnel français.
                 </p>
                 <p>
                     Mais contrairement aux recherches existantes qui se concentrent sur les
                     décisions
-                    finales du Conseil, le projet repose sur l’étude systématique du principe
-                    d’égalité
+                    finales du Conseil, le projet repose sur l'étude systématique du principe
+                    d'égalité
                     dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-                    corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+                    corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
                     dactylographiés des délibérations du Conseil.
                 </p>
                 <p>
-                    Il s’agit d’un ensemble de données uniques puisque sont fournies les
+                    Il s'agit d'un ensemble de données uniques puisque sont fournies les
                     transcriptions,
                     détaillées et nominatives, des prises de parole des conseillers. Elles
                     comportent
                     aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
                     ainsi le
-                    voile sur le processus concret de la décision. C’est donc un corpus unique par
+                    voile sur le processus concret de la décision. C'est donc un corpus unique par
                     son
                     importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
                 </p>
                 <p>
-                    C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+                    C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
                     que
                     rarement à disposition des chercheurs leurs documents préparatoires ou leur
                     délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2284,7 +2285,7 @@
             </projectDesc>
             <samplingDecl>
                 <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
                 <p>
                     L'élément de base du corpus est le procès-verbal
                 </p>
@@ -2309,7 +2310,7 @@
             </samplingDecl>
             <editorialDecl>
                 <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
                 <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2320,15 +2321,15 @@
                             Les corrections ne sont pas encodées.
                         </item>
                         <item>
-                            Les fautes d’orthographe sont corrigées si elles proviennent d’une
+                            Les fautes d'orthographe sont corrigées si elles proviennent d'une
                             erreur de
-                            l’océrisation. En revanche, elles sont conservées si elles viennent du
+                            l'océrisation. En revanche, elles sont conservées si elles viennent du
                     document
                             lui-même, dans ce cas une correction a été proposée sous forme de
                     commentaire.
                         </item>
                         <item>
-                            Les lettres majuscules accentuées présentes dans le texte d’origine
+                            Les lettres majuscules accentuées présentes dans le texte d'origine
                             sont
                             remplacées par la lettre équivalente sans accent.
                         </item>
@@ -11649,12 +11650,8 @@
     </teiHeader>
     <text>
         <body>
-            <!--identifiant
-            de la délibération -->
             <div1 corresp="#PV1982-01-05" type="pv">
                 <head>
-                    <!--identifiant
-                    de la délibération -->
                     <title>
                         PV1982-01-05
                     </title>
@@ -11664,85 +11661,91 @@
                     <head type="1">SEANCE DU 5 JANVIER 1982</head>
                     <div3 type="ouverture">
                         <div4 type="membrePresent">
-                            <p>Le Conseil se réunit à 15 heures en présence de tous ses membres à l'exception de Monsieur Valéry GISCARD d'ESTAING excusé.</p>		   
+                            <writing>
+                                <seg>Le Conseil se réunit à 15 heures en présence de tous ses membres à l'exception de Monsieur Valéry GISCARD d'ESTAING excusé.</seg>		   
+                            </writing>
                         </div4>
                         <div4 type="ordreDuJour">
-                            <p>Monsieur le Président indique que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi d'orientation autorisant le Gouvernement, en application de l'article 38 de la Constitution, à prendre des mesures d'ordre social.</p>
+                            <writing>
+                                <seg>Monsieur le Président indique que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi d'orientation autorisant le Gouvernement, en application de l'article 38 de la Constitution, à prendre des mesures d'ordre social.</seg>
+                            </writing>
                         </div4>
                     </div3>
                     <div3 type="question" n="1" corresp="#DC-81-134">
                         <div4 type="introduction">
-                            <p>Le rapporteur de cette affaire est Monsieur LECOURT à qui le Président donne la parole.</p>                
+                            <seg>Le rapporteur de cette affaire est Monsieur LECOURT à qui le Président donne la parole.</seg>                
                         </div4>
-                        <writing type="rapport" who="#lecourt_robert">
-                            <seg><hi rend="underline">Monsieur LECOURT</hi> indique que pour la seizième fois en vingt-trois ans le Parlement a autorisé le Gouvernement à légiférer par ordonnances. Dans le passé, cette procédure avait été utilisée pour des problèmes de décentralisation ou pour la transcription en droit interne de directives communautaires.</seg>
-                            <seg><hi rend="underline">I. Quel est, l'objet de cette loi ?</hi></seg>
-                            <seg>La présente loi est axée sur les remèdes à apporter au problème du chômage. Il faut se souvenir, en effet, que la France compte deux millions de chômeurs. Ce projet de loi a été élaboré à un moment où le calendrier parlementaire était très chargé. Le Gouvernement pressé d'aborder ces problèmes économiques et sociaux a décidé d'utiliser la procédure de l'article 38 de la Constitution qui lui permet, pour l'exécution de son programme, de demander au Parlement l'autorisation de prendre par ordonnances, dans un délai limité, des mesures qui sont normalement du domaine de la loi.</seg>
-                            <seg>Pour comprendre la portée de cette loi, il convient de se référer aux déclarations du Premier ministre qui lui a assigné six objectifs :</seg>
-                            <seg>1° réduire la durée du travail, limiter les heures supplémentaires et instituer une cinquième semaine de congés payés ;</seg>
-                            <seg>2° faciliter le travail à temps partiel ;</seg>
-                            <seg>3° limiter le travail temporaire et les contrats de travail à durée déterminée ;</seg>
-                            <seg>4° abaisser l'âge de la retraite à soixante ans en tenant compte du nombre d'années de travail effectué ;</seg>
-                            <seg>5° faciliter les retraites anticipées des agents de l'Etat et d'autres personnes morales de droit public, interdire le cumul entre des retraites et des activités rémunérées ;</seg>
-                            <seg>6° faciliter la formation professionnelle des jeunes ;</seg>
-                            <seg>Si devant l'Assemblée nationale, la question préalable a été posée par Monsieur DEBRE, celui-ci n'a pas contesté la correcte application<pb n="2"/> de l'article 38 mais a discuté le fond même des équilibres sociaux et économiques définis par le Gouvernement et l'opportunité du déssaisissement du Parlement. Cette question préalable a d'ailleurs, été repoussée. Il est à constater que le débat à l'Assemblée nationale a été peu clair. Si l'opposition a déposé plus de 160 amendements souvent de harcèlement la Commission, dont le rapporteur était M. BELORGEY, et le Gouvernement se sont souvent bornés à rejeter sans discussion ces amendements de l'opposition.</seg>
-                            <seg>Devant le Sénat, le rapporteur Monsieur COLLET, a comme Monsieur DEBRE considéré que la procédure de l'article 38 avait été respectée mais que sur le fond le dessaisissement du Parlement n'était pas justifié. Il a soulevé la question préalable qui a été votée par les sénateurs.</seg>
-                            <seg>A la suite de l'échec de la Commission mixte paritaire, les deux Chambres ont maintenu leurs positions respectives et le texte a définitivement été adopté en troisième lecture par l'Assemblée nationale le 23 décembre 1981.</seg>
-                            <seg><hi rend="underline">II. Quel est le contenu de cette loi ?</hi></seg>
-                            <seg>Elle se présente sous forme de deux articles comme suit :</seg>
-                            <seg>"Article 1er. - Pour l'exécution de son programme d'amélioration de la situation de l'emploi et des conditions de vie des travailleurs, le Gouvernement est autorisé à prendre par ordonnances, jusqu'au 31 mars 1982, dans les conditions prévues à l'article 38 de la Constitution, toutes mesures qui sont normalement du domaine de la loi et qui répondent aux orientations suivantes :</seg>
-                            <seg>"1° 	- opérer une première réduction significative de la durée du travail pour atteindre l'objectif d'une durée hebdomadaire de trente cinq heures en 1985 ;</seg>
-                            <seg>- améliorer la législation sur les congés afin notamment que tous les salariés bénéficient d'au moins cinq semaines de congé payé par an ;</seg>
-                            <seg>- modifier les autres dispositions du droit du travail relatives à la durée du travail et à l'aménagement du temps de travail, notamment pour prendre en compte les conditions de fonctionnement des entreprises et améliorer la condition des salariés qui occupent des emplois pénibles afin que, dans un délai aussi rapproché que possible, ceux-ci atteignent l'objectif des trente cinq heures et que, pour les travailleurs en continu, la cinquième équipe soit progressivement mise en place ;</seg>
-                            <seg>- instituer le chèque-vacances.</seg>
-                            <seg>"2°		Modifier les dispositions législatives sur le travail à temps partiel dans le secteur privé et dans le secteur public en vue d'en faciliter l'exercice et de garantir les droits des salariés concernés.</seg>
-                            <seg>"3°		Modifier les dispositions législatives sur le travail temporaire et le contrat à durée déterminée afin de limiter de recours à ces formes d'emploi, d'éviter que des emplois normalement permanents soient tenus de manière permanente par des titulaire de contrats précaires, d'améliorer les droits des travailleurs<pb n="3"/> concernés et de prendre des mesures qui tendent à permettre au service public de l'emploi d'assurer une mission de placement temporaire•</seg>
-                            <seg>"4° 	    Modifier la législation relative aux régimes de retraite, et d'assurance vieillesse en vue de permettre aux salariés de bénéficier dès l'âge de soixante ans, s'ils remplissent certaines conditions de durée d'assurance et d'activité, d'une retraite de base à taux plein ; encourager les cessations volontaires d'activité ; mettre en place, en tant que de besoin, des dispositions dérogatoires de retraite anticipée. Ces mesures devront respecter les droits acquis des salariés en préretraite à la date d'entrée en application des dispositions prévues ci-dessus.</seg>
-                            <seg>"5°		Modifier, pour permettre le dégagement d'emplois, les dispositions relatives aux pensions, aux retraites et à la cessation de l'activité des agents de l'Etat et de ceux des autres personnes morales de droit public ; mettre en place, en tant que de besoin, des dispositions dérogatoires à titre temporaire.</seg>
-                            <seg>"6°		Limiter, en fonction de l'âge, des revenus et du nombre de personnes à charge, la possibilité de cumul entre une pension de retraite et le revenu d'une activité professionnelle.</seg>
-                            <seg>"7°		Autoriser l'Etat à prendre en charge, dans le cadre des contrats de solidarité ou de mesures spécifiques et contractuelles, des cotisations de sécurité sociale incombant normalement aux employeurs et à dégager les ressources nécessaires pour compenser cette charge.</seg>
-                            <seg>"8°		Organiser la mise en place et le financement par l'ensemble des collectivités locales et de leurs groupements d'un système contractuel de cessation anticipée d'activité pour les agents des collectivités locales ou de leurs groupements ayant conclu un contrat de solidarité ; étendre éventuellement ce système à des établissements publics locaux.</seg>
-                            <seg>"9°		Assurer aux jeunes de seize à dix-huit ans une qualification professionnelle et faciliter leur insertion sociale.</seg>
-                            <seg>Article 2. - Les projets de loi portant ratification des ordonnances prises en vertu de l'article 1er devront être déposés devant le Parlement au plus tard le 30 avril 1982".</seg>
-                            <seg><hi rend="underline">III. Quels sont les moyens des députés auteurs de la saisine ?</hi></seg>
-                            <seg><hi rend="underline">Monsieur LECOURT</hi> propose alors d'examiner les cinq moyens dans l'ordre de la saisine.</seg>
-                            <seg><hi rend="underline">Le premier moyen</hi> tend à attirer l'attention du Conseil constitutionnel sur le <hi rend="underline">cinquième paragraphe de l'article 1er.</hi> Les auteurs soutiennent que ce texte serait contraire au principe d'égalité devant la loi en ce qu'il traite différemment les agents de la fonction publique et les autres salariés.</seg>
-                            <pb n="4"/>
-                            <seg>Il est soutenu par ailleurs accessoirement par les députés saisissants que cette disposition serait contraire à la Constitution dans la mesure où elle permettrait de modifier le statut de la magistrature qui est régi par une loi organique.</seg>
-                            <seg>Ce moyen paraît peu fondé. L'article 1er, 5ème alinéa s'applique à des agents de l'Etat qui ne peuvent être, ni en fait ni en droit, assimilés aux autres salariés qui relèvent du régime général. Il y a donc une différence de situation entre ces catégories de salariés et on ne voit pas où serait la violation du principe d'égalité.</seg>
-                            <seg>En ce qui concerne le statut de la magistrature, des assurances claires ont été données au Parlement par le Gouvernement. Il convient donc de rappeler dans la décision à venir que ces ordonnances ne peuvent concerner les domaines des lois organiques.</seg>
-                            <seg><hi rend="underline">Le second moyen</hi> vise le <hi rend="underline">paragraphe 6°</hi> relatif au cumul entre les pensions et les revenus d'une activité professionnelle. Les auteurs de la saisine soutiennent qu'il y aurait violation du Préambule de la Constitution de 1946 qui énonce que "chacun a le devoir de travailler et le droit d'obtenir un emploi". En interdisant le cumul, le législateur inciterait à ne pas travailler et restreindrait l'exercice d'une liberté. </seg>
-                            <seg>Que penser de ce moyen ?</seg>
-                            <seg>Il faut, tout d'abord, souligner que la disposition susmentionnée du Préambule de la Constitution de 1946 contitue en quelque sorte une énociation du droit naturel et non une prescription de droit positif.</seg>
-                            <seg>Il convient, ensuite de noter que l'article 34 de la Constitution dispose que "la loi détermine les principes fondamentaux... du droit du travail". C'est en application de cette règle que le législateur a pu proposer de limiter, sur la base de critères objectifs, tels l'âge, les ressources et les charges familiales, le cumul entre les revenus d'une pension et les gains tirés d'une activité professionnelle. Il faut d'ailleurs comprendre qu'il n'est édicté aucune interdiction de travailler. La mesure contestée constitue seulement une limitation d'ordre pécuniaire.</seg>
-                            <seg>En conclusion il est proposé d'écarter ce moyen.</seg>
-                            <seg><hi rend="underline">Le troisième moyen</hi> est relatif <hi rend="underline">au paragraphe 7</hi>° qui autorise l'Etat à prendre en charge dans le cadre de contrats de solidarité, des cotisations de sécurité sociale normalement à la charge des employeurs et à dégager les ressources nécessaires pour compenser cette charge. Il est soutenu que cette disposition méconnaîtrait l'article 1er, alinéa 4, de l'ordonnance du 2 janvier 1959 qui dispose : "Lorsque des dispositions d'ordre législatif ou règlementaire doivent entraîner des charges nouvelles, aucun projet de loi ne peut <pb n="5"/> être définitivement voté, aucun décret ne peut être signé, tant que ces charges n'ont pas été prévues, évaluées et autorisées dans les conditions fixées par la présente ordonnance".</seg>
-                            <seg>Les députés saisissants estiment qu'il y a une violation de cette disposition dans la mesure où les charges nouvelles engendrées par l'article 1er, alinéa 7°, de la loi d'habilitation, qui sont de nature à modifier l'équilibre de la loi de finances pour 1982, n'ont été ni prévues ni évaluées ni autorisées par cette loi de finances</seg>
-                            <seg>Quelle appréciation porter sur ce moyen ?</seg>
-                            <seg>Lors de la discussion parlementaire, la commission de l'Assemblée nationale avait cru opportun de proposer un amendement portant référence à l'intervention d'une loi de finances rectificative. Cet amendement a été abandonné à la demande du Gouvernement qui a donné des assurances aux parlementaires, en précisant que des ressources avaient été prévues dans le cadre de la loi de finances pour 1982 et qu'il n'excluait pas, si la nécessité l'exigeait, de déposer un projet de loi de finances rectificative. (2ème séance du 10 décembre 1981).</seg>
-                            <seg>La question soulevée par les saisissants n'est pas inédite. Dans des circonstances voisines le Conseil constitutionnel y avait apporté une réponse dans sa décision du 27 juillet 1978 (Décision 78-95 DC). Le rapporteur propose de confirmer ce précédent.</seg>
-                            <seg>II faut interpréter l'article 1er de l'ordonnance du 2 janvier 1959 à la lumière de l'ensemble des dispositions de cette ordonnance. La règle posée par cet article 1er a pour objet de faire obstacle à ce que l'équilibre de la loi de finances ne soit compromis par la mise en oeuvre de textes législatifs ou règlementaires dont les incidences sur cet équilibre n'auraient pu être, au préalable, appréciées et prises en compte par une loi de finances.</seg>
-                            <seg>En l'espèce, le Gouvernement pourra, si les crédits réservés à ces mesures par la loi de finances pour 1982 se révèlent insuffisants, déposer une loi de finances rectificative. Adopter une solution différente risquerait de paralyser l'exercice des pouvoirs du Parlement.</seg>
-                            <seg>Il est donc proposé d'écarter ce moyen.</seg>
-                            <seg><hi rend="underline">Le quatrième moyen</hi> est relatif au <hi rend="underline">paragraphe 8</hi>° qui organise un système contractuel de cessation anticipée de l'activité des agents des collectivités locales et le financement de cette mesure par l'ensemble des collectivités locales.</seg>
-                            <pb n="6"/>
-                            <seg>Les auteurs de la saisine font valoir que cette disposition serait contraire à l'article 72 de la Constitution. En effet, elle oterait aux collectivités locales par ordonnances la libre administration de leur personnels, les mettrait en demeure de conclure des contrats de solidarité ou les obligerait, en tout état de cause, à financer ce système.</seg>
-                            <seg>Cette disposition de la loi d'habilitation prévoit un système de retraite anticipée pour les agents employés par des collectivités locales ayant souscrit des contrats de solidarité. Le financement de cette mesure s'effectuera par un fonds de péréquation alimenté par l'ensemble des collectivités locales ou de leurs groupements.</seg>
-                            <seg>Il y a lieu de mentionner la contrariété qui existe entre ce texte et l'esprit du projet de loi sur la décentralisation mais cette considération est sans pertinence sur le plan constitutionnel.</seg>
-                            <seg>L'argument des députés auteurs de la saisine paraît ici encore peu fondé. En effet, l'article 72 de la Constitution qui dispose que les collectivités territoriales "s'administrent librement par conseils élus et dans les conditions prévues par la loi" renvoie à l'article 34 de la Constitution aux termes duquel "la loi détermine les principes fondamentaux... de la libre administration des collectivités locales, de leurs compétences et de leurs ressources". C'est donc dans le respect de ces dispositions de la Constitution que le législateur a institué ce système de retraite anticipée des agents des collectivités locales avec un financement au moyen d'un fonds de péréquation.</seg>
-                            <seg>La violation alléguée de l'article 72 de la Constitution paraît donc sans fondement.</seg>
-                            <seg><hi rend="underline">Le cinquième moyen</hi> de la saisine concerne <hi rend="underline">l'article 1er, alinéa 4</hi>, de la loi d'habilitation.</seg>
-                            <seg>Les auteurs de la saisine prétendent que le vote de cet alinéa 4° serait intervenu de façon irrégulière. Ils font valoir que l'irrecevabilité de l'article 40 de la Constitution a été opposée à tort à trois amendements présentés par Monsieur SEGUIN, député. Pour eux, en effet, s'agissant d'une loi d'orientation qui ne prévoit pas de dépenses, cette irrecevabilité ne devait pas être appliquée à des amendements qui ne pouvaient entraîner ni une augmentation des dépenses ni une diminution des recettes publiques.</seg>
-                            <seg>Pour examiner ce moyen, il y a lieu tout d'abord d'analyser les trois amendements litigieux numéros 53, 54 et 55.</seg>
-                            <seg>L'amendement 53 tendait à instituer une allocation compensatoire de départ à la retraite à soixante ans financée par l'U.N.E.D.I.C.</seg>
-                            <seg>L'amendement 54 tendait à proroger ou à adapter les dispositions de l'accord interprofessionnel sur la garantie des ressources.</seg>
-                            <seg>L'amendement 55 tendait à abaisser l'âge à partir duquel les dispositions conventionnelles relatives à la garantie des ressources peuvent s'appliquer aux demandeurs d'emploi.</seg>
-                            <pb n="7"/>
-                            <seg>L’examen de ces trois amendements montre qu'ils étaient tous de nature à aggraver les "charges publiques” au sens large que donne à ces termes le Conseil constitutionnel. Il apparaît donc que c'est à bon droit que leur a été opposée l'irrecevabilité de l'article 40 de la Constitution.</seg>
-                            <seg>Il n'y a pas lieu enfin de s'attarder sur l'argument des saisissants suivant lequel l'article 40 de la Constitution ne saurait jouer dans le cas d'une loi d'orientation qui ne pourrait engager que des dépenses facultatives. D'une part, il est certain que les amendements susmentionnés constituaient des incitations, peut-être indirectes mais certaines, à l'alourdissement des dépenses publiques et, d'autre part, l'article 40 de la Constitution est d'application générale. Il ne saurait être fait de distinction entre des lois ordinaires et des lois d'orientation.</seg>
-                            <seg>C'est pour ces raisons qu'il est proposé de rejeter ce moyen.</seg>
-                            <seg>Monsieur le Rapporteur indique qu'il en a terminé avec son exposé. Il précise que l'examen des autres dispositions de la loi non mises en cause par les députés saisissants ne soulève pas de difficulté d'ordre constitutionnel. Il conclut à une déclaration de conformité de ce texte à la Constitution.</seg>
-                        </writing>
+                        <div4 type="rapport">
+                            <writing who="#lecourt_robert">
+                                <seg><hi rend="underline">Monsieur LECOURT</hi> indique que pour la seizième fois en vingt-trois ans le Parlement a autorisé le Gouvernement à légiférer par ordonnances. Dans le passé, cette procédure avait été utilisée pour des problèmes de décentralisation ou pour la transcription en droit interne de directives communautaires.</seg>
+                                <seg><hi style="titre2">I. Quel est, l'objet de cette loi ?</hi></seg>
+                                <seg>La présente loi est axée sur les remèdes à apporter au problème du chômage. Il faut se souvenir, en effet, que la France compte deux millions de chômeurs. Ce projet de loi a été élaboré à un moment où le calendrier parlementaire était très chargé. Le Gouvernement pressé d'aborder ces problèmes économiques et sociaux a décidé d'utiliser la procédure de l'article 38 de la Constitution qui lui permet, pour l'exécution de son programme, de demander au Parlement l'autorisation de prendre par ordonnances, dans un délai limité, des mesures qui sont normalement du domaine de la loi.</seg>
+                                <seg>Pour comprendre la portée de cette loi, il convient de se référer aux déclarations du Premier ministre qui lui a assigné six objectifs :</seg>
+                                <seg>1° réduire la durée du travail, limiter les heures supplémentaires et instituer une cinquième semaine de congés payés ;</seg>
+                                <seg>2° faciliter le travail à temps partiel ;</seg>
+                                <seg>3° limiter le travail temporaire et les contrats de travail à durée déterminée ;</seg>
+                                <seg>4° abaisser l'âge de la retraite à soixante ans en tenant compte du nombre d'années de travail effectué ;</seg>
+                                <seg>5° faciliter les retraites anticipées des agents de l'Etat et d'autres personnes morales de droit public, interdire le cumul entre des retraites et des activités rémunérées ;</seg>
+                                <seg>6° faciliter la formation professionnelle des jeunes ;</seg>
+                                <seg>Si devant l'Assemblée nationale, la question préalable a été posée par Monsieur DEBRE, celui-ci n'a pas contesté la correcte application <pb n="2"/> de l'article 38 mais a discuté le fond même des équilibres sociaux et économiques définis par le Gouvernement et l'opportunité du déssaisissement du Parlement. Cette question préalable a d'ailleurs, été repoussée. Il est à constater que le débat à l'Assemblée nationale a été peu clair. Si l'opposition a déposé plus de 160 amendements souvent de harcèlement la Commission, dont le rapporteur était M. BELORGEY, et le Gouvernement se sont souvent bornés à rejeter sans discussion ces amendements de l'opposition.</seg>
+                                <seg>Devant le Sénat, le rapporteur Monsieur COLLET, a comme Monsieur DEBRE considéré que la procédure de l'article 38 avait été respectée mais que sur le fond le dessaisissement du Parlement n'était pas justifié. Il a soulevé la question préalable qui a été votée par les sénateurs.</seg>
+                                <seg>A la suite de l'échec de la Commission mixte paritaire, les deux Chambres ont maintenu leurs positions respectives et le texte a définitivement été adopté en troisième lecture par l'Assemblée nationale le 23 décembre 1981.</seg>
+                                <seg><hi style="titre2">II. Quel est le contenu de cette loi ?</hi></seg>
+                                <seg>Elle se présente sous forme de deux articles comme suit :</seg>
+                                <seg>"Article 1er. - Pour l'exécution de son programme d'amélioration de la situation de l'emploi et des conditions de vie des travailleurs, le Gouvernement est autorisé à prendre par ordonnances, jusqu'au 31 mars 1982, dans les conditions prévues à l'article 38 de la Constitution, toutes mesures qui sont normalement du domaine de la loi et qui répondent aux orientations suivantes :</seg>
+                                <seg>"1° 	- opérer une première réduction significative de la durée du travail pour atteindre l'objectif d'une durée hebdomadaire de trente cinq heures en 1985 ;</seg>
+                                <seg>- améliorer la législation sur les congés afin notamment que tous les salariés bénéficient d'au moins cinq semaines de congé payé par an ;</seg>
+                                <seg>- modifier les autres dispositions du droit du travail relatives à la durée du travail et à l'aménagement du temps de travail, notamment pour prendre en compte les conditions de fonctionnement des entreprises et améliorer la condition des salariés qui occupent des emplois pénibles afin que, dans un délai aussi rapproché que possible, ceux-ci atteignent l'objectif des trente cinq heures et que, pour les travailleurs en continu, la cinquième équipe soit progressivement mise en place ;</seg>
+                                <seg>- instituer le chèque-vacances.</seg>
+                                <seg>"2°		Modifier les dispositions législatives sur le travail à temps partiel dans le secteur privé et dans le secteur public en vue d'en faciliter l'exercice et de garantir les droits des salariés concernés.</seg>
+                                <seg>"3°		Modifier les dispositions législatives sur le travail temporaire et le contrat à durée déterminée afin de limiter de recours à ces formes d'emploi, d'éviter que des emplois normalement permanents soient tenus de manière permanente par des titulaire de contrats précaires, d'améliorer les droits des travailleurs<pb n="3"/> concernés et de prendre des mesures qui tendent à permettre au service public de l'emploi d'assurer une mission de placement temporaire•</seg>
+                                <seg>"4° 	    Modifier la législation relative aux régimes de retraite, et d'assurance vieillesse en vue de permettre aux salariés de bénéficier dès l'âge de soixante ans, s'ils remplissent certaines conditions de durée d'assurance et d'activité, d'une retraite de base à taux plein ; encourager les cessations volontaires d'activité ; mettre en place, en tant que de besoin, des dispositions dérogatoires de retraite anticipée. Ces mesures devront respecter les droits acquis des salariés en préretraite à la date d'entrée en application des dispositions prévues ci-dessus.</seg>
+                                <seg>"5°		Modifier, pour permettre le dégagement d'emplois, les dispositions relatives aux pensions, aux retraites et à la cessation de l'activité des agents de l'Etat et de ceux des autres personnes morales de droit public ; mettre en place, en tant que de besoin, des dispositions dérogatoires à titre temporaire.</seg>
+                                <seg>"6°		Limiter, en fonction de l'âge, des revenus et du nombre de personnes à charge, la possibilité de cumul entre une pension de retraite et le revenu d'une activité professionnelle.</seg>
+                                <seg>"7°		Autoriser l'Etat à prendre en charge, dans le cadre des contrats de solidarité ou de mesures spécifiques et contractuelles, des cotisations de sécurité sociale incombant normalement aux employeurs et à dégager les ressources nécessaires pour compenser cette charge.</seg>
+                                <seg>"8°		Organiser la mise en place et le financement par l'ensemble des collectivités locales et de leurs groupements d'un système contractuel de cessation anticipée d'activité pour les agents des collectivités locales ou de leurs groupements ayant conclu un contrat de solidarité ; étendre éventuellement ce système à des établissements publics locaux.</seg>
+                                <seg>"9°		Assurer aux jeunes de seize à dix-huit ans une qualification professionnelle et faciliter leur insertion sociale.</seg>
+                                <seg>Article 2. - Les projets de loi portant ratification des ordonnances prises en vertu de l'article 1er devront être déposés devant le Parlement au plus tard le 30 avril 1982".</seg>
+                                <seg><hi style="titre2">III. Quels sont les moyens des députés auteurs de la saisine ?</hi></seg>
+                                <seg><hi rend="underline">Monsieur LECOURT</hi> propose alors d'examiner les cinq moyens dans l'ordre de la saisine.</seg>
+                                <seg><hi rend="underline">Le premier moyen</hi> tend à attirer l'attention du Conseil constitutionnel sur le <hi rend="underline">cinquième paragraphe de l'article 1er.</hi> Les auteurs soutiennent que ce texte serait contraire au principe d'égalité devant la loi en ce qu'il traite différemment les agents de la fonction publique et les autres salariés.</seg>
+                                <pb n="4"/>
+                                <seg>Il est soutenu par ailleurs accessoirement par les députés saisissants que cette disposition serait contraire à la Constitution dans la mesure où elle permettrait de modifier le statut de la magistrature qui est régi par une loi organique.</seg>
+                                <seg>Ce moyen paraît peu fondé. L'article 1er, 5ème alinéa s'applique à des agents de l'Etat qui ne peuvent être, ni en fait ni en droit, assimilés aux autres salariés qui relèvent du régime général. Il y a donc une différence de situation entre ces catégories de salariés et on ne voit pas où serait la violation du principe d'égalité.</seg>
+                                <seg>En ce qui concerne le statut de la magistrature, des assurances claires ont été données au Parlement par le Gouvernement. Il convient donc de rappeler dans la décision à venir que ces ordonnances ne peuvent concerner les domaines des lois organiques.</seg>
+                                <seg><hi rend="underline">Le second moyen</hi> vise le <hi rend="underline">paragraphe 6°</hi> relatif au cumul entre les pensions et les revenus d'une activité professionnelle. Les auteurs de la saisine soutiennent qu'il y aurait violation du Préambule de la Constitution de 1946 qui énonce que "chacun a le devoir de travailler et le droit d'obtenir un emploi". En interdisant le cumul, le législateur inciterait à ne pas travailler et restreindrait l'exercice d'une liberté. </seg>
+                                <seg>Que penser de ce moyen ?</seg>
+                                <seg>Il faut, tout d'abord, souligner que la disposition susmentionnée du Préambule de la Constitution de 1946 contitue en quelque sorte une énociation du droit naturel et non une prescription de droit positif.</seg>
+                                <seg>Il convient, ensuite de noter que l'article 34 de la Constitution dispose que "la loi détermine les principes fondamentaux... du droit du travail". C'est en application de cette règle que le législateur a pu proposer de limiter, sur la base de critères objectifs, tels l'âge, les ressources et les charges familiales, le cumul entre les revenus d'une pension et les gains tirés d'une activité professionnelle. Il faut d'ailleurs comprendre qu'il n'est édicté aucune interdiction de travailler. La mesure contestée constitue seulement une limitation d'ordre pécuniaire.</seg>
+                                <seg>En conclusion il est proposé d'écarter ce moyen.</seg>
+                                <seg><hi rend="underline">Le troisième moyen</hi> est relatif <hi rend="underline">au paragraphe 7</hi>° qui autorise l'Etat à prendre en charge dans le cadre de contrats de solidarité, des cotisations de sécurité sociale normalement à la charge des employeurs et à dégager les ressources nécessaires pour compenser cette charge. Il est soutenu que cette disposition méconnaîtrait l'article 1er, alinéa 4, de l'ordonnance du 2 janvier 1959 qui dispose : "Lorsque des dispositions d'ordre législatif ou règlementaire doivent entraîner des charges nouvelles, aucun projet de loi ne peut <pb n="5"/> être définitivement voté, aucun décret ne peut être signé, tant que ces charges n'ont pas été prévues, évaluées et autorisées dans les conditions fixées par la présente ordonnance".</seg>
+                                <seg>Les députés saisissants estiment qu'il y a une violation de cette disposition dans la mesure où les charges nouvelles engendrées par l'article 1er, alinéa 7°, de la loi d'habilitation, qui sont de nature à modifier l'équilibre de la loi de finances pour 1982, n'ont été ni prévues ni évaluées ni autorisées par cette loi de finances</seg>
+                                <seg>Quelle appréciation porter sur ce moyen ?</seg>
+                                <seg>Lors de la discussion parlementaire, la commission de l'Assemblée nationale avait cru opportun de proposer un amendement portant référence à l'intervention d'une loi de finances rectificative. Cet amendement a été abandonné à la demande du Gouvernement qui a donné des assurances aux parlementaires, en précisant que des ressources avaient été prévues dans le cadre de la loi de finances pour 1982 et qu'il n'excluait pas, si la nécessité l'exigeait, de déposer un projet de loi de finances rectificative. (2ème séance du 10 décembre 1981).</seg>
+                                <seg>La question soulevée par les saisissants n'est pas inédite. Dans des circonstances voisines le Conseil constitutionnel y avait apporté une réponse dans sa décision du 27 juillet 1978 (Décision 78-95 DC). Le rapporteur propose de confirmer ce précédent.</seg>
+                                <seg>II faut interpréter l'article 1er de l'ordonnance du 2 janvier 1959 à la lumière de l'ensemble des dispositions de cette ordonnance. La règle posée par cet article 1er a pour objet de faire obstacle à ce que l'équilibre de la loi de finances ne soit compromis par la mise en oeuvre de textes législatifs ou règlementaires dont les incidences sur cet équilibre n'auraient pu être, au préalable, appréciées et prises en compte par une loi de finances.</seg>
+                                <seg>En l'espèce, le Gouvernement pourra, si les crédits réservés à ces mesures par la loi de finances pour 1982 se révèlent insuffisants, déposer une loi de finances rectificative. Adopter une solution différente risquerait de paralyser l'exercice des pouvoirs du Parlement.</seg>
+                                <seg>Il est donc proposé d'écarter ce moyen.</seg>
+                                <seg><hi rend="underline">Le quatrième moyen</hi> est relatif au <hi rend="underline">paragraphe 8</hi>° qui organise un système contractuel de cessation anticipée de l'activité des agents des collectivités locales et le financement de cette mesure par l'ensemble des collectivités locales.</seg>
+                                <pb n="6"/>
+                                <seg>Les auteurs de la saisine font valoir que cette disposition serait contraire à l'article 72 de la Constitution. En effet, elle oterait aux collectivités locales par ordonnances la libre administration de leur personnels, les mettrait en demeure de conclure des contrats de solidarité ou les obligerait, en tout état de cause, à financer ce système.</seg>
+                                <seg>Cette disposition de la loi d'habilitation prévoit un système de retraite anticipée pour les agents employés par des collectivités locales ayant souscrit des contrats de solidarité. Le financement de cette mesure s'effectuera par un fonds de péréquation alimenté par l'ensemble des collectivités locales ou de leurs groupements.</seg>
+                                <seg>Il y a lieu de mentionner la contrariété qui existe entre ce texte et l'esprit du projet de loi sur la décentralisation mais cette considération est sans pertinence sur le plan constitutionnel.</seg>
+                                <seg>L'argument des députés auteurs de la saisine paraît ici encore peu fondé. En effet, l'article 72 de la Constitution qui dispose que les collectivités territoriales "s'administrent librement par conseils élus et dans les conditions prévues par la loi" renvoie à l'article 34 de la Constitution aux termes duquel "la loi détermine les principes fondamentaux... de la libre administration des collectivités locales, de leurs compétences et de leurs ressources". C'est donc dans le respect de ces dispositions de la Constitution que le législateur a institué ce système de retraite anticipée des agents des collectivités locales avec un financement au moyen d'un fonds de péréquation.</seg>
+                                <seg>La violation alléguée de l'article 72 de la Constitution paraît donc sans fondement.</seg>
+                                <seg><hi rend="underline">Le cinquième moyen</hi> de la saisine concerne <hi rend="underline">l'article 1er, alinéa 4</hi>, de la loi d'habilitation.</seg>
+                                <seg>Les auteurs de la saisine prétendent que le vote de cet alinéa 4° serait intervenu de façon irrégulière. Ils font valoir que l'irrecevabilité de l'article 40 de la Constitution a été opposée à tort à trois amendements présentés par Monsieur SEGUIN, député. Pour eux, en effet, s'agissant d'une loi d'orientation qui ne prévoit pas de dépenses, cette irrecevabilité ne devait pas être appliquée à des amendements qui ne pouvaient entraîner ni une augmentation des dépenses ni une diminution des recettes publiques.</seg>
+                                <seg>Pour examiner ce moyen, il y a lieu tout d'abord d'analyser les trois amendements litigieux numéros 53, 54 et 55.</seg>
+                                <seg>L'amendement 53 tendait à instituer une allocation compensatoire de départ à la retraite à soixante ans financée par l'U.N.E.D.I.C.</seg>
+                                <seg>L'amendement 54 tendait à proroger ou à adapter les dispositions de l'accord interprofessionnel sur la garantie des ressources.</seg>
+                                <seg>L'amendement 55 tendait à abaisser l'âge à partir duquel les dispositions conventionnelles relatives à la garantie des ressources peuvent s'appliquer aux demandeurs d'emploi.</seg>
+                                <pb n="7"/>
+                                <seg>L'examen de ces trois amendements montre qu'ils étaient tous de nature à aggraver les "charges publiques" au sens large que donne à ces termes le Conseil constitutionnel. Il apparaît donc que c'est à bon droit que leur a été opposée l'irrecevabilité de l'article 40 de la Constitution.</seg>
+                                <seg>Il n'y a pas lieu enfin de s'attarder sur l'argument des saisissants suivant lequel l'article 40 de la Constitution ne saurait jouer dans le cas d'une loi d'orientation qui ne pourrait engager que des dépenses facultatives. D'une part, il est certain que les amendements susmentionnés constituaient des incitations, peut-être indirectes mais certaines, à l'alourdissement des dépenses publiques et, d'autre part, l'article 40 de la Constitution est d'application générale. Il ne saurait être fait de distinction entre des lois ordinaires et des lois d'orientation.</seg>
+                                <seg>C'est pour ces raisons qu'il est proposé de rejeter ce moyen.</seg>
+                                <seg>Monsieur le Rapporteur indique qu'il en a terminé avec son exposé. Il précise que l'examen des autres dispositions de la loi non mises en cause par les députés saisissants ne soulève pas de difficulté d'ordre constitutionnel. Il conclut à une déclaration de conformité de ce texte à la Constitution.</seg>
+                            </writing>
+                        </div4>
                         <div4 type="discussion">
                             <u who="#frey_roger">
                                 <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur LECOURT de son rapport et déclare que la discussion générale est ouverte.</seg>
@@ -11796,17 +11799,21 @@
                             <u who="#frey_roger">
                                 <seg><hi rend="underline">Monsieur le Président</hi> déclare que la discussion générale est close et met le projet de décision au vote.</seg>
                             </u>
-                            <div5 type="vote" n="1">
-                                <p>Le projet est adopté à l'unanimité par les membres du Conseil.</p>
-                            </div5>
+                            <writing>
+                                <seg><span type="vote">Le projet est adopté à l'unanimité par les membres du Conseil.</span></seg>
+                            </writing>
                         </div4> 
                     </div3>
+                    <div3 type="cloture">
+                        <writing>
+                            <seg>La séance est levée à 18 h 25.</seg>
+                        <writing>
+                    </div3>
                 </div2>
-                <trailer>
-                    <seg>La séance est levée à 18 h 25.</seg>
-                </trailer>
             </div1>
         </body>
-        <back><p>Cette décision ne comporte pas d'annexe</p></back>
+        <back>
+            <p>Cette décision ne comporte pas d'annexe</p>
+        </back>
     </text>
 </TEI>
