@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,71 +11682,77 @@
         <head type="1">SEANCE DU VENDREDI 22 OCTOBRE 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p>Le Conseil constitutionnel se réunit à 14 h 30, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>			   
+                <writing>
+                    <seg>Le Conseil constitutionnel se réunit à 14 h 30, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                </writing>
             </div4>
             <div4 type="ordreDuJour">
-                <p><hi rend="underline">Monsieur Ie Président</hi> indique que l'ordre du jour porte sur	 1'examen, en application de l'article 61, alinéa 2, de la Constitution,  du texte de la loi relative au développement des institutions représentatives du personnel, telle qu'elle a été adoptée par le Parlement.</p>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour porte sur	 1'examen, en application de l'article 61, alinéa 2, de la Constitution,  du texte de la loi relative au développement des institutions représentatives du personnel, telle qu'elle a été adoptée par le Parlement.</seg>
+                </u>
             </div4>
         </div3>
         <!--rappel du numéro de la décision prise -->
         <div3 type="question" n="1" corresp="#DC-82-144">
             <div4 type="introduction">
-                <p>Le rapport de cette affaire sera présenté par Monsieur Georges VEDEL à qui Monsieur le Président donne la parole.</p>
+                <writing>
+                    <seg>Le rapport de cette affaire sera présenté par Monsieur Georges VEDEL à qui Monsieur le Président donne la parole.</seg>
+                </writing>
             </div4>
-            <writing type="rapport" who="#vedel_georges">
-                <seg><hi rend="underline">Monsieur VEDEL</hi> indique que si cette loi est longue et touffue, la saisine la déférant au Conseil se limite au seul article 8.</seg>
-                <seg>Le rapporteur précise que la lecture de l'ensemble du texte n'appelle pas impérativement que le Conseil se saisisse d'autre grief que celui soulevé par les requérants.</seg>
-                <seg>Il convient donc, immédiatement, de prendre connaissance de cet article 8 :</seg>
-                <seg>"Aucune action ne peut être intentée à l'encontre de salariés, de représentants du personnel élus ou désignés ou d'organisations syndicales de salariés, en réparation des dommages causés par un conflit collectif de travail ou à l'occasion de celui-ci, hormis les actions en réparation du dommage causé par une infraction pénale et du dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical. Ces dispositions sont applicables aux procédures en cours, y compris devant la Cour de cassation".</seg>
-                <seg>Monsieur le Doyen VEDEL se propose de développer son rapport de la façon suivante : après avoir situé l'origine de cet article, il conviendra de l'examiner pour, ensuite, dégager une réponse aux problèmes qu'il pose.</seg>
-                <seg><hi rend="underline">I. L'ORIGINE DE L'ARTICLE 8 :</hi></seg>
-                <seg>Cette disposition ne figurait pas dans le projet de loi. Elle est apparue lors des travaux de la Commission de l'Assemblée nationale Le Gouvernement l'a acceptée, après qu'elle ait été remaniée par ses juristes. Comme le Sénat a refusé l'ensemble du projet, le Conseil est donc saisi du texte adopté par l'Assemblée nationale.</seg>
-                <seg>Il faut avoir à l'esprit que ce texte répond à une préoccupation grave. En effet, hormis l'article L. 521-1 du Code du travail qui énonce que "la grève ne rompt pas le contrat de travail, sauf faute lourde imputable au salarié", l'ensemble du statut du droit de grève dans le secteur privé repose sur une construction jurisprudentielle. La Cour de cassation et les juridictions du fonds ont bâti une <pb n="2"/> construction complexe et parfois incertaine, construction qui, d'ailleurs, ne recueille pas le consensus des spécia1istes.</seg>
-                <seg>Le Principe même de la grève n'étant pas défini par le législateur, i1 en résulte de graves incertitudes. Doit-on, par exemple, considérer comme une grève licite une grève politique ? Qu'en est-il de la grève de solidarité ou de la grève du zèle ? Comment doit-on considérer les piquets de grève ? La grève suspend-elle le contrat de travail ou l'exécution du contrat de travail ?</seg>
-                <seg>Toutes ces questions restent sans réponse nette ou du moins indiscu-table. En cette matière, la complexité du droit du travail dépasse de loin les questions les plus complexes qui peuvent se poser en droit administratif.</seg>
-                <seg>C'est sur ce droit incertain que viennent se greffer des questions de responsabilité civile. En effet, si un employeur et un salarié entretiennent des relations contractuelles, à l'occasion de grèves, des faits de quasi-délit peuvent engager la responsabilité du salarié gréviste. Sur ce point, ni la Cour de cassation, ni les tribunaux du fonds n'ont hésité à retenir la responsabilité civile de salariés ou de syndicats, à l'occasion de faits de grève illicite , sur le fondement de l'article 1 382 du Code civil. A l'origine, ces actions en responsabilité sont apparues quelque peu folkloriques mais, à la suite de débordements regrettables, certaines actions en responsabilité de la part d'employeurs ont pris un caractère très sérieux. Il est amusant de noter, par exemple, que la Régie Renault avait intenté une action en responsabilité contre certains syndicats, action à laquelle vient d'ailleurs de renoncer la nouvelle direction.</seg>
-                <seg>Un des maîtres du droit du travail, Monsieur DUPEYROUX, qui sait distinguer entre le droit et ses convictions personnelles, indique que l'intimidation par menace d'actions en justice contre les syndicats est une arme très efficace, les syndicats étant, en effet, très soucieux de ne pas compromettre leur situation financière. Les syndicalistes se trouvent dans une situation angoissante qui serait celle d'un conducteur d'automobile qui roulant sur une autoroute ne disposerait que d'un seul article du Code de la route, lui indiquant seulement que tout conducteur doit conduire avec prudence et intelligence. Cette question de la responsabilité délictuelle en matière de grève est au centre des préoccupations des milieux syndicaux.</seg>
-                <seg>Un droit jurisprudentiel est souvent admirable pour le juriste mais il est de nature à dérouter le simple citoyen. Il est difficile, pour le syndicaliste de base, homme souvent dévoué à ses collègues, de savoir au juste si une grève qu'il vient d'entreprendre est ou non licite. Le remède à ces incertitudes serait que le législateur se prononce sur le droit de grève, ce qui éviterait de s'en remettre aux tribunaux. Il est clair qu'en la matière il importe qu'il y ait un droit législatif ou réglementaire. Le législateur ne s'est pas encore engagé sur cette voie. Il se contente, aujourd'hui, d'essayer de se défausser d'une partie de ce problème, au moyen des disposi-tions litigieuses de l'article 8.</seg>
-                <pb n="3"/>
-                <seg><hi rend="underline">II. EXAMEN DES DISPOSITIONS DE L'ARTICLE 8 DE LA LOI :</hi></seg>
-                <seg>Cet article 8 dispose, rappelons-le :</seg>
-                <seg>"Aucune action ne peut être intentée à l'encontre de salariés, de représentants du personnel élus ou désignés ou d'organisations syndicales de salariés, en réparation des dommages causés par un conflit collectif de travail ou à l'occasion de celui-ci, hormis les actions en réparation du dommage causé par une infraction pénale et du dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical. Ces dispositions sont applicables aux procédures en cours, y compris devant la Cour de cassation".</seg>
-                <seg>Ce texte institue une immunité de responsabilité très générale au profit des salariés. Les victimes de faits de grève dommageables se voient opposer une véritable irrecevabilité. Certes, la loi pose deux exceptions à cette irrecevabilité, mais quelle est exactement l'étendue de ces exceptions ?</seg>
-                <seg>La première exception vise la réparation de dommages causés par une infraction pénale. Il s'agit d'une limitation sérieuse à 1'irresponsabi1ité et elle couvre un très grand nombre de faits dommageables. En revanche, la seconde exception prévue par la loi est une simple pirouette. Que faut-il comprendre par les termes "dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical" ? En réalité, cette exception n'en est pas une.On ne peut l'assimi1ier au ca d'un acte commis par un fonctionnaire qui est manifestement insusceptible de se rattacher au fonctionnement du service public car, loin d'engager à la fois, comme en droit administratif, la responsabilité de l'agent avec celle de l'Etat, la présente disposition institue un véritable régime d'irresponsabilité.</seg> <seg>Contrairement à ce que soutient la note du Gouvernement, les deux exceptions à l'article 8 ne sont pas de nature à couvrir toutes les hypothèses de responsabilité. En réalité, un champ entier de dommages sera soustrait à toute réparation : des faits qui ne peuvent recevoir de qualification pénale mais qui constituent de graves fautes imputa- bles à un salarié ou à un syndicat échappent à tout engagement de responsabilité. Tel sera, par exemple, le cas de faits de grève politique ou de faits de grève commis en violation manifeste d'une convention collective.</seg>
-                <seg>Cette immunité est d'autant plus étendue que la victime, l'employeur le plus souvent, se voit refuser toute indemnisation de son dommage. Il n'existe, en effet, aucun système de fonds de garantie ou d'assurance et, en outre, il ressort des travaux préparatoires que le législateur a expressément entendu que l'Etat ne soit pas tenu à réparation aux victimes. C'est dire que la jurisprudence S.A. des Produits laitiers La Fleurette (Conseil d'Etat 14 janvier 1938 [grands arrêts, page 189]) ne saurait jouer en l'espèce, en raison de la volonté expresse du législateur. Le Conseil d'Etat avait admis, en effet, sur la base de l'égalité devant les charges publiques, que certaines lois pouvaient engager la responsabilité de l'Etat. Ainsi, une loi interdisant la fabrication de certains produits dérivés du lait engageait la responsabilité de l'Etat envers les fabriquants de ces produits. Cette jurisprudence ne peut jouer en l'espèce.</seg>
-                <pb n="4"/>
-                <seg>Il existera donc des victimes de fautes qui ne disposeront d'aucun recours contre quiconque.</seg>
-                <seg><hi rend="underline">III. PROBLEMES SOULEVES PAR LA SAISINE :</hi></seg>
-                <seg>Le souci de libérer le droit de grève de certaines entraves ou menaces légitime-t-il le sort fait aux victimes d'actes quasi-dé1ictueux ?</seg>
-                <seg>Instinctivement, cette situation paraît inacceptable et ceci pour un ensemble de raisons. Les motifs qui viennent à l'esprit sont tellement nombreux qu'il faut paradoxalement sérier entre eux.</seg>
-                <seg>On serait tenté de dire que le texte déféré institue un privilège au profit d'une certaine catégorie de citoyens. Ce raisonnement ne peut être retenu car il supposerait établi un fondement constitutionnel au principe de la responsabilité. Or, un tel fondement ne peut être trouvé dans la Déclaration de 1789. En outre, il existe des cas d'irresponsabilité: un employeur ne peut être poursuivi sauf cas de faute inexcusable, à l'occasion d'un accident du travail. Ce qui est choquant, en l'espèce, plus que l'absence de responsabilité est l'inexistance de toute réparation au profit de la victime.</seg>
-                <seg>On serait tenté également de conclure que le présent texte va à l'encontre de l'évolution du droit de la responsabilité. Ce droit, en effet, connaît une extension sans cesse accrue. Ainsi, la Cour de cassation, au mois de juillet 1982, a écarté la notion de faute imputable à un piéton victime d'un accident de la route. Par là-même, elle a étendu les droits en réparation de ce piéton. Dans le même ordre d'idée, on serait tenté de dire qu'il est paradoxal de voir un texte qui veut promouvoir le syndicalisme instituer une forme d'irresponsabilité au profit des syndicats qui sont dans la situation ancienne des déments irresponsables. Ce raisonnement ne peut être retenu car il n'appartient pas au Conseil constitutionnel de se prononcer sur l'opportunité des lois.</seg>
-                <seg>Où donc situer l'inconstitutionnalité de ce texte ?</seg>
-                <seg>Il faut bien constater que la saisine apporte bien peu de réponses. A ce sujet, on souhaiterait pouvoir inviter les saisissants à s'adresser à des juristes sérieux. Le Conseil constitutionnel a tout lieu d'envier le Conseil d'Etat qui a la chance de disposer du filtre des avocats aux conseils, lesquels en gens peu frivoles évitent de lui soumettre toutes sortes de réflexions oiseuses.</seg>
-                <seg>Les saisissants, tels le docteur dans "La jalousie du Barbouillé", en rajoutent. Le texte de l'article 8 violerait sept fois la Constitution. Il méconnaîtrait les articles 1, 2 et 4 de la Déclara- tion de 1789, les principes fondamentaux reconnus par les lois de la République du droit en réparation et de la réparation des abus de droit, le principe d'égalité, la liberté et l'égalité et, enfin, un principe fondamental reconnu par les lois de la République en vertu duquel la Cour de cassation connaît des jugements en droit et non en fait. Tout cela manque souvent de sérieux et, sauf quelques rares éclairs, la saisine ne saurait aider le Conseil constitutionnel.</seg>
-                <seg>La note du Gouvernement est d'une meilleure qualité. Elle révèle cependant les faiblesses constitutionnelles du texte attaqué. C'est que, malgré tous ses efforts, cette note illustre qu'il n'existe pas, en droit français, de précédent déniant à une victime tout droit à réparation.</seg>
-                <pb n="5"/>
-                <seg>Dans ce malstrom d'arguments hétéroclites, comment le Conseil constitutionnel peut-il se déterminer ?</seg>
-                <seg>Pour sa part, Monsieur le rapporteur considère que la question qui est soulevée est trop grave pour que le Conseil puisse s'appuyer sur des arguments d'opportunité.</seg>
-                <seg>En réalité, quatre voies s'ouvrent à lui.</seg>
-                <seg>La première voie, quelque peu paresseuse et dangereuse, consisterait à reconnaître l'existence d'un principe fondamental reconnu par les lois de la République, en vertu duquel aucun dommage résultant d'une faute ne peut rester sans réparation. Cela reviendrait à se fonder sur l'article 1 382 du Code civil, ce qui parait dangereux dans la mesure où le droit civil est un droit des moeurs en évolution constante. Il est le moins apte de tous les droits à se laisser enfermer dans des formules immuables. Il faut veiller à éviter de constitutionnaliser un droit qui est le reflet de la vie de la cité.</seg>
-                <seg>S'il est exact qu'aujourd'hui il n'y a pas d'exception en droit civil, à l'obligation de réparation des dommages causés par une faute, quelle serait la situation si demain la loi décidait de forfaitiser la réparation des accidents d'automobiles. Par ailleurs, Monsieur le rapporteur considère qu'un principe fondamental reconnu par les lois de la République ne peut être consacré qu'à deux conditions. Il faut qu'il s'agisse d'une part de l'ultima ratio, c'est-à-dire que le Conseil constitutionnel ne dispose pas d'autres arguments plus proches des textes constitutionnels. Tel était le cas, par exemple, pour la liberté d'association. Par ailleur, puisque le Conseil hausse un texte de loi au niveau constitutionnel, il faut que le législateur ait eu le sentiment que la loi qu'il rendait avait un caractère immuable, que nul ne pourrait y toucher.</seg>
-                <seg>Ces raisons ne semblent pas réunies en l'espèce. Il faut ajouter, au surplus, que pour éviter tout reproche de subjectivisme.il appartien au Conseil constitutionnel d'user, avec une extrême prudence, de cette notion.</seg>
-                <seg>La seconde voie qui pourrait s'ouvrir au Conseil emprunterait son fondement à la jurisprudence précitée La Fleurette. Dans ce cas, le Conseil constitutionnel considérerait qu'il est loisible au législateur d'assimiler les abus, commis à l'occasion du droit de grève ou du droit syndical, à un risque mais que, dans ce cas, il appartient aux pouvoirs publics de réparer le dommage causé par ce risque en application du principe d'égalité devant les charges publiques. Cette solution laisserait intacts les droits du législateur. Cependant, elle appelle deux réserves. L'une purement intellectuelle, l'autre plus pragmatique. Cette solution amènerait en effet le Conseil constitutionnel à construire une théorie avec tout ce que cela suppose de délicat. Le Conseil devra préciser cette théorie et lui apporter des exceptions. Cette théorie risquerait même d'enchaîner le Conseil constitutionnel à une logique qui lui échapperait. Plus pragmatiquement, cette voie constituerait une incitation à la dépense publique. A ce sujet, on ne peut manquer de se souvenir des observations sarcastiques qui ont accueilli la première décision sur les nationalisations, le Conseil constitutionnel ayant été critiqué en raison de son caractère dépensier.</seg>
-                <pb n="6"/>
-                <seg>Une troisième voie s'ouvre au Conseil. Il est tentant, en effet, de souligner qu'on ne peut, sans contradiction, poser des bornes au droit de grève ou au droit syndical et admettre, simultanément, que celui qui les franchit exerce une liberté. Ne serait-ce pas admettre l'existence d'une liberté qui puisse nuire à autrui ? Cette solution est séduisante mais difficile à formuler. Elle encourt, par ailleurs, le reproche d'être plus métaphysique que juridique. Le Conseil constitutionnel n'a pas, en effet, à s'inspirer du modèle des décisions allemandes ou américaines qui parfois s'abandonnent à des considérations quasi-philosophiques.</seg>
-                <seg>La quatrième voie, celle que propose Monsieur le rapporteur, se fonde sur le principe d'égalité. Ici, encore, se pose la question du fondement de la jurisprudence du Conseil en matière d'égalité. Il est évident que ce principe ne peut être absolu, tout droit étant inégalitaire. Pour certains auteurs, la jurisprudence du Conseil manquerait de base légale. Pour Monsieur LEBEN, il appartiendrait seulement au Conseil de censurer les discriminations expressément interdites par la Constitution (discrimination raciale ou de sexe). Dans les autres cas, le législateur serait souverain dans son appréciation. Cette théorie ne peut être retenue. Le Conseil admettrait-i1, en effet, sous prétexte que cette discrimination n'est pas interdite par la Constitution, que le législateur puisse exempter de service militaire les hommes aux cheveux roux ? Il faut, en réalité, considérer que l'égalité est un droit qui, comme tous les autres droits peut parfois plier, dans un but de justice sociale. C'est dire que dans chaque cas il faut examiner si l'atteinte à l'égalité instituée par le législateur est justifiée. Il s'agit non pas de brider le Gouvernement et le législateur, le Conseil aurait pû admettre, par exemple, l'exclusion de toute responsabilité pour des fautes commises de bonne foi à l'occasion de faits de grève, mais peut-il aller jusqu'à admettre que la loi sacrifie le droit à réparation des victimes ? Il ne s'agit pas d'une modalité du droit à réparation mais d'une disparition pure et simple du principe même de la réparation. Cette rupture de l'égalité est véritablement trop manifeste pour être acceptable. C'est dans ce sens que Monsieur le rapporteur a rédigé le projet de décision qu'il se propose de soumettre au Conseil.</seg>
-                <seg>Cette décision déclare inconstitutionnelle la disposition litigieuse mais la reconnaît séparable de l'ensemble du texte de loi. Elle appelle indirectement le législateur à se pencher sur la réglementation du droit de grève.</seg>
-                <seg>Monsieur le rapporteur est conscient que cette décision risque d'être mal accueillie dans les milieux syndicaux mais, pour sa part, il n'hésite pas quant à la solution. Il admet qu'il n'est pas facile de conduire une action syndicale mais la sympathie qu'on peut éprouver pour des militants syndicaux ne peut entraîner une adhésion aveugle. Ce serait admettre qu'il existe deux sortes de droits, d'une part le droit de tout le monde et, d'autre part, un droit à caractère sacré, le droit du prolétariat. Contrairement aux observations de la note du Gouvernement, on ne peut faire bénéficier le droit de grève d'une présomption "d'immaculée Conception".Il s'agit, pour le Conseil constitutionnel, de rappeler le droit positif de la République française en son état actuel.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#vedel_georges">
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> indique que si cette loi est longue et touffue, la saisine la déférant au Conseil se limite au seul article 8.</seg>
+                    <seg>Le rapporteur précise que la lecture de l'ensemble du texte n'appelle pas impérativement que le Conseil se saisisse d'autre grief que celui soulevé par les requérants.</seg>
+                    <seg>Il convient donc, immédiatement, de prendre connaissance de cet article 8 :</seg>
+                    <seg>"Aucune action ne peut être intentée à l'encontre de salariés, de représentants du personnel élus ou désignés ou d'organisations syndicales de salariés, en réparation des dommages causés par un conflit collectif de travail ou à l'occasion de celui-ci, hormis les actions en réparation du dommage causé par une infraction pénale et du dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical. Ces dispositions sont applicables aux procédures en cours, y compris devant la Cour de cassation".</seg>
+                    <seg>Monsieur le Doyen VEDEL se propose de développer son rapport de la façon suivante : après avoir situé l'origine de cet article, il conviendra de l'examiner pour, ensuite, dégager une réponse aux problèmes qu'il pose.</seg>
+                    <seg><hi style="titre2">I. L'ORIGINE DE L'ARTICLE 8 :</hi></seg>
+                    <seg>Cette disposition ne figurait pas dans le projet de loi. Elle est apparue lors des travaux de la Commission de l'Assemblée nationale Le Gouvernement l'a acceptée, après qu'elle ait été remaniée par ses juristes. Comme le Sénat a refusé l'ensemble du projet, le Conseil est donc saisi du texte adopté par l'Assemblée nationale.</seg>
+                    <seg>Il faut avoir à l'esprit que ce texte répond à une préoccupation grave. En effet, hormis l'article L. 521-1 du Code du travail qui énonce que "la grève ne rompt pas le contrat de travail, sauf faute lourde imputable au salarié", l'ensemble du statut du droit de grève dans le secteur privé repose sur une construction jurisprudentielle. La Cour de cassation et les juridictions du fonds ont bâti une <pb n="2"/> construction complexe et parfois incertaine, construction qui, d'ailleurs, ne recueille pas le consensus des spécia1istes.</seg>
+                    <seg>Le Principe même de la grève n'étant pas défini par le législateur, i1 en résulte de graves incertitudes. Doit-on, par exemple, considérer comme une grève licite une grève politique ? Qu'en est-il de la grève de solidarité ou de la grève du zèle ? Comment doit-on considérer les piquets de grève ? La grève suspend-elle le contrat de travail ou l'exécution du contrat de travail ?</seg>
+                    <seg>Toutes ces questions restent sans réponse nette ou du moins indiscu-table. En cette matière, la complexité du droit du travail dépasse de loin les questions les plus complexes qui peuvent se poser en droit administratif.</seg>
+                    <seg>C'est sur ce droit incertain que viennent se greffer des questions de responsabilité civile. En effet, si un employeur et un salarié entretiennent des relations contractuelles, à l'occasion de grèves, des faits de quasi-délit peuvent engager la responsabilité du salarié gréviste. Sur ce point, ni la Cour de cassation, ni les tribunaux du fonds n'ont hésité à retenir la responsabilité civile de salariés ou de syndicats, à l'occasion de faits de grève illicite , sur le fondement de l'article 1 382 du Code civil. A l'origine, ces actions en responsabilité sont apparues quelque peu folkloriques mais, à la suite de débordements regrettables, certaines actions en responsabilité de la part d'employeurs ont pris un caractère très sérieux. Il est amusant de noter, par exemple, que la Régie Renault avait intenté une action en responsabilité contre certains syndicats, action à laquelle vient d'ailleurs de renoncer la nouvelle direction.</seg>
+                    <seg>Un des maîtres du droit du travail, Monsieur DUPEYROUX, qui sait distinguer entre le droit et ses convictions personnelles, indique que l'intimidation par menace d'actions en justice contre les syndicats est une arme très efficace, les syndicats étant, en effet, très soucieux de ne pas compromettre leur situation financière. Les syndicalistes se trouvent dans une situation angoissante qui serait celle d'un conducteur d'automobile qui roulant sur une autoroute ne disposerait que d'un seul article du Code de la route, lui indiquant seulement que tout conducteur doit conduire avec prudence et intelligence. Cette question de la responsabilité délictuelle en matière de grève est au centre des préoccupations des milieux syndicaux.</seg>
+                    <seg>Un droit jurisprudentiel est souvent admirable pour le juriste mais il est de nature à dérouter le simple citoyen. Il est difficile, pour le syndicaliste de base, homme souvent dévoué à ses collègues, de savoir au juste si une grève qu'il vient d'entreprendre est ou non licite. Le remède à ces incertitudes serait que le législateur se prononce sur le droit de grève, ce qui éviterait de s'en remettre aux tribunaux. Il est clair qu'en la matière il importe qu'il y ait un droit législatif ou réglementaire. Le législateur ne s'est pas encore engagé sur cette voie. Il se contente, aujourd'hui, d'essayer de se défausser d'une partie de ce problème, au moyen des disposi-tions litigieuses de l'article 8.</seg>
+                    <pb n="3"/>
+                    <seg><hi style="titre2">II. EXAMEN DES DISPOSITIONS DE L'ARTICLE 8 DE LA LOI :</hi></seg>
+                    <seg>Cet article 8 dispose, rappelons-le :</seg>
+                    <seg>"Aucune action ne peut être intentée à l'encontre de salariés, de représentants du personnel élus ou désignés ou d'organisations syndicales de salariés, en réparation des dommages causés par un conflit collectif de travail ou à l'occasion de celui-ci, hormis les actions en réparation du dommage causé par une infraction pénale et du dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical. Ces dispositions sont applicables aux procédures en cours, y compris devant la Cour de cassation".</seg>
+                    <seg>Ce texte institue une immunité de responsabilité très générale au profit des salariés. Les victimes de faits de grève dommageables se voient opposer une véritable irrecevabilité. Certes, la loi pose deux exceptions à cette irrecevabilité, mais quelle est exactement l'étendue de ces exceptions ?</seg>
+                    <seg>La première exception vise la réparation de dommages causés par une infraction pénale. Il s'agit d'une limitation sérieuse à 1'irresponsabi1ité et elle couvre un très grand nombre de faits dommageables. En revanche, la seconde exception prévue par la loi est une simple pirouette. Que faut-il comprendre par les termes "dommage causé par des faits manifestement insusceptibles de se rattacher à l'exercice du droit de grève ou du droit syndical" ? En réalité, cette exception n'en est pas une.On ne peut l'assimi1ier au ca d'un acte commis par un fonctionnaire qui est manifestement insusceptible de se rattacher au fonctionnement du service public car, loin d'engager à la fois, comme en droit administratif, la responsabilité de l'agent avec celle de l'Etat, la présente disposition institue un véritable régime d'irresponsabilité.</seg> <seg>Contrairement à ce que soutient la note du Gouvernement, les deux exceptions à l'article 8 ne sont pas de nature à couvrir toutes les hypothèses de responsabilité. En réalité, un champ entier de dommages sera soustrait à toute réparation : des faits qui ne peuvent recevoir de qualification pénale mais qui constituent de graves fautes imputables à un salarié ou à un syndicat échappent à tout engagement de responsabilité. Tel sera, par exemple, le cas de faits de grève politique ou de faits de grève commis en violation manifeste d'une convention collective.</seg>
+                    <seg>Cette immunité est d'autant plus étendue que la victime, l'employeur le plus souvent, se voit refuser toute indemnisation de son dommage. Il n'existe, en effet, aucun système de fonds de garantie ou d'assurance et, en outre, il ressort des travaux préparatoires que le législateur a expressément entendu que l'Etat ne soit pas tenu à réparation aux victimes. C'est dire que la jurisprudence S.A. des Produits laitiers La Fleurette (Conseil d'Etat 14 janvier 1938 [grands arrêts, page 189]) ne saurait jouer en l'espèce, en raison de la volonté expresse du législateur. Le Conseil d'Etat avait admis, en effet, sur la base de l'égalité devant les charges publiques, que certaines lois pouvaient engager la responsabilité de l'Etat. Ainsi, une loi interdisant la fabrication de certains produits dérivés du lait engageait la responsabilité de l'Etat envers les fabriquants de ces produits. Cette jurisprudence ne peut jouer en l'espèce.</seg>
+                    <pb n="4"/>
+                    <seg>Il existera donc des victimes de fautes qui ne disposeront d'aucun recours contre quiconque.</seg>
+                    <seg><hi style="titre2">III. PROBLEMES SOULEVES PAR LA SAISINE :</hi></seg>
+                    <seg>Le souci de libérer le droit de grève de certaines entraves ou menaces légitime-t-il le sort fait aux victimes d'actes quasi-dé1ictueux ?</seg>
+                    <seg>Instinctivement, cette situation paraît inacceptable et ceci pour un ensemble de raisons. Les motifs qui viennent à l'esprit sont tellement nombreux qu'il faut paradoxalement sérier entre eux.</seg>
+                    <seg>On serait tenté de dire que le texte déféré institue un privilège au profit d'une certaine catégorie de citoyens. Ce raisonnement ne peut être retenu car il supposerait établi un fondement constitutionnel au principe de la responsabilité. Or, un tel fondement ne peut être trouvé dans la Déclaration de 1789. En outre, il existe des cas d'irresponsabilité: un employeur ne peut être poursuivi sauf cas de faute inexcusable, à l'occasion d'un accident du travail. Ce qui est choquant, en l'espèce, plus que l'absence de responsabilité est l'inexistance de toute réparation au profit de la victime.</seg>
+                    <seg>On serait tenté également de conclure que le présent texte va à l'encontre de l'évolution du droit de la responsabilité. Ce droit, en effet, connaît une extension sans cesse accrue. Ainsi, la Cour de cassation, au mois de juillet 1982, a écarté la notion de faute imputable à un piéton victime d'un accident de la route. Par là-même, elle a étendu les droits en réparation de ce piéton. Dans le même ordre d'idée, on serait tenté de dire qu'il est paradoxal de voir un texte qui veut promouvoir le syndicalisme instituer une forme d'irresponsabilité au profit des syndicats qui sont dans la situation ancienne des déments irresponsables. Ce raisonnement ne peut être retenu car il n'appartient pas au Conseil constitutionnel de se prononcer sur l'opportunité des lois.</seg>
+                    <seg>Où donc situer l'inconstitutionnalité de ce texte ?</seg>
+                    <seg>Il faut bien constater que la saisine apporte bien peu de réponses. A ce sujet, on souhaiterait pouvoir inviter les saisissants à s'adresser à des juristes sérieux. Le Conseil constitutionnel a tout lieu d'envier le Conseil d'Etat qui a la chance de disposer du filtre des avocats aux conseils, lesquels en gens peu frivoles évitent de lui soumettre toutes sortes de réflexions oiseuses.</seg>
+                    <seg>Les saisissants, tels le docteur dans "La jalousie du Barbouillé", en rajoutent. Le texte de l'article 8 violerait sept fois la Constitution. Il méconnaîtrait les articles 1, 2 et 4 de la Déclaration de 1789, les principes fondamentaux reconnus par les lois de la République du droit en réparation et de la réparation des abus de droit, le principe d'égalité, la liberté et l'égalité et, enfin, un principe fondamental reconnu par les lois de la République en vertu duquel la Cour de cassation connaît des jugements en droit et non en fait. Tout cela manque souvent de sérieux et, sauf quelques rares éclairs, la saisine ne saurait aider le Conseil constitutionnel.</seg>
+                    <seg>La note du Gouvernement est d'une meilleure qualité. Elle révèle cependant les faiblesses constitutionnelles du texte attaqué. C'est que, malgré tous ses efforts, cette note illustre qu'il n'existe pas, en droit français, de précédent déniant à une victime tout droit à réparation.</seg>
+                    <pb n="5"/>
+                    <seg>Dans ce malstrom d'arguments hétéroclites, comment le Conseil constitutionnel peut-il se déterminer ?</seg>
+                    <seg>Pour sa part, Monsieur le rapporteur considère que la question qui est soulevée est trop grave pour que le Conseil puisse s'appuyer sur des arguments d'opportunité.</seg>
+                    <seg>En réalité, quatre voies s'ouvrent à lui.</seg>
+                    <seg>La première voie, quelque peu paresseuse et dangereuse, consisterait à reconnaître l'existence d'un principe fondamental reconnu par les lois de la République, en vertu duquel aucun dommage résultant d'une faute ne peut rester sans réparation. Cela reviendrait à se fonder sur l'article 1 382 du Code civil, ce qui parait dangereux dans la mesure où le droit civil est un droit des moeurs en évolution constante. Il est le moins apte de tous les droits à se laisser enfermer dans des formules immuables. Il faut veiller à éviter de constitutionnaliser un droit qui est le reflet de la vie de la cité.</seg>
+                    <seg>S'il est exact qu'aujourd'hui il n'y a pas d'exception en droit civil, à l'obligation de réparation des dommages causés par une faute, quelle serait la situation si demain la loi décidait de forfaitiser la réparation des accidents d'automobiles. Par ailleurs, Monsieur le rapporteur considère qu'un principe fondamental reconnu par les lois de la République ne peut être consacré qu'à deux conditions. Il faut qu'il s'agisse d'une part de l'ultima ratio, c'est-à-dire que le Conseil constitutionnel ne dispose pas d'autres arguments plus proches des textes constitutionnels. Tel était le cas, par exemple, pour la liberté d'association. Par ailleur, puisque le Conseil hausse un texte de loi au niveau constitutionnel, il faut que le législateur ait eu le sentiment que la loi qu'il rendait avait un caractère immuable, que nul ne pourrait y toucher.</seg>
+                    <seg>Ces raisons ne semblent pas réunies en l'espèce. Il faut ajouter, au surplus, que pour éviter tout reproche de subjectivisme.il appartien au Conseil constitutionnel d'user, avec une extrême prudence, de cette notion.</seg>
+                    <seg>La seconde voie qui pourrait s'ouvrir au Conseil emprunterait son fondement à la jurisprudence précitée La Fleurette. Dans ce cas, le Conseil constitutionnel considérerait qu'il est loisible au législateur d'assimiler les abus, commis à l'occasion du droit de grève ou du droit syndical, à un risque mais que, dans ce cas, il appartient aux pouvoirs publics de réparer le dommage causé par ce risque en application du principe d'égalité devant les charges publiques. Cette solution laisserait intacts les droits du législateur. Cependant, elle appelle deux réserves. L'une purement intellectuelle, l'autre plus pragmatique. Cette solution amènerait en effet le Conseil constitutionnel à construire une théorie avec tout ce que cela suppose de délicat. Le Conseil devra préciser cette théorie et lui apporter des exceptions. Cette théorie risquerait même d'enchaîner le Conseil constitutionnel à une logique qui lui échapperait. Plus pragmatiquement, cette voie constituerait une incitation à la dépense publique. A ce sujet, on ne peut manquer de se souvenir des observations sarcastiques qui ont accueilli la première décision sur les nationalisations, le Conseil constitutionnel ayant été critiqué en raison de son caractère dépensier.</seg>
+                    <pb n="6"/>
+                    <seg>Une troisième voie s'ouvre au Conseil. Il est tentant, en effet, de souligner qu'on ne peut, sans contradiction, poser des bornes au droit de grève ou au droit syndical et admettre, simultanément, que celui qui les franchit exerce une liberté. Ne serait-ce pas admettre l'existence d'une liberté qui puisse nuire à autrui ? Cette solution est séduisante mais difficile à formuler. Elle encourt, par ailleurs, le reproche d'être plus métaphysique que juridique. Le Conseil constitutionnel n'a pas, en effet, à s'inspirer du modèle des décisions allemandes ou américaines qui parfois s'abandonnent à des considérations quasi-philosophiques.</seg>
+                    <seg>La quatrième voie, celle que propose Monsieur le rapporteur, se fonde sur le principe d'égalité. Ici, encore, se pose la question du fondement de la jurisprudence du Conseil en matière d'égalité. Il est évident que ce principe ne peut être absolu, tout droit étant inégalitaire. Pour certains auteurs, la jurisprudence du Conseil manquerait de base légale. Pour Monsieur LEBEN, il appartiendrait seulement au Conseil de censurer les discriminations expressément interdites par la Constitution (discrimination raciale ou de sexe). Dans les autres cas, le législateur serait souverain dans son appréciation. Cette théorie ne peut être retenue. Le Conseil admettrait-i1, en effet, sous prétexte que cette discrimination n'est pas interdite par la Constitution, que le législateur puisse exempter de service militaire les hommes aux cheveux roux ? Il faut, en réalité, considérer que l'égalité est un droit qui, comme tous les autres droits peut parfois plier, dans un but de justice sociale. C'est dire que dans chaque cas il faut examiner si l'atteinte à l'égalité instituée par le législateur est justifiée. Il s'agit non pas de brider le Gouvernement et le législateur, le Conseil aurait pû admettre, par exemple, l'exclusion de toute responsabilité pour des fautes commises de bonne foi à l'occasion de faits de grève, mais peut-il aller jusqu'à admettre que la loi sacrifie le droit à réparation des victimes ? Il ne s'agit pas d'une modalité du droit à réparation mais d'une disparition pure et simple du principe même de la réparation. Cette rupture de l'égalité est véritablement trop manifeste pour être acceptable. C'est dans ce sens que Monsieur le rapporteur a rédigé le projet de décision qu'il se propose de soumettre au Conseil.</seg>
+                    <seg>Cette décision déclare inconstitutionnelle la disposition litigieuse mais la reconnaît séparable de l'ensemble du texte de loi. Elle appelle indirectement le législateur à se pencher sur la réglementation du droit de grève.</seg>
+                    <seg>Monsieur le rapporteur est conscient que cette décision risque d'être mal accueillie dans les milieux syndicaux mais, pour sa part, il n'hésite pas quant à la solution. Il admet qu'il n'est pas facile de conduire une action syndicale mais la sympathie qu'on peut éprouver pour des militants syndicaux ne peut entraîner une adhésion aveugle. Ce serait admettre qu'il existe deux sortes de droits, d'une part le droit de tout le monde et, d'autre part, un droit à caractère sacré, le droit du prolétariat. Contrairement aux observations de la note du Gouvernement, on ne peut faire bénéficier le droit de grève d'une présomption "d'immaculée Conception".Il s'agit, pour le Conseil constitutionnel, de rappeler le droit positif de la République française en son état actuel.</seg>
+                </writing>
+            </div4>
             <pb n="7"/>
             <div4 type="discussion">
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur le rapporteur. Il invite alors le Conseil à se prononcer sur le fond de la décision proposée par Monsieur Georges VEDEL.</seg>
+                    <seg><span type="vote">La Solution proposée par le rapporteur sur le fondement de l'égalité est alors adoptée à l'unanimité des membres du Conseil.</span></seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>La Solution proposée par le rapporteur sur le fondement de l'égalité est alors adoptée à l'unanimité des membres du Conseil.</p>
-                </div5>
                 <u who="#frey_roger">
                     <seg>Monsieur le Président demande à Monsieur le Rapporteur de bien vouloir donner lecture de son projet de décision. Il invite alors les membres du Conseil à présenter les observations de forme qu'i1s jugeront utiles.</seg>
                 </u>
@@ -11753,19 +11760,19 @@
                     <seg><hi rend="underline">Monsieur LECOURT</hi> considère que l'article 1 382 du Code civil traduit l'idée que nul n'a le droit nuire à autrui. Ce principe étant exprimé à l'article 4 de la Déclaration de 1789, il souhaiterait que cette mention figure dans la décision et il propose de l'introduire dans le troisième considérant de la page 2 qui serait transformé de la façon suivante :</seg>
                     <seg>A la place de "Considérant qu'en principe tout fait quelconque de l'homme qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer", il faudrait mentionner "Considérant que nul n'ayant le droit de nuire à autrui, en principe, tout fait quelconque de l'homme ... etc."</seg>
                 </u>
-                <div5 type="vote" n="2">
-                    <p>La proposition de modification de Monsieur LECOURT est adoptée par le Conseil.</p>
-                </div5>
+                <writing>
+                    <seg><span type="vote">La proposition de modification de Monsieur LECOURT est adoptée par le Conseil.</span></seg>
+                </writing>
                 <u who="#frey_roger">
                     <seg>Aucune autre observation n'ayant été présentée quant à la forme, <hi rend="underline">Monsieur le Président</hi> soumet le projet de décision au Conseil.</seg>
+                    <seg><span type="vote">Le projet est adopté à l'unanimité des membres.</span></seg>
                 </u>
-                <div5 type="vote" n="3">
-                    <p>Le projet est adopté à l'unanimité des membres.</p>
-                </div5>
             </div4>
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président lève alors la séance à 16 h 45.</p>
+            <writing>
+                <seg>Monsieur le Président lève alors la séance à 16 h 45.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
