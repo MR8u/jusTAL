@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11669,175 +11670,195 @@
  <text>
   <body>
    <!--identifiant de la délibération -->
-   <div1 corresp="#PV1982-02-11" type="pv">
-    <head>
-     <!--identifiant de la délibération -->
-     <title>
-      PV1982-02-11
-     </title>
-    </head>
-    <pb n="1"/>
-    <div2 type="seance">
-        <head type="1">SEANCE DU 11 FEVRIER 1982</head>
-        <div3 type="ouverture">
-            <div4 type="membrePresent">
-                <p>Le Conseil se réunit à 10 heures, tous les membres étant présents à l'exception de M. Valéry GISCARD d'ESTAING excusé.</p>			   
-            </div4>
-            <div4 type="ordreDuJour">
-                <p>Cette séance sera consacrée â l'examen, en application de l'article 61, alinéa 2, de la Constitution de la loi relative à la nationalisation.</p>
-            </div4>
-        </div3>
-        <div3 type="question" n="1" corresp="#DC-82-139">
-            <div4 type="introduction">
-                <p>Le Président donne la parole à M. le Doyen VEDEL qui présente le rapport ci-après.</p>
-            </div4>
-            <writing type="rapport" who="#frey_roger">
-                <seg><hi rend="underline">Monsieur VEDEL</hi> indique, tout d'abord, que malgré les pressions qui ont pu être exercées sur lui, le Gouvernement a évité une crise de procédure qui n'aurait pas manqué d'exister s’il n'avait soumis au Parlement que les dispositions correspondant aux articles qui avaient été déclarés non conformes. Vous vous souvenez que les articles relatifs à l'indemnisation avaient été déclarés inséparables de l'ensemble du texte, il fallait donc revoter la loi toute entière.</seg>
-                <seg>La critique de notre décision sur le texte précédent portait sur trois questions :</seg>
-                <seg>- Les articles 4, 16 et 30 relatifs à l'aliénation des filiales à l'étranger des sociétés nationalisées. Le Conseil avait estimé les pouvoirs donnés à 1'administrateur général trop larges pour que l'on puisse considérer l'article 34 de la Constitution comme correctement appliqué. Deux solutions s'offraient au Gouvernement,soit modifier ces articles, soit les abandonner. C'est cette dernière solution qui a été choisie, la question des conditions dans lesquelles se feraient ces aliénations étant renvoyées à une loi ultérieure actuellement en préparation.</seg>
-                <seg>- D'autre part, la liste des banques posée par l'ancien article 13 avait, été déclarée irrégulière, les banques dont la majorité du capital appartient à un groupe mutualiste ou coopératif ayant été écartées à tort de la nationalisation. Le principe d'égalité ne permettait, en effet, pas de faire un sort spécial à ces sociétés semblables à celles nationalisées tant par leur statut que par leurs conditions de fonctionnement.</seg>
-                <seg>Le Gouvernement inclut à présent, ces sociétés dans celles qui sont nationalisées et d'ailleurs, dans un article 52 du texte qui vous est soumis, prévoit qu'une loi précisera les conditions dans lesquelles ces établissements seront dotés des instruments bancaires nécessaires à l'exercice de leur activité.</seg>
-                <seg>En clair, cela veut dire qu'un statut particulier sera établi pour permettre à ces banques, si elles ne sont pas déjà nationalisées à ce moment, d'échapper à la nationalisation, ou si elles ont déjà été nationalisées, de sortir du secteur public.</seg>
-                <pb n="2"/>
-                <seg>- <hi rend="underline">L'indemnisation</hi> :</seg>
-                <seg>La non conformité à la Constitution de la loi précédente avait porté sur le point essentiel de l'indemnisation, les règles relatives à cette question étant d'ailleurs inséparables de l'ensemble du texte de la loi.</seg>
-                <seg>Sur ce point encore, le Gouvernement a tiré convenablement les conséquences de notre décision. Nous y reviendrons plus en détail, mais sachons dès maintenant, qu'il est procédé à une distinction :</seg>
-                <seg>- Pour les sociétés cotées en bourses, il est procédé à la nationalisation immédiate et l’indemnité est calculée à partir de la moyenne des cours de bourse entre octobre 1980 et mars 1981, la période de référence retenue étant le mois le plus favorable. Les cours sont ajustés pour tenir compte des opérations ayant affecté le capital des sociétés considérées entre 1er octobre 1980 et le 31 décembre 1981.</seg>
-                <seg>La valeur d'échange de l'ensemble des actions d'une société cotée est égale à la somme du produit du nombre d'actions par leur valeur moyenne sur le mois considéré et à celle du montant des sommes distribuées à titre des dividendes pour 1980, le tout étant augmenté de 14% pour tenir compte de la dépréciation de la monnaie.</seg>
-                <seg>- Pour les banques non cotées, un autre système est retenu.</seg>
-                <seg>Notons tout de suite, qu'il n'intéresse en fait que huit des banques non cotées les autres étant soit des filiales nationalisées  du fait même de la nationalisation des sociétés mères, soit des banques dont la majorité des actions appartient à des groupes mutualistes auxquelles nous le savons, la nationalisation  ne s'appliquera pas.</seg>
-                <seg>Le système retenu est fixé par l'article 18 de la loi. Dans un premier paragraphe, il est institué une commission administrative nationale d'évaluation dont la composition offre toutes garanties de sérieux et d'impartialité puisque présidée par le premier Président de la Cour des Compte, elle comprend en outre le Gouverneur de la Banque de France, le Président de la section des finances du Conseil d'Etat, le Président de la chambre commerciale de la Cour de Cassation et un membre du Conseil économique et social désigné par le Président de cette assemblée.</seg>
-                <seg>Le deuxième alinéa de cet article 18 pose les règles que devra suivre cette commission et qui sont, en réalité, des directives dont l'application laisse une marge d'appréciation suffisante à la commission pour qu'elle puisse appliquer son calcul d'une façon individualisée à chacune des sociétés en question.</seg>
-                <seg>La nationalisation de ces sociétés non cotées n'interviendra qu'au 1er juillet 1982, la commission étant chargée de fixer la valeur d'échange des actions au 30 juin 1982 (à la fois date ultime pour la conclusion de ses travaux et date à laquelle doit être appréciée la valeur desdites actions).</seg>
-                <pb n="3"/>
-                <seg>On voit donc par cette rapide analyse des dispositions nouvelles rapprochées de notre décision du 16 janvier que le Gouvernement s'est efforcé de respecter l'esprit de notre décision malgré les pressions assez vives dont il a été l'objet de la part de la majorité.</seg>
-                <seg>La saisine émane simplement des députés, les sénateurs n'ont pas saisi le Conseil. Le Président DAILLY est venu exposer les raisons de cette abstention à votre rapporteur : tout d'abord, une telle saisine aurait fait double emploi avec celle des députés et puis aussi, il semble bien que les sénateurs étaient très conscients que les moyens invoqués n'étaient pas très convaincants. En fait, nous le verrons, les moyens invoqués manquent de serieux pour au moins quatre points sur cinq.</seg>
-                <seg>La loi est tout d'abord contestée au regard d'un prétendu principe de droit international, question à laquelle, votre précédente décision avait déjà répondu d'une façon très claire. Une contestation est soulevée au regard des dividendes de 1982 pour les sociétés non cotées, or ceci porte sur des variations de l'ordre du millième des sommes qui seront attribuées.</seg>
-                <seg>Le Gouvernement a demandé au Conseil constitutionnel de statuer selon la procédure d'urgence. Monsieur VEDEL propose de répondre sur ce point par une "allusion silencieuse". Il pourrait y avoir un débat de fond pour savoir si l'appréciation de l'urgence dépend exclusivement du Gouvernement ou si le Conseil a le contrôle de cette notion d’urgence. Le rapporteur serait personnellement assez enclin à penser qu'il s'agit là d'une prérogative du Conseil, ce qui lui permettrait le cas échéant de répondre à une manoeuvre du Gouvernement qui devant des saisines nombreuses demanderait systématiquement l'urgence mettant ainsi le Conseil dans une situation difficilement tenable.</seg>
-                <seg>Dans le cas présent, il n'est pas possible de contester sérieusement l'urgence. Il s'agit d'un texte pris à la suite d'un décision du Conseil pour régler les questions dont celui-ci a déjà largement débattu, il s'agit d'une matière qui paraît essentielle à l'action du Gouvernement et dont il est difficile- ment niable qu’elle ait actuellement une urgence politique et même économique aux yeux du Gouvernement et de l'Assemblée nationale. C'est pourquoi, "l'allusion silencieuse” consisterait dans le projet qui vous est soumis à se contenter de viser la lettre du Premier ministre en tête de la décision et à ne pas en parler dans les considérants.</seg>
-                <seg><hi rend="underline">Moyens de la saisine</hi> : 1°) Effet international de la loi de nationalisation.</seg>
-                <seg>Il est prétendu qu'un principe du droit international interdirait au législateur de prendre des mesures de nationalisation pouvant avoir des effets- extra-territoriaux. La réponse était déjà dans la précédente décision 1 s'agit de la reprendre en adaptant cette formulation à la façon dont nous est aujourd'hui posée la question puisque lors de la précédente affaire, la question n'avait été soulevée qu'au regard des aliénations des filiales ou des succursalles situées hors <pb n="4"/> du territoire national des sociétés nationalisées.</seg>
-                <seg>On ne peut répondre simplement en opposant la chose jugée puisque ce n'est pas le même texte qui est soumis au Conseil mais une loi nouvelle et que la doctrine du Conseil n'a pas en elle-même valeur de chose jugée. C'est pourquoi il convient de réaffirmer cette doctrine,dans des termes aussi voisins que possible de ceux adoptés le 16 janvier.</seg>
-                <seg>2°) Le deuxième moyen est tout à fait étrange et votre rapporteur s'il n'a aucun doute quant à la réponse, ne saurait affirmer en avoir pénétré très exactement l'articulation. Il consiste semble-t-il en ceci. L'article 12 de la loi nouvelle est conçu selon la même structure que l'article 13 de la loi précédente (que vous avez déclaré conforme à la Constitution, sauf en ce qui concerne l'exclusion des sociétés dont les capitaux sont détenus par des groupes mutualistes). Un paragraphe I définit les critères retenus pour la nationalisation des banques et le paragraphe II divisé lui-même entre un a) et un b), donne la liste des banques concernées. Les auteurs de la saisine indiquent que l'on est devant un dilemme : ou bien la liste n'est pas conforme à l'application des critères posés au paragraphe I et alors, ces deux paragraphe seraient contradictoires ce qui devrait conduire à déclarer qu'ils sont inconstitutionnels dans leur combinaison, (cette première branche du dilemme est inexacte en fait) ou bien il y aurait conformité entre la liste et les critères et dans ce cas l'énumération contenue dans la liste ne serait que l'application du paragraphe I, une telle application appartenant à la compétence exclusive du Gouvernement et ne pouvant relever de la loi (cette seconde branche du dilemme repose sur une inéxactitude de droit, le législateur pouvait parfaitement donner la liste des sociétés nationalisées rien ne le lui interdisait).</seg>
-                <seg>3°) Une troisième critique porte sur les dispositions de l'article 12 paragraphe III. Il s'agit de l'indemnisation des actions de la Banque de Paris, du Crédit Lyonnais et de la Société générale. Ces banques sont depuis déjà longtemps nationalisées mais des actions sont en la possession de particuliers, ce sont celles qui, par application de la loi sur la participation, ont été distribuées au personnel. La loi prévoit qu’elles seront évaluées de la même façon que celles des autres banques cotées en bourse.</seg>
-                <seg>Les députés auteurs de la saisine estiment que le calcul à partir des cours de bourse n'est pas pour deux au moins de ces sociétés, significatif. Le volume des actions sur le marché est très faible et le prix auquel elles se négocient est sous-évalué en raison du fait que ces sociétés ont sous-capitalisé  leurs actifs et ne procèdent pas à des distributions de bénéfices.</seg>
-                <seg>La réponse à ces moyens paraît évident, l'actionnaire suit le sort de la société dont il détient des actions. Si ces sociétés sont mauvaises comme le seraient, notamment, celles dont il s'agit, en raison du faible volume des transactions sur leurs actions et de leur politique de gestion, cela influe nécessairement  sur le prix de vente de ces actions mais le prix de vente de ces actions est, de toute façon, celui auquel le marché les évalue.</seg>
-                <pb n="5"/>
-                <seg>Les indications données par la saisine suffisent à démontrer que ce n'est pas la perspective de la nationalisation qui est à l'origine de la faible évaluation de ces actions en bourse. C'est ce qu'il importe d'indiquer dans la décision en ajoutant que leur cotation correspond à la nature et aux méthodes de gestion de ces sociétés.</seg>
-                <seg>4°) L'article 17 de la loi, relative à l'évaluation des actions des sociétés cotées est critiqué.</seg>
-                <seg>Je vous rappelle que la valeur de ces actions est calculée en ajoutant l'évaluation boursière sur la meilleure valeur mensuelle de la période de référence à la somme des dividendes distribués pour 1981, le tout étant multiplié par 14% pour tenir compte de la dévaluation. Les auteurs de la saisine contestent la référence aux dividendes de 1980. Ils disent que si une augmentation de capital est intervenue en 1981, le nombre des participants à la masse de distribution sera plus grand qu'il ne l'était en 1980 et donc le dividende de chaque action, calculé par rapport à la masse de 1980, sera sous évalué.</seg>
-                <seg>Tout d'abord, si une augmentation de capital a eu lieu, rien ni en fait ni en droit, n'oblige la société à maintenir le dividende à la même hauteur pour chaque action au cours de l'année suivante. Cet arguement suffit à répondre.</seg>
-                <seg>Notons en outre, pour lever tout scrupule, que si l'on admettait pour exacte en principe la thèse des requérants on aboutirait à des variations très infimes. Pour Thomson-Brant la différence aurait été de 0017. Au lieu de toucher 100 F l'actionnaire n'aurait touché que 99,983 F. Si l'on prend la banque pour laquelle cette prétendue anomalie aurait eu le maximum d'effet, au lieu d'attribuer 100 F à l'ancien actionnaire, le système adopté par la loi aboutirait à lui attribuer que 99,967 F.</seg>
-                <seg>Ces différences infimes notons le, n'existent d'ailleurs que si l’on retient l'hypothèse, hautement improbable, du maintien à la même hauteur du dividende par action après augmentation du capital.</seg>
-                <seg>5°) Sociétés non cotées en bourse :</seg>
-                <seg>L'article 18 fait l'objet d'un assez grand nombre de critiques.</seg>
-                <seg>Rappelons que cet article 18 après avoir institué dans son premier alinéa une commission administrative nationale d'évaluation, dont la composition a été relatée plus hàut, pose les règles ci-après dans son second alinéa : "Cette commission est chargée de fixer au 30 juin 1982 la valeur d'échange à cette date des actions de ces sociétés. A cet effet, elle détermine la valeur de négociation des actions de chaque société au 31 décembre 1981 à partir de l'actif net et du bénéfice net, en tenant compte des rapports constatés entre, d'une part, la valeur boursière moyenne des actions et, d'autre part, l'actif net et le bénéfice net des banques <pb n="6"/> mentionnées à l'article 12-II-a. Cette valeur de négociation est actualisée pour tenir compte des évènements qui l'auront affectée pendant les six premiers mois de l'année 1982".</seg>
-                <seg>Les dispositions essentielles de ce texte sont donc que l'évaluation est faite à la date du 30 juin 1982 (la nationalisation  intervenant le lendemain, le 1er juillet) mais la base de cette évaluation retient une valeur de négociation au 31 décembre 1981.</seg>
-                <seg>Cette base est fixée à partir d'une comparaison entre la situation des banques cotées et celles non cotées. On calcule tout d'abord le rapport qui existe entre la situation nette comptable et d'autre part, la valeur boursière moyenne des actions des sociétés cotées. Ensuite on applique pour les sociétés non cotées le même rapport à partir de l'actif net et du bénéfice net pour trouver la valeur boursière moyenne qu'auraient eu leurs actions.</seg>
-                <seg>A partir de ce calcul fait sur les bases qui auraient permis de connaître la valeur de l'action au 31 décembre 1981 on actualise ce prix pour tenir compte du décalage existant entre le 31 décembre 1981 et le 30 juin 1982.</seg>
-                <seg>La commission devrait pour cette actualisation tenir compte des évènements qui auront affecté cette valeur durant les six premiers mois de l'année 1982.</seg>
-                <seg>On voit que ce système laisse de larges pouvoirs d'appréciation à la commission. On ne fixe pas exactement la relation à établir entre les éléments pris en compte, la loi se contente d'indiquer que le calcul est fait à partir de l'actif net et du bénéfice net. D’autre part, les termes actifs net et bénéfices net ne sont pas en eux-mêmes d'une précision absolue puisque comme vous le savez on peut les entendre dans des sens assez différents.</seg>
-                <pb n="7"/>
-                <seg>Ce système étant rappelé, la saisine y apporte un certain nombre de critiques et la réponse nous conduit à préciser quelque peu le sens de l'article 18.</seg>
-                <seg>Nous aboutirons à la conclusion que le mode d'indemnisation ainsi prévu est satisfaisant en ce qu'il permet justement à la commission de poser une appréciation in concreto individualisée au cas de chaque société.</seg>
-                <seg>Rappelons, tout d'abord, que la composition de la commission n'appelle aucune critique et que les décisions qu'elle prend seront soumises au contrôle du juge, plus précisément même à celui du Conseil d'Etat - la décision ne précise pas que c'est le juge administratif qui sera compétent. Il s'agit là, en effet, d'une solution qui a été évidente mais, la question ne nous étant pas posée, donner ainsi une leçon de droit sans nécessité serait apparu de quelque cuistrerie.</seg>
-                <seg><hi rend="underline">Monsieur VEDEL</hi> rappelle simplement que si la propriété privée est protégée par le juge judiciaire, l'interprétation constante donnée à cette règle réserve aux seuls tribunaux judiciaires la propriété immobilière. Or, ici, il s'agit d'actions donc de biens meubles et la commission qui, par ailleurs, est qualifiée d'administrative et dont rien ne permet de lui attribuer une nature différente est naturellement soumise au contrôle du juge administratif.</seg>
-                <seg>Différents moyens sont soulevés contre ces dispositions.</seg>
-                <seg>a) La date de référence au 31 décembre 1981 est critiquée :</seg>
-                <seg>Pour les banques cotées, le cours de bourse retenu comme référence ne va pas au-delà du 31 mars 1981. Or, disent les auteurs de la saisine, à partir du mois d'avril les perspectives électorales et la crainte des nationalisations ont influencé les cours. Dans ces conditions, aller au-delà de cette date, en ce qui concerne les sociétés non cotées, et retenir une période de référence durant laquelle la nationalisation était devenue certaine, constitue une atteinte à l'égalité (entre sociétés cotées et sociétés non cotées) et une violation de l'article 17 de la Déclaration des Droits de l'Homme et du Citoyen tel qu'on doit l'entendre en se référant à la décision du 16 janvier 1982 qui impose que l'on fasse abstraction de l'influence sur la valeur du bien indemnisé de la perspective de la nationalisation.</seg>
-                <seg>En ce qui concerne l'égalité, la réponse est évidente. Il s'agit de sociétés qui sont placées dans des situations distinctes. Donc, rien n'impose que l'on retienne, en ce qui les concerne, une méthode identique d'évaluation. Rien n'empêche davantage que l'on retienne la même date de référence.</seg>
-                <pb n="8"/>
-                <seg>En ce qui concerne l'abstraction qu'il convient de faire de l'influence de la perspective de la nationalisation, l'argument manque en fait. Si le cours de bourse a pu être influencé par une telle perspective, elle ne pouvait pas modifier le montant des actifs ou des bénéfices nets. Il n'en va pas de même ici qu'en ce qui concerne un marché boursier qui dépend au premier chef des réactions de la clientèle. Si même, comme on a pu le dire, une partie de la clientèle a pu retirer des dépôts et porter ces fonds vers les banques "étrangères", c'est-à-dire vers celles qui n'apparaissaient pas nationalisables, de tels retraits n'ont pu avoir d'influence sur l'actif net,les dépôts apparaissant à la fois à l'actif et au passif. En ce qui concerne les bénéfices, il est fort douteux que de tels retraits aient pu avoir une influence sensible. Les bénéfices, en réalité, dépendent de très nombreux facteurs. Si l'on regarde la situation, en fait, on constate que dans l'ensemble le montant des dépôts au début de 1982 était plus élevé qu'à la date du 31 mars 1981. Les variations sont très diverses selon les sociétés considérées.</seg>
-                <seg>La société dans laquelle apparaît la plus grande diminution des dépôts (9%) est une banque "mutualiste" donc non visée par la loi de nationalisation.</seg>
-                <seg>Dans une autre banque, on constate une diminution de 4% et dans une troisième une diminution de 3%</seg>
-                <seg>En sens inverse, on constate une augmentation de 30% en ce qui concerne la banque dont personne n'ignorait qu'elle serait nationalisée. Il s'agit de PARIBAS.</seg>
-                <seg>Ces simples chiffres permettent d'affirmer qu'aucune variation significative n'a existé qui fût en rapport avec la perspective des nationalisations. En fait, il est certain, simplement, que ceux qui ont conseillé les auteurs de la saisine auraient préféré que les bénéfices pris comme référence soient ceux de l'exercice 1980, année favorable, et non ceux de l'exercice 1981 au cours duquel la situation économique et celle des banques a été moins bonne.</seg>
-                <seg>b) Actifs nets et bénéfices nets :</seg>
-                <seg>S'agit-il d'actifs et bénéfices comptables ou d'actifs et bénéfices consolidés ?</seg>
-                <seg>Le législateur ne le dit pas. Ainsi, il n'aurait pas rempli son rôle au regard de l'article 34. En réalité, que l'on prenne une solution ou l'autre cela n'entraîne pas des résultats différents. L'actif net et et le bénéfice net ne sont pas ici des éléments de l'indemnisation mais interviennent simplement comme éléments d'une comparaison qui sera menée dans les mêmes conditions, entre les banques cotées et les banques non cotées. Que l'on prenne les éléments nets comptables ou les éléments consolidés le premier terme de chacun des deux rapports en sera modifié et le quotient permettant d'aboutir au prix de l'action sera de la même façon modifié. Le résultat sera finalement le même ou, en tout cas, très voisin.</seg>
-                <pb n="9"/>
-                <seg>De plus, la commission n'étant pas tenue par des règles arithmétiques rigides pourra adopter sa méthode de calcul de façon à l'adapter au mieux à chacun des cas considérés. Il suffit donc de répondre que la commission garde le soin d'adapter la méthode à chaque cas. Cette individualisation que nous avions reprochée à la première loi de ne pas permettre aboutit à une solution plus équitable.</seg>
-                <seg>c) Critiques du rapport entre societés cotées et non cotées :</seg>
-                <seg>Les auteurs de la saisine font remarquer que le rapport entre actifs-bénéfices nets et capitalisation boursière varie d'une société à l'autre. Partir d'une moyenne de ces différents rapports n'a aucun sens dans un cas particulier quelconque.</seg>
-                <seg>Mais la loi n'impose pas la méthode critiquée. Elle ne parle pas d'une moyenne générale établie pour les sociétés cotées et reprise pour les sociétés non cotées. Le bon sens commande qu'il soit procédé par catégorie. La commission comparera des banques d'affaires à des banques d'affaires, des banques de dépôts à des banques de dépôts. Cette moyenne par catégorie est parfaitement valable. Il convient donc de donner cette interprétation au texte et non de la condamner. Là encore, la loi a le mérite de permettre l'individualisation  nécessaire à une juste évaluation.</seg>
-                <seg>d) Dividendes non pris en compte pour les sociétés non cotées :</seg>
-                <seg>Pour 1981, il est facile de répondre. Les sociétés restant privées jusqu'en juin 1982 pourront distribuer des dividendes de 1981. Pour les six premiers mois de 1982, il existe effectivement une période durant laquelle les anciens actionnaires ne toucheront aucun intérêt et l'attribution des dividendes pour cette période pourrait n'être pas négligeable. La loi permet de répondre à cette difficulté puisque l'article 18 in fine indique que la valeur au 31 décembre 1981 devra être "actualisée" en tenant compte des évènements survenus durant les six premiers mois de 1982. Parmi ces évènements, bien sûr, il y a les résultats de la société et la possibilité d'une distribution de bénéfices et, là encore, il convient de répondre en donnant cette interprétation.</seg>
-                <seg><hi rend="underline">Monsieur VEDEL</hi> termine son rapport en disant que les deux décisions rendues sur la matière des nationalisations conduiront les analystes, une fois les passions retombées, à conclure que le Conseil a donné une solution très raisonnable qui revient à dire que le Parlement peut nationaliser des entreprises, à la condition, bien évidemment, de payer pour cela des prix convenables.</seg>
-            </writing>
-            <div4 type="discussion">
-                <u who="#frey_roger">
-                    <seg><hi rend="underline">Le Président</hi> remercie Monsieur VEDEL de cet excellent rapport et regrette, quant à lui, que si, comme le dit Monsieur VEDEL, l'attitude du Gouvernement a été parfaitement convenable après la première décision du Conseil, certains parlementaires aient jugé bon d'attaquer le Conseil et même d'insulter ses membres.</seg>
-                </u>
-                <pb n="10"/>
-                <u who="#peretti_achille">
-                    <seg><hi rend="underline">Monsieur PERETTI</hi> rappelle, à propos de la procédure d'urgence, qu'il avait dit, avant que le Conseil ne fût saisi de la première loi, que si l'urgence était demandée sur une affaire aussi complexe il ne participerait pas aux travaux que le Conseil devrait alors menés dans une telle hâte. Il rappelle que Monsieur VEDEL avait d'ailleurs indiqué qu'il n'estimait pas que l'appréciation d'urgence fût à la seule discrétion du Gouvernement. Puisque cette question se pose dans des conditions de plus grande sérénité, il aimerait bien que cette question fusse tranchée, ce qui actuellement pourrait se faire en dehors de toute passion.</seg>
-                </u>
-                <u who="#gros_louis">
-                    <seg><hi rend="underline">Monsieur GROS</hi> estime, sur ce point également, qu'il y a une question de fond qui risque de devenir très sérieuse et sur laquelle il serait utile que le Conseil prenne position.</seg>
-                </u>
-                <u who="#lecourt_robert">
-                    <seg><hi rend="underline">Monsieur LECOURT</hi> se demande si se contenter de viser l'urgence comme on le fait dans le projet soumis au Conseil n'est pas lui reconnaître une force indépendante de toute appréciation du Conseil. Il note que l'on vise la demande d'urgence comme on vise plus bas la Constitution, c'est-à-dire comme s'il s'agissait d'un texte qui s'impose absolument au Conseil sans qu'il ait rien à dire sur l'appréciation contenue par la lettre du Premier ministre. Si vraiment le Conseil ne doit pas trancher cette question, peut-être serait-il plus prudent de ne faire aucun visa à ce sujet.</seg>
-                </u>
-                <u who="#frey_roger">
-                    <seg><hi rend="underline">Le Président</hi> indique, quant à lui, que le visa ne lui paraît pas du tout avoir la portée que semble craindre Monsieur LECOURT. Il s'agit d'une simple constatation selon laquelle l'urgence a été demandée. Il ne semble pas qu'il y ait à soulever la moindre difficulté puisque, dans cette affaire, on ne saurait discuter qu'elle fût justifiée et, d'ailleurs, le Conseil n'a éprouvé aucune difficulté particulière à répondre dans un délai de huit jours.</seg>
-                </u>
-                <u who="#segalat_andre">
-                    <seg><hi rend="underline">Monsieur SEGALAT</hi> estime qu'il n'est pas possible de se dispenser de viser la lettre demandant l'urgence. Le Conseil n'a pas la maîtrise de la constitution de son dossier. Le Premier ministre tient de la Constitution le pouvoir de demander au Conseil de statuer selon la procédure d'urgence. Il l'a fait ! Nous ne pouvons pas négliger ce fait et sembler l'ignorer. Il convient donc de viser sa lettre qui donne l'indication de la procédure que le Conseil devait suivre. En l'absence de toute discussion dans les considérants, la question reste entière de savoir si le Conseil a ou non l'appréciation de la réalité de l'urgence.</seg>
-                </u>
-                <u who="#vedel_georges">
-                    <seg><hi rend="underline">Monsieur VEDEL</hi> : il est certain qu'il faut viser cette lettre. La seule alternative qui s'ouvre est de répondre ou de ne pas répondre sur l'urgence.</seg>                
-                </u>
-                <u who="#segalat_andre">
-                    <seg><hi rend="underline">Monsieur SEGALAT</hi> propose que l'on dise, au début de la décision, "sans qu'il soit besoin de se prononcer sur l'urgence".</seg>
-                </u>
-                <u who="#monnerville_gaston">
-                    <seg><hi rend="underline">Monsieur MONNERVILLE</hi> préfère infiniment la rédaction actuelle qui n'engage en rien l'avenir. La forme "sans qu'il soit besoin de se prononcer" donne la réponse au fond sur les pouvoirs du Conseil.</seg>
-                </u>
-                <pb n="11"/>
-                <u who="#frey_roger">
-                    <seg>Pour <hi rend="underline">le President</hi>, l'article 61 de la Constitution prévoit la demande d'urgence. Le Premier ministre en a fait application. Il suffit de viser sa lettre comme le propose le projet. Ceci n'engage en rien l'avenir et il paraît particulièrement opportun de se garder d'entamer toute polémique, spécialement quand elle est inutile.</seg>
-                </u>
-                <u who="#peretti_achille">
-                    <seg><hi rend="underline">Monsieur PERETTI</hi> est d'accord pour que l'avenir soit ainsi réservé si le visa proposé ne nous engage pas déjà pour la solution qui serait donnée en cas de discussion.</seg>
-                </u>
-                <u who="#vedel_georges">
-                    <seg><hi rend="underline">Monsieur VEDEL</hi> : aller au-delà de la rédaction actuelle serait créer une équivoque. Si une demande d'urgence peut être appréciée, il est certain qu'elle ne pourrait l'être qu'en cas d'abus manifeste Le visa d'une simple pièce de procédure ne donne aucune indication quant à l'appréciation qui peut être donnée sur son bien fondé.</seg>
-                </u>
-                <u who="#">
-                    <seg>Après cette discussion, il est donc décidé de ne pas modifier le projet et de se contenter du visa tel qu'il est actuellement proposé par le rapporteur.</seg>
-                    <seg>Il est donné lecture du projet.</seg>
-                </u>
-                <u who="#segalat_andre">
-                    <seg><hi rend="underline">Monsieur SEGALAT</hi> indique que la rédaction en réponse sur l'argument tiré de l'article 34, selon lequel après avoir énuméré les critères le législateur ne saurait donner la liste des banques nationalisées par application de ces critères, ne lui paraît pas satisfaisante. En effet, le projet est ainsi rédigé : "La loi fixe également les règles concernant ... des nationalisations d'entreprises ...". Que cette disposition, en l'absence de toute réserve au profit du pouvoir règlementaire, n'interdit pas au législateur de déterminer lui-même les sociétés devant être nationalisées, conformément aux critères retenus par lui. Qu'ainsi, les dispositions combinées des paragraphes I et II de l'article 12 de la loi ne sont pas contraires à la Constitution...</seg>
-                    <seg>Cette rédaction apparaît dangereuse. Elle semble supposer que si la loi comportait des dispositions de nature règlementaire elle serait contraire à la Constitution. Or, nous avons constamment estimé le contraire. Quand la loi intervient dans une matière règlementaire, il appartient au seul Gouvernement de s'en plaindre. Il peut, tout d'abord, s'opposer à ce que la disposition dont il s'agit soit soumise à la discussion (procédure prévue à l'article 41 de la Constitution). Il peut, s'il le préfère, laisser le Parlement se prononcer sur ces dispositions et, après le vote de la loi, venir devant le Conseil demander le déclassement de la disposition dont il s'agit de façon à pouvoir l'abroger ou la modifier dans l'exercice de son pouvoir réglementaire. Rien, dans la Constitution, ne permet de dire que l'inclusion dans la loi d'une disposition règlementaire est contraire à la Constitution. Simplement, le Gouvernement peut l'empêcher ou récupérer ultérieurement sa compétence sur ce point. Nous avons fréquemment vu, dans les procé- dures de l'article 37, le Gouvernement demander le déclassement , de dispositions qui ar suite d'un accord politique, avaient été mises dans la loi de façon à faciliter le vote <pb n="12"/> d'un texte. Nous avons simplement dit, en séance, qu'il convenait dans ce cas que le Gouvernement respecte un délai de décence minimum mais il ne s'agit là que d'une appréciation politique. Juridiquement, il peut parfaitement faire déclasser une disposition le lendemain même du vote de la loi. Quand bien même la discussion est déclassée, elle continue à s'appliquer jusqu'au jour où le Gouvernement utilise son pouvoir réglementaire pour la modifier. C'est ce qui ressort de l'article 37 qui ne prévoit pas la nullité de la disposition dont il s'agit à partir du moment où elle est déclarée règlementaire. Rien donc ne permet de dire que le fait qu'une disposition règlementaire soit contenue dans la loi est contraire à la Constitution.</seg>
-                </u>
-                <u who="#">
-                    <seg>Une discussion rapide intervient sur ce point et le Conseil n'ayant jamais exprimé clairement sa position dans une décision, il est considéré comme suffisant de faire disparaître, dans le considérant, les termes "en l'absence de toute réserve au profit du pouvoir règlementaire" qui provoquent la difficulté.</seg> 
-                </u>
-                <div5 type="vote" n="1">
-                    <p>Sous réserve de cette modification et de quelques rectifications minimes de forme, la décision est adoptée à l'unanimité.</p>
-                </div5>
-            </div4>
-        </div3>
-    </div2>
-    <trailer>
-        <seg>La séance est levée à 12 h 30.</seg>
-        <seg><hi rend="underline">Le Président</hi> donne encore les indications suivantes sur la suite des travaux du Conseil.</seg>
-        <seg>L'examen des lois relatives à la décentralisation, d'une part, et au statut de la Corse, d'autre part, pose de nombreuses questions très liées, beaucoup de dispositions de ices deux textes étant semblables ou ne comportant que de très faibles différences.</seg>
-        <seg>Il apparaît nécessaire que les rapporteurs, harmonisent leurs points de vue d'une façon très complète avant que les décisions ne soient rendues.</seg>
-        <seg>Le Conseil se réunira à nouveau le jeudi 18 à 10 heures du matin et, s'il y a lieu, 1'après-midi, pour entendre la présentation générale des questions qui se posent sur la décentralisation par le rapporteur, Monsieur LECOURT.</seg>
-        <seg>Le mardi 24, le Conseil se réunira à 10 heures et, s'il est nécessaire, également l'après-midi, pour statuer sur la loi relative à la décentralisation.</seg>
-        <seg>Le mardi 2 mars, une réunion qui durera également toute la journée s'il est nécessaire sera consacrée à l’examen de la loi portant statut de la Corse, au rapport de Monsieur BROUILLET.</seg>
-        <seg>Après ces informations, une discussion porte sur les communications faites aux membres du Conseil et les contacts divers qu'ils peuvent avoir avec les personnes, intéressées aux affaires, qui demandent à être reçues.</seg>
-        <seg>Monsieur DEFFERRE a rendu visite au Président à qui il a exposé sa façon de voir les questions relatives à la décentralisation et au statut de la Corse. Il a également pris contact avec le <pb n="13"/> rapporteur et les autres membres du Conseil afin de leur rendre visite.</seg>
-        <seg><hi rend="underline">Monsieur GROS</hi> pose la question du caractère contradictoire des procédures.</seg>
-        <seg>De la discussion générale, il ressort que toute personne intéressée est habilitée à faire parvenir au Conseil toutes les informations qu'elle estime utiles. Bien évidemment, le Conseil appréciera le compte qu'il convient d'en tenir. On ne saurait à la fois se plaindre d'être mal compris du Gouvernement et refuser, s'il le demandent, de recevoir les ministres qui désireraient exposer leur point de vue. Aucune critique n'apparaît possible au regard du caractère contradictoire de l'instruction dans la mesure où tous les intéressés peuvent, également, faire parvenir des pièces ou exposer les arguments qui leur paraissent utiles. Organiser une procédure contradictoire formalisée ne paraît, en tout cas, pas possible en l'absence de parties et dans la nécessité pratique où se trouve le Conseil de statuer dans des délais brefs, un mois au maximum et huit jours en cas d'urgence.</seg>
-        <seg>Cette discussion se termine à 13 heures.</seg>
-    </trailer>
-    </div1>
+    <div1 corresp="#PV1982-02-11" type="pv">
+            <head>
+            <!--identifiant de la délibération -->
+            <title>
+            PV1982-02-11
+            </title>
+            </head>
+            <pb n="1"/>
+            <div2 type="seance">
+                <head type="1">SEANCE DU 11 FEVRIER 1982</head>
+                <div3 type="ouverture">
+                    <div4 type="membrePresent">
+                        <writing>
+                            <seg>Le Conseil se réunit à 10 heures, tous les membres étant présents à l'exception de M. Valéry GISCARD d'ESTAING excusé.</seg>			   
+                        </writing>
+                    </div4>
+                    <div4 type="ordreDuJour">
+                        <writing>
+                            <seg>Cette séance sera consacrée â l'examen, en application de l'article 61, alinéa 2, de la Constitution de la loi relative à la nationalisation.</seg>
+                        </writing>
+                    </div4>
+                </div3>
+                <div3 type="question" n="1" corresp="#DC-82-139">
+                    <div4 type="introduction">
+                        <writing>
+                            <seg>Le Président donne la parole à M. le Doyen VEDEL qui présente le rapport ci-après.</seg>
+                        </writing>
+                    </div4>
+                    <div4 type="rapport">
+                        <writing who="#frey_roger">
+                            <seg><hi rend="underline">Monsieur VEDEL</hi> indique, tout d'abord, que malgré les pressions qui ont pu être exercées sur lui, le Gouvernement a évité une crise de procédure qui n'aurait pas manqué d'exister s'il n'avait soumis au Parlement que les dispositions correspondant aux articles qui avaient été déclarés non conformes. Vous vous souvenez que les articles relatifs à l'indemnisation avaient été déclarés inséparables de l'ensemble du texte, il fallait donc revoter la loi toute entière.</seg>
+                            <seg>La critique de notre décision sur le texte précédent portait sur trois questions :</seg>
+                            <seg>- Les articles 4, 16 et 30 relatifs à l'aliénation des filiales à l'étranger des sociétés nationalisées. Le Conseil avait estimé les pouvoirs donnés à 1'administrateur général trop larges pour que l'on puisse considérer l'article 34 de la Constitution comme correctement appliqué. Deux solutions s'offraient au Gouvernement,soit modifier ces articles, soit les abandonner. C'est cette dernière solution qui a été choisie, la question des conditions dans lesquelles se feraient ces aliénations étant renvoyées à une loi ultérieure actuellement en préparation.</seg>
+                            <seg>- D'autre part, la liste des banques posée par l'ancien article 13 avait, été déclarée irrégulière, les banques dont la majorité du capital appartient à un groupe mutualiste ou coopératif ayant été écartées à tort de la nationalisation. Le principe d'égalité ne permettait, en effet, pas de faire un sort spécial à ces sociétés semblables à celles nationalisées tant par leur statut que par leurs conditions de fonctionnement.</seg>
+                            <seg>Le Gouvernement inclut à présent, ces sociétés dans celles qui sont nationalisées et d'ailleurs, dans un article 52 du texte qui vous est soumis, prévoit qu'une loi précisera les conditions dans lesquelles ces établissements seront dotés des instruments bancaires nécessaires à l'exercice de leur activité.</seg>
+                            <seg>En clair, cela veut dire qu'un statut particulier sera établi pour permettre à ces banques, si elles ne sont pas déjà nationalisées à ce moment, d'échapper à la nationalisation, ou si elles ont déjà été nationalisées, de sortir du secteur public.</seg>
+                            <pb n="2"/>
+                            <seg>- <hi rend="underline">L'indemnisation</hi> :</seg>
+                            <seg>La non conformité à la Constitution de la loi précédente avait porté sur le point essentiel de l'indemnisation, les règles relatives à cette question étant d'ailleurs inséparables de l'ensemble du texte de la loi.</seg>
+                            <seg>Sur ce point encore, le Gouvernement a tiré convenablement les conséquences de notre décision. Nous y reviendrons plus en détail, mais sachons dès maintenant, qu'il est procédé à une distinction :</seg>
+                            <seg>- Pour les sociétés cotées en bourses, il est procédé à la nationalisation immédiate et l'indemnité est calculée à partir de la moyenne des cours de bourse entre octobre 1980 et mars 1981, la période de référence retenue étant le mois le plus favorable. Les cours sont ajustés pour tenir compte des opérations ayant affecté le capital des sociétés considérées entre 1er octobre 1980 et le 31 décembre 1981.</seg>
+                            <seg>La valeur d'échange de l'ensemble des actions d'une société cotée est égale à la somme du produit du nombre d'actions par leur valeur moyenne sur le mois considéré et à celle du montant des sommes distribuées à titre des dividendes pour 1980, le tout étant augmenté de 14% pour tenir compte de la dépréciation de la monnaie.</seg>
+                            <seg>- Pour les banques non cotées, un autre système est retenu.</seg>
+                            <seg>Notons tout de suite, qu'il n'intéresse en fait que huit des banques non cotées les autres étant soit des filiales nationalisées  du fait même de la nationalisation des sociétés mères, soit des banques dont la majorité des actions appartient à des groupes mutualistes auxquelles nous le savons, la nationalisation  ne s'appliquera pas.</seg>
+                            <seg>Le système retenu est fixé par l'article 18 de la loi. Dans un premier paragraphe, il est institué une commission administrative nationale d'évaluation dont la composition offre toutes garanties de sérieux et d'impartialité puisque présidée par le premier Président de la Cour des Compte, elle comprend en outre le Gouverneur de la Banque de France, le Président de la section des finances du Conseil d'Etat, le Président de la chambre commerciale de la Cour de Cassation et un membre du Conseil économique et social désigné par le Président de cette assemblée.</seg>
+                            <seg>Le deuxième alinéa de cet article 18 pose les règles que devra suivre cette commission et qui sont, en réalité, des directives dont l'application laisse une marge d'appréciation suffisante à la commission pour qu'elle puisse appliquer son calcul d'une façon individualisée à chacune des sociétés en question.</seg>
+                            <seg>La nationalisation de ces sociétés non cotées n'interviendra qu'au 1er juillet 1982, la commission étant chargée de fixer la valeur d'échange des actions au 30 juin 1982 (à la fois date ultime pour la conclusion de ses travaux et date à laquelle doit être appréciée la valeur desdites actions).</seg>
+                            <pb n="3"/>
+                            <seg>On voit donc par cette rapide analyse des dispositions nouvelles rapprochées de notre décision du 16 janvier que le Gouvernement s'est efforcé de respecter l'esprit de notre décision malgré les pressions assez vives dont il a été l'objet de la part de la majorité.</seg>
+                            <seg>La saisine émane simplement des députés, les sénateurs n'ont pas saisi le Conseil. Le Président DAILLY est venu exposer les raisons de cette abstention à votre rapporteur : tout d'abord, une telle saisine aurait fait double emploi avec celle des députés et puis aussi, il semble bien que les sénateurs étaient très conscients que les moyens invoqués n'étaient pas très convaincants. En fait, nous le verrons, les moyens invoqués manquent de serieux pour au moins quatre points sur cinq.</seg>
+                            <seg>La loi est tout d'abord contestée au regard d'un prétendu principe de droit international, question à laquelle, votre précédente décision avait déjà répondu d'une façon très claire. Une contestation est soulevée au regard des dividendes de 1982 pour les sociétés non cotées, or ceci porte sur des variations de l'ordre du millième des sommes qui seront attribuées.</seg>
+                            <seg>Le Gouvernement a demandé au Conseil constitutionnel de statuer selon la procédure d'urgence. Monsieur VEDEL propose de répondre sur ce point par une "allusion silencieuse". Il pourrait y avoir un débat de fond pour savoir si l'appréciation de l'urgence dépend exclusivement du Gouvernement ou si le Conseil a le contrôle de cette notion d'urgence. Le rapporteur serait personnellement assez enclin à penser qu'il s'agit là d'une prérogative du Conseil, ce qui lui permettrait le cas échéant de répondre à une manoeuvre du Gouvernement qui devant des saisines nombreuses demanderait systématiquement l'urgence mettant ainsi le Conseil dans une situation difficilement tenable.</seg>
+                            <seg>Dans le cas présent, il n'est pas possible de contester sérieusement l'urgence. Il s'agit d'un texte pris à la suite d'un décision du Conseil pour régler les questions dont celui-ci a déjà largement débattu, il s'agit d'une matière qui paraît essentielle à l'action du Gouvernement et dont il est difficilement niable qu'elle ait actuellement une urgence politique et même économique aux yeux du Gouvernement et de l'Assemblée nationale. C'est pourquoi, "l'allusion silencieuse" consisterait dans le projet qui vous est soumis à se contenter de viser la lettre du Premier ministre en tête de la décision et à ne pas en parler dans les considérants.</seg>
+                            <seg><hi rend="underline">Moyens de la saisine</hi> : 1°) Effet international de la loi de nationalisation.</seg>
+                            <seg>Il est prétendu qu'un principe du droit international interdirait au législateur de prendre des mesures de nationalisation pouvant avoir des effets extra-territoriaux. La réponse était déjà dans la précédente décision 1 s'agit de la reprendre en adaptant cette formulation à la façon dont nous est aujourd'hui posée la question puisque lors de la précédente affaire, la question n'avait été soulevée qu'au regard des aliénations des filiales ou des succursalles situées hors <pb n="4"/> du territoire national des sociétés nationalisées.</seg>
+                            <seg>On ne peut répondre simplement en opposant la chose jugée puisque ce n'est pas le même texte qui est soumis au Conseil mais une loi nouvelle et que la doctrine du Conseil n'a pas en elle-même valeur de chose jugée. C'est pourquoi il convient de réaffirmer cette doctrine,dans des termes aussi voisins que possible de ceux adoptés le 16 janvier.</seg>
+                            <seg>2°) Le deuxième moyen est tout à fait étrange et votre rapporteur s'il n'a aucun doute quant à la réponse, ne saurait affirmer en avoir pénétré très exactement l'articulation. Il consiste semble-t-il en ceci. L'article 12 de la loi nouvelle est conçu selon la même structure que l'article 13 de la loi précédente (que vous avez déclaré conforme à la Constitution, sauf en ce qui concerne l'exclusion des sociétés dont les capitaux sont détenus par des groupes mutualistes). Un paragraphe I définit les critères retenus pour la nationalisation des banques et le paragraphe II divisé lui-même entre un a) et un b), donne la liste des banques concernées. Les auteurs de la saisine indiquent que l'on est devant un dilemme : ou bien la liste n'est pas conforme à l'application des critères posés au paragraphe I et alors, ces deux paragraphe seraient contradictoires ce qui devrait conduire à déclarer qu'ils sont inconstitutionnels dans leur combinaison, (cette première branche du dilemme est inexacte en fait) ou bien il y aurait conformité entre la liste et les critères et dans ce cas l'énumération contenue dans la liste ne serait que l'application du paragraphe I, une telle application appartenant à la compétence exclusive du Gouvernement et ne pouvant relever de la loi (cette seconde branche du dilemme repose sur une inéxactitude de droit, le législateur pouvait parfaitement donner la liste des sociétés nationalisées rien ne le lui interdisait).</seg>
+                            <seg>3°) Une troisième critique porte sur les dispositions de l'article 12 paragraphe III. Il s'agit de l'indemnisation des actions de la Banque de Paris, du Crédit Lyonnais et de la Société générale. Ces banques sont depuis déjà longtemps nationalisées mais des actions sont en la possession de particuliers, ce sont celles qui, par application de la loi sur la participation, ont été distribuées au personnel. La loi prévoit qu'elles seront évaluées de la même façon que celles des autres banques cotées en bourse.</seg>
+                            <seg>Les députés auteurs de la saisine estiment que le calcul à partir des cours de bourse n'est pas pour deux au moins de ces sociétés, significatif. Le volume des actions sur le marché est très faible et le prix auquel elles se négocient est sous-évalué en raison du fait que ces sociétés ont sous-capitalisé  leurs actifs et ne procèdent pas à des distributions de bénéfices.</seg>
+                            <seg>La réponse à ces moyens paraît évident, l'actionnaire suit le sort de la société dont il détient des actions. Si ces sociétés sont mauvaises comme le seraient, notamment, celles dont il s'agit, en raison du faible volume des transactions sur leurs actions et de leur politique de gestion, cela influe nécessairement  sur le prix de vente de ces actions mais le prix de vente de ces actions est, de toute façon, celui auquel le marché les évalue.</seg>
+                            <pb n="5"/>
+                            <seg>Les indications données par la saisine suffisent à démontrer que ce n'est pas la perspective de la nationalisation qui est à l'origine de la faible évaluation de ces actions en bourse. C'est ce qu'il importe d'indiquer dans la décision en ajoutant que leur cotation correspond à la nature et aux méthodes de gestion de ces sociétés.</seg>
+                            <seg>4°) L'article 17 de la loi, relative à l'évaluation des actions des sociétés cotées est critiqué.</seg>
+                            <seg>Je vous rappelle que la valeur de ces actions est calculée en ajoutant l'évaluation boursière sur la meilleure valeur mensuelle de la période de référence à la somme des dividendes distribués pour 1981, le tout étant multiplié par 14% pour tenir compte de la dévaluation. Les auteurs de la saisine contestent la référence aux dividendes de 1980. Ils disent que si une augmentation de capital est intervenue en 1981, le nombre des participants à la masse de distribution sera plus grand qu'il ne l'était en 1980 et donc le dividende de chaque action, calculé par rapport à la masse de 1980, sera sous évalué.</seg>
+                            <seg>Tout d'abord, si une augmentation de capital a eu lieu, rien ni en fait ni en droit, n'oblige la société à maintenir le dividende à la même hauteur pour chaque action au cours de l'année suivante. Cet arguement suffit à répondre.</seg>
+                            <seg>Notons en outre, pour lever tout scrupule, que si l'on admettait pour exacte en principe la thèse des requérants on aboutirait à des variations très infimes. Pour Thomson-Brant la différence aurait été de 0017. Au lieu de toucher 100 F l'actionnaire n'aurait touché que 99,983 F. Si l'on prend la banque pour laquelle cette prétendue anomalie aurait eu le maximum d'effet, au lieu d'attribuer 100 F à l'ancien actionnaire, le système adopté par la loi aboutirait à lui attribuer que 99,967 F.</seg>
+                            <seg>Ces différences infimes notons le, n'existent d'ailleurs que si l'on retient l'hypothèse, hautement improbable, du maintien à la même hauteur du dividende par action après augmentation du capital.</seg>
+                            <seg>5°) Sociétés non cotées en bourse :</seg>
+                            <seg>L'article 18 fait l'objet d'un assez grand nombre de critiques.</seg>
+                            <seg>Rappelons que cet article 18 après avoir institué dans son premier alinéa une commission administrative nationale d'évaluation, dont la composition a été relatée plus hàut, pose les règles ci-après dans son second alinéa : "Cette commission est chargée de fixer au 30 juin 1982 la valeur d'échange à cette date des actions de ces sociétés. A cet effet, elle détermine la valeur de négociation des actions de chaque société au 31 décembre 1981 à partir de l'actif net et du bénéfice net, en tenant compte des rapports constatés entre, d'une part, la valeur boursière moyenne des actions et, d'autre part, l'actif net et le bénéfice net des banques <pb n="6"/> mentionnées à l'article 12-II-a. Cette valeur de négociation est actualisée pour tenir compte des évènements qui l'auront affectée pendant les six premiers mois de l'année 1982".</seg>
+                            <seg>Les dispositions essentielles de ce texte sont donc que l'évaluation est faite à la date du 30 juin 1982 (la nationalisation  intervenant le lendemain, le 1er juillet) mais la base de cette évaluation retient une valeur de négociation au 31 décembre 1981.</seg>
+                            <seg>Cette base est fixée à partir d'une comparaison entre la situation des banques cotées et celles non cotées. On calcule tout d'abord le rapport qui existe entre la situation nette comptable et d'autre part, la valeur boursière moyenne des actions des sociétés cotées. Ensuite on applique pour les sociétés non cotées le même rapport à partir de l'actif net et du bénéfice net pour trouver la valeur boursière moyenne qu'auraient eu leurs actions.</seg>
+                            <seg>A partir de ce calcul fait sur les bases qui auraient permis de connaître la valeur de l'action au 31 décembre 1981 on actualise ce prix pour tenir compte du décalage existant entre le 31 décembre 1981 et le 30 juin 1982.</seg>
+                            <seg>La commission devrait pour cette actualisation tenir compte des évènements qui auront affecté cette valeur durant les six premiers mois de l'année 1982.</seg>
+                            <seg>On voit que ce système laisse de larges pouvoirs d'appréciation à la commission. On ne fixe pas exactement la relation à établir entre les éléments pris en compte, la loi se contente d'indiquer que le calcul est fait à partir de l'actif net et du bénéfice net. D'autre part, les termes actifs net et bénéfices net ne sont pas en eux-mêmes d'une précision absolue puisque comme vous le savez on peut les entendre dans des sens assez différents.</seg>
+                            <pb n="7"/>
+                            <seg>Ce système étant rappelé, la saisine y apporte un certain nombre de critiques et la réponse nous conduit à préciser quelque peu le sens de l'article 18.</seg>
+                            <seg>Nous aboutirons à la conclusion que le mode d'indemnisation ainsi prévu est satisfaisant en ce qu'il permet justement à la commission de poser une appréciation in concreto individualisée au cas de chaque société.</seg>
+                            <seg>Rappelons, tout d'abord, que la composition de la commission n'appelle aucune critique et que les décisions qu'elle prend seront soumises au contrôle du juge, plus précisément même à celui du Conseil d'Etat - la décision ne précise pas que c'est le juge administratif qui sera compétent. Il s'agit là, en effet, d'une solution qui a été évidente mais, la question ne nous étant pas posée, donner ainsi une leçon de droit sans nécessité serait apparu de quelque cuistrerie.</seg>
+                            <seg><hi rend="underline">Monsieur VEDEL</hi> rappelle simplement que si la propriété privée est protégée par le juge judiciaire, l'interprétation constante donnée à cette règle réserve aux seuls tribunaux judiciaires la propriété immobilière. Or, ici, il s'agit d'actions donc de biens meubles et la commission qui, par ailleurs, est qualifiée d'administrative et dont rien ne permet de lui attribuer une nature différente est naturellement soumise au contrôle du juge administratif.</seg>
+                            <seg>Différents moyens sont soulevés contre ces dispositions.</seg>
+                            <seg>a) La date de référence au 31 décembre 1981 est critiquée :</seg>
+                            <seg>Pour les banques cotées, le cours de bourse retenu comme référence ne va pas au-delà du 31 mars 1981. Or, disent les auteurs de la saisine, à partir du mois d'avril les perspectives électorales et la crainte des nationalisations ont influencé les cours. Dans ces conditions, aller au-delà de cette date, en ce qui concerne les sociétés non cotées, et retenir une période de référence durant laquelle la nationalisation était devenue certaine, constitue une atteinte à l'égalité (entre sociétés cotées et sociétés non cotées) et une violation de l'article 17 de la Déclaration des Droits de l'Homme et du Citoyen tel qu'on doit l'entendre en se référant à la décision du 16 janvier 1982 qui impose que l'on fasse abstraction de l'influence sur la valeur du bien indemnisé de la perspective de la nationalisation.</seg>
+                            <seg>En ce qui concerne l'égalité, la réponse est évidente. Il s'agit de sociétés qui sont placées dans des situations distinctes. Donc, rien n'impose que l'on retienne, en ce qui les concerne, une méthode identique d'évaluation. Rien n'empêche davantage que l'on retienne la même date de référence.</seg>
+                            <pb n="8"/>
+                            <seg>En ce qui concerne l'abstraction qu'il convient de faire de l'influence de la perspective de la nationalisation, l'argument manque en fait. Si le cours de bourse a pu être influencé par une telle perspective, elle ne pouvait pas modifier le montant des actifs ou des bénéfices nets. Il n'en va pas de même ici qu'en ce qui concerne un marché boursier qui dépend au premier chef des réactions de la clientèle. Si même, comme on a pu le dire, une partie de la clientèle a pu retirer des dépôts et porter ces fonds vers les banques "étrangères", c'est-à-dire vers celles qui n'apparaissaient pas nationalisables, de tels retraits n'ont pu avoir d'influence sur l'actif net,les dépôts apparaissant à la fois à l'actif et au passif. En ce qui concerne les bénéfices, il est fort douteux que de tels retraits aient pu avoir une influence sensible. Les bénéfices, en réalité, dépendent de très nombreux facteurs. Si l'on regarde la situation, en fait, on constate que dans l'ensemble le montant des dépôts au début de 1982 était plus élevé qu'à la date du 31 mars 1981. Les variations sont très diverses selon les sociétés considérées.</seg>
+                            <seg>La société dans laquelle apparaît la plus grande diminution des dépôts (9%) est une banque "mutualiste" donc non visée par la loi de nationalisation.</seg>
+                            <seg>Dans une autre banque, on constate une diminution de 4% et dans une troisième une diminution de 3%</seg>
+                            <seg>En sens inverse, on constate une augmentation de 30% en ce qui concerne la banque dont personne n'ignorait qu'elle serait nationalisée. Il s'agit de PARIBAS.</seg>
+                            <seg>Ces simples chiffres permettent d'affirmer qu'aucune variation significative n'a existé qui fût en rapport avec la perspective des nationalisations. En fait, il est certain, simplement, que ceux qui ont conseillé les auteurs de la saisine auraient préféré que les bénéfices pris comme référence soient ceux de l'exercice 1980, année favorable, et non ceux de l'exercice 1981 au cours duquel la situation économique et celle des banques a été moins bonne.</seg>
+                            <seg>b) Actifs nets et bénéfices nets :</seg>
+                            <seg>S'agit-il d'actifs et bénéfices comptables ou d'actifs et bénéfices consolidés ?</seg>
+                            <seg>Le législateur ne le dit pas. Ainsi, il n'aurait pas rempli son rôle au regard de l'article 34. En réalité, que l'on prenne une solution ou l'autre cela n'entraîne pas des résultats différents. L'actif net et et le bénéfice net ne sont pas ici des éléments de l'indemnisation mais interviennent simplement comme éléments d'une comparaison qui sera menée dans les mêmes conditions, entre les banques cotées et les banques non cotées. Que l'on prenne les éléments nets comptables ou les éléments consolidés le premier terme de chacun des deux rapports en sera modifié et le quotient permettant d'aboutir au prix de l'action sera de la même façon modifié. Le résultat sera finalement le même ou, en tout cas, très voisin.</seg>
+                            <pb n="9"/>
+                            <seg>De plus, la commission n'étant pas tenue par des règles arithmétiques rigides pourra adopter sa méthode de calcul de façon à l'adapter au mieux à chacun des cas considérés. Il suffit donc de répondre que la commission garde le soin d'adapter la méthode à chaque cas. Cette individualisation que nous avions reprochée à la première loi de ne pas permettre aboutit à une solution plus équitable.</seg>
+                            <seg>c) Critiques du rapport entre societés cotées et non cotées :</seg>
+                            <seg>Les auteurs de la saisine font remarquer que le rapport entre actifs-bénéfices nets et capitalisation boursière varie d'une société à l'autre. Partir d'une moyenne de ces différents rapports n'a aucun sens dans un cas particulier quelconque.</seg>
+                            <seg>Mais la loi n'impose pas la méthode critiquée. Elle ne parle pas d'une moyenne générale établie pour les sociétés cotées et reprise pour les sociétés non cotées. Le bon sens commande qu'il soit procédé par catégorie. La commission comparera des banques d'affaires à des banques d'affaires, des banques de dépôts à des banques de dépôts. Cette moyenne par catégorie est parfaitement valable. Il convient donc de donner cette interprétation au texte et non de la condamner. Là encore, la loi a le mérite de permettre l'individualisation  nécessaire à une juste évaluation.</seg>
+                            <seg>d) Dividendes non pris en compte pour les sociétés non cotées :</seg>
+                            <seg>Pour 1981, il est facile de répondre. Les sociétés restant privées jusqu'en juin 1982 pourront distribuer des dividendes de 1981. Pour les six premiers mois de 1982, il existe effectivement une période durant laquelle les anciens actionnaires ne toucheront aucun intérêt et l'attribution des dividendes pour cette période pourrait n'être pas négligeable. La loi permet de répondre à cette difficulté puisque l'article 18 in fine indique que la valeur au 31 décembre 1981 devra être "actualisée" en tenant compte des évènements survenus durant les six premiers mois de 1982. Parmi ces évènements, bien sûr, il y a les résultats de la société et la possibilité d'une distribution de bénéfices et, là encore, il convient de répondre en donnant cette interprétation.</seg>
+                        </writing>
+                    </div4>
+                    <div4 type="discussion">
+                        <u who="#vedel_george">
+                            <seg><hi rend="underline">Monsieur VEDEL</hi> termine son rapport en disant que les deux décisions rendues sur la matière des nationalisations conduiront les analystes, une fois les passions retombées, à conclure que le Conseil a donné une solution très raisonnable qui revient à dire que le Parlement peut nationaliser des entreprises, à la condition, bien évidemment, de payer pour cela des prix convenables.</seg>
+                        </u>
+                        <u who="#frey_roger">
+                            <seg><hi rend="underline">Le Président</hi> remercie Monsieur VEDEL de cet excellent rapport et regrette, quant à lui, que si, comme le dit Monsieur VEDEL, l'attitude du Gouvernement a été parfaitement convenable après la première décision du Conseil, certains parlementaires aient jugé bon d'attaquer le Conseil et même d'insulter ses membres.</seg>
+                        </u>
+                        <pb n="10"/>
+                        <u who="#peretti_achille">
+                            <seg><hi rend="underline">Monsieur PERETTI</hi> rappelle, à propos de la procédure d'urgence, qu'il avait dit, avant que le Conseil ne fût saisi de la première loi, que si l'urgence était demandée sur une affaire aussi complexe il ne participerait pas aux travaux que le Conseil devrait alors menés dans une telle hâte. Il rappelle que Monsieur VEDEL avait d'ailleurs indiqué qu'il n'estimait pas que l'appréciation d'urgence fût à la seule discrétion du Gouvernement. Puisque cette question se pose dans des conditions de plus grande sérénité, il aimerait bien que cette question fusse tranchée, ce qui actuellement pourrait se faire en dehors de toute passion.</seg>
+                        </u>
+                        <u who="#gros_louis">
+                            <seg><hi rend="underline">Monsieur GROS</hi> estime, sur ce point également, qu'il y a une question de fond qui risque de devenir très sérieuse et sur laquelle il serait utile que le Conseil prenne position.</seg>
+                        </u>
+                        <u who="#lecourt_robert">
+                            <seg><hi rend="underline">Monsieur LECOURT</hi> se demande si se contenter de viser l'urgence comme on le fait dans le projet soumis au Conseil n'est pas lui reconnaître une force indépendante de toute appréciation du Conseil. Il note que l'on vise la demande d'urgence comme on vise plus bas la Constitution, c'est-à-dire comme s'il s'agissait d'un texte qui s'impose absolument au Conseil sans qu'il ait rien à dire sur l'appréciation contenue par la lettre du Premier ministre. Si vraiment le Conseil ne doit pas trancher cette question, peut-être serait-il plus prudent de ne faire aucun visa à ce sujet.</seg>
+                        </u>
+                        <u who="#frey_roger">
+                            <seg><hi rend="underline">Le Président</hi> indique, quant à lui, que le visa ne lui paraît pas du tout avoir la portée que semble craindre Monsieur LECOURT. Il s'agit d'une simple constatation selon laquelle l'urgence a été demandée. Il ne semble pas qu'il y ait à soulever la moindre difficulté puisque, dans cette affaire, on ne saurait discuter qu'elle fût justifiée et, d'ailleurs, le Conseil n'a éprouvé aucune difficulté particulière à répondre dans un délai de huit jours.</seg>
+                        </u>
+                        <u who="#segalat_andre">
+                            <seg><hi rend="underline">Monsieur SEGALAT</hi> estime qu'il n'est pas possible de se dispenser de viser la lettre demandant l'urgence. Le Conseil n'a pas la maîtrise de la constitution de son dossier. Le Premier ministre tient de la Constitution le pouvoir de demander au Conseil de statuer selon la procédure d'urgence. Il l'a fait ! Nous ne pouvons pas négliger ce fait et sembler l'ignorer. Il convient donc de viser sa lettre qui donne l'indication de la procédure que le Conseil devait suivre. En l'absence de toute discussion dans les considérants, la question reste entière de savoir si le Conseil a ou non l'appréciation de la réalité de l'urgence.</seg>
+                        </u>
+                        <u who="#vedel_georges">
+                            <seg><hi rend="underline">Monsieur VEDEL</hi> : il est certain qu'il faut viser cette lettre. La seule alternative qui s'ouvre est de répondre ou de ne pas répondre sur l'urgence.</seg>                
+                        </u>
+                        <u who="#segalat_andre">
+                            <seg><hi rend="underline">Monsieur SEGALAT</hi> propose que l'on dise, au début de la décision, "sans qu'il soit besoin de se prononcer sur l'urgence".</seg>
+                        </u>
+                        <u who="#monnerville_gaston">
+                            <seg><hi rend="underline">Monsieur MONNERVILLE</hi> préfère infiniment la rédaction actuelle qui n'engage en rien l'avenir. La forme "sans qu'il soit besoin de se prononcer" donne la réponse au fond sur les pouvoirs du Conseil.</seg>
+                        </u>
+                        <pb n="11"/>
+                        <u who="#frey_roger">
+                            <seg>Pour <hi rend="underline">le President</hi>, l'article 61 de la Constitution prévoit la demande d'urgence. Le Premier ministre en a fait application. Il suffit de viser sa lettre comme le propose le projet. Ceci n'engage en rien l'avenir et il paraît particulièrement opportun de se garder d'entamer toute polémique, spécialement quand elle est inutile.</seg>
+                        </u>
+                        <u who="#peretti_achille">
+                            <seg><hi rend="underline">Monsieur PERETTI</hi> est d'accord pour que l'avenir soit ainsi réservé si le visa proposé ne nous engage pas déjà pour la solution qui serait donnée en cas de discussion.</seg>
+                        </u>
+                        <u who="#vedel_georges">
+                            <seg><hi rend="underline">Monsieur VEDEL</hi> : aller au-delà de la rédaction actuelle serait créer une équivoque. Si une demande d'urgence peut être appréciée, il est certain qu'elle ne pourrait l'être qu'en cas d'abus manifeste Le visa d'une simple pièce de procédure ne donne aucune indication quant à l'appréciation qui peut être donnée sur son bien fondé.</seg>
+                        </u>
+                        <writing>
+                            <seg>Après cette discussion, il est donc décidé de ne pas modifier le projet et de se contenter du visa tel qu'il est actuellement proposé par le rapporteur.</seg>
+                            <seg>Il est donné lecture du projet.</seg>
+                        </writing>
+                        <u who="#segalat_andre">
+                            <seg><hi rend="underline">Monsieur SEGALAT</hi> indique que la rédaction en réponse sur l'argument tiré de l'article 34, selon lequel après avoir énuméré les critères le législateur ne saurait donner la liste des banques nationalisées par application de ces critères, ne lui paraît pas satisfaisante. En effet, le projet est ainsi rédigé : "La loi fixe également les règles concernant ... des nationalisations d'entreprises ...". Que cette disposition, en l'absence de toute réserve au profit du pouvoir règlementaire, n'interdit pas au législateur de déterminer lui-même les sociétés devant être nationalisées, conformément aux critères retenus par lui. Qu'ainsi, les dispositions combinées des paragraphes I et II de l'article 12 de la loi ne sont pas contraires à la Constitution...</seg>
+                            <seg>Cette rédaction apparaît dangereuse. Elle semble supposer que si la loi comportait des dispositions de nature règlementaire elle serait contraire à la Constitution. Or, nous avons constamment estimé le contraire. Quand la loi intervient dans une matière règlementaire, il appartient au seul Gouvernement de s'en plaindre. Il peut, tout d'abord, s'opposer à ce que la disposition dont il s'agit soit soumise à la discussion (procédure prévue à l'article 41 de la Constitution). Il peut, s'il le préfère, laisser le Parlement se prononcer sur ces dispositions et, après le vote de la loi, venir devant le Conseil demander le déclassement de la disposition dont il s'agit de façon à pouvoir l'abroger ou la modifier dans l'exercice de son pouvoir réglementaire. Rien, dans la Constitution, ne permet de dire que l'inclusion dans la loi d'une disposition règlementaire est contraire à la Constitution. Simplement, le Gouvernement peut l'empêcher ou récupérer ultérieurement sa compétence sur ce point. Nous avons fréquemment vu, dans les procé- dures de l'article 37, le Gouvernement demander le déclassement , de dispositions qui ar suite d'un accord politique, avaient été mises dans la loi de façon à faciliter le vote <pb n="12"/> d'un texte. Nous avons simplement dit, en séance, qu'il convenait dans ce cas que le Gouvernement respecte un délai de décence minimum mais il ne s'agit là que d'une appréciation politique. Juridiquement, il peut parfaitement faire déclasser une disposition le lendemain même du vote de la loi. Quand bien même la discussion est déclassée, elle continue à s'appliquer jusqu'au jour où le Gouvernement utilise son pouvoir réglementaire pour la modifier. C'est ce qui ressort de l'article 37 qui ne prévoit pas la nullité de la disposition dont il s'agit à partir du moment où elle est déclarée règlementaire. Rien donc ne permet de dire que le fait qu'une disposition règlementaire soit contenue dans la loi est contraire à la Constitution.</seg>
+                        </u>
+                        <writing>
+                            <seg>Une discussion rapide intervient sur ce point et le Conseil n'ayant jamais exprimé clairement sa position dans une décision, il est considéré comme suffisant de faire disparaître, dans le considérant, les termes "en l'absence de toute réserve au profit du pouvoir règlementaire" qui provoquent la difficulté.</seg> 
+                        </writing>
+                        <writing>
+                            <seg><span type="vote">Sous réserve de cette modification et de quelques rectifications minimes de forme, la décision est adoptée à l'unanimité.</span></seg>
+                        </writing>
+                    </div4>
+                </div3>
+                <div3 type="cloture">
+                    <writing>
+                        <seg>La séance est levée à 12 h 30.</seg>
+                    </writing>
+                    <u who="#frey_roger">
+                        <seg><hi rend="underline">Le Président</hi> donne encore les indications suivantes sur la suite des travaux du Conseil.</seg>
+                        <seg>L'examen des lois relatives à la décentralisation, d'une part, et au statut de la Corse, d'autre part, pose de nombreuses questions très liées, beaucoup de dispositions de ices deux textes étant semblables ou ne comportant que de très faibles différences.</seg>
+                        <seg>Il apparaît nécessaire que les rapporteurs, harmonisent leurs points de vue d'une façon très complète avant que les décisions ne soient rendues.</seg>
+                        <seg>Le Conseil se réunira à nouveau le jeudi 18 à 10 heures du matin et, s'il y a lieu, 1'après-midi, pour entendre la présentation générale des questions qui se posent sur la décentralisation par le rapporteur, Monsieur LECOURT.</seg>
+                        <seg>Le mardi 24, le Conseil se réunira à 10 heures et, s'il est nécessaire, également l'après-midi, pour statuer sur la loi relative à la décentralisation.</seg>
+                        <seg>Le mardi 2 mars, une réunion qui durera également toute la journée s'il est nécessaire sera consacrée à l'examen de la loi portant statut de la Corse, au rapport de Monsieur BROUILLET.</seg>
+                    </u>
+                    <writing>
+                        <seg>Après ces informations, une discussion porte sur les communications faites aux membres du Conseil et les contacts divers qu'ils peuvent avoir avec les personnes, intéressées aux affaires, qui demandent à être reçues.</seg>
+                        <seg>Monsieur DEFFERRE a rendu visite au Président à qui il a exposé sa façon de voir les questions relatives à la décentralisation et au statut de la Corse. Il a également pris contact avec le <pb n="13"/> rapporteur et les autres membres du Conseil afin de leur rendre visite.</seg>
+                    </writing>
+                    <u who="#gros_louis">
+                        <seg><hi rend="underline">Monsieur GROS</hi> pose la question du caractère contradictoire des procédures.</seg>
+                    </u>
+                    <writing>
+                        <seg>De la discussion générale, il ressort que toute personne intéressée est habilitée à faire parvenir au Conseil toutes les informations qu'elle estime utiles. Bien évidemment, le Conseil appréciera le compte qu'il convient d'en tenir. On ne saurait à la fois se plaindre d'être mal compris du Gouvernement et refuser, s'il le demandent, de recevoir les ministres qui désireraient exposer leur point de vue. Aucune critique n'apparaît possible au regard du caractère contradictoire de l'instruction dans la mesure où tous les intéressés peuvent, également, faire parvenir des pièces ou exposer les arguments qui leur paraissent utiles. Organiser une procédure contradictoire formalisée ne paraît, en tout cas, pas possible en l'absence de parties et dans la nécessité pratique où se trouve le Conseil de statuer dans des délais brefs, un mois au maximum et huit jours en cas d'urgence.</seg>
+                        <seg>Cette discussion se termine à 13 heures.</seg>
+                    </writing>
+                </div3>
+            </div2>
+        </div1>
     </body>
     <back>
-    <p>Cette décision ne comporte pas d'annexe</p>
+        <p>Cette décision ne comporte pas d'annexe</p>
     </back>
 </text>
 </TEI>
