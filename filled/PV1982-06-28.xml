@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,76 +11682,84 @@
         <head type="1">RAPPORT DE LA SEANCE DU 28 JUIN 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p>Le Conseil constitutionnel se réunit à 17 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>	
+                <writing>
+                    <seg>Le Conseil constitutionnel se réunit à 17 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                </writing>
             </div4>
             <div4 type="ordreDuJour">
-                <p><hi rend="underline">Monsieur le Président</hi> rappelle que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi de finances rectificative pour 1982.</p>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> rappelle que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi de finances rectificative pour 1982.</seg>
+                </u>
             </div4>
         </div3>
         <div3 type="question" n="1" corresp="#DC-82-140">
             <!--rappel du numéro de la décision prise -->
             <div4 type="introduction">
-                <p>Il donne alors la parole au rapporteur dans cette affaire : Monsieur le Président André SEGALAT.</p>                 
+                <writing>
+                    <seg>Il donne alors la parole au rapporteur dans cette affaire : Monsieur le Président André SEGALAT.</seg>
+                <writing>
             </div4>
-            <writing type="rapport" who="#segalat_andre">
-                <seg><hi rend="underline">Monsieur SEGALAT</hi> présente alors le rapport suivant :</seg>
-                <seg>Le Conseil constitutionnel a été saisi, le 18 juin 1982, par 88 députés, de la loi de finances rectificative pour 1982.</seg>
-                <seg>Cette saisine porte sur un point particulier et inattendu, à savoir la réforme de l'assurance construction telle qu'elle est prévue à l'article 30 de la loi, article qui portait le n° 27 dans le projet de loi.</seg>
-                <seg>La recevabilité de cette saisine ne posant aucun problème, il convient, à présent, d'aborder la question de fonds.</seg>
-                <seg>L'article 30 traite donc du délicat problème de l'assurance en matière de construction. Nous savons que la loi du 4 janvier 1978 a modifié le régime de l'assurance construction, notamment en rendant obligatoire la souscription de polices d'assurances. Cette loi a également redéfini la responsabilité des entrepreneurs. Il s'est révélé, cependant, que cette loi n'a pas résolu tous les problèmes en matière d'assurance. C'est qu'en effet, le bâtiment traverse une grave crise. Les difficultés économiques et financières qu'il rencontre sont aggravées du fait de l'inflation qui augmente considérablement tous les coûts. Face à cette crise, le Gouvernement s'est efforcé de trouver des solutions. C'est ainsi que deux volumineux rapports ont été élaborés par des techniciens. Le deuxième, rédigé par M. SPINETTA, l'un des inspirateurs de la loi de 1978, ancien Directeur de la construction, est à l'origine de l'article 30.</seg>
-                <seg>Quelle est la portée exacte de cet article ?</seg>
-                <seg>On peut en dégager les points essentiels suivants :</seg>
-                <seg>- Il est créé un fonds de compensation des risques de la construction. Ce fonds est géré par la Caisse centrale de réassurance : établissement public commercial.</seg>
-                <pb n="2"/>
-                <seg>- Le rôle de ce fonds est triple : il indemnise les dommages des chantiers ouverts avant une date fixée en Conseil d'Etat. Il compense les incidences financières de l'évolution des coûts de la construction sur les garanties d'assurance. Il mène enfin des actions de prévention des désordres et de promotion de la qualité dans la construction.</seg>
-                <seg>- Les ressources de ce fonds proviennent d'une contribution à la charge des compagnies d'assurance. Son assiette est constituée par les primes d'assurance construction perçues par ces compagnies, qu'il s'agisse de garanties d'assurances obligatoires de dommages ou de garanties d'assurance décennales.</seg>
-                <seg>- Le taux de ces contributions est de 5% en ce qui concerne les primes d'assurance des entreprises artisanales et de 15% pour les autres primes d'assurance.</seg>
-                <seg>Les auteurs de la saisine invoquent deux moyens : l'article 30 méconnaît, d'une part, les dispositions de l'ordonnance du 2 janvier 1959 et, d'autre part, le principe d'égalité.</seg>
-                <seg><hi rend="underline">I. Méconnaissance des dispositions de l'ordonnance du 2 janvier 1959</hi></seg>
-                <seg>Le recours porte sur un point inattendu et il soulève un problème technique et complexe qui relève du domaine des assurances. Ce point touche également à la parafiscalité et à ses rapports avec l'impôt.</seg>
-                <seg>Une première difficulté consiste à mettre de la clarté dans le raisonnement des saisissants. On peut analyser leurs griefs comme suit :</seg>
-                <seg>Pour eux, l'article 30, en instituant un impôt d'Etat affecté à un organisme qui dispose de la personnalité morale sans avoir le caractère d'un établissement public, viole à la fois l'article 4 et l'article 18 de l'ordonnance du 2 janvier 1959.</seg>
-                <seg>Il y aurait violation de l'article 4 du fait de l'affectation d'une imposition à un organisme qui n'est ni une collectivité locale, ni un établissement public et, en raison, d'autre part, du défaut d'évaluation du produit de cette taxe fiscale dans une loi de finances.</seg>
-                <seg>Il y aurait violation, d'autre part, de l'article 18 de l'ordonnance du fait que l'affectation prévue de cette taxe n'entre dans aucune des procédures d'affectation limitativement énoncées à l'article 18 de l'ordonnance.</seg>
-                <seg>La première question qui se pose est relative à la nature juridique de cette contribution.</seg>
-                <seg>A t-elle ou non un caractère fiscal ?</seg>
-                <seg>Avant de tenter de répondre à cette question, il convient de noter que les auteurs de la saisine admettent le caractère fiscal de la contribution versée au fonds de compensation.</seg>
-                <pb n="3"/>
-                <seg>La qualification de cette contribution soulève le problème toujours actuel de la parafiscalité. L'examen de la loi de finances pour 1982 montre le nombre important et la très grande variété des taxes parafiscales. La plupart sont instituées au profit de comités techniques afin de favoriser la recherche ou au profit d'organismes professionnels afin d'améliorer la qualité des produits et leur commercialisation, mais cette distinction n'est pas absolue et certaines taxes parafiscales peuvent surprendre : ainsi, par exemple, les taxes parafiscales perçues sur les vins "tranquilles", c'est-à-dire de Bordeaux, ou sur le lait des vaches.</seg>
-                <seg>Depuis 1970, sur l'impulsion de la commission CABANNES de la Cour des comptes, de la direction des comptes au ministère des finances et également de la section administrative du Conseil d'Etat, un revirement s'est produit tendant à limiter la multiplication de ces taxes parafiscales. Ce mouvement a conduit à l'élaboration du décret du 30 octobre 1980 qui tente à refondre la réglementation de la parafiscalité.</seg>
-                <seg>Ce décret limite à cinq ans la durée d'existence d'une taxe parafiscale, ce qui a pour objet d'amener le Gouvernement à réexaminer périodiquement le bien fondé de chacune de ces taxes.</seg>
-                <seg>Le système constitutionnel français consacre donc deux systèmes de financement des ressources publiques. L'article 34 de la Constitution énonce que la fixation des règles concernant l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures relève de la loi. L'article 4 de l'ordonnance du 2 janvier 1959 dispose que "les taxes parafiscales, perçues dans un intérêt économique ou social au profit d'une personne morale de droit public ou privé autre que l'Etat, les collectivités territoriales et leurs établissements publics administratifs, sont établies par décret en Conseil d'Etat pris sur le rapport du ministre des finances et du ministre intéressé. La perception de ces taxes au-delà du 31 décembre de l'année de leur établissement doit être autorisée chaque année par une loi de finances".</seg>
-                <seg>La taxe parafiscale se caractérise donc par deux points : son objet qui doit concerner un intérêt économique ou social et son affectation, elle doit être perçue pour une personne morale autre que l'Etat, une collectivité territoriale et leurs établissements publics et administratifs.</seg>
-                <seg>Il faut noter que ces deux procédés (imposition et parafiscalité) n'ont pas un domaine identique.</seg>
-                <seg>Si une taxe parafiscale doit concerner exclusivement un intérêt économique ou social, l'impôt lui ne se voit pas assigner un domaine par l'article 34 de la Constitution. C'est dire que le Parlement peut créer un impôt pour couvrir un intérêt économique ou social. Le Gouvernement et le Parlement ont donc le choix entre ces deux voies. Il est à signaler que ce choix ne se pose pas au regard des articles 34 et 37 de la Constitution. En effet, si une disposition réglementaire est insérée dans une loi, sa validité demeure jusqu'à son déclassement par la voie de l'article 37, alinéa 2. Jusqu'à ce déclassement, la mesure votée par le législateur garde la qualification d'impôt même s'il s'agit en <pb n="4"/> réalité d'une taxe parafiscale.</seg>
-                <seg>C'est dire qu'il faut dépasser l'examen des formes d'institution d'une redevance obligatoire pour rechercher l'intention du législateur. Il s'agit donc de savoir s'il a voulu établir une imposition ou un taxe parafiscale. En l'espèce, on ne peut se méprendre sur la volonté du Gouvernement et du Parlement. Ils ont eu l'intention d'établir une imposition. C'est ce qui ressort des travaux parlementaires.</seg>
-                <seg>Le Gouvernement avait songé dans un premier temps à instituer la redevance au profit du fonds de compensation des risques de l'assurance construction par la voie parafiscale et il avait à cet effet, rédigé un projet de décret en Conseil d'Etat. Cependant, à la suite d'objections officieuses formulées par le rapporteur du Conseil d'Etat, le Gouvernement a abandonné cette voie. Il lui a en effet été objecté que la contribution envisagée ne constituait pas une taxe parafiscale en raison de son objet : elle n'était pas établie exclusivement dans l'intérêt économique ou social d'un groupe professionnel son produit étant, au moins en partie, affecté à la couverture de dépenses d'intérêt général.</seg>
-                <seg>Monsieur le Rapporteur éprouve quant à lui des doutes très sérieux sur cette interprétation. Il parait excessivement restrictif que d'exiger que l'intérêt économique et social mentionné à l'article 4 de l'ordonnance soit envisagé exclusivement par rapport à l'intérêt d'une profession. On ne voit pas pourquoi les redevables d'une taxe parafiscale doivent en être les bénéficiaires exclusifs.</seg>
-                <seg>Cependant, comme les missions assignées au fonds sont diverses, il n'est pas faux de mettre en relief, tout du moins en ce qui concerne les actions de prévention des désordres et la promotion de la qualité de la construction, que certaines de ces missions sont assimilables à des missions de service public qui auraient dû être confiées non à un organisme industriel ou commercial mais à un organisme administratif.</seg>
-                <seg>Il parait cependant possible de se dispenser de trancher ce problème. Il est en effet secondaire par rapport à la question suivante : le Gouvernement avait-il le choix entre l'établissement d'un impôt et l'établissement d'une taxe parafiscale ? La réponse ne fait aucun doute : aussi bien le Ministre du budget que les saisissants eux-mêmes ne discutent pas la qualification d'imposition en ce qui concerne ces redevances.</seg>
-                <seg>Les saisissants relèvent une deuxième objection. Ayant admis que ces redevances ont une nature fiscale, ils soutiennent que son affectation n'entre dans aucune des procédures d'affectation prévues par l'article 18 de l'ordonnance du 2 janvier 1959. Selon eux le fonds, qui dispose de la personnalité juridique car il peut conclure des conventions, n'appartient pas à la catégorie de personnes morales qui peuvent bénéficier d'un impôt n'étant ni un établissement public ni une collectivité locale.</seg>
-                <seg>Il semble que cette objection repose sur une erreur d'analyse. Il est en effet fréquent que la gestion d'un fonds de péréquation soit confiée à une personne morale. Tel est le cas en l'espèce puisque c'est la Caisse centrale de réassurance, établissement public à caractère commercial, qui assure la vie juridique du fonds.</seg>
-                <pb n="5"/>
-                <seg>Cette caisse centrale de réassurance dispose, en effet, de plusieurs fonds satellites. Le fonds de compensation ne constitue qu'un simple procédé d'individualisation comptable dans les écritures de la Caisse centrale de réassurance. Il s'agit alors de savoir si l'on peut affecter une imposition à un établissement public industriel et commercial. Aucune disposition constitutionnelle ne s'y oppose et la pratique fourmille d'ailleurs d'exemples, telle l'affectation d'une taxe à l'agence nationale pour l'amélioration de l'habitat. Rien ne s'oppose donc à ce que le produit de la taxe perçue au profit du fonds de compensation soit affecté à la Caisse centrale de réassurance. Dès lors, deux objections soulevées par les saisissants tombent d'elles-mêmes.</seg>
-                <seg>On ne saurait reprocher, premièrement, à l'article 30 d'omettre de prévoir l'évaluation de rendement de cette taxe car il ne concerne pas le produit d'un impôt affecté à l'Etat.</seg>
-                <seg>On ne saurait, deuxièmement, reprocher à l'article 30 de ne pas respecter les procédures d'affectation de l'article 18 de l'ordonnance, cet article n'étant applicable qu'aux seuls impôts affectés à l'Etat.</seg>
-                <seg>C'est d'ailleurs ce qu'a rappelé Monsieur le Doyen VEDEL lors de l'examen de la loi de nationalisation à propos des redevances perçues par les caisses nationales de l'industrie et par les caisses nationales des banques.</seg>
-                <seg><hi rend="underline">II. Méconnaissance du principe d'égalité</hi></seg>
-                <seg>Il faut rappeler que l'article 30 institue une contribution sur les compagnies d'assurance. L'assiette de cette contribution est constituée par les primes et cotisations perçues sur les assurés, entreprises du bâtiment, architectes et promoteurs. Le taux de ces contributions est de 5% du montant des primes versées par les entreprises artisanales et de 15% des primes versées par les autres entreprises. Il est soutenu que cette différenciation suivant la situation des assurés serait contraire au principe d'égalité. Seule serait admissible, est-il allégué, une différenciation suivant les compagnies d'assurance elles-mêmes.</seg>
-                <seg>En réalité, la différenciation de ces taux n'est pas contraire au principe d'égalité. La loi n'établit aucune discrimination, le même taux étant appliqué à toutes les compagnies d'assurance, mais il faut aller au-delà pour examiner la situation des assurés. Là encore, il apparaît qu'il n'y a aucune discrimination dans la mesure où la situation de ceux-ci est différente au regard de la loi. Il faut en effet se souvenir que le propre de l'assurance est de transférer les risques de l'assuré sur l'assureur. Dans cette optique, la situation des entreprises artisanales est tout à fait différente de celle des autres entreprises. C'est que, si la loi de 1978 a rendu obligatoire l'assurance construction, avant cette date la plupart des entreprises artisanales ne souscrivaient aucune police d'assurance.</seg>
-                <seg>Dès lors, les compagnies d'assurance n'ayant pas à garantir ces entreprises artisanales, le fonds de compensation n'aura pas, lui non plus, à intervenir.</seg>
-                <pb n="6"/>
-                <seg>Ainsi, pour les chantiers menés à terme par les entreprises artisanales, la charge du fonds de compensation sera nettement moins lourde que pour des chantiers menés par d'autres entreprises qui, elles, avaient très généralement souscrit des polices d'assurance.</seg>
-                <seg>Avant de terminer son rapport, Monsieur le Président SEGALAT ajoute que dans le projet qu'il soumet au Conseil il n'a pas inclus le considérant final que comportent habituellement les décisions du Conseil.</seg>
-                <seg>La lecture, en effet, de l'ensemble de la loi soulève quelques problèmes qui, a priori, ne semblent pas de nature à appeler une censure de la part du Conseil. Cependant, il paraît plus sage de s'en tenir dans la présente décision aux seules questions soulevées par les auteurs de la saisine.</seg>
-                <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de son projet de décision.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> présente alors le rapport suivant :</seg>
+                    <seg>Le Conseil constitutionnel a été saisi, le 18 juin 1982, par 88 députés, de la loi de finances rectificative pour 1982.</seg>
+                    <seg>Cette saisine porte sur un point particulier et inattendu, à savoir la réforme de l'assurance construction telle qu'elle est prévue à l'article 30 de la loi, article qui portait le n° 27 dans le projet de loi.</seg>
+                    <seg>La recevabilité de cette saisine ne posant aucun problème, il convient, à présent, d'aborder la question de fonds.</seg>
+                    <seg>L'article 30 traite donc du délicat problème de l'assurance en matière de construction. Nous savons que la loi du 4 janvier 1978 a modifié le régime de l'assurance construction, notamment en rendant obligatoire la souscription de polices d'assurances. Cette loi a également redéfini la responsabilité des entrepreneurs. Il s'est révélé, cependant, que cette loi n'a pas résolu tous les problèmes en matière d'assurance. C'est qu'en effet, le bâtiment traverse une grave crise. Les difficultés économiques et financières qu'il rencontre sont aggravées du fait de l'inflation qui augmente considérablement tous les coûts. Face à cette crise, le Gouvernement s'est efforcé de trouver des solutions. C'est ainsi que deux volumineux rapports ont été élaborés par des techniciens. Le deuxième, rédigé par M. SPINETTA, l'un des inspirateurs de la loi de 1978, ancien Directeur de la construction, est à l'origine de l'article 30.</seg>
+                    <seg>Quelle est la portée exacte de cet article ?</seg>
+                    <seg>On peut en dégager les points essentiels suivants :</seg>
+                    <seg>- Il est créé un fonds de compensation des risques de la construction. Ce fonds est géré par la Caisse centrale de réassurance : établissement public commercial.</seg>
+                    <pb n="2"/>
+                    <seg>- Le rôle de ce fonds est triple : il indemnise les dommages des chantiers ouverts avant une date fixée en Conseil d'Etat. Il compense les incidences financières de l'évolution des coûts de la construction sur les garanties d'assurance. Il mène enfin des actions de prévention des désordres et de promotion de la qualité dans la construction.</seg>
+                    <seg>- Les ressources de ce fonds proviennent d'une contribution à la charge des compagnies d'assurance. Son assiette est constituée par les primes d'assurance construction perçues par ces compagnies, qu'il s'agisse de garanties d'assurances obligatoires de dommages ou de garanties d'assurance décennales.</seg>
+                    <seg>- Le taux de ces contributions est de 5% en ce qui concerne les primes d'assurance des entreprises artisanales et de 15% pour les autres primes d'assurance.</seg>
+                    <seg>Les auteurs de la saisine invoquent deux moyens : l'article 30 méconnaît, d'une part, les dispositions de l'ordonnance du 2 janvier 1959 et, d'autre part, le principe d'égalité.</seg>
+                    <seg><hi rend="underline">I. Méconnaissance des dispositions de l'ordonnance du 2 janvier 1959</hi></seg>
+                    <seg>Le recours porte sur un point inattendu et il soulève un problème technique et complexe qui relève du domaine des assurances. Ce point touche également à la parafiscalité et à ses rapports avec l'impôt.</seg>
+                    <seg>Une première difficulté consiste à mettre de la clarté dans le raisonnement des saisissants. On peut analyser leurs griefs comme suit :</seg>
+                    <seg>Pour eux, l'article 30, en instituant un impôt d'Etat affecté à un organisme qui dispose de la personnalité morale sans avoir le caractère d'un établissement public, viole à la fois l'article 4 et l'article 18 de l'ordonnance du 2 janvier 1959.</seg>
+                    <seg>Il y aurait violation de l'article 4 du fait de l'affectation d'une imposition à un organisme qui n'est ni une collectivité locale, ni un établissement public et, en raison, d'autre part, du défaut d'évaluation du produit de cette taxe fiscale dans une loi de finances.</seg>
+                    <seg>Il y aurait violation, d'autre part, de l'article 18 de l'ordonnance du fait que l'affectation prévue de cette taxe n'entre dans aucune des procédures d'affectation limitativement énoncées à l'article 18 de l'ordonnance.</seg>
+                    <seg>La première question qui se pose est relative à la nature juridique de cette contribution.</seg>
+                    <seg>A t-elle ou non un caractère fiscal ?</seg>
+                    <seg>Avant de tenter de répondre à cette question, il convient de noter que les auteurs de la saisine admettent le caractère fiscal de la contribution versée au fonds de compensation.</seg>
+                    <pb n="3"/>
+                    <seg>La qualification de cette contribution soulève le problème toujours actuel de la parafiscalité. L'examen de la loi de finances pour 1982 montre le nombre important et la très grande variété des taxes parafiscales. La plupart sont instituées au profit de comités techniques afin de favoriser la recherche ou au profit d'organismes professionnels afin d'améliorer la qualité des produits et leur commercialisation, mais cette distinction n'est pas absolue et certaines taxes parafiscales peuvent surprendre : ainsi, par exemple, les taxes parafiscales perçues sur les vins "tranquilles", c'est-à-dire de Bordeaux, ou sur le lait des vaches.</seg>
+                    <seg>Depuis 1970, sur l'impulsion de la commission CABANNES de la Cour des comptes, de la direction des comptes au ministère des finances et également de la section administrative du Conseil d'Etat, un revirement s'est produit tendant à limiter la multiplication de ces taxes parafiscales. Ce mouvement a conduit à l'élaboration du décret du 30 octobre 1980 qui tente à refondre la réglementation de la parafiscalité.</seg>
+                    <seg>Ce décret limite à cinq ans la durée d'existence d'une taxe parafiscale, ce qui a pour objet d'amener le Gouvernement à réexaminer périodiquement le bien fondé de chacune de ces taxes.</seg>
+                    <seg>Le système constitutionnel français consacre donc deux systèmes de financement des ressources publiques. L'article 34 de la Constitution énonce que la fixation des règles concernant l'assiette, le taux et les modalités de recouvrement des impositions de toutes natures relève de la loi. L'article 4 de l'ordonnance du 2 janvier 1959 dispose que "les taxes parafiscales, perçues dans un intérêt économique ou social au profit d'une personne morale de droit public ou privé autre que l'Etat, les collectivités territoriales et leurs établissements publics administratifs, sont établies par décret en Conseil d'Etat pris sur le rapport du ministre des finances et du ministre intéressé. La perception de ces taxes au-delà du 31 décembre de l'année de leur établissement doit être autorisée chaque année par une loi de finances".</seg>
+                    <seg>La taxe parafiscale se caractérise donc par deux points : son objet qui doit concerner un intérêt économique ou social et son affectation, elle doit être perçue pour une personne morale autre que l'Etat, une collectivité territoriale et leurs établissements publics et administratifs.</seg>
+                    <seg>Il faut noter que ces deux procédés (imposition et parafiscalité) n'ont pas un domaine identique.</seg>
+                    <seg>Si une taxe parafiscale doit concerner exclusivement un intérêt économique ou social, l'impôt lui ne se voit pas assigner un domaine par l'article 34 de la Constitution. C'est dire que le Parlement peut créer un impôt pour couvrir un intérêt économique ou social. Le Gouvernement et le Parlement ont donc le choix entre ces deux voies. Il est à signaler que ce choix ne se pose pas au regard des articles 34 et 37 de la Constitution. En effet, si une disposition réglementaire est insérée dans une loi, sa validité demeure jusqu'à son déclassement par la voie de l'article 37, alinéa 2. Jusqu'à ce déclassement, la mesure votée par le législateur garde la qualification d'impôt même s'il s'agit en <pb n="4"/> réalité d'une taxe parafiscale.</seg>
+                    <seg>C'est dire qu'il faut dépasser l'examen des formes d'institution d'une redevance obligatoire pour rechercher l'intention du législateur. Il s'agit donc de savoir s'il a voulu établir une imposition ou un taxe parafiscale. En l'espèce, on ne peut se méprendre sur la volonté du Gouvernement et du Parlement. Ils ont eu l'intention d'établir une imposition. C'est ce qui ressort des travaux parlementaires.</seg>
+                    <seg>Le Gouvernement avait songé dans un premier temps à instituer la redevance au profit du fonds de compensation des risques de l'assurance construction par la voie parafiscale et il avait à cet effet, rédigé un projet de décret en Conseil d'Etat. Cependant, à la suite d'objections officieuses formulées par le rapporteur du Conseil d'Etat, le Gouvernement a abandonné cette voie. Il lui a en effet été objecté que la contribution envisagée ne constituait pas une taxe parafiscale en raison de son objet : elle n'était pas établie exclusivement dans l'intérêt économique ou social d'un groupe professionnel son produit étant, au moins en partie, affecté à la couverture de dépenses d'intérêt général.</seg>
+                    <seg>Monsieur le Rapporteur éprouve quant à lui des doutes très sérieux sur cette interprétation. Il parait excessivement restrictif que d'exiger que l'intérêt économique et social mentionné à l'article 4 de l'ordonnance soit envisagé exclusivement par rapport à l'intérêt d'une profession. On ne voit pas pourquoi les redevables d'une taxe parafiscale doivent en être les bénéficiaires exclusifs.</seg>
+                    <seg>Cependant, comme les missions assignées au fonds sont diverses, il n'est pas faux de mettre en relief, tout du moins en ce qui concerne les actions de prévention des désordres et la promotion de la qualité de la construction, que certaines de ces missions sont assimilables à des missions de service public qui auraient dû être confiées non à un organisme industriel ou commercial mais à un organisme administratif.</seg>
+                    <seg>Il parait cependant possible de se dispenser de trancher ce problème. Il est en effet secondaire par rapport à la question suivante : le Gouvernement avait-il le choix entre l'établissement d'un impôt et l'établissement d'une taxe parafiscale ? La réponse ne fait aucun doute : aussi bien le Ministre du budget que les saisissants eux-mêmes ne discutent pas la qualification d'imposition en ce qui concerne ces redevances.</seg>
+                    <seg>Les saisissants relèvent une deuxième objection. Ayant admis que ces redevances ont une nature fiscale, ils soutiennent que son affectation n'entre dans aucune des procédures d'affectation prévues par l'article 18 de l'ordonnance du 2 janvier 1959. Selon eux le fonds, qui dispose de la personnalité juridique car il peut conclure des conventions, n'appartient pas à la catégorie de personnes morales qui peuvent bénéficier d'un impôt n'étant ni un établissement public ni une collectivité locale.</seg>
+                    <seg>Il semble que cette objection repose sur une erreur d'analyse. Il est en effet fréquent que la gestion d'un fonds de péréquation soit confiée à une personne morale. Tel est le cas en l'espèce puisque c'est la Caisse centrale de réassurance, établissement public à caractère commercial, qui assure la vie juridique du fonds.</seg>
+                    <pb n="5"/>
+                    <seg>Cette caisse centrale de réassurance dispose, en effet, de plusieurs fonds satellites. Le fonds de compensation ne constitue qu'un simple procédé d'individualisation comptable dans les écritures de la Caisse centrale de réassurance. Il s'agit alors de savoir si l'on peut affecter une imposition à un établissement public industriel et commercial. Aucune disposition constitutionnelle ne s'y oppose et la pratique fourmille d'ailleurs d'exemples, telle l'affectation d'une taxe à l'agence nationale pour l'amélioration de l'habitat. Rien ne s'oppose donc à ce que le produit de la taxe perçue au profit du fonds de compensation soit affecté à la Caisse centrale de réassurance. Dès lors, deux objections soulevées par les saisissants tombent d'elles-mêmes.</seg>
+                    <seg>On ne saurait reprocher, premièrement, à l'article 30 d'omettre de prévoir l'évaluation de rendement de cette taxe car il ne concerne pas le produit d'un impôt affecté à l'Etat.</seg>
+                    <seg>On ne saurait, deuxièmement, reprocher à l'article 30 de ne pas respecter les procédures d'affectation de l'article 18 de l'ordonnance, cet article n'étant applicable qu'aux seuls impôts affectés à l'Etat.</seg>
+                    <seg>C'est d'ailleurs ce qu'a rappelé Monsieur le Doyen VEDEL lors de l'examen de la loi de nationalisation à propos des redevances perçues par les caisses nationales de l'industrie et par les caisses nationales des banques.</seg>
+                    <seg><hi rend="underline">II. Méconnaissance du principe d'égalité</hi></seg>
+                    <seg>Il faut rappeler que l'article 30 institue une contribution sur les compagnies d'assurance. L'assiette de cette contribution est constituée par les primes et cotisations perçues sur les assurés, entreprises du bâtiment, architectes et promoteurs. Le taux de ces contributions est de 5% du montant des primes versées par les entreprises artisanales et de 15% des primes versées par les autres entreprises. Il est soutenu que cette différenciation suivant la situation des assurés serait contraire au principe d'égalité. Seule serait admissible, est-il allégué, une différenciation suivant les compagnies d'assurance elles-mêmes.</seg>
+                    <seg>En réalité, la différenciation de ces taux n'est pas contraire au principe d'égalité. La loi n'établit aucune discrimination, le même taux étant appliqué à toutes les compagnies d'assurance, mais il faut aller au-delà pour examiner la situation des assurés. Là encore, il apparaît qu'il n'y a aucune discrimination dans la mesure où la situation de ceux-ci est différente au regard de la loi. Il faut en effet se souvenir que le propre de l'assurance est de transférer les risques de l'assuré sur l'assureur. Dans cette optique, la situation des entreprises artisanales est tout à fait différente de celle des autres entreprises. C'est que, si la loi de 1978 a rendu obligatoire l'assurance construction, avant cette date la plupart des entreprises artisanales ne souscrivaient aucune police d'assurance.</seg>
+                    <seg>Dès lors, les compagnies d'assurance n'ayant pas à garantir ces entreprises artisanales, le fonds de compensation n'aura pas, lui non plus, à intervenir.</seg>
+                    <pb n="6"/>
+                    <seg>Ainsi, pour les chantiers menés à terme par les entreprises artisanales, la charge du fonds de compensation sera nettement moins lourde que pour des chantiers menés par d'autres entreprises qui, elles, avaient très généralement souscrit des polices d'assurance.</seg>
+                    <seg>Avant de terminer son rapport, Monsieur le Président SEGALAT ajoute que dans le projet qu'il soumet au Conseil il n'a pas inclus le considérant final que comportent habituellement les décisions du Conseil.</seg>
+                    <seg>La lecture, en effet, de l'ensemble de la loi soulève quelques problèmes qui, a priori, ne semblent pas de nature à appeler une censure de la part du Conseil. Cependant, il paraît plus sage de s'en tenir dans la présente décision aux seules questions soulevées par les auteurs de la saisine.</seg>
+                    <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de son projet de décision.</seg>
+                </writing>
+            </div4>
             <div4 type="discussion">
                 <u who="#frey_roger">
                     <seg>Après la lecture de ce projet de décision, Monsieur le Président déclare ouverte la discussion générale.</seg>
                 </u>
                 <u who="#gros_louis">
-                    <seg><hi rend="underline">Monsieur GROS</hi> déclare que s'il a été séduit par le rapport, celui-ci ne l'a pas convaincu. Il se dit très préoccupé par la motivation de la décision dont il approuve cependant le dispositif. Pour la première fois, le Conseil constitutionnel rend une décision interprétant l'article 18 de l'ordonnance du 2 janvier 1959. Il pensait que le Conseil qualifierait la contribution alimentant le fonds de compensation des risques de l’assurance de taxe parafiscale et qu'il préciserait que rien n’interdisait à une loi d'empiéter sur le domaine réglementaire. Une telle solution lui aurait paru acceptable.</seg>
+                    <seg><hi rend="underline">Monsieur GROS</hi> déclare que s'il a été séduit par le rapport, celui-ci ne l'a pas convaincu. Il se dit très préoccupé par la motivation de la décision dont il approuve cependant le dispositif. Pour la première fois, le Conseil constitutionnel rend une décision interprétant l'article 18 de l'ordonnance du 2 janvier 1959. Il pensait que le Conseil qualifierait la contribution alimentant le fonds de compensation des risques de l'assurance de taxe parafiscale et qu'il préciserait que rien n'interdisait à une loi d'empiéter sur le domaine réglementaire. Une telle solution lui aurait paru acceptable.</seg>
                     <seg>Ce qui lui paraît critiquable c'est de dire qu'un impôt peut être créé sans respecter les dispositions de l'ordonnance organique. Il comprend mal ce qu'est un impôt qui n'est pas d'Etat. Par ailleurs, il récuse les explications de Monsieur SEGALAT en ce qui concerne la personnalité morale du fonds de compensation. Si celui-ci est effectivement géré par la Caisse centrale de réassurance, cela ne veut pas dire qu'il s'y intègre. L'article 30 lui-même lui attribue la personnalité morale. L'alinéa 2 indique en effet que "le fonds pourra conclure des conventions". La Caisse centrale de réassurance n'existe dans la loi que comme mandataire chargé de gérer le fonds.</seg>
                     <seg>Monsieur GROS précise enfin qu'il ne peut souscrire à la décision qui affirme qu'un impôt d'Etat peut être affecté à une personne morale sans respecter strictement les dispositions de l'ordonnance du 2 janvier 1959.</seg>
                     <seg>La redevance perçue par le fonds de compensation ne peut être, en effet, qu'un impôt d'Etat car on voit mal ce que serait un impôt qui ne serait pas impôt d'Etat. La solution proposée par Monsieur SEGALAT méconnaît l'article 18 de l'ordonnance qui fait état de toutes les recettes et de toutes les dépenses de l'Etat.</seg>
@@ -11832,14 +11841,14 @@
                 </u>
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi>, après avoir demandé si d'autres membres du Conseil souhaitent intervenir, déclare close la discussion générale.</seg>
+                    <seg><span type="vote">Il met alors au vote le projet de décision modifié comme ci-dessus et joint au présent procès-verbal. Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.</span></seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>Il met alors au vote le projet de décision modifié comme ci-dessus et joint au présent procès-verbal. Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.</p>
-                </div5>
             </div4>
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président constatant que le Conseil a épuisé son ordredu jour lève la séance à 19 h 40.</p>
+            <writing>
+                <seg>Monsieur le Président constatant que le Conseil a épuisé son ordredu jour lève la séance à 19 h 40.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
