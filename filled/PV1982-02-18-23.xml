@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11668,10 +11669,8 @@
  </teiHeader>
  <text>
   <body>
-   <!--identifiant de la délibération -->
    <div1 corresp="#PV1982-02-18-23" type="pv">
         <head>
-            <!--identifiant de la délibération -->
             <title>PV1982-02-18-23</title>
         </head>
         <pb n="1"/>
@@ -11679,144 +11678,153 @@
             <head type="1">SEANCE DU JEUDI 18 FEVRIER 1982</head>
             <div3 type="ouverture">
                 <div4 type="membrePresent">
-                    <p>Le Conseil se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>			   
+                    <writing>
+                        <seg>Le Conseil se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                    </writing>
                 </div4>
                 <div4 type="ordreDuJour">
-                    <p><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions dont le Conseil a été saisi, par soixante députés et par soixante sénateurs, en application de l'article 61, alinéa 2, de la Constitution.</p>
+                    <u who="#frey_roger">
+                        <seg><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions dont le Conseil a été saisi, par soixante députés et par soixante sénateurs, en application de l'article 61, alinéa 2, de la Constitution.</seg>
+                    </u>
                 </div4>
             </div3>
-            <!-- n° de decision inexistant -->
             <div3 type="question" n="1" corresp="#DC-82-137"> 
                 <div4 type="introduction">
-                    <p>Le rapporteur de cette affaire est Monsieur Robert LECOURT à qui le Président donne la parole.</p>              
+                    <writing>
+                        <seg>Le rapporteur de cette affaire est Monsieur Robert LECOURT à qui le Président donne la parole.</seg>
+                    </writing>
                 </div4>
-                <writing type="rapport" who="#lecourt_robert">
-                    <seg><hi rend="underline">Monsieur LECOURT</hi> indique à ses collègues qu'il commencera son exposé par une brève introduction historique.</seg>
-                    <seg>Le problème de la décentralisation remonte loin dans l'histoire de France.</seg>
-                    <seg>Pour s'en tenir au XXème siècle, il est clair que deux courants de pensée s’opposent en cette matière.</seg>
-                    <seg>Il existe un courant décentralisateur puissant. Pour y répondre, les autorités de l'Etat ont d'abord recouru à la déconcentration, remettant d'importants pouvoirs de décision à des agents du pouvoir central placés à la tête des circonscriptions administratives territoriales puis ; pour répondre à la volonté d'autonomie des autorités administratives locales, l'Etat a dû instituer véritable décentralisation, déléguant certains de ses pouvoirs, en matière administrative, à des élus communaux ou départementaux. Cette décentralisation s'est particulièrement accentuée, en matière budgétaire, depuis 1958.</seg>
-                    <seg>A l'inverse, un courant centralisateur, qui prend sa source dans les administrations centrales de 1'Etat, a tissé tout un réseau de contrôles ou contraintes techniques.</seg>
-                    <seg>On constate donc, à la fois, un reflux de la tutelle classique en matière administrative et une croissance d'une certaine forme de centralisation technique enserrant communes et départements dans des carcans imposés par l'Etat.</seg>
-                    <pb n="2"/>
-                    <seg><hi rend="underline">I. LE CONTEXTE CONSTITUTIONNEL :</hi></seg>
-                    <seg>Les lois constitutionnelles de 1875 ne portent pas de dispositions spéciales en matière de décentralisation. Ce n'est qu'avec le projet de Constitution du 19 avril 1946 que sont abordées, dans le cadre constitutionnel, les questions relatives aux collectivités locales. En effet, au titre VIII de ce projet, il est mentionné à l'article 114 que "la République française, une et indivisible, reconnaît l'existance de collectivités territoriales. Ces collectivités sont les communes et départements, les territoires et fédérations d'outre-mer. Elles s'administrent librement, conformément à la loi nationale". On voit que cette liste des collectivités territoriales est limitativement énumérée.</seg>
-                    <seg>L'article 116 dispose : "les collectivités locales sont administrées aux différents échelons, par les conseils élus ... au suffrage universel. L'exécution des décisions de ces conseils est assurée par leur maire ou président."</seg>
-                    <seg>Aux termes de l'article 117 "la coordination de l'activité des fonctionnaires de l'Etat, la représentation des intérêts nationaux et le contrôle administratif des collectivités locales sont assurés, dans le cadre départemental, par les délégués du Gouvernement désignés en conseil des ministres".</seg>
-                    <seg>La Constitution du 27 octobre 1946 a repris l'essentiel de ces dispositions, dans son titre X relatif aux collectivités territoriales.</seg>
-                    <seg>Le texte essentiel qui nous concerne aujourd'hui est l'article 88 qui dispose : "la coordination de l'activité des fonctionnaires de l'Etat, la représentation des intérêts nationaux et le contrôle administratif des collectivités territoriales sont assurés, dans le cadre départemental, par des délégués du Gouvernement désignés en conseil des ministres". Ce texte annonce donc le futur article 72 de notre Constitution.</seg>
-                    <seg>Il est à noter, enfin, que l'article 85, alinéa 2, dresse une liste des collectivités territoriales qui sont la commune, le département et le territoire d'outre-mer. Il n'était donc pas prévu qu'une loi puisse créer une nouvelle catégorie de collectivités territoriales.</seg>
-                    <seg>Nous en arrivons donc à la Constitution du 4 octobre 1958. Elle contient essentiellement trois textes :</seg>
-                    <seg>- <hi rend="underline">l'article 72</hi> qui dispose : "Les collectivités territoriales de la République sont les communes, les départements, les territoires d'outre-mer. Toute autre collectivité territoriale est créée par la loi.</seg>
-                    <!-- Fermeture de guillemets ?-->
-                    <seg>"Ces collectivités s'administrent librement par des conseils élus et dans les conditions prévues par la loi."</seg>
-                    <seg>"Dans les départements et les territoires, le délégué du Gouvernement a la charge des intérêts nationaux, du contrôle administratif et du respect des lois" ;</seg>
-                    <pb n="3"/>
-                    <seg>- <hi rend="underline">l'article 34 alinéa 14</hi>, aux termes duquel "la loi détermine les principes fondamentaux ... de la libre administration des collectivités locales, de leurs compétences et de leurs ressources".</seg>
-                    <seg>- Enfin, <hi rend="underline">l'article 24, alinéa 3</hi> qui énonce que "le Sénat est élu au suffrage indirect. Il assure la représentation des collectivités territoriales de la République”.</seg>
-                    <seg>Il convient de citer, pour mémoire, le projet de loi du 27 avril 1969 relatif à la création des régions et à la rénovation du Sénat qui, présenté au référendum, a été repoussé.</seg>
-                    <seg>Enfin, il faut indiquer qu'une proposition de loi constitutionnelle tendant à modifier les articles 21, 34, 37 et 72 de la Constitution, avait été déposée en 1979 par Messieurs MITTERRAND, MAUROY, DEFFERRE et d'autres membres du groupe socialiste. Cette proposition tendait à modifier ces dispositions constitutionnelles en vue, notamment, d'ériger la région en collectivité territoriale.</seg>
-                    <seg>Telles sont les données constitutionnelles du problème. Il convient, à présent, d'envisager les conditions d'élaboration de la loi et d'analyser ses dispositions principales.</seg>
-                    <seg><hi rend="underline">II. ELABORATION DE LA LOI :</hi></seg>
-                    <seg>Ce projet de loi a été déposé le 16 juillet 1981. L'exposé des motifs indique que "la France vit, depuis Colbert et Napoléon, sous un régime centralisé qui n'a cessé de s'aggraver au cours des dernières décennies. Les collectivités territoriales et leurs élus sont traités comme des mineurs placés sous tutelle pour gérer les affaires locales. La multiplicité des contrôles à priori, la nécessité d'obtenir l'approbation de divers ministres, empêchent ou ralentissent la réalisation des projets. La diversité et la prolifération des normes imposées par le pouvoir central restreignent le libre choix des élus. La faiblesse des ressources des. collectivités territoriales réduit leur autonomie. Le Gouvernement entend rompre avec cette situation et reconnaître aux communes, départements et régions une réelle liberté ainsi que la maîtrise de leur devenir..."</seg>
-                    <seg>Ce projet de loi qui a pour objet de transférer des pouvoirs aux élus locaux ne constitue que la première étape d'une réforme complète de la législation des collectivités locales. Le Gouvernement a annoncé que plusieurs autres projets de loi suivraient pour définir les compétences respectives des collectivités locales et de l'Etat, pour fixer le statut des fonctionnaires locaux et pour réformer la fiscalité locale.</seg>
-                    <pb n="4"/>
-                    <seg>Les principales dispositions de ce projet sont les suivantes :</seg>
-                    <seg>- suppression des tutelles a priori ;</seg>
-                    <seg>- institution d'un contrôle juridictionnel a posteriori,</seg>
-                    <seg>- transfert de l'exécutif départemental et régional aux élus ;</seg>
-                    <seg>- transformation du statut de la région, d'établissement public en collectivité territoriale.</seg>
-                    <seg><hi rend="underline">En première lecture, à l'Assemblée nationale</hi>, la discussion a débuté le 27 juillet. Les deux premiers titres de la loi ont été votés aux mois de juillet et août 1981 et les deux derniers titres l'ont été au mois de septembre.</seg>
-                    <seg>A la suite du rejet d'une exception d'inconstitutionnalité, soulevée par Monsieur DEBRE, qui soutenait que ce projet instituait un système fédéral et qu'il ôtait tout pouvoir au représentant de l'Etat dans les départements et régions, la discussion parlementaire s'est engagée dans un climat d'âpres affrontements entre la majorité et l'opposition. Ce projet a été adopté le 11 septembre.</seg>
-                    <seg>Les débats assez confus ont permis d'apporter cependant quelques précisions intéressantes. En premier lieu, il a été précisé qu'il y aurait une modification de la loi électorale par l'introduction d'une certaine mesure de représentation proportionnelle. En second lieu, le rapporteur, Monsieur RICHARD, a admis qu'il y avait un risque d'enchevêtrement entre les compétences des diverses collectivités territoriales. Enfin, 1'ancien ministre, Monsieur MARCELLIN, a indiqué que le contentieux relatif à l'annulation des délibérations des conseils généraux avait extrêmement réduit depuis 1958 et qu'en tout seulement 19 délibérations avaient été déférées au Conseil d'Etat.</seg>
-                    <seg><hi rend="underline">En première lecture, au Sénat</hi>, ce projet s'est vu greffer deux titres additionnels relatifs aux compétences et aux ressources des collectivités locales ainsi que divers nouveaux chapitres.</seg>
-                    <seg>Les sénateurs, en effet, se sont inspirés de leurs travaux antérieurs à propos du projet de loi sur les collectivités locales, dit "projet BONNET". A vrai dire, la commission sénatoriale avait hésité entre le vote d'une exception d'inconstitutionnalité et un remaniement profond du texte proposé. C'est finalement cette seconde solution qu'elle a adoptée, bouleversant de fond en comble le projet de Monsieur DEFFERRE.</seg>
-                    <seg>Le Ministre s'est parfois violemment opposé à cette façon d'agir considérant que le Sénat avait élaboré un véritable contre-projet. Toutefois la situation s'est apaisée lorsque Monsieur DEFFERRE a proposé une concertation entre lui-même, les rapporteurs et les présidents de groupes à qui il a indiqué les grandes lignes de ses futurs projets relatifs à la décentralisation et assuré que la ville de Paris aurait un statut de droit commun. Le Ministre, d'autre part, a rassuré les sénateurs en leur indiquant qu'aucune tutelle d'une collectivité locale sur une autre ne serait admise et que certains des futurs projets de loi seraient déposés, en première lecture, au Sénat.</seg>
-                    <pb n="5"/>
-                    <seg><hi rend="underline">En seconde lecture, à l'Assemblée nationale</hi>, les députés ont confirmé le statut de droit commun pour Paris et ont écarté l’ensemble des titres supplémentaires ajoutés au projet par les</seg>
-                    <seg><hi rend="underline">Au Sénat, en seconde lecture</hi>, les sénateurs ont accepté d'alléger le projet des deux titres supplémentaires qu’ils avaient ajoutés en première lecture. Ils ont adopté un amendement du Gouvernement qui liait le caractère exécutoire des actes administratifs des collectivités territoriales à leur transmission au représentant de l’Etat. Par ailleurs, a été institué un système de sursis à statuer des actes administratifs dont nous reparlerons.</seg>
-                    <seg><hi rend="underline">La Commission mixte paritaire</hi> qui s'est alors réunie a très rapidement échoué et les troisièmes lectures, à l'Assemblée nationale et au Sénat, n'ont que peu modifié la situation. Le caractère exécutoire des actes administratifs n’a plus été subordonné à la transmission au représentant de l'Etat. En revanche, a été adopté un amendement gouvernemental, en troisième lecture, à l'Assemblée nationale, qui permet à une personne lésée de s'adresser directement au préfet afin que celui-ci saisisse le tribunal administratif d'un recours pour excès de pouvoir.</seg>
-                    <seg>Ce projet a été <hi rend="underline">définitivement adopté</hi> par l'Assemblée nationale le 28 janvier 1982.</seg>
-                    <seg>III. <hi rend="underline">LES PRINCIPALES DISPOSITIONS DE LA LOI</hi> :</seg>
-                    <seg>L'article premier pose la philosophie du projet en faisant, d'ailleurs, référence implicitement à l'article 72, de la Constitution
-                    </seg>
-                    <seg>Il énonce que : "Les communes, les départements et les régions s'administrent librement par des conseils élus.</seg>
-                    <seg>"Des lois détermineront la répartition des compétences entre les communes, les départements, les régions et l'Etat, ainsi que la répartition des ressources publiques résultant des nouvelles règles de la fiscalité locale et des transferts de crédits de l'Etat aux collectivités territoriales, l'organisation des régions, les garanties statutaires accordées aux personnels des collectivités territoriales, le mode d'élection et le statut des élus, ainsi que les modalités de la coopération entre communes, départements et régions, et le développement de la participation des citoyens à la vie locale.</seg>
-                    <!-- fermeture des guillemets ? -->
-                    <seg>"En ce qui concerne les départements d'outre-mer, la présente loi s'applique jusqu'à la promulgation de lois adaptant certaines de ses dispositions à la spécificité de chacune des collectivités concernées".</seg>
-                    <pb n="6"/>
-                    <seg>a) <hi rend="underline">Le titre I relatif aux communes</hi> nous intéresse essentiellement par ses trois premiers articles.</seg>
-                    <seg>- <hi rend="underline">l’article 2</hi> dispose que : "Les délibérations, arrêtés et actes des autorités communales ainsi que les conventions qu'elles passent sont exécutoires de plein droit dès qu'il a été procédé à leur publication ou à leur notification. Leur caractère exécutoire n'est pas subordonné à la transmission au représentant de l'Etat dans le département prévue à l'article 3 ci-dessous.</seg>
-                    <seg>"Les dispositions de l'alinéa précédent ne font pas obstacle à l'exercice, par le représentant de l'Etat dans le département, du pouvoir de substitution qu'il tient, notamment en matière de police, des articles L. 131-13 et L. 131-14 du code des communes, ni à celui de son pouvoir hiérarchique sur les arrêtés du maire lorsque celui-ci, en application des articles L. 122-14 et L.122-23 du code des communes, agit comme représentant de l'Etat dans la commune".</seg>
-                    <seg>Il en ressort que les actes administratifs de la commune sont désormais exécutoires de plein droit sans condition de transmission au représentant de l'Etat.</seg>
-                    <seg>- <hi rend="underline">l'article 3</hi> dispose que : "Les délibérations, arrêtés et actes des autorités communales ainsi que les conventions qu’elles passent sont transmis dans la quinzaine au représentant de l'Etat dans le département ou à son délégué dans l'arrondissement.</seg>
-                    <seg>"Le représentant de l'Etat dans le département défère au tribunal administratif les délibérations, arrêtés, actes et conventions qu'il estime contraires à la légalité dans les deux mois suivant la transmission prévue à l'alinéa précédent. Il informe le maire de son intention de former un recours, vingt jours au moins avant de le déposer, à peine d'irrecevabilité, et lui communique toutes précisions permettant de modifier dans le sens de la légalité les actes administratifs concernés.</seg>
-                    <!-- fermeture des guillemets ? -->
-                    <seg>"A la demande du maire, le représentant de l'Etat dans le département l'informe de son intention de ne pas déférer au tribunal administratif une délibération, un arrêté, un acte ou une convention des autorités communales qui lui a été transmis en application du premier alinéa du présent article.</seg>
-                    <seg>"Le représentant de l'Etat peut assortir son recours d'une demande de sursis à exécution. Il est fait droit à cette demande si l'un des moyens invoqués dans la requête paraît, en l'état de l'instruction, sérieux et de nature à justifier l'annulation de la délibération, de l’arrêté, de l'acte ou de la convention attaqués.</seg>
-                    <seg>"Lorsqu'un des actes administratifs mentionnés au premier alinéa du présent article est de nature à compromettre l'exercice d'une liberté publique ou individuelle, le tribunal administratif peut déclarer le recours du représentant de l'Etat dans le département recevable avant l'expiration du délai de vingt jours. Si ce recours est assorti d'une demande de sursis à exécution et si l'un des moyens invoqués à son appui paraît, en l'état de l'instruction, sérieux et de nature à justifier l'annulation de l'acte attaqué, le président du tribunal administratif prononce le sursis dans les quarante-huit heures. La décision relative au sursis du président du tribunal administratif est susceptible d'appel devant le Conseil d'Etat dans la quinzaine de sa notification. En ce cas, le président <pb n="7"/> de la section du contentieux du Conseil d'Etat ou un conseiller d'Etat délégué à cet effet statue dans un délai de quarante-huit heures.</seg>
-                    <seg>"Le Gouvernement soumet chaque année, avant le 1er juin, au Parlement, un rapport sur le contrôle a posteriori exercé à l'égard des délibérations, arrêtés, actes et conventions des communes par les représentants de l'Etat dans les départements".</seg>
-                    <seg>Cet article instaure donc une procédure complexe permettant au représentant de l'Etat de mettre en oeuvre un contrôle juridictionnel a posteriori. Les actes administratifs sont transmis au représentant de l'Etat dans la quinzaine et cette obligation n'est pas assortie de sanction.</seg>
-                    <seg>Le représentant de l'Etat ne dispose plus que d'un contrôle de légalité, exception faite de son pouvoir de substitution, de son pouvoir hiérarchique et de ses pouvoirs en matière budgétaire. Il peut, dans les deux mois de la transmission, déférer l'acte au tribunal administratif mais, auparavant, il doit prévenir le maire de son intention, vingt jours au moins, à peine d'irrecevabilité, avant de saisir la juridiction. Ce délai est institué en vue d'instaurer une concertation. Il n'en demeure pas moins que l'acte reste exécutoire durant ce délai.</seg>
-                    <seg>L'alinéa 4 de cet article institue une procédure de sursis à exécution à la disposition du représentant de l'Etat. Il peut y être fait droit par un tribunal si le moyen allégué lui paraît sérieux. Contrairement à la jurisprudence antérieure, il n'est pas exigé, pour l'admission de ce sursis, que soit établie 1’irréparabilité des conséquences de l’acte.</seg>
-                    <seg>A l’alinéa 5, il est prévu que si une liberté publique ou individuelle est en cause, le tribunal administratif peut déclarer un recours du représentant de l'Etat immédiatement recevable et, dans ce cas, le sursis doit être prononcé dans un délai de 48 heures avec possibilité d'appel devant le Conseil d'Etat dans la quinzaine, le Conseil d'Etat devant,lui aussi, se prononcer dans les 48 heures de sa saisine.</seg>
-                    <seg>- <hi rend="underline">l'article 4</hi> dispose que : "Sans préjudice du recours direct dont elle dispose, si une personne physique ou morale est lésée par un acte administratif d'une commune, elle peut demander au représentant de l'Etat dans le département de mettre en oeuvre la procédure prévue à l'article 3 ci-dessus. Le représentant de l'Etat met en oeuvre cette procédure lorsque l'acte en cause ne lui a pas été transmis dans le délai prévu au premier alinéa dudit article".</seg>
-                    <seg>Il s'agit d'un texte difficile à interpréter dans la mesure où il n'est pas très clairement établi si le préfet aura la possibilité d'agir avant même que l'acte lui soit transmis. Par ailleurs, on ignore si le représentant de l'Etat, dans le cas où il est saisi par une personne lésée, aura la possibilité de saisir directement le tribunal administratif sans devoir attendre l'expiration du délai de vingt jours.</seg>
-                    <pb n="8"/>
-                    <seg>- <hi rend="underline">l'article 5</hi> autorise l'interventionnisme économique des communes, en vue de favoriser le développement économique de la commune pour protéger les intérêts économiques et sociaux des populations et pour maintenir des services nécessaires à la satisfaction des besoins de la population lorsqu'une initiative privée est défaillante ou absente.</seg>
-                    <seg>b) <hi rend="underline">le titre II relatif aux départements</hi> institue des dispositions absolument identiques au niveau départemental.</seg>
-                    <seg>Il convient de mentionner que l'article 32 prévoit la création d'établissements publics, dits "agences départementales". Ces dispositions, d'ailleurs, furent vivement critiquées par les sénateurs qui y ont discerné une possibilité de création d'une nouvelle forme de tutelle.</seg>
-                    <seg>c) <hi rend="underline">le titre III relatif aux régions</hi> érige la région en collectivité territoriale.</seg>
-                    <seg>Toutefois, cette transformation est différée par l'article 60 jusqu'à la première réunion des conseils régionaux élus au suffrage universel.</seg>
-                    <seg>d) <hi rend="underline">les titres IV et V</hi> contiennent des dispositions diverses qui ne nous intéressent pas directement.</seg>
-                    <seg>IV. <hi rend="underline">LES SAISINES</hi> :</seg>
-                    <seg>Si la saisine initiale des députés se fonde sur le fait que le représentant de l'Etàt ne dispose que du pouvoir de déférer les actes administratifs au tribunal administratif, sans que ce recours ait de plein droit un effet suspensif, les saisissants, dans un mémoire ampliatif, en ont étendu la portée, tant et si bien que leur saisine coïncide pratiquement avec celle des sénateurs.</seg>
-                    <seg>Ceux-ci se fondant sur les dispositions de l'article 72, alinéas 2 et 3, ont fait valoir que la notion de contrôle administratif impliquait que le représentant de l’Etat devait disposer de moyens de recours supérieurs à ceux d'un simple citoyén et qu'il convenait qu’il ait connaissance, de façon certaine et immédiate, des actes administratifs des collectivités territoriales. Pour eux, leur caractère exécutoire doit être subordonné à leur transmission au commissaire de la République. A defaut, celui-ci ne disposerait plus des moyens d'exercer le contrôle administratif dont la Constitution lui confie la mission.</seg>
-                    <seg>V. <hi rend="underline">L'ARGUMENTATION DU GOUVERNEMENT</hi> :</seg>
-                    <seg>Celle-ci a été développée dans deux notes, l'une en provenance du secrétariat général du Gouvernement et l'autre émanant du ministère de l'intérieur.</seg>
-                    <pb n="9"/>
-                    <seg>Il convient d'examiner le contenu de ces deux notes :</seg>
-                    <seg>a) <hi rend="underline">La note du secrétariat génêral du Gouvernement</hi> commence, de façon surprenante, par soutenir que l'article 72, alinéa 3, de la Constitution, ne saurait s’appliquer aux régions. Il est en effet soutenu que cet article ne mentionnant que les communes, les départements et les territoires d'outre-mer ne peut concerner les régions. Cela est bien peu convaincant. C’est oublier que l'article 72 fait référence "à toute autre collectivité territoriale " et que, d’autre part, c’est le Gouvernement lui-même qui a institué un représentant de l'Etat à l'échelon régional.</seg>
-                    <seg>Ensuite, cette note, à travers un exposé sur les pouvoirs du représentant de l'Etat, tend à démontrer que la notion de contrôle administratif est sauvegardée. Il est dressé une liste des pouvoirs, en matière budgétaire, en matière de police et en matière de tutelle sur les personnes dont dispose le représentant du Gouvernement. Cette énumération tend à démontrer que celui-ci dispose réellement de moyens suffisants pour assumer les compétences que lui confie la Constitution.</seg>
-                    <seg>Les auteurs de cette note poursuivent leur démonstration en brossant un tableau détaillé des moyens dont dispose le représentant de l’Etat pour assurer sa mission constitutionnelle, au moyen du contrôle juridictionnel de légalité.</seg>
-                    <seg>Il est inutile de revenir, de façon détaillée, sur la procédure des articles 3, 45 et 69,de la loi,que nous avons déjà examinée.</seg>
-                    <seg>Pour terminer, il est soutenu qu'une éventuelle annulation des articles 2, 3, 4, 45, 46 et 47, de la loi, n'entraînerait pas l'annulation de l'ensemble de celle-ci car, seules, les dispositions des articles 17, 21, 22 et 58 qui décident de l'abrogation de dispositions antérieures seraient inséparables des articles sus-énoncés, au cas où ils seraient annulés.</seg>
-                    <seg>b) <hi rend="underline">la note du ministère de l'intérieur</hi> contient une analyse de la notion de contrôle administratif. Celui-ci, est-il soutenu, ne doit pas être confondu avec la notion de tutelle. Le contrôle administratif a pour objet de vérifier la conformité à une loi ou un règlement d'une situation de droit ou de fait alors que la tutelle ne serait que la modalité extrême de ce contrôle et impliquerait une appréciation d'opportunité.</seg>
-                    <seg>Le ministère de l'intérieur expose, ensuite, que la suppression de la tutelle a priori n'aboutit pas, pour autant, à la disparition du contrôle administratif. Cette démonstration s'effectue au moyen d'une analyse détaillée de la procédure du contrôle de légalité dont disposera, désormais, le représentant de l'Etat.</seg>
-                    <seg>Tels sont, brièvement, les arguments apportés par les pouvoirs publics au soutien de la loi déférée.</seg>
-                    <pb n="10"/>
-                    <seg>>VI. <hi rend="underline">LES PROBLEMES DE CONSTITUTIONNALITE</hi> :</seg>
-                    <seg>L'argumentation des deux saisines concerne essentiellement l'article 72 et, accessoirement, l'article 24 de la Constitution.</seg>
-                    <seg>Aux termes de l'article 72, il apparaît que si le législateur peut intervenir pour créer une collectivité locale nouvelle c'est sous la réserve que soient respectées les prérogatives dont dispose le délégué du Gouvernement. La loi peut donc instaurer une décentralisation poussée, dans la limite du respect de la charge des intérêts nationaux, du contrôle administratif et du respect des lois qui, constitutionnellement, sont du ressort du représentant de l'Etat. Il importe donc d'envisager le contenu exact de ces trois termes.</seg>
-                    <seg>Il est évident que l'alinéa 3 de l’article 72, protège, non pas le préfet en son nom propre mais es qualités de représentant de l'Etat au niveau local.</seg>
-                    <seg>Il se révèle assez difficile de définir clairement ce qu'il faut entendre par intérêts nationaux, contrôle administratif et respect des lois. On peut même se demander si le constituant de 1958 ne s'est pas contenté de retranscrire les mentions de l’article 88, de la Constitution du 27 octobre 1946, qui faisaient référence aux intérêts nationaux et au contrôle administratif. Cependant, on ne peut manquer de s'interroger sur la nouveauté introduite en 1958, à l'article 72, c'est-à-dire sur la notion de respect des lois. Cette nouveauté tendrait à indiquer que le constituant a entendu donner un contenu réel à ces trois expressions.</seg>
-                    <seg>Il s'avère difficile de cerner le contenu de ces trois concepts. Les travaux du comité consultatif constitutionnel sont peu instructifs. Il apparaît donc qu'il faut s'éclairer au moyen des travaux de la doctrine et, tout particulièrement, du traité de droit administratif du Doyen VEDEL. C’est dans les pages traitant de la tutelle administrative que cet ouvrage fournit de précieuses indications sur les trois termes dont nous cherchons à dégager le sens.</seg>
-                    <seg>En définitive, il apparaît que le contrôle administratif doit être entendu comme étant un moyen à la disposition du représentant de l'Etat pour assurer le respect des deux objectifs que lui fixe la Constitution, à savoir la défense des intérêts nationaux et le respect des lois. Le contrôle administratif peut, dans ce cas, être comparé à une tête chercheuse d'irrégularités contenues dans les divers actes administratifs des collectivités locales qui, dans la mesure où ils ne respectent pas les lois ou méconnaissent les intérêts nationaux, doivent être censurés. Mais, alors, se pose une question subsidiaire. Peut-on faire une distinction entre le respect des lois et la défense des intérêts nationaux ? Il est difficile d'apporter une réponse affirmative à cette interrogation. Il est en effet loisible de considérer que l'intérêt national, dans son ensemble, se confond dans la loi elle-même. Cependant, il est des cas, certes difficiles à concevoir abstraitement, où les intérêts nationaux dépasseraient le simple respect des lois.</seg>
-                    <pb n="11"/>
-                    <seg>Il semble que la notion d'intérêt national fait référence à ce qu'il y a de plus essentiel dans l'organisation du pouvoir public. Il s'agirait de quelque chose de fondamental dépassant le strict respect de la loi mais, dans la mesure où cette notion reste néanmoins assez imprécise, il serait imprudent que le Conseil constitutionnel, dans sa décision, tente de la définir. Il n'empêche que cette notion d'intérêt national doit rester présente à l'esprit du Conseil lors de l'élaboration de sa décision.</seg>
-                    <seg>Il apparaît impossible, en l'état, de pousser plus loin l'analyse de ces trois termes de l'article 72, alinéa 3. Ce qu'on doit retenir essentiellement c'est que tous trois ont une réelle signification.</seg>
-                    <seg>Ayant ainsi défini le contenu de ces trois notions, il apparaît que le problème qui se pose au Conseil constitutionnel est de savoir si le contrôle administratif dont dispose le délégué du Gouvernement est suffisamment efficace pour lui permettre de remplir les objectifs que lui assigne la Constitution. Tel est le problème de constitutionnalité qui se pose aujourd’hui à nous.</seg>
-                    <seg>Le contrôle administratif se décompose en trois phases : une phase d'information qui doit permettre au représentant de l'Etat d'être à même de connaître l'acte administratif de la collectivité territoriale, ensuite, une phase de concertation au cours de laquelle le représentant de l'Etat joue un rôle d'intermédiaire ou de conciliateur par le dialogue qu'il engage avec les collectivités locales en vue de les inciter à rectifier d'éventuelles irrégularités, enfin, une phase de sanction qui fait suite à l'échec de la concertation.</seg>
-                    <seg>Cette phase ultime peut s'envisager de deux façons. Dans un système ancien, le préfet pouvait sanctionner lui-même l'acte qu'il considérait illégal ou même inopportun, soit en l'annulant, soit même en le remplaçant au moyen de ce pouvoir de substitution. Il agissait, ainsi, dans le cadre de ses pouvoirs de tutelle. Dorénavant, la tutelle a priori étant supprimée le représentant de l'Etat ne pourra plus que soumettre l’acte litigieux à une autorité juridictionnelle. Il y a donc un transfert à celle-ci du pouvoir de contrôle qu’exerçait auparavant le préfet.</seg>
-                    <seg>Il importe donc, à présent, de déterminer si le tribunal administratif est suffisamment armé pour atteindre les deux objectifs que vise le contrôle administratif, à savoir, comme il a déjà été dit, le respect des lois et la défense des intérêts nationaux.</seg>
-                    <seg>Dans l'immense majorité des situations, au moyen des cas d'ouverture du recours pour excès de pouvoir (incompétence, vice de forme, violation de la loi ou détournement de pouvoir) le tribunal administratif apparaît à même d'assurer un contrôle effectif sur les actes des collectivités locales. Dans la mesure où, comme nous l'avons déjà vu, les intérêts nationaux sont difficiles à séparer du respect des lois, il y a lieu de considérer, quant au fond, que le projet de loi qui nous est soumis ne méconnaît pas les dispositions de l'article 72, de la Constitution.</seg>
-                    <pb n="12"/>
-                    <seg>En revanche, on ne peut manquer de souligner que certaines lacunes de la procédure dont dispose le représentant de l'Etat le privent du moyen d'exercer de façon continue son rôle constitutionnel.</seg>
-                    <seg>Il paraît indiscutable que dans le cadre normal du partage des compétences il n'y aura pas de difficulté. Cependant, dans certains cas de raidissement, notamment politique, de certaines autorités locales, des conflits peuvent surgir. Ils peuvent être d'autant plus graves que la loi confie aux communes, départements et régions de larges pouvoirs en matière d'interventionnisme économique. Il y a là une source importante de conflits éventuels.</seg>
-                    <seg>Ajoutons à cela qu'avec la transformation de l'établissement public régional en collectivité locale il est envisageable que certaines régions soient tentées d'organiser certains contacts extérieurs, voire même internationaux.</seg>
-                    <seg>C'est pour toutes ces raisons qu'il importe que le contrôle administratif du représentant de l'Etat ne connaisse pas de solution de continuité. Or, force est de constater que la nouvelle procédure instituée par la loi en cause comporte deux lacunes empêchant un contrôle administratif continu.</seg>
-                    <seg><hi rend="underline">Une première lacune</hi> doit être signalée entre la date à laquelle un acte est arrêté et le moment auquel le commissaire de la République en a connaissance.</seg>
-                    <seg>Les articles 2, 3, 45, 46 et 69-1 disposent, comme nous l'avons vu, que les actes des autorités locales sont exécutoires de plein droit dès leur publication ou notification, alors que leur transmission au représentant de l'Etat ne doit être effectuée que dans un délai de quinze jours. Ces actes peuvent donc être exécutoires avant même que le préfet en ait eu officiellement connaissance.</seg>
-                    <seg>Il s'agit là d'une parenthèse qui peut aller jusqu'à quinze jours au cours desquels un acte produit son plein effet sans que le préfet soit en mesure d'en connaître et de porter une appréciation sur sa légalité. Il semble que ce système ne puisse être considéré comme satisfaisant aux exigences de l'article 72, alinéa 3, de la Constitution. Il est intéressant de souligner que le ministre de l’intérieur lui-même a implicitement reconnu qu’il y avait là une difficulté. Il n'a pas hésité, en effet, lors de la seconde lecture au Sénat, à introduire un amendement gouvernemental subordonnant le caractère exécutoire des actes administratifs à leur transmission au représentant de l'Etat.</seg>
-                    <seg><hi rend="underline">Une seconde lacune</hi> porte également atteinte aux dispositions de l'article 72. De quoi s'agit-il ?</seg>
-                    <seg>La loi, aux articles précités, énonce que si le préfet peut déférer au tribunal administratif dés actes qu'il estime contraires à la légalité, il doit, au préalable, informer le maire ou le président du conseil général ou régional, à peine d'irrecevabilité, de son intention de former un recours, vingt jours au moins avant de le déposer. Il apparaît donc que le représentant de l'Etat, pendant ce délai de vingt jours, est en quelque sorte paralysé.</seg>
-                    <pb n="13"/>
-                    <seg>La raison de ce délai d'attente est évidente. Il s'agit de favoriser un arrangement amiable entre la collectivité locale et le représentant de l'Etat. Il n'empêche, cependant, que pendant ce délai d'attente un acte illégal sera exécutoire. Certes, la loi apporte des atténuations au caractère absolu de ce délai d'attente. En effet, une personne lésée peut informer le représentant de l'Etat de l'existence de l'acte litigieux pour lui demander de saisir le juge administratif mais il n'est pas clair si, dans ce cas, le représentant de l'Etat doit ou non respecter le délai de concertation de vingt jours. D'autre part et surtout, si une liberté publique ou individuelle est en cause, le recours du représentant de l'Etat peut être déclaré recevable par le tribunal administratif, avant l'expiration du délai de vingt jours et, dans ce cas, le recours peut être assorti d'une demande de sursis à exécution simplifiée et quasiment automatique, à la seule condition que le moyen invoqué par le représentant de l'Etat paraisse sérieux et de nature à justifier son annulation.</seg>
-                    <seg>Ces deux réserves sont importantes mais il est évident que, dans de nombreuses hypothèses autres, le préfet sera dans l'impossibilité d'agir immédiatement alors qu'un acte administratif illégal est exécutoire.</seg>
-                    <seg>Les conséquences de ces situations peuvent être très sérieuses. Imaginons, par exemple, qu'une région faisant usage de ses pouvoirs en matière économique décide d'une mesure d'aide discriminatoire à une entreprise. L'Etat français pourra être poursuivi pour manquement au respect des dispositions du traité de Rome relatives à la concurrence.</seg>
-                    <seg>Il apparaît, en conclusion, que le représentant de 1'Etat, <!-- ajout manuscrit illisible --> paralysé temporairement, du fait de la procédure instaurée par la loi, alors qu'un acte administratif illégal est exécutoire. Cette procédure ne respecte donc pas pleinement les dispositions de l'article 72 et, dans cette mesure, il est donc proposé une déclaration de non conformité à la Constitution. Celle-ci n'entraînera pas l'inconstitutionnalité de l'ensemble de la loi mais devra amener à revenir sur certaines dispositions d'abrogation.</seg>
-                    <seg><hi rend="underline">Monsieur LECOURT</hi> déclare en avoir alors terminé avec son exposé.</seg>
-                </writing>
+                <div4 type="rapport">
+                    <writing who="#lecourt_robert">
+                        <seg><hi rend="underline">Monsieur LECOURT</hi> indique à ses collègues qu'il commencera son exposé par une brève introduction historique.</seg>
+                        <seg>Le problème de la décentralisation remonte loin dans l'histoire de France.</seg>
+                        <seg>Pour s'en tenir au XXème siècle, il est clair que deux courants de pensée s'opposent en cette matière.</seg>
+                        <seg>Il existe un courant décentralisateur puissant. Pour y répondre, les autorités de l'Etat ont d'abord recouru à la déconcentration, remettant d'importants pouvoirs de décision à des agents du pouvoir central placés à la tête des circonscriptions administratives territoriales puis ; pour répondre à la volonté d'autonomie des autorités administratives locales, l'Etat a dû instituer véritable décentralisation, déléguant certains de ses pouvoirs, en matière administrative, à des élus communaux ou départementaux. Cette décentralisation s'est particulièrement accentuée, en matière budgétaire, depuis 1958.</seg>
+                        <seg>A l'inverse, un courant centralisateur, qui prend sa source dans les administrations centrales de 1'Etat, a tissé tout un réseau de contrôles ou contraintes techniques.</seg>
+                        <seg>On constate donc, à la fois, un reflux de la tutelle classique en matière administrative et une croissance d'une certaine forme de centralisation technique enserrant communes et départements dans des carcans imposés par l'Etat.</seg>
+                        <pb n="2"/>
+                        <seg><hi style="titre2">I. LE CONTEXTE CONSTITUTIONNEL :</hi></seg>
+                        <seg>Les lois constitutionnelles de 1875 ne portent pas de dispositions spéciales en matière de décentralisation. Ce n'est qu'avec le projet de Constitution du 19 avril 1946 que sont abordées, dans le cadre constitutionnel, les questions relatives aux collectivités locales. En effet, au titre VIII de ce projet, il est mentionné à l'article 114 que "la République française, une et indivisible, reconnaît l'existance de collectivités territoriales. Ces collectivités sont les communes et départements, les territoires et fédérations d'outre-mer. Elles s'administrent librement, conformément à la loi nationale". On voit que cette liste des collectivités territoriales est limitativement énumérée.</seg>
+                        <seg>L'article 116 dispose : "les collectivités locales sont administrées aux différents échelons, par les conseils élus ... au suffrage universel. L'exécution des décisions de ces conseils est assurée par leur maire ou président."</seg>
+                        <seg>Aux termes de l'article 117 "la coordination de l'activité des fonctionnaires de l'Etat, la représentation des intérêts nationaux et le contrôle administratif des collectivités locales sont assurés, dans le cadre départemental, par les délégués du Gouvernement désignés en conseil des ministres".</seg>
+                        <seg>La Constitution du 27 octobre 1946 a repris l'essentiel de ces dispositions, dans son titre X relatif aux collectivités territoriales.</seg>
+                        <seg>Le texte essentiel qui nous concerne aujourd'hui est l'article 88 qui dispose : "la coordination de l'activité des fonctionnaires de l'Etat, la représentation des intérêts nationaux et le contrôle administratif des collectivités territoriales sont assurés, dans le cadre départemental, par des délégués du Gouvernement désignés en conseil des ministres". Ce texte annonce donc le futur article 72 de notre Constitution.</seg>
+                        <seg>Il est à noter, enfin, que l'article 85, alinéa 2, dresse une liste des collectivités territoriales qui sont la commune, le département et le territoire d'outre-mer. Il n'était donc pas prévu qu'une loi puisse créer une nouvelle catégorie de collectivités territoriales.</seg>
+                        <seg>Nous en arrivons donc à la Constitution du 4 octobre 1958. Elle contient essentiellement trois textes :</seg>
+                        <seg>- <hi rend="underline">l'article 72</hi> qui dispose : "Les collectivités territoriales de la République sont les communes, les départements, les territoires d'outre-mer. Toute autre collectivité territoriale est créée par la loi.</seg>
+                        <!-- Fermeture de guillemets ?-->
+                        <seg>"Ces collectivités s'administrent librement par des conseils élus et dans les conditions prévues par la loi."</seg>
+                        <seg>"Dans les départements et les territoires, le délégué du Gouvernement a la charge des intérêts nationaux, du contrôle administratif et du respect des lois" ;</seg>
+                        <pb n="3"/>
+                        <seg>- <hi rend="underline">l'article 34 alinéa 14</hi>, aux termes duquel "la loi détermine les principes fondamentaux ... de la libre administration des collectivités locales, de leurs compétences et de leurs ressources".</seg>
+                        <seg>- Enfin, <hi rend="underline">l'article 24, alinéa 3</hi> qui énonce que "le Sénat est élu au suffrage indirect. Il assure la représentation des collectivités territoriales de la République".</seg>
+                        <seg>Il convient de citer, pour mémoire, le projet de loi du 27 avril 1969 relatif à la création des régions et à la rénovation du Sénat qui, présenté au référendum, a été repoussé.</seg>
+                        <seg>Enfin, il faut indiquer qu'une proposition de loi constitutionnelle tendant à modifier les articles 21, 34, 37 et 72 de la Constitution, avait été déposée en 1979 par Messieurs MITTERRAND, MAUROY, DEFFERRE et d'autres membres du groupe socialiste. Cette proposition tendait à modifier ces dispositions constitutionnelles en vue, notamment, d'ériger la région en collectivité territoriale.</seg>
+                        <seg>Telles sont les données constitutionnelles du problème. Il convient, à présent, d'envisager les conditions d'élaboration de la loi et d'analyser ses dispositions principales.</seg>
+                        <seg><hi style="titre2">II. ELABORATION DE LA LOI :</hi></seg>
+                        <seg>Ce projet de loi a été déposé le 16 juillet 1981. L'exposé des motifs indique que "la France vit, depuis Colbert et Napoléon, sous un régime centralisé qui n'a cessé de s'aggraver au cours des dernières décennies. Les collectivités territoriales et leurs élus sont traités comme des mineurs placés sous tutelle pour gérer les affaires locales. La multiplicité des contrôles à priori, la nécessité d'obtenir l'approbation de divers ministres, empêchent ou ralentissent la réalisation des projets. La diversité et la prolifération des normes imposées par le pouvoir central restreignent le libre choix des élus. La faiblesse des ressources des. collectivités territoriales réduit leur autonomie. Le Gouvernement entend rompre avec cette situation et reconnaître aux communes, départements et régions une réelle liberté ainsi que la maîtrise de leur devenir..."</seg>
+                        <seg>Ce projet de loi qui a pour objet de transférer des pouvoirs aux élus locaux ne constitue que la première étape d'une réforme complète de la législation des collectivités locales. Le Gouvernement a annoncé que plusieurs autres projets de loi suivraient pour définir les compétences respectives des collectivités locales et de l'Etat, pour fixer le statut des fonctionnaires locaux et pour réformer la fiscalité locale.</seg>
+                        <pb n="4"/>
+                        <seg>Les principales dispositions de ce projet sont les suivantes :</seg>
+                        <seg>- suppression des tutelles a priori ;</seg>
+                        <seg>- institution d'un contrôle juridictionnel a posteriori,</seg>
+                        <seg>- transfert de l'exécutif départemental et régional aux élus ;</seg>
+                        <seg>- transformation du statut de la région, d'établissement public en collectivité territoriale.</seg>
+                        <seg><hi rend="underline">En première lecture, à l'Assemblée nationale</hi>, la discussion a débuté le 27 juillet. Les deux premiers titres de la loi ont été votés aux mois de juillet et août 1981 et les deux derniers titres l'ont été au mois de septembre.</seg>
+                        <seg>A la suite du rejet d'une exception d'inconstitutionnalité, soulevée par Monsieur DEBRE, qui soutenait que ce projet instituait un système fédéral et qu'il ôtait tout pouvoir au représentant de l'Etat dans les départements et régions, la discussion parlementaire s'est engagée dans un climat d'âpres affrontements entre la majorité et l'opposition. Ce projet a été adopté le 11 septembre.</seg>
+                        <seg>Les débats assez confus ont permis d'apporter cependant quelques précisions intéressantes. En premier lieu, il a été précisé qu'il y aurait une modification de la loi électorale par l'introduction d'une certaine mesure de représentation proportionnelle. En second lieu, le rapporteur, Monsieur RICHARD, a admis qu'il y avait un risque d'enchevêtrement entre les compétences des diverses collectivités territoriales. Enfin, 1'ancien ministre, Monsieur MARCELLIN, a indiqué que le contentieux relatif à l'annulation des délibérations des conseils généraux avait extrêmement réduit depuis 1958 et qu'en tout seulement 19 délibérations avaient été déférées au Conseil d'Etat.</seg>
+                        <seg><hi rend="underline">En première lecture, au Sénat</hi>, ce projet s'est vu greffer deux titres additionnels relatifs aux compétences et aux ressources des collectivités locales ainsi que divers nouveaux chapitres.</seg>
+                        <seg>Les sénateurs, en effet, se sont inspirés de leurs travaux antérieurs à propos du projet de loi sur les collectivités locales, dit "projet BONNET". A vrai dire, la commission sénatoriale avait hésité entre le vote d'une exception d'inconstitutionnalité et un remaniement profond du texte proposé. C'est finalement cette seconde solution qu'elle a adoptée, bouleversant de fond en comble le projet de Monsieur DEFFERRE.</seg>
+                        <seg>Le Ministre s'est parfois violemment opposé à cette façon d'agir considérant que le Sénat avait élaboré un véritable contre-projet. Toutefois la situation s'est apaisée lorsque Monsieur DEFFERRE a proposé une concertation entre lui-même, les rapporteurs et les présidents de groupes à qui il a indiqué les grandes lignes de ses futurs projets relatifs à la décentralisation et assuré que la ville de Paris aurait un statut de droit commun. Le Ministre, d'autre part, a rassuré les sénateurs en leur indiquant qu'aucune tutelle d'une collectivité locale sur une autre ne serait admise et que certains des futurs projets de loi seraient déposés, en première lecture, au Sénat.</seg>
+                        <pb n="5"/>
+                        <seg><hi rend="underline">En seconde lecture, à l'Assemblée nationale</hi>, les députés ont confirmé le statut de droit commun pour Paris et ont écarté l'ensemble des titres supplémentaires ajoutés au projet par les</seg>
+                        <seg><hi rend="underline">Au Sénat, en seconde lecture</hi>, les sénateurs ont accepté d'alléger le projet des deux titres supplémentaires qu'ils avaient ajoutés en première lecture. Ils ont adopté un amendement du Gouvernement qui liait le caractère exécutoire des actes administratifs des collectivités territoriales à leur transmission au représentant de l'Etat. Par ailleurs, a été institué un système de sursis à statuer des actes administratifs dont nous reparlerons.</seg>
+                        <seg><hi rend="underline">La Commission mixte paritaire</hi> qui s'est alors réunie a très rapidement échoué et les troisièmes lectures, à l'Assemblée nationale et au Sénat, n'ont que peu modifié la situation. Le caractère exécutoire des actes administratifs n'a plus été subordonné à la transmission au représentant de l'Etat. En revanche, a été adopté un amendement gouvernemental, en troisième lecture, à l'Assemblée nationale, qui permet à une personne lésée de s'adresser directement au préfet afin que celui-ci saisisse le tribunal administratif d'un recours pour excès de pouvoir.</seg>
+                        <seg>Ce projet a été <hi rend="underline">définitivement adopté</hi> par l'Assemblée nationale le 28 janvier 1982.</seg>
+                        <seg>III. <hi style="titre2">LES PRINCIPALES DISPOSITIONS DE LA LOI</hi> :</seg>
+                        <seg>L'article premier pose la philosophie du projet en faisant, d'ailleurs, référence implicitement à l'article 72, de la Constitution
+                        </seg>
+                        <seg>Il énonce que : "Les communes, les départements et les régions s'administrent librement par des conseils élus.</seg>
+                        <seg>"Des lois détermineront la répartition des compétences entre les communes, les départements, les régions et l'Etat, ainsi que la répartition des ressources publiques résultant des nouvelles règles de la fiscalité locale et des transferts de crédits de l'Etat aux collectivités territoriales, l'organisation des régions, les garanties statutaires accordées aux personnels des collectivités territoriales, le mode d'élection et le statut des élus, ainsi que les modalités de la coopération entre communes, départements et régions, et le développement de la participation des citoyens à la vie locale.</seg>
+                        <!-- fermeture des guillemets ? -->
+                        <seg>"En ce qui concerne les départements d'outre-mer, la présente loi s'applique jusqu'à la promulgation de lois adaptant certaines de ses dispositions à la spécificité de chacune des collectivités concernées".</seg>
+                        <pb n="6"/>
+                        <seg><hi style="titre3">a) Le titre I relatif aux communes</hi> nous intéresse essentiellement par ses trois premiers articles.</seg>
+                        <seg>- <hi rend="underline">l'article 2</hi> dispose que : "Les délibérations, arrêtés et actes des autorités communales ainsi que les conventions qu'elles passent sont exécutoires de plein droit dès qu'il a été procédé à leur publication ou à leur notification. Leur caractère exécutoire n'est pas subordonné à la transmission au représentant de l'Etat dans le département prévue à l'article 3 ci-dessous.</seg>
+                        <seg>"Les dispositions de l'alinéa précédent ne font pas obstacle à l'exercice, par le représentant de l'Etat dans le département, du pouvoir de substitution qu'il tient, notamment en matière de police, des articles L. 131-13 et L. 131-14 du code des communes, ni à celui de son pouvoir hiérarchique sur les arrêtés du maire lorsque celui-ci, en application des articles L. 122-14 et L.122-23 du code des communes, agit comme représentant de l'Etat dans la commune".</seg>
+                        <seg>Il en ressort que les actes administratifs de la commune sont désormais exécutoires de plein droit sans condition de transmission au représentant de l'Etat.</seg>
+                        <seg>- <hi rend="underline">l'article 3</hi> dispose que : "Les délibérations, arrêtés et actes des autorités communales ainsi que les conventions qu'elles passent sont transmis dans la quinzaine au représentant de l'Etat dans le département ou à son délégué dans l'arrondissement.</seg>
+                        <seg>"Le représentant de l'Etat dans le département défère au tribunal administratif les délibérations, arrêtés, actes et conventions qu'il estime contraires à la légalité dans les deux mois suivant la transmission prévue à l'alinéa précédent. Il informe le maire de son intention de former un recours, vingt jours au moins avant de le déposer, à peine d'irrecevabilité, et lui communique toutes précisions permettant de modifier dans le sens de la légalité les actes administratifs concernés.</seg>
+                        <!-- fermeture des guillemets ? -->
+                        <seg>"A la demande du maire, le représentant de l'Etat dans le département l'informe de son intention de ne pas déférer au tribunal administratif une délibération, un arrêté, un acte ou une convention des autorités communales qui lui a été transmis en application du premier alinéa du présent article.</seg>
+                        <seg>"Le représentant de l'Etat peut assortir son recours d'une demande de sursis à exécution. Il est fait droit à cette demande si l'un des moyens invoqués dans la requête paraît, en l'état de l'instruction, sérieux et de nature à justifier l'annulation de la délibération, de l'arrêté, de l'acte ou de la convention attaqués.</seg>
+                        <seg>"Lorsqu'un des actes administratifs mentionnés au premier alinéa du présent article est de nature à compromettre l'exercice d'une liberté publique ou individuelle, le tribunal administratif peut déclarer le recours du représentant de l'Etat dans le département recevable avant l'expiration du délai de vingt jours. Si ce recours est assorti d'une demande de sursis à exécution et si l'un des moyens invoqués à son appui paraît, en l'état de l'instruction, sérieux et de nature à justifier l'annulation de l'acte attaqué, le président du tribunal administratif prononce le sursis dans les quarante-huit heures. La décision relative au sursis du président du tribunal administratif est susceptible d'appel devant le Conseil d'Etat dans la quinzaine de sa notification. En ce cas, le président <pb n="7"/> de la section du contentieux du Conseil d'Etat ou un conseiller d'Etat délégué à cet effet statue dans un délai de quarante-huit heures.</seg>
+                        <seg>"Le Gouvernement soumet chaque année, avant le 1er juin, au Parlement, un rapport sur le contrôle a posteriori exercé à l'égard des délibérations, arrêtés, actes et conventions des communes par les représentants de l'Etat dans les départements".</seg>
+                        <seg>Cet article instaure donc une procédure complexe permettant au représentant de l'Etat de mettre en oeuvre un contrôle juridictionnel a posteriori. Les actes administratifs sont transmis au représentant de l'Etat dans la quinzaine et cette obligation n'est pas assortie de sanction.</seg>
+                        <seg>Le représentant de l'Etat ne dispose plus que d'un contrôle de légalité, exception faite de son pouvoir de substitution, de son pouvoir hiérarchique et de ses pouvoirs en matière budgétaire. Il peut, dans les deux mois de la transmission, déférer l'acte au tribunal administratif mais, auparavant, il doit prévenir le maire de son intention, vingt jours au moins, à peine d'irrecevabilité, avant de saisir la juridiction. Ce délai est institué en vue d'instaurer une concertation. Il n'en demeure pas moins que l'acte reste exécutoire durant ce délai.</seg>
+                        <seg>L'alinéa 4 de cet article institue une procédure de sursis à exécution à la disposition du représentant de l'Etat. Il peut y être fait droit par un tribunal si le moyen allégué lui paraît sérieux. Contrairement à la jurisprudence antérieure, il n'est pas exigé, pour l'admission de ce sursis, que soit établie 1'irréparabilité des conséquences de l'acte.</seg>
+                        <seg>A l'alinéa 5, il est prévu que si une liberté publique ou individuelle est en cause, le tribunal administratif peut déclarer un recours du représentant de l'Etat immédiatement recevable et, dans ce cas, le sursis doit être prononcé dans un délai de 48 heures avec possibilité d'appel devant le Conseil d'Etat dans la quinzaine, le Conseil d'Etat devant,lui aussi, se prononcer dans les 48 heures de sa saisine.</seg>
+                        <seg>- <hi rend="underline">l'article 4</hi> dispose que : "Sans préjudice du recours direct dont elle dispose, si une personne physique ou morale est lésée par un acte administratif d'une commune, elle peut demander au représentant de l'Etat dans le département de mettre en oeuvre la procédure prévue à l'article 3 ci-dessus. Le représentant de l'Etat met en oeuvre cette procédure lorsque l'acte en cause ne lui a pas été transmis dans le délai prévu au premier alinéa dudit article".</seg>
+                        <seg>Il s'agit d'un texte difficile à interpréter dans la mesure où il n'est pas très clairement établi si le préfet aura la possibilité d'agir avant même que l'acte lui soit transmis. Par ailleurs, on ignore si le représentant de l'Etat, dans le cas où il est saisi par une personne lésée, aura la possibilité de saisir directement le tribunal administratif sans devoir attendre l'expiration du délai de vingt jours.</seg>
+                        <pb n="8"/>
+                        <seg>- <hi rend="underline">l'article 5</hi> autorise l'interventionnisme économique des communes, en vue de favoriser le développement économique de la commune pour protéger les intérêts économiques et sociaux des populations et pour maintenir des services nécessaires à la satisfaction des besoins de la population lorsqu'une initiative privée est défaillante ou absente.</seg>
+                        <seg><hi style="titre3">b) le titre II relatif aux départements</hi> institue des dispositions absolument identiques au niveau départemental.</seg>
+                        <seg>Il convient de mentionner que l'article 32 prévoit la création d'établissements publics, dits "agences départementales". Ces dispositions, d'ailleurs, furent vivement critiquées par les sénateurs qui y ont discerné une possibilité de création d'une nouvelle forme de tutelle.</seg>
+                        <seg><hi style="titre3">c) le titre III relatif aux régions</hi> érige la région en collectivité territoriale.</seg>
+                        <seg>Toutefois, cette transformation est différée par l'article 60 jusqu'à la première réunion des conseils régionaux élus au suffrage universel.</seg>
+                        <seg><hi style="titre3">d) les titres IV et V</hi> contiennent des dispositions diverses qui ne nous intéressent pas directement.</seg>
+                        <seg><hi style="titre2">IV. LES SAISINES</hi> :</seg>
+                        <seg>Si la saisine initiale des députés se fonde sur le fait que le représentant de l'Etàt ne dispose que du pouvoir de déférer les actes administratifs au tribunal administratif, sans que ce recours ait de plein droit un effet suspensif, les saisissants, dans un mémoire ampliatif, en ont étendu la portée, tant et si bien que leur saisine coïncide pratiquement avec celle des sénateurs.</seg>
+                        <seg>Ceux-ci se fondant sur les dispositions de l'article 72, alinéas 2 et 3, ont fait valoir que la notion de contrôle administratif impliquait que le représentant de l'Etat devait disposer de moyens de recours supérieurs à ceux d'un simple citoyén et qu'il convenait qu'il ait connaissance, de façon certaine et immédiate, des actes administratifs des collectivités territoriales. Pour eux, leur caractère exécutoire doit être subordonné à leur transmission au commissaire de la République. A defaut, celui-ci ne disposerait plus des moyens d'exercer le contrôle administratif dont la Constitution lui confie la mission.</seg>
+                        <seg><hi style="titre2">V. L'ARGUMENTATION DU GOUVERNEMENT</hi> :</seg>
+                        <seg>Celle-ci a été développée dans deux notes, l'une en provenance du secrétariat général du Gouvernement et l'autre émanant du ministère de l'intérieur.</seg>
+                        <pb n="9"/>
+                        <seg>Il convient d'examiner le contenu de ces deux notes :</seg>
+                        <seg>a) <hi rend="underline">La note du secrétariat génêral du Gouvernement</hi> commence, de façon surprenante, par soutenir que l'article 72, alinéa 3, de la Constitution, ne saurait s'appliquer aux régions. Il est en effet soutenu que cet article ne mentionnant que les communes, les départements et les territoires d'outre-mer ne peut concerner les régions. Cela est bien peu convaincant. C'est oublier que l'article 72 fait référence "à toute autre collectivité territoriale " et que, d'autre part, c'est le Gouvernement lui-même qui a institué un représentant de l'Etat à l'échelon régional.</seg>
+                        <seg>Ensuite, cette note, à travers un exposé sur les pouvoirs du représentant de l'Etat, tend à démontrer que la notion de contrôle administratif est sauvegardée. Il est dressé une liste des pouvoirs, en matière budgétaire, en matière de police et en matière de tutelle sur les personnes dont dispose le représentant du Gouvernement. Cette énumération tend à démontrer que celui-ci dispose réellement de moyens suffisants pour assumer les compétences que lui confie la Constitution.</seg>
+                        <seg>Les auteurs de cette note poursuivent leur démonstration en brossant un tableau détaillé des moyens dont dispose le représentant de l'Etat pour assurer sa mission constitutionnelle, au moyen du contrôle juridictionnel de légalité.</seg>
+                        <seg>Il est inutile de revenir, de façon détaillée, sur la procédure des articles 3, 45 et 69,de la loi,que nous avons déjà examinée.</seg>
+                        <seg>Pour terminer, il est soutenu qu'une éventuelle annulation des articles 2, 3, 4, 45, 46 et 47, de la loi, n'entraînerait pas l'annulation de l'ensemble de celle-ci car, seules, les dispositions des articles 17, 21, 22 et 58 qui décident de l'abrogation de dispositions antérieures seraient inséparables des articles sus-énoncés, au cas où ils seraient annulés.</seg>
+                        <seg>b) <hi rend="underline">la note du ministère de l'intérieur</hi> contient une analyse de la notion de contrôle administratif. Celui-ci, est-il soutenu, ne doit pas être confondu avec la notion de tutelle. Le contrôle administratif a pour objet de vérifier la conformité à une loi ou un règlement d'une situation de droit ou de fait alors que la tutelle ne serait que la modalité extrême de ce contrôle et impliquerait une appréciation d'opportunité.</seg>
+                        <seg>Le ministère de l'intérieur expose, ensuite, que la suppression de la tutelle a priori n'aboutit pas, pour autant, à la disparition du contrôle administratif. Cette démonstration s'effectue au moyen d'une analyse détaillée de la procédure du contrôle de légalité dont disposera, désormais, le représentant de l'Etat.</seg>
+                        <seg>Tels sont, brièvement, les arguments apportés par les pouvoirs publics au soutien de la loi déférée.</seg>
+                        <pb n="10"/>
+                        <seg><hi style="titre2">VI. LES PROBLEMES DE CONSTITUTIONNALITE</hi> :</seg>
+                        <seg>L'argumentation des deux saisines concerne essentiellement l'article 72 et, accessoirement, l'article 24 de la Constitution.</seg>
+                        <seg>Aux termes de l'article 72, il apparaît que si le législateur peut intervenir pour créer une collectivité locale nouvelle c'est sous la réserve que soient respectées les prérogatives dont dispose le délégué du Gouvernement. La loi peut donc instaurer une décentralisation poussée, dans la limite du respect de la charge des intérêts nationaux, du contrôle administratif et du respect des lois qui, constitutionnellement, sont du ressort du représentant de l'Etat. Il importe donc d'envisager le contenu exact de ces trois termes.</seg>
+                        <seg>Il est évident que l'alinéa 3 de l'article 72, protège, non pas le préfet en son nom propre mais es qualités de représentant de l'Etat au niveau local.</seg>
+                        <seg>Il se révèle assez difficile de définir clairement ce qu'il faut entendre par intérêts nationaux, contrôle administratif et respect des lois. On peut même se demander si le constituant de 1958 ne s'est pas contenté de retranscrire les mentions de l'article 88, de la Constitution du 27 octobre 1946, qui faisaient référence aux intérêts nationaux et au contrôle administratif. Cependant, on ne peut manquer de s'interroger sur la nouveauté introduite en 1958, à l'article 72, c'est-à-dire sur la notion de respect des lois. Cette nouveauté tendrait à indiquer que le constituant a entendu donner un contenu réel à ces trois expressions.</seg>
+                        <seg>Il s'avère difficile de cerner le contenu de ces trois concepts. Les travaux du comité consultatif constitutionnel sont peu instructifs. Il apparaît donc qu'il faut s'éclairer au moyen des travaux de la doctrine et, tout particulièrement, du traité de droit administratif du Doyen VEDEL. C'est dans les pages traitant de la tutelle administrative que cet ouvrage fournit de précieuses indications sur les trois termes dont nous cherchons à dégager le sens.</seg>
+                        <seg>En définitive, il apparaît que le contrôle administratif doit être entendu comme étant un moyen à la disposition du représentant de l'Etat pour assurer le respect des deux objectifs que lui fixe la Constitution, à savoir la défense des intérêts nationaux et le respect des lois. Le contrôle administratif peut, dans ce cas, être comparé à une tête chercheuse d'irrégularités contenues dans les divers actes administratifs des collectivités locales qui, dans la mesure où ils ne respectent pas les lois ou méconnaissent les intérêts nationaux, doivent être censurés. Mais, alors, se pose une question subsidiaire. Peut-on faire une distinction entre le respect des lois et la défense des intérêts nationaux ? Il est difficile d'apporter une réponse affirmative à cette interrogation. Il est en effet loisible de considérer que l'intérêt national, dans son ensemble, se confond dans la loi elle-même. Cependant, il est des cas, certes difficiles à concevoir abstraitement, où les intérêts nationaux dépasseraient le simple respect des lois.</seg>
+                        <pb n="11"/>
+                        <seg>Il semble que la notion d'intérêt national fait référence à ce qu'il y a de plus essentiel dans l'organisation du pouvoir public. Il s'agirait de quelque chose de fondamental dépassant le strict respect de la loi mais, dans la mesure où cette notion reste néanmoins assez imprécise, il serait imprudent que le Conseil constitutionnel, dans sa décision, tente de la définir. Il n'empêche que cette notion d'intérêt national doit rester présente à l'esprit du Conseil lors de l'élaboration de sa décision.</seg>
+                        <seg>Il apparaît impossible, en l'état, de pousser plus loin l'analyse de ces trois termes de l'article 72, alinéa 3. Ce qu'on doit retenir essentiellement c'est que tous trois ont une réelle signification.</seg>
+                        <seg>Ayant ainsi défini le contenu de ces trois notions, il apparaît que le problème qui se pose au Conseil constitutionnel est de savoir si le contrôle administratif dont dispose le délégué du Gouvernement est suffisamment efficace pour lui permettre de remplir les objectifs que lui assigne la Constitution. Tel est le problème de constitutionnalité qui se pose aujourd'hui à nous.</seg>
+                        <seg>Le contrôle administratif se décompose en trois phases : une phase d'information qui doit permettre au représentant de l'Etat d'être à même de connaître l'acte administratif de la collectivité territoriale, ensuite, une phase de concertation au cours de laquelle le représentant de l'Etat joue un rôle d'intermédiaire ou de conciliateur par le dialogue qu'il engage avec les collectivités locales en vue de les inciter à rectifier d'éventuelles irrégularités, enfin, une phase de sanction qui fait suite à l'échec de la concertation.</seg>
+                        <seg>Cette phase ultime peut s'envisager de deux façons. Dans un système ancien, le préfet pouvait sanctionner lui-même l'acte qu'il considérait illégal ou même inopportun, soit en l'annulant, soit même en le remplaçant au moyen de ce pouvoir de substitution. Il agissait, ainsi, dans le cadre de ses pouvoirs de tutelle. Dorénavant, la tutelle a priori étant supprimée le représentant de l'Etat ne pourra plus que soumettre l'acte litigieux à une autorité juridictionnelle. Il y a donc un transfert à celle-ci du pouvoir de contrôle qu'exerçait auparavant le préfet.</seg>
+                        <seg>Il importe donc, à présent, de déterminer si le tribunal administratif est suffisamment armé pour atteindre les deux objectifs que vise le contrôle administratif, à savoir, comme il a déjà été dit, le respect des lois et la défense des intérêts nationaux.</seg>
+                        <seg>Dans l'immense majorité des situations, au moyen des cas d'ouverture du recours pour excès de pouvoir (incompétence, vice de forme, violation de la loi ou détournement de pouvoir) le tribunal administratif apparaît à même d'assurer un contrôle effectif sur les actes des collectivités locales. Dans la mesure où, comme nous l'avons déjà vu, les intérêts nationaux sont difficiles à séparer du respect des lois, il y a lieu de considérer, quant au fond, que le projet de loi qui nous est soumis ne méconnaît pas les dispositions de l'article 72, de la Constitution.</seg>
+                        <pb n="12"/>
+                        <seg>En revanche, on ne peut manquer de souligner que certaines lacunes de la procédure dont dispose le représentant de l'Etat le privent du moyen d'exercer de façon continue son rôle constitutionnel.</seg>
+                        <seg>Il paraît indiscutable que dans le cadre normal du partage des compétences il n'y aura pas de difficulté. Cependant, dans certains cas de raidissement, notamment politique, de certaines autorités locales, des conflits peuvent surgir. Ils peuvent être d'autant plus graves que la loi confie aux communes, départements et régions de larges pouvoirs en matière d'interventionnisme économique. Il y a là une source importante de conflits éventuels.</seg>
+                        <seg>Ajoutons à cela qu'avec la transformation de l'établissement public régional en collectivité locale il est envisageable que certaines régions soient tentées d'organiser certains contacts extérieurs, voire même internationaux.</seg>
+                        <seg>C'est pour toutes ces raisons qu'il importe que le contrôle administratif du représentant de l'Etat ne connaisse pas de solution de continuité. Or, force est de constater que la nouvelle procédure instituée par la loi en cause comporte deux lacunes empêchant un contrôle administratif continu.</seg>
+                        <seg><hi rend="underline">Une première lacune</hi> doit être signalée entre la date à laquelle un acte est arrêté et le moment auquel le commissaire de la République en a connaissance.</seg>
+                        <seg>Les articles 2, 3, 45, 46 et 69-1 disposent, comme nous l'avons vu, que les actes des autorités locales sont exécutoires de plein droit dès leur publication ou notification, alors que leur transmission au représentant de l'Etat ne doit être effectuée que dans un délai de quinze jours. Ces actes peuvent donc être exécutoires avant même que le préfet en ait eu officiellement connaissance.</seg>
+                        <seg>Il s'agit là d'une parenthèse qui peut aller jusqu'à quinze jours au cours desquels un acte produit son plein effet sans que le préfet soit en mesure d'en connaître et de porter une appréciation sur sa légalité. Il semble que ce système ne puisse être considéré comme satisfaisant aux exigences de l'article 72, alinéa 3, de la Constitution. Il est intéressant de souligner que le ministre de l'intérieur lui-même a implicitement reconnu qu'il y avait là une difficulté. Il n'a pas hésité, en effet, lors de la seconde lecture au Sénat, à introduire un amendement gouvernemental subordonnant le caractère exécutoire des actes administratifs à leur transmission au représentant de l'Etat.</seg>
+                        <seg><hi rend="underline">Une seconde lacune</hi> porte également atteinte aux dispositions de l'article 72. De quoi s'agit-il ?</seg>
+                        <seg>La loi, aux articles précités, énonce que si le préfet peut déférer au tribunal administratif dés actes qu'il estime contraires à la légalité, il doit, au préalable, informer le maire ou le président du conseil général ou régional, à peine d'irrecevabilité, de son intention de former un recours, vingt jours au moins avant de le déposer. Il apparaît donc que le représentant de l'Etat, pendant ce délai de vingt jours, est en quelque sorte paralysé.</seg>
+                        <pb n="13"/>
+                        <seg>La raison de ce délai d'attente est évidente. Il s'agit de favoriser un arrangement amiable entre la collectivité locale et le représentant de l'Etat. Il n'empêche, cependant, que pendant ce délai d'attente un acte illégal sera exécutoire. Certes, la loi apporte des atténuations au caractère absolu de ce délai d'attente. En effet, une personne lésée peut informer le représentant de l'Etat de l'existence de l'acte litigieux pour lui demander de saisir le juge administratif mais il n'est pas clair si, dans ce cas, le représentant de l'Etat doit ou non respecter le délai de concertation de vingt jours. D'autre part et surtout, si une liberté publique ou individuelle est en cause, le recours du représentant de l'Etat peut être déclaré recevable par le tribunal administratif, avant l'expiration du délai de vingt jours et, dans ce cas, le recours peut être assorti d'une demande de sursis à exécution simplifiée et quasiment automatique, à la seule condition que le moyen invoqué par le représentant de l'Etat paraisse sérieux et de nature à justifier son annulation.</seg>
+                        <seg>Ces deux réserves sont importantes mais il est évident que, dans de nombreuses hypothèses autres, le préfet sera dans l'impossibilité d'agir immédiatement alors qu'un acte administratif illégal est exécutoire.</seg>
+                        <seg>Les conséquences de ces situations peuvent être très sérieuses. Imaginons, par exemple, qu'une région faisant usage de ses pouvoirs en matière économique décide d'une mesure d'aide discriminatoire à une entreprise. L'Etat français pourra être poursuivi pour manquement au respect des dispositions du traité de Rome relatives à la concurrence.</seg>
+                        <seg>Il apparaît, en conclusion, que le représentant de 1'Etat, <!-- ajout manuscrit illisible --> paralysé temporairement, du fait de la procédure instaurée par la loi, alors qu'un acte administratif illégal est exécutoire. Cette procédure ne respecte donc pas pleinement les dispositions de l'article 72 et, dans cette mesure, il est donc proposé une déclaration de non conformité à la Constitution. Celle-ci n'entraînera pas l'inconstitutionnalité de l'ensemble de la loi mais devra amener à revenir sur certaines dispositions d'abrogation.</seg>
+                    </writing>
+                </div4>
                 <div4 type="discussion">
+                    <u who="#lecourt_robert">
+                        <seg><hi rend="underline">Monsieur LECOURT</hi> déclare en avoir alors terminé avec son exposé.</seg>
+                    </u>
                     <u who="#frey_roger">
                         <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur LECOURT pour son remarquable rapport.</seg>
                     </u>
@@ -11842,7 +11850,7 @@
                         <seg><hi rend="underline">Monsieur VEDEL</hi> remercie Monsieur LECOURT pour son exposé lumineux et dense. Il souscrit entièrement à l'interprétation qu'il vient de donner à l'article 72 et aux possibilités de création de "toute autre collectivité territoriale".</seg>
                         <seg>Il approuve pleinement l'analyse du rapporteur sur les trois termes : contrôle administratif, respect des lois et intérêts nationaux figurant à l'alinéa 3 de l'article 72.</seg>
                         <seg>Le contrôle administratif constitue bien un moyen, en vue d'atteindre les objectifs que sont la défense des intérêts nationaux et le respect des lois. Il considère que l'intérêt national est une notion qui est plus vaste que le respect des lois. En effet, par exemple, au regard du droit international, l'Etat français forme un bloc unique. Une violation d'un traité par une région pourrait être imputée, au plan international, à l'Etat, même si, au plan interne, c'est une collectivité locale qui est responsable de l'illégalité. Il souligne que si le système ancien de la tutelle était compliqué, celui adopté par la loi nouvelle l'est également, d'une certaine manière, car le préfet conserve, notamment en matière de police, certains pouvoirs de substitution. Cependant, l'ancien système avait le mérite de permettre au représentant de l'Etat de s'opposer immédiatement à une illégalité. En effet, les actes des communes devaient être préalablement transmis au préfet qui disposait <pb n="15"/> d'un délai de quinze jours avant qu'ils ne deviennent exécutoires. D'autre part, le préfet disposant du pouvoir d'annulation pouvait prononcer lui-même la nullité d'une délibération illégale. En outre, le pouvoir d'approbation du préfet sur certains actes retardait le point de départ de leur caractère exécutoire jusqu'à ce que le représentant de l'Etat ait pu les apprécier sérieusement. Désormais, il convient de vérifier si le contrôle de légalité dont dispose le représentant de l'Etat est à la fois efficace et de portée supérieure aux droits dont dispose tout administré.</seg>
-                        <seg>Sur ce point, Monsieur VEDEL se déclare quelque peu choqué car il lui apparaît que le représentant de l'Etat se trouve parfois dans une situation inférieure à celle d'un simple citoyen. Celui-ci, contrairement au système antérieur du recours préalable, peut s’adresser directement au juge sans aucun délai, alors que le représentant de l'Etat ne sera que bien souvent tardivement informé, par transmission, de l'existence d'un acte administratif et ne pourra, en tout état de cause, saisir le juge qu'après un délai d'attente de vingt jours. Certes, s'il y a une atteinte à une liberté publique ou individuelle, le représentant de l'Etat pourra agir dès transmission mais il n'empêche qu'il se trouve, en règle générale, plus démuni qu'un simple citoyen qui, comme il vient de l'exposer, conformément à l'article 4, n'aura pas l'obligation, avant de saisir le juge, de s'adresser, au préalable, au préfet. Il considère qu'il est tout a fait critiquable d'empêcher le représentant de l'Etat d'agir promptement afin d'assurer le respect des lois.</seg>
+                        <seg>Sur ce point, Monsieur VEDEL se déclare quelque peu choqué car il lui apparaît que le représentant de l'Etat se trouve parfois dans une situation inférieure à celle d'un simple citoyen. Celui-ci, contrairement au système antérieur du recours préalable, peut s'adresser directement au juge sans aucun délai, alors que le représentant de l'Etat ne sera que bien souvent tardivement informé, par transmission, de l'existence d'un acte administratif et ne pourra, en tout état de cause, saisir le juge qu'après un délai d'attente de vingt jours. Certes, s'il y a une atteinte à une liberté publique ou individuelle, le représentant de l'Etat pourra agir dès transmission mais il n'empêche qu'il se trouve, en règle générale, plus démuni qu'un simple citoyen qui, comme il vient de l'exposer, conformément à l'article 4, n'aura pas l'obligation, avant de saisir le juge, de s'adresser, au préalable, au préfet. Il considère qu'il est tout a fait critiquable d'empêcher le représentant de l'Etat d'agir promptement afin d'assurer le respect des lois.</seg>
                     </u>
                     <u who="#lecourt_robert">
                         <seg><hi rend="underline">Monsieur LECOURT</hi> souhaite évoquer un point qu'il n'a pas abordé lors de son rapport.</seg>
@@ -11851,7 +11859,7 @@
                         <seg>Il considère ne pas être en état d'apporter une réponse à ce problème qu'il tenait néanmoins à exposer aux membres du Conseil constitutionnel.</seg>
                     </u>
                     <u who="#monnerville_gaston">
-                        <seg><hi rend="underline">Monsieur</hi> MONNERVILLE remercie Monsieur LECOURT d'avoir évoqué cette question. Il estime qu'il serait souhaitable que la décision à intervenir fasse allusion à la représentation des régions pour l'établissement du collège électoral sénatorial.</seg>                    
+                        <seg><hi rend="underline">Monsieur MONNERVILLE</hi> remercie Monsieur LECOURT d'avoir évoqué cette question. Il estime qu'il serait souhaitable que la décision à intervenir fasse allusion à la représentation des régions pour l'établissement du collège électoral sénatorial.</seg>                    
                     </u>
                     <pb n="16"/>
                     <u who="#gros_louis">
@@ -11869,7 +11877,7 @@
                         <seg>Le problème est tout autre, en ce qui concerne le statut de la Corse, car cette région est érigée, d'ores et déjà, en collectivité locale et la loi comprend même un calendrier électoral.</seg>
                     </u>
                     <u who="#vedel_georges">
-                        <seg><hi rend="underline">Monsieur VEDEL</hi> rappelle à ses collègues qu'une difficulté du même ordre avait été déjà soulevée à l'occasion d'un recours contre l'élection sénatoriale de l'Eure. Le Conseil, dans sa décision n° 80-889 du 2 décembre 1980, avait refusé d’annuler une élection sénatoriale au motif qu'un conseil d’ensemble urbain (Le Vaudreuil) n'était pas représenté dans le collège électoral.</seg>
+                        <seg><hi rend="underline">Monsieur VEDEL</hi> rappelle à ses collègues qu'une difficulté du même ordre avait été déjà soulevée à l'occasion d'un recours contre l'élection sénatoriale de l'Eure. Le Conseil, dans sa décision n° 80-889 du 2 décembre 1980, avait refusé d'annuler une élection sénatoriale au motif qu'un conseil d'ensemble urbain (Le Vaudreuil) n'était pas représenté dans le collège électoral.</seg>
                         <seg>Il ne faut pas confondre les deux sens du mot "représentation" dont la signification diffère selon qu'il figure à l'article 3 ou à l'article 24 de la Constitution.</seg>
                         <seg>Le mot "représentants", à l'article 3, fait référence à la qualité des dépositaires, de la souveraineté nationale, tandis que le mot "représentation", au sens de l'article 24, signifie que les collectivités locales font sentir leur présence au Sénat. En conséquence, la création des régions en collectivités locales implique, nécessairement, leur représentation au Sénat.</seg>
                         <pb n="17"/>
@@ -11900,22 +11908,28 @@
             <head type="1">SEANCE DU MARDI 23 FEVRIER 1982</head>
             <div3 type="ouverture">
                 <div4 type="membrePresent">
-                    <p>Le Conseil se réunit à 10 heures 30, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>			   
+                    <writing>
+                        <seg>Le Conseil se réunit à 10 heures 30, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                    </writing>
                 </div4>
                 <div4 type="ordreDuJour">
-                    <p><hi rend="underline">M. Le Président</hi> rappelle l'ordre du jour porte sur la poursuite de l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions.</p>
+                    <u who="#frey_roger">
+                        <seg><hi rend="underline">M. Le Président</hi> rappelle l'ordre du jour porte sur la poursuite de l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions.</seg>
+                    </u>
                 </div4>
             </div3>
             <div3 type="question" n="1" corresp="#DC-82-137"> 
                 <div4 type="introduction">
-                    <p>Il donne alors la parole au rapporteur, Monsieur LECOURT.</p>              
+                    <writing>
+                        <seg>Il donne alors la parole au rapporteur, Monsieur LECOURT.</seg>
+                    </writing>
                 </div4>
                 <div4 type="discussion">
                     <u who="#lecourt_robert">
                         <seg><hi rend="underline">Monsieur LECOURT</hi> indique qu'éclairé par la délibération du Conseil, lors de sa séance du 18 février 1982, il est en mesure de lui proposer un projet de décision.</seg>
                         <seg>Avant de donner lecture de ce projet, il en indique les lignes directrices.</seg>
                         <seg>Conformément au voeu du Conseil, il a écarté deux systèmes. D'une part, une déclaration de conformité et, d'autre part, une annulation totale de la loi.</seg>
-                        <seg>Le projet qu'il propose censure donc seulement certaines dispositions des articles 2, 3, 45, 46 et 69-1, dans la mesure où elles comportent une méconnaissance des dispositions de l’article 72 de la Constitution. Il indique qu'il n'a pas cru devoir proposer l'annulation des articles 4, 47 et 69-11, dans la mesure où ces textes relatifs au recours d'une personne lésée prêtent à des divergences. Sa décision s'efforce de préciser la portée générale qu'il convient de donner à l'article 72 de la Constitution et d'analyser les lacunes procédurales que comporte la présente loi, dans la mise en oeuvre du contrôle administratif qui incombe au représentant de l'Etat.</seg>
+                        <seg>Le projet qu'il propose censure donc seulement certaines dispositions des articles 2, 3, 45, 46 et 69-1, dans la mesure où elles comportent une méconnaissance des dispositions de l'article 72 de la Constitution. Il indique qu'il n'a pas cru devoir proposer l'annulation des articles 4, 47 et 69-11, dans la mesure où ces textes relatifs au recours d'une personne lésée prêtent à des divergences. Sa décision s'efforce de préciser la portée générale qu'il convient de donner à l'article 72 de la Constitution et d'analyser les lacunes procédurales que comporte la présente loi, dans la mise en oeuvre du contrôle administratif qui incombe au représentant de l'Etat.</seg>
                         <seg>Monsieur LECOURT donne alors lecture de son projet de décision.</seg>
                     </u>
                     <u who="#frey_roger">
@@ -11947,21 +11961,21 @@
                     </u>
                     <pb n="20"/>
                     <u who="#vedel_georges">
-                        <seg><hi rend="underline">Monsieur VEDEL</hi> fait remarquer qu'il ne peut y avoir de contrôle, par une juridiction administrative, d'un intérêt national, que pour autant qu'il est fixé par une loi. Le juge administratif ne peut pas, en effet, statuer en opportunité. Il admet que, dans certains cas, une violation des intérêts nationaux peut ne pas coïncider avec une atteinte à une liberté publique ou individuelle mais, dans ce cas, si conformément à l’article 4, une personne lésée demande au préfet de mettre en oeuvre le contrôle administratif, il y a tout lieu de considérer que la violation alléguée de l'article 72 de la Constitution reste bien théorique. La paralysie des représentants de l'Etat n'interviendrait, en fait, que dans des hypothèses d'école. Les exceptions à la règle absorbent le principe : la paralysie du préfet, avant la transmission et pendant le délai d'attente de vingt jours, apparaît réellement théorique. Cette loi lui rappelle singulièrement les dispositions du Code civil relatives à l'interdiction des stipulations pour autrui. Si, en principe, ces stipulations pour autrui sont proscrites, les exceptions apportées par le Code civil sont tellement larges qu'il y a un véritable renversement de la règle générale.</seg>
-                        <seg>Il se demande si, en l'espèce, une déclaration d'inconstitutionnalité n'est pas excessive. Il prie ses collègues de bien vouloir excuser son changement d’opinion quant à la constitutionnalité de cette loi. Ce n'est qu'après mûres réflexions et relectures de la loi qu'il a changé son appréciation.</seg>
+                        <seg><hi rend="underline">Monsieur VEDEL</hi> fait remarquer qu'il ne peut y avoir de contrôle, par une juridiction administrative, d'un intérêt national, que pour autant qu'il est fixé par une loi. Le juge administratif ne peut pas, en effet, statuer en opportunité. Il admet que, dans certains cas, une violation des intérêts nationaux peut ne pas coïncider avec une atteinte à une liberté publique ou individuelle mais, dans ce cas, si conformément à l'article 4, une personne lésée demande au préfet de mettre en oeuvre le contrôle administratif, il y a tout lieu de considérer que la violation alléguée de l'article 72 de la Constitution reste bien théorique. La paralysie des représentants de l'Etat n'interviendrait, en fait, que dans des hypothèses d'école. Les exceptions à la règle absorbent le principe : la paralysie du préfet, avant la transmission et pendant le délai d'attente de vingt jours, apparaît réellement théorique. Cette loi lui rappelle singulièrement les dispositions du Code civil relatives à l'interdiction des stipulations pour autrui. Si, en principe, ces stipulations pour autrui sont proscrites, les exceptions apportées par le Code civil sont tellement larges qu'il y a un véritable renversement de la règle générale.</seg>
+                        <seg>Il se demande si, en l'espèce, une déclaration d'inconstitutionnalité n'est pas excessive. Il prie ses collègues de bien vouloir excuser son changement d'opinion quant à la constitutionnalité de cette loi. Ce n'est qu'après mûres réflexions et relectures de la loi qu'il a changé son appréciation.</seg>
                     </u>
                     <u who="#segalat_andre">
                         <seg><hi rend="underline">Monsieur SEGALAT</hi> souligne que subordonner le caractère exécutoire d'un acte administratif à sa transmission au représentant de l'Etat permet simplement d'avancer la mise en oeuvre de son contrôle administratif d'un délai maximum de quinze jours.</seg>
                         <seg>Pour ce qui est du délai d'attente de vingt jours auquel est soumis le préfet avant de pouvoir saisir le tribunal, il estime que les développements précédents du Doyen VEDEL tendraient à le convaincre que cette paralysie restera assez théorique. Cependant, il se demande s'il est possible d'affirmer que, dans le cas où le préfet est saisi par un tiers lésé, il pourra disposer de la procédure accélérée qui est prévue en matière d'atteinte d'une liberté ou s'il devra, au contraire, se soumettre à un délai d'attente de vingt jours.</seg>
                     </u>
                     <u who="#vedel_georges">
-                        <seg><hi rend="underline">Monsieur VEDEL</hi> confirme que c'est là un problème essentiel. Il pense que, dans ce cas, il appartient au Conseil constitutionnel d’interpréter ce texte ambigu, de façon à permettre au préfet d'agir de suite. Cette interprétation positive serait alors de nature à couvrir le vide dans le déroulement du contrôle administratif mis en évidence par Monsieur LECOURT.</seg>
+                        <seg><hi rend="underline">Monsieur VEDEL</hi> confirme que c'est là un problème essentiel. Il pense que, dans ce cas, il appartient au Conseil constitutionnel d'interpréter ce texte ambigu, de façon à permettre au préfet d'agir de suite. Cette interprétation positive serait alors de nature à couvrir le vide dans le déroulement du contrôle administratif mis en évidence par Monsieur LECOURT.</seg>
                     </u>
                     <u who="#segalat_andre">
                         <seg><hi rend="underline">Monsieur SEGALAT</hi> se rallie pleinement à cette position.</seg>
                     </u>
                     <u who="#lecourt_robert">
-                        <seg><hi rend="underline">Monsieur LECOURT</hi> rappelle à ses collègues les termes de l'article 72 de la Constitution. Si la loi peut organiser la libre administration des collectivités locales, elle doit respecter les dispositions de l’alinéa 3 de cet article 72 qui donnent pour mission aux délégués du Gouvernement de défendre les intérêts nationaux, d'assurer le contrôle administratif et le respect des lois.</seg>
+                        <seg><hi rend="underline">Monsieur LECOURT</hi> rappelle à ses collègues les termes de l'article 72 de la Constitution. Si la loi peut organiser la libre administration des collectivités locales, elle doit respecter les dispositions de l'alinéa 3 de cet article 72 qui donnent pour mission aux délégués du Gouvernement de défendre les intérêts nationaux, d'assurer le contrôle administratif et le respect des lois.</seg>
                         <pb n="21"/>
                         <seg>Peut-on considérer qu'un examen bienveillant de la procédure instituée par la présente loi suffise à assurer le respect de ces dispositions constitutionnelles ?</seg>
                         <seg>Il rappelle qu'en tout état de cause, même si on adopte la suggestion de Monsieur VEDEL quant à une interprétation à donner aux articles 4, 47 et 69-11, restera le fait que l'absence de transmission, dans les quinze jours, d'un acte administratif au représentant de l'Etat, n'est pas sanctionnée.</seg>
@@ -11969,7 +11983,7 @@
                         <seg>Il y a là un problème très sérieux. Il considère qu'on ne peut passer sur le fait que le représentant de l'Etat qui peut agir lorsqu'une liberté est en cause devra se soumettre à un délai d'attente ou compter sur le recours d'un particulier lorsqu'il est porté atteinte à un intérêt national. On ne peut admettre cette situation quelle que soit l'extension qu'on puisse donner au sens des articles 4, 47 et 69-11.</seg>
                     </u>
                     <u who="#brouillet_rene">
-                        <seg><hi rend="underline">Monsieur BROUILLET</hi> indique que, quelle que soit l'interprétation donnée à ces articles 4, 47 et 69-11, il est extrêmement troublé car l'article 72 de la Constitution donne, de façon formelle, une mission essentielle au représentant de l'Etat. Il trouve très troublant d'observer que le représentant de l’Etat se trouve désormais dans une situation mineure par rapport à un citoyen. Si l'on suppose que la défense, dans certains cas, des intérêts nationaux et du respect des lois, soit à la disposition d'un particulier, cela impliquerait un effort éducatif auprès de nos concitoyens.</seg>
+                        <seg><hi rend="underline">Monsieur BROUILLET</hi> indique que, quelle que soit l'interprétation donnée à ces articles 4, 47 et 69-11, il est extrêmement troublé car l'article 72 de la Constitution donne, de façon formelle, une mission essentielle au représentant de l'Etat. Il trouve très troublant d'observer que le représentant de l'Etat se trouve désormais dans une situation mineure par rapport à un citoyen. Si l'on suppose que la défense, dans certains cas, des intérêts nationaux et du respect des lois, soit à la disposition d'un particulier, cela impliquerait un effort éducatif auprès de nos concitoyens.</seg>
                     </u>
                     <u who="#peretti_achille">
                         <seg><hi rend="underline">Monsieur PERETTI</hi> rappelle, comme il l'a dit précédemment, qu'il est difficile d'examiner la présente loi sans avoir présent à l'esprit celle portant statut particulier de la région de Corse. Il regrette que le projet de Monsieur LECOURT ne fasse pas allusion au caractère un et indivisible de la République. Il souhaiterait, d'autre part, qu'il soit donné un contenu plus précis à la notion d'intérêts nationaux. Enfin, il lui paraît critiquable d'accepter que le préfet soit mis dans une position d'infériorité par rapport à un citoyen et qu'il ne puisse, même temporairement, agir pour assurer le contrôle administratif dont il a la mission.</seg>
@@ -11993,38 +12007,46 @@
                     </u>
                     <pb n="23"/>
                     <u who="#vedel_georges">
-                        <seg><hi rend="underline">Monsieur VEDEL</hi> résume donc la situation. Il existe deux thèses : L'une suivant laquelle la loi peut être déclarée constitutionnelle à partir d'une interprétation extensive des articles 4, 47 et 69 II et l'autre qui la censure en considérant que le caractère immédiatement exécutoire d’un acte, avant sa transmission, et l'impossibilité dans laquelle se trouve le représentant de l'Etat de saisir le tribunal administratif pendant un délai de vingt jours, constitue une violation de l'article 72, alinéa 3, de la Constitution.</seg>
+                        <seg><hi rend="underline">Monsieur VEDEL</hi> résume donc la situation. Il existe deux thèses : L'une suivant laquelle la loi peut être déclarée constitutionnelle à partir d'une interprétation extensive des articles 4, 47 et 69 II et l'autre qui la censure en considérant que le caractère immédiatement exécutoire d'un acte, avant sa transmission, et l'impossibilité dans laquelle se trouve le représentant de l'Etat de saisir le tribunal administratif pendant un délai de vingt jours, constitue une violation de l'article 72, alinéa 3, de la Constitution.</seg>
                     </u>
                     <u who="#frey_roger">
                         <seg><hi rend="underline">Monsieur le Président</hi> invite alors le Conseil à se prononcer sur le projet de décision soutenu par Monsieur LECOURT.</seg>
                     </u>
-                    <div5 type="vote">
-                        <p>Ce projet est alors adopté, tous les membres votant pour, à l’exception de Messieurs VEDEL et SEGALAT qui s'abstiennent.</p>
-                    </div5>
+                    <writing>
+                        <seg><span type="vote">Ce projet est alors adopté, tous les membres votant pour, à l'exception de Messieurs VEDEL et SEGALAT qui s'abstiennent.</span></seg>
+                    </writing>
+                    <u who="#frey_roger">
+                        <seg>Monsieur le Président indique au Conseil qu'il lui soumettra, pour relecture définitive, la décision adoptée ce jour, lors de la prochaine séance prévue le 25 février 1982 à 10 heures.</seg>
+                    </u>
                 </div4>
             </div3>
             <div3 type="cloture">
-                <u who="#frey_roger">
-                    <seg>Monsieur le Président indique au Conseil qu'il lui soumettra, pour relecture définitive, la décision adoptée ce jour, lors de la prochaine séance prévue le 25 février 1982 à 10 heures.</seg>
-                </u>
-                <p>La séance est levée à 13 heures 15.</p>
+                <writing>
+                    <seg>La séance est levée à 13 heures 15.</seg>
+                </writing>
             </div3>
         </div2>
         <div2 type="seance">
             <head type="1">SEANCE DU JEUDI 25 FEVRIER 1982</head>
             <div3 type="ouverture">
                 <div4 type="membrePresent">
-                    <p>Le Conseil constitutionnel se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>			   
+                    <writing>
+                        <seg>Le Conseil constitutionnel se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                    </writing>
                 </div4>
             </div3>
             <div3 type="question" n="1" corresp="#DC-82-137"> 
                 <div4 type="introduction">
-                    <p>Monsieur le Président donne alors lecture de la décision définitive adoptée par le Conseil lors de la séance du 23 février 1982.</p>
+                    <writing>
+                        <seg>Monsieur le Président donne alors lecture de la décision définitive adoptée par le Conseil lors de la séance du 23 février 1982.</seg>
+                    </writing>
                 </div4>
             </div3>
             <!-- Cloture ou Conlusion de la question ? -->
             <div3 type="cloture">
-                <p>Aucun membre du Conseil n'ayant de remarques à formuler, Monsieur le Président propose alors de passer à l'examen de la loi portant statut particulier de la Corse.</p>
+                <writing>
+                    <seg>Aucun membre du Conseil n'ayant de remarques à formuler, Monsieur le Président propose alors de passer à l'examen de la loi portant statut particulier de la Corse.</seg>
+                </writing>
             </div3>
         </div2>
     </div1>
