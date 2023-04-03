@@ -11705,9 +11705,9 @@
                     <seg><hi rend="underline">Monsieur le Rapporteur</hi> se propose de suivre l'ordre de présentation de la saisine.</seg>
                     <incident>
                         <desc><hi rend="underline">Monsieur VEDEL</hi> suggère à ses collègues qu'après l'examen de chaque moyen de la saisine une discussion puisse s'engager, ce qui aurait le mérite d'éviter des risques d'oubli ou de chevauchement si le Conseil, comme il le fait habituellement, n'engage la discussion général qu'à la fin du rapport complet.</desc>
-                        <pb n="2"/>
                         <desc><hi rend="underline">Monsieur MONNERVILLE</hi> soumet cette proposition de Monsieur VEDEL qui recuei1le 1'accord de l'ensemble des membres du Conseil.</desc>
                     </incident>
+                    <pb n="2"/>
                     <seg><hi rend="underline">Monsieur SEGALAT</hi> :</seg>
                     <seg><hi style="titre2">I. Le premier point</hi> soulevé par la saisine est relatif à la procédure d'élaboration et d'adoption de la loi de finances.</seg>
                     <seg>Les auteurs de cette saisine soutiennent que la loi de finances pour 1983 aurait été adoptée en violation de l'article 38 de l'ordonnance du 2 janvier 1959 qui dispose : "Le projet de loi de finances de l'année, y compris le rapport et les annexes explicatives prévues à l'article 32, est déposé et distribué au plus tard le premier mardi d'octobre de l'année qui précède l'exécution du budget". Un certain nombre des annexes explicatives auraient été distribuées non le mardi 5 octobre mais quatre jours plus tard, c'est-à-dire le 9 octobre.</seg>
@@ -11752,7 +11752,7 @@
                     <seg><hi rend="underline">Monsieur MONNERVILLE</hi> confirme les propos de Monsieur SEGALAT en ce qui concerne la pratique du dépôt de fait anticipé.</seg>
                 </u>
                 <u who="#segalat_andre">
-                    <p><hi rend="underline">Monsieur SEGALAT</hi> considère que le Conseil constitutionnel doit faire respecter les délais de l'article 47 de la Constitution. L'article 38 n'est qu'une disposition d'application qui prévoit un délai intermédiaire pour le dépôt des documents. Il s'explique par la crainte que le Gouvernement ne raccourcisse la période dont doit bénéficier le Parlement.</p>
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> considère que le Conseil constitutionnel doit faire respecter les délais de l'article 47 de la Constitution. L'article 38 n'est qu'une disposition d'application qui prévoit un délai intermédiaire pour le dépôt des documents. Il s'explique par la crainte que le Gouvernement ne raccourcisse la période dont doit bénéficier le Parlement.</seg>
                 </u>
                 <pb n="4"/>
                 <u who="#lecourt_robert">
@@ -11810,7 +11810,7 @@
                     <seg>Cet article est relatif au plafond légal de densité. En cours de discussion de la deuxième partie de la loi de finances, le Gouvernement a décidé d'attribuer aux collectivités locales la totalité du versement dû au titre du dépassement du plafond légal de densité (P.L.D.). Tirant ensuite les conséquences de cette modification, le Gouvernement a supprimé la recette lui correspondai à l'Etat A.</seg>
                     <seg>Pour les auteurs de la saisine, la modification de l'attribution de cette ressource lui confère le caractère d'une disposition relative aux recettes de l'Etat et qui devait, donc, figurer dans la première partie de la loi de finances. Son adoption dans la deuxième partie violerait l'article 40.</seg>
                     <seg>Ce grief ne semble pas devoir être retenu. Dans la décision du 24 décembre 1979 relative à la loi de finances pour 1980, le Conseil avait indiqué que la répartition des recettes et des dépenses n'était pas effectuée ne varietur. Des modifications résultant de la deuxième partie de la loi de finances peuvent affecter la première partie et être introduites en seconde délibération. Ce qui compte c'est que les grandes lignes de l'équilibre arrêtées par le vote de la première partie ne soient pas bouleversées. En l'espèce, les sommes dues au titre du plafond légal de densité ne s'élèvent qu'à 100 millions de francs sur un budget de l'ordre de 1 000 milliards.</seg>
-                    <seg>2° <u>Article 58 devenu 80</u> :</seg>
+                    <seg>2° <hi rend="underline">Article 58 devenu 80</hi> :</seg>
                     <seg>Il est relatif aux redevances versées par les sociétés nationalisées aux caisses nationales de l'industrie et des banques. Cette redevance a pour objet de concourir au financement des intérêts servis aux titulaires des obligations indemnitaires. Il s'agit, comme il a été indiqué dans la décision du 11 février 1982 sur le deuxième texte de nationalisation, d'un impôt perçu, non par l'Etat mais par ces deux établissements publics. Le montant de cette redevance est fixé chaque année par la loi de finances en tenant compte des résultats de chaque société.</seg>
                     <seg>Cette disposition a fait l'objet de différentes variantes au cours de la procédure parlementaire. Dans le projet initial, le montant de cette redevance était fixé, non d'après les résultats des sociétés mais d'après la valeur des obligations. Lors de l'examen du texte en première lecture, le Gouvernement s'apercevant qu'il ne respectait pas les dispositions de la loi de nationalisation a prévu que la redevance serait prélevée sur les dividendes dûs à l'Etat. Il s'agit là d'une imprudence qui a été source de bien des difficultés car cette modification jette un doute sur la nature de la redevance. Cet impôt affecté à des établissements publics ne devrait pas concerner l'Etat.</seg>
                     <seg>En deuxième lecture, le Gouvernement est revenu à l'ortodoxie puisque l'article 82 respecte la loi de nationalisation et fixe à 1 000 millions de francs le montant total des redevances prévues aux articles 11 et 26 de cette loi.</seg>
@@ -11896,7 +11896,7 @@
                     <seg><hi rend="underline">Monsieur GROS</hi> considère que cela pose le problème plus général de 1'opposabilité de l'article 42 aux amendements gouvernementaux.</seg>
                 </u>
                 <u who="#monnerville_gaston">
-                    <seg><span type="vote"><hi rend="underline">Monsieur MONNERVILLE</hi>, aucune autre observation n'étant formulée, constate que leprojet du rapporteur est adopté.</span></p>
+                    <seg><span type="vote"><hi rend="underline">Monsieur MONNERVILLE</hi>, aucune autre observation n'étant formulée, constate que leprojet du rapporteur est adopté.</span></seg>
                 </u>
             </div4>
             <div4 type="rapport" n="6">

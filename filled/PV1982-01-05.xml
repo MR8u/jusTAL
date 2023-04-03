@@ -11673,7 +11673,9 @@
                     </div3>
                     <div3 type="question" n="1" corresp="#DC-81-134">
                         <div4 type="introduction">
-                            <seg>Le rapporteur de cette affaire est Monsieur LECOURT à qui le Président donne la parole.</seg>                
+                            <writing>
+                                <seg>Le rapporteur de cette affaire est Monsieur LECOURT à qui le Président donne la parole.</seg>                
+                            </writing>
                         </div4>
                         <div4 type="rapport">
                             <writing who="#lecourt_robert">
@@ -11807,7 +11809,7 @@
                     <div3 type="cloture">
                         <writing>
                             <seg>La séance est levée à 18 h 25.</seg>
-                        <writing>
+                        </writing>
                     </div3>
                 </div2>
             </div1>

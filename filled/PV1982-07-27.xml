@@ -11823,8 +11823,8 @@
                 <pb n="12"/>
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> constatant qu'aucun autre membre ne désire intervenir propose alors au Conseil de se prononcer. Il propose à ses collègues de recourir à un vote, d'une part, sur le fonds de la décision proposée par le rapporteur et, d'autre part, sur la question litigieuse des retranchements de mots ou de membres de phrase.</seg>
-                    <seg><span type="vote">- sur le fond , la décision est adoptée à l'unanimité des membres.</span></p>
-                    <seg><span type="vote">- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI. Ont voté contre, Messieurs LECOURT, VEDEL et SEGALAT.</span></p>
+                    <seg><span type="vote">- sur le fond , la décision est adoptée à l'unanimité des membres.</span></seg>
+                    <seg><span type="vote">- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI. Ont voté contre, Messieurs LECOURT, VEDEL et SEGALAT.</span></seg>
                 </u>
             </div4>
         </div3>
@@ -11964,7 +11964,7 @@
                 </u>
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> constatant qu'aucun autre membre du Conseil ne souhaite intervenir déclare close la discussion générale.</seg>                    
-                    <seg><span type="vote">Il soumet au vote la décision proposée. Celle-ci est adoptée à l'unanimité par les membres du Conseil.</span></p>
+                    <seg><span type="vote">Il soumet au vote la décision proposée. Celle-ci est adoptée à l'unanimité par les membres du Conseil.</span></seg>
                 </u>
             </div4>
         </div3>
