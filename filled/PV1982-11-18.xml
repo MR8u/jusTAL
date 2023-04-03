@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,25 +11682,33 @@
         <head type="1">RAPPORT DE LA SEANCE DU 18 NOVEMBRE 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p><hi rend="underline">Le Président</hi> déclare ouverte la séance à 10 heures, tous les membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>   
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Le Président</hi> déclare ouverte la séance à 10 heures, tous les membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>   
+                </u>
             </div4>
             <div4 type="ordreDuJour">
-                <p>Monsieur le Président rappelle que l'ordre du jour est le suivant :</p>
-                <p>I. Examen, en application de l'article 37, alinéa 2, de la Constitution, des dispositions des trois dernières phrases de l'article L. 74 du Code du service national tel qu'il résulte de l'article 14 de la loi n°70-596 du 19 juillet 1970 relative au service national.</p>
-                <p><hi rend="underline">Rapporteur</hi> : Monsieur Achille PERETTI</p>
-                <p>II. Examen, en application de l'article 61, alinéa 2, de la Constitution, du texte de la loi modifiant le Code électoral et le Code des communes et relative à l'élection des conseillers municipaux et aux conditions d'inscription des français établis hors de France sur les listes électorales.</p>
-                <p><hi rend="underline">Rapporteur</hi> : Monsieur Louis GROS</p>
+                <u who="#frey_roger">
+                    <seg>Monsieur le Président rappelle que l'ordre du jour est le suivant :</seg>
+                    <seg>I. Examen, en application de l'article 37, alinéa 2, de la Constitution, des dispositions des trois dernières phrases de l'article L. 74 du Code du service national tel qu'il résulte de l'article 14 de la loi n°70-596 du 19 juillet 1970 relative au service national.</seg>
+                    <seg><hi rend="underline">Rapporteur</hi> : Monsieur Achille PERETTI</seg>
+                    <seg>II. Examen, en application de l'article 61, alinéa 2, de la Constitution, du texte de la loi modifiant le Code électoral et le Code des communes et relative à l'élection des conseillers municipaux et aux conditions d'inscription des français établis hors de France sur les listes électorales.</seg>
+                    <seg><hi rend="underline">Rapporteur</hi> : Monsieur Louis GROS</seg>
+                </u>
             </div4>
         </div3>
         <div3 type="question" n="1" corresp="#L-82-128">
             <div4 type="introduction">
-                <p><hi rend="underline">I. EXAMEN DES DISPOSITIONS DES TROIS DERNIERES PHRASES DE L'ARTICLE L. 74 DU CODE DU SERVICE NATIONAL TEL QU'IL RESULTE DE L'ARTICLE 14 DE LA LOI N°70-596 DU 19 JUILLET 1970 RELATIVE AU SERVICE NATIONAL</hi> :</p>
-                <p><hi rend="underline">Monsieur le Président</hi> donne la parole à Monsieur PERETTI.</p>               
+                <writing>
+                    <seg><hi rend="underline">I. EXAMEN DES DISPOSITIONS DES TROIS DERNIERES PHRASES DE L'ARTICLE L. 74 DU CODE DU SERVICE NATIONAL TEL QU'IL RESULTE DE L'ARTICLE 14 DE LA LOI N°70-596 DU 19 JUILLET 1970 RELATIVE AU SERVICE NATIONAL</hi> :</seg>
+                </writing>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> donne la parole à Monsieur PERETTI.</seg>
+                </u>
             </div4>
             <writing type="rapport" who="#peretti_achille">
                 <seg><hi rend="underline">Monsieur PERETTI</hi> présente alors le rapport suivant :</seg>
                 <pb n="2"/>
-                <seg><hi rend="underline">EXAMEN DES DISPOSITIONS DES TROIS DERNIERES PHRASES DE L'ARTICLE L. 74 DU CODE DU SERVICE NATIONAL</hi></seg>
+                <seg><hi style="titre2">EXAMEN DES DISPOSITIONS DES TROIS DERNIERES PHRASES DE L'ARTICLE L. 74 DU CODE DU SERVICE NATIONAL</hi></seg>
                 <seg>1. Par lettre du 2 novembre 1982, le Premier ministre a demandé au Conseil constitutionnel d'examiner la nature juridique des dispositions des trois dernières phrases de l'article L. 74 du Code du service national, tel qu'il résulte de l'article 14 de la loi N° 70-596 du 19 juillet 1970 relative au service national.</seg>
                 <seg>Ces dispositions résultant d'une loi postérieure à la Constitution relèvent de la compétence du Conseil constitutionnel, au titre de l'article 37, alinéa 2, de la Constitution.</seg>
                 <seg>La première phrase de l'article L. 74 dispose : "Les jeunes gens peuvent demander à accomplir leur service actif en qualité de gendarme auxiliaire".</seg>
@@ -11711,7 +11720,7 @@
                 <seg>3° de diversifier les modalités d'accomplissement du service national.</seg>
                 <seg>C'est ainsi, que l'article 14 permet aux jeunes gens de demander à accomplir leur service actif en qualité de gendarme-auxi1iaire.</seg>
                 <seg>Le projet du Gouvernement ayant été restreint dans sa portée, par des amendements de la commission de la Défense Nationale, la loi donne trois précisions :</seg>
-                <seg>- ces gendarmes-auxiliaires seront affectés à la gendarmerie départemen- tale (ce qui les exclut de la gendarmerie mobile) ;</seg>
+                <seg>- ces gendarmes-auxiliaires seront affectés à la gendarmerie départementale (ce qui les exclut de la gendarmerie mobile) ;</seg>
                 <seg>- ces gendarmes-auxiliaires reçoivent une formation leur permettant d'intégrer la gendarmerie à l'issue de leurs obligations légales et en tout état de cause d'être versés dans ses réserves ;</seg>
                 <seg>- le recours aux gendarmes-auxiliaires devra être limité à 10% du nombre total des gendarmes. (Le Parlement a souhaité interdire au Gouvernement de procéder à des économies sur un personnel spécialisé en multipliant le nombre des gendarmes-auxi1iaires n'ayant que la solde des appelés.)</seg>
                 <pb n="3"/>
@@ -11748,7 +11757,6 @@
                 <seg>Ce long rappel des travaux parlementaires souligne combien les <hi rend="underline">précisions des trois dernières phrases de l'article L. 74 actuel ont été la condition de l'adoption de la règle contenue dans la première phrase de cet article dont elles limitent la portée</hi> en évitant que le Gouvernement n'en amplifie l'application en y trouvant trop de facilités lorsque des difficultés financières l'auraient gêné pour augmenter les effectifs de la gendarmerie. Cette règle apparaît elle-même toucher à un principe fondamental de la Défense Nationale puisqu'elle apporte une exception au principe selon lequel le service national, ainsi que le rappelle l'article 1er du Code qui traite de cette matière, est destiné à répondre aux besoins des armées, à satisfaire les besoins de la Défense et, notamment, à la protection des populations civiles en personnel non <pb n="6"/> militaire, enfin à assurer une aide technique aux départements et territoires d'outre-mer et à la coopération en faveur des Etats étrangers qui en ont fait la demande. La gendarmerie, organiquement, est une arme, donc dépend du ministère des armées, mais les tâches qui lui sont confiées sont très particulières et essentiellement non militaires. Elle est composée de personnels professionnels, à l'exception du cas prévu par l'article dont vous êtes saisis.</seg>
                 <seg>On ne saurait donc dire que l'article 14 de la loi de 1970 soit un cas d'application de la règle selon laquelle "le service militaire est destiné à répondre aux besoins des armées" ni, encore moins, de la règle de l'article 11 de la loi de 1970, aux termes duquel :</seg>
                 <seg>"LES JEUNES GENS ACCOMPLISSANT LE SERVICE MILITAIRE ACTIF DOIVENT ETRE AFFECTES A DES EMPLOIS MILITAIRES".</seg>
-                <!-- <p></p> -->
                 <seg>La règle de l'article 14 a justement pour effet d'enlever du personnel aux armées auxquelles sont confiées les missions traditionnellement militaires pour l'affecter à ce corps spécialisé qu'est la gendarmerie et dont les tâches se rapprochent infiniment plus de celles citées par l'exposé des motifs rappelé ci-dessus.</seg>
                 <seg><hi rend="underline">La règle dérogatoire aux principes normaux des finalités du service national est donc de nature législative puisqu'elle touche aux principes fondamentaux de 1¹organisation générale de la Défense et, notamment, à celui selon lequel</hi> le recrutement des armées est  partiellement assuré par l'appel des jeunes gens du contingent. De même, sont législatives les limites apportées à cette dérogation à un principe fondamental telles que : l'ampleur de cette dérogation (10% au maximum des effectifs de la gendarmerie), la nécessité d'assurer une formation militaire et une formation spécialisée aux jeunes gens intéressés et la limitation aux tâches de la gendarmerie départementale de celles qu'on peut leur confier.</seg>
                 <seg>Comme le craignait Monsieur SANGUINETTI et comme l'a demandé le ministre d'Etat des armées qui a donné les assurances que vous retrouvez dans le texte que l'on vous demande de déclasser, l'absence de telles conditions aurait conduit à détourner des appelés des tâches militaires. Une telle facilité serait d'ailleurs lourde de risques de contagion. N'a-t-on pas besoin aussi, comme l'a suggéré l'exposé des motifs, de sapeurs-pompiers, de moniteurs de plage, de dépollueurs de littoral, etc... N'oublions pas que le service national est fait, tout d'abord, pour assurer des tâches militaires et que seul le législateur peut apporter des exceptions à cette règle.</seg>
@@ -11756,10 +11764,10 @@
                 <seg><hi rend="underline">Monsieur PERETTI</hi> précise aux membres du Conseil qu'il se souvient, en tant qu'ancien parlementaire, du déroulement du débat relatif à la loi du 19 juillet 1970. Si le Gouvernement n'avait pas accepté, les amendements proposés par Monsieur SANGUINETTI, l'Assemblée nationale n'aurait pas adopté la loi, tout du moins en ce qui concerne la question des gendarmes-auxiliaires. Ce problème est fondamental. Il touche à une question d'intérêt national, à savoir l'organisation du service militaire. C'est au législateur de décider quel doit être l'avenir de l'armée. Le Parlement peut certes décider ce qu'il veut, on ne pourrait l'empêcher de décider que 90% de l'effectif de la gendarmerie serait composé de gendarmes-auxiliaires mais c'est à lui seul d'en décider et non au pouvoir réglementaire. Tout ce qui <pb n="7"/> concerne le devenir de L'Armée française est du ressort de la loi. Il est grave de décider que les gendarmes-auxiliaires pourront être versés dans la gendarmerie mobile. En effet, ces appelés auront à effectuer des missions de garde de points sensibles, tels les ambassades ou les points stratégiques. Ces gardes peuvent les exposer à de sérieux risques. Ainsi, récemment, un légionnaire a été assassiné en Corse alors qu'il gardait une base militaire. Si on décide d'affecter les gendarmes-auxiliaires à la gendarmerie mobile, la victime de cet attentat aurait pu être un appelé.</seg>
                 <seg>Monsieur PERETTI fait connaître à ses collègues qu'en tant que maire d'une commune importante où se trouvent de nombreuses ambassades, il a constaté que ces missions de garde rebutent. En effet, en quelques années, la police municipale de sa commune a enregistré 250 demandes de départ, de la part de fonctionnaires, pour seulement 5 demandes d'affectation. Cette observation de fait montre que les amendements introduits au projet de loi ont une grande importance. Il serait regrettable d'autoriser le pouvoir règlementaire à détruire les gardes-fous posés par le législateur, en ce qui concerne le service militaire des gendarmes-auxiliaires. Si le Gouvernement veut procéder de la sorte, il doit le faire ouvertement, que chacun sache de quoi il s'agit, et ce par la voie législative.</seg>
                 <seg>En conclusion, Monsieur le rapporteur précise qu'il ne fait aucun doute à ses yeux que les trois dernières phrases de l'article L. 74 sont de nature législative. Le projet de rapport qu'il présente au Conseil va en ce sens. Il précise que, cependant, si le Conseil ne le suivait pas, ce qu'il regretterait, il a rédigé un second projet de décision concluant à la nature règlementaire de ces dispositions.</seg>
-                <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur PERETTI pour son rapport très vivant et complet.</seg> 
             </writing>
             <div4 type="discussion">
                 <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur PERETTI pour son rapport très vivant et complet.</seg> 
                     <seg>Il déclare ouverte la discussion générale.</seg>
                 </u>
                 <u who="#vedel_georges">
@@ -11797,127 +11805,134 @@
                     <seg><hi rend="underline">Monsieur LECOURT</hi> considère que le texte même de l'alinéa 13 de l'article 34 ("Principes fondamentaux de l'organisation générale de la Défense Nationale") est extrêmement lâche. C'est dire que la loi ne peut entrer dans le détail de ces principes. Or, le texte qui est soumis au Conseil concerne des points de détail de nature règlementaire. Il rappelle que le texte du projet de loi soutenu par Monsieur DEBRE était extrêmement large. N'est-ce pas une présomption quant à l'interprétation donnée par Monsieur DEBRE à l'alinéa 13 de l'article 34 ?</seg>
                     <seg>Aucune autre observation n'étant présentée, <hi rend="underline">Monsieur le Président</hi> invite Monsieur PERETTI à lire son projet de décision.</seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>Monsieur le Président soumet alors au vote ce projet de décision qui est adopté par le Conseil, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT, VEDEL et SEGALAT votant contre.</p>
-                </div5>
+                <writing>
+                    <seg><span type="vote">Monsieur le Président soumet alors au vote ce projet de décision qui est adopté par le Conseil, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT, VEDEL et SEGALAT votant contre.</span></seg>
+                </writing>
             </div4>
         </div3>
         <div3 type="question" n="2" corresp="#DC-82-146">
             <!--rappel du numéro de la décision prise -->
             <div4 type="introduction">
-                <p><hi rend="underline">II. EXAMEN DU TEXTE DE LA LOI MODIFIANT LE CODE ELECTORAL ET LE CODE DES COMMUNES ET RELATIVE A L'ELECTION DES CONSEILLERS MUNICIPAUX ET AUX CONDITIONS D'INSCRIPTION DES FRANCAIS ETABLIS HORS DE FRANCE SUR LES LISTES ELECTORALES</hi> :</p>       
-                <p><hi rend="underline">Monsieur le Président</hi> indique que le Conseil va examiner à présent la loi relative à l'élection des conseillers municipaux.</p>
+                <writing>
+                    <seg><hi rend="underline">II. EXAMEN DU TEXTE DE LA LOI MODIFIANT LE CODE ELECTORAL ET LE CODE DES COMMUNES ET RELATIVE A L'ELECTION DES CONSEILLERS MUNICIPAUX ET AUX CONDITIONS D'INSCRIPTION DES FRANCAIS ETABLIS HORS DE FRANCE SUR LES LISTES ELECTORALES</hi> :</seg>       
+                </writing>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> indique que le Conseil va examiner à présent la loi relative à l'élection des conseillers municipaux.</seg>
+                </u>
                 <incident>
                     <desc><hi rend="underline">Monsieur VEDEL</hi> demande au Président de bien vouloir l'excuser. Il souhaite, en effet, se retirer ayant, comme chacun le sait, dans un article du 3 février 1979, paru dans le journal "Le Monde", pris position sur la question essentielle qu'aura à connaître le Conseil c'est-à-dire l'obligation de mixité.</desc>
                     <desc>Cet article ne peut être assimilé à une chronique de droit, même s'il ne présente pas un caractère polémique. Ne voulant pas être dans la position de "Barbe molle", avocat cher à Courteline, qui est tantôt juge, tantôt avocat, Monsieur VEDEL préfère se retirer.</desc>
                 </incident>
-                <p><hi rend="underline">Monsieur le Président</hi> rend hommage aux scrupules de Monsieur VEDEL.</p>
-                <p><hi rend="underline">Monsieur VEDEL</hi> s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant.</p>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> rend hommage aux scrupules de Monsieur VEDEL.</seg>
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant.</seg>
+                </u>
             </div4>
             <pb n="10"/>
-            <writing type="rapport" who="#gros_louis">
-                <seg>Le 21 octobre 1982, l'Assemblée nationale a adopté à mains levées, en troisième lecture, après échec d'une commission mixte paritaire, le texte d'un projet de loi déposé, après déclaration d'urgence, sur son bureau le 16 juillet 1982.</seg>
-                <seg>Le Conseil constitutionnel a été saisi, le 23 octobre 1982, d'un recours, en application de l'article 61, de la Constitution, signé par plus de <hi rend="underline">soixante députés</hi>. La saisine des députés est recevable en la forme.</seg>
-                <seg>Le 23 octobre 1982, <hi rend="underline">un particulier</hi> a également saisi le Conseil constitutionnel d'un recours à l'encontre de cette même loi, recours invoquant, d'une part, pour justifier sa recevabilité, une décision du 11 juin 1981 relative à une demande d'annulation du décret de convocation des électeurs pour l'élection présidentielle présentée par Monsieur DELMAS (ce recours avait été déclaré recevable mais mal fondé) et, d'autre part, une décision du 20 avril 1982 sur requête de Messieurs BERNARD et autres.</seg>
-                <seg>Dans cette-dernière décision, le Conseil se fondant sur l'article 59 de la Constitution ne s'est pas déclaré compétent mais a précisé que, si sa compétence s'étendait à tous les actes de procédure électorale, il ne lui appartenait de statuer sur leur totalité, sauf cas exceptionnel, qu'à l'occasion du contentieux relatif à une élection déterminée.</seg>
-                <seg>Dans ces deux décisions DELMAS et BERNARD, le Conseil avait statué, par application de l'article 59 de la Constitution, sur la régularité de décrets ou arrêtés mais non sur celle d'une loi votée par le Parlement. Pour examiner la conformité d'une loi à la Constitution, il faut, bien entendu, respecter les conditions de l'article 61 de la Constitution.</seg>
-                <seg>On peut cependant s'arrêter quelques instants sur le recours de ce particulier, Monsieur TOURRET.</seg>
-                <seg>Il soutient que la loi électorale des conseillers municipaux a un double objet :</seg>
-                <seg>1° celui d'élire les responsables de la gestion municipale ;</seg>
-                <seg>2° celui d'élire au premier degré les électeurs des membres du Sénat, les sénateurs étant élus au suffrage universel indirect.</seg>
-                <seg>Monsieur TOURRET conteste que le caractère universel de ce suffrage soit respecté et ceci du fait de l'élimination complète des listes n'ayant pas recueilli 5% des voix lors du premier tour. Malgré la séduction apparente de ce raisonnement, il faut souligner son erreur d'interprétation des décisions du Conseil constitutionnel qui ne visent que des actes administratifs qui font partie d'une procédure électorale et dont le Conseil d'Etat, de ce fait, n'est plus juge. Une loi électorale fixe les règles des élections mais ne fait pas partie de la procédure électorale. L'article 61 de la Constitution a prévu une procédure particulière de contrôle de la constitutionnalité des lois.</seg>
-                <seg>Il y a donc lieu de déclarer irrecevable, sans la discuter au fonds, la requête de ce particulier étant, bien entendu, que cette déclaration d'irrecevabilité n'interdit pas au Conseil constitutionnel de se poser la question soulevée par ce particulier quant à l'élimination des listes ayant obtenu 5% des suffrages.</seg>
-                <pb n="11"/>
-                <seg>Il convient, à présent, d'examiner brièvement la procédure parlementaire.</seg>
-                <seg>Le projet de loi a été longuement discuté à l'Assemblée nationale, au cours des séances des 26, 27 et 28 juillet 1982, date à laquelle il a été adopté, en première lecture, par 275 voix contre 155, après rejet, au début des débats, d'une question préalable.</seg>
-                <seg>Le débat s'est engagé au Sénat, en première lecture, les 12 et 13 octobre 1982. La haute assemblée a adopté un projet très amendé, par 194 voix contre 103.</seg>
-                <seg>Le 19 octobre 1982, la Commission mixte paritaire n'a pas abouti à un procès-verbal de textes communs.</seg>
-                <seg>Les dernières lectures ont eu lieu les 20 et 21 octobre 1982.</seg>
-                <seg><hi rend="underline">Quel est l'objet de cette loi ?</hi></seg>
-                <seg>Cet objet est double. Peut-être aurait-il été d'une meilleure méthode de soumettre au Parlement deux projets distincts. Si les deux parties de la loi traitent d'une même question, elles l'abordent sous des angles différents, au point, nous le verrons, que l'adoption du chapitre II a pour effet de créer un vide législatif. Le Gouvernement a dû en convenir et s'est engagé à déposer un projet de loi le plus tôt possible, ce qui d'ailleurs ne veut pas dire grand chose.</seg>
-                <seg>L'intitulé de cette loi est : "Loi modifiant le Code électoral et le Code des communes et relative à l'élection des conseillers municipaux et aux conditions d'inscription des français établis hors de France sur les listes électorales".</seg>
-                <seg>Cette loi constitue un des épisodes de la discussion entre les théoriciens du droit institutionnel sur les mérites respectifs du système électoral majoritaire à un ou deux tours et du système de la représentation proportionnelle. Ouverte depuis des décennies, cette discussion ne paraît pas sur le point de prendre fin car il est difficile de ne pas s'apercevoir que, transposés au plan parlementaire, les politiques et non plus les sociologues ne peuvent s'abstenir de rechercher, sans bien sûr l'avouer, quelles sont les conséquences de l'adoption de tel ou tel système sur l'avenir de leur parti. Ce genre de préoccupation n'est et ne peut être un élément de la réflexion du Conseil constitutionnel, ni avoir d'incidences sur sa décision.</seg>
-                <seg>Chacun des membres du Conseil connaissant le régime électoral créé par la nouvelle loi, Monsieur le rapporteur se propose de limiter son propos à l'énoncé des grandes lignes du projet.</seg>
-                <seg>Depuis 1964, les conseillers municipaux sont élus au scrutin majoritaire à deux tours. La distinction entre les villes de plus et de moins de 30 000 habitants n'a d'intérêt que pour la question du panachage et du vote préférentiel. Le principe du système majoritaire est général.</seg>
-                <pb n="12"/>
-                <seg>Dans le projet soumis au Conseil, il est instauré un système proportionnel combiné, au premier tour, avec une prime à la majorité absolue. Le système de la représentation proportionnelle devient une règle générale le système majoritaire ne demeurant en vigueur que pour les communes de moins de 3 500 habitants.</seg>
-                <seg>Le Conseil n'a pas à porter de jugement de valeur sur le système nouveau, les régimes électoraux des assemblées locales étant, en effet, de la compétence de la loi. Il sera obligé néanmoins de se pencher sur un point particulier visé par la saisine, à propos de l'application de la règle proportionnelle au seul cas de l'élection de trois conseillers municipaux. Cette application aboutirait, aux dires des requérants, à l'inégalité des règles du suffrage.</seg>
-                <seg>Dans ses grandes lignes, il faut retenir que le système nouveau cherche à concilier la représentation des minorités avec la nécessité de maintenir, au sein des conseils, une majorité cohérente de gestion. Tel est l'objet de la loi.</seg>
-                <seg>Sera-t-il atteint ? Les années à venir nous le dirons.</seg>
-                <seg>La loi prévoit un scrutin de listes sans modification, panachage ou vote préférentiel. La liste qui obtient la majorité absolue au premier tour se voit attribuer la moitié des sièges, arrondie à l'entier supérieur. Les autres sièges sont attribués selon la règle proportionnelle de la plus forte moyenne. Il faut remarquer que le nombre des conseillers municipaux étant toujours impair, il en résulte qu'en cas de majorité absolue en faveur d'une liste, celle-ci obtiendra, avec la règle de la moitié arrondie à l'entier supérieur, dans tous les cas, une majorité absolue au sein du conseil. L'unique exception visée par la saisine est le cas d'élection des trois conseillers où la liste majoritaire ne se voit attribuer qu'un siège parce que, dans ce cas, la moitié est arrondie à l'entier inférieur, c'est-à-dire 1, les deux sièges
-                restants étant attribués,selon la règle proportionnelle, à la plus forte moyenne.</seg>
-                <seg>La loi, au chapitre IV, contient des dispositions diverses modifiant certains articles du Code électoral relatifs à l'âge d'éligibilité qui est fixé à 18 ans et non plus à 21 ans, tout en maintenant à 21 ans l'âge d'éligibilité à la fonction de maire. C'est dire qu'il y aura, à l'avenir, des conseillers municipaux qui ne pourront pas être maires.</seg>
-                <seg>La loi apporte aussi quelques changements à propos des inéligibilités des fonctionnaires de police ou de préfecture, des services des conseils généraux et des conseils régionaux.</seg>
-                <seg>Elle contient quelques dispositions relatives aux délégations, par le maire, de ses attributions (article L. 254).</seg>
-                <seg>Toutes les dispositions qui viennent d'être envisagées sont, sans discussion, du domaine législatif.</seg>
-                <pb n="13"/>
-                <seg>Le deuxième objet de la loi est relatif <hi rend="underline">aux conditions d'inscription des français établis hors de France sur les listes électorales</hi>.</seg>
-                <seg>Le seul lien entre ces deux parties de la loi se trouve dans la proximité des élections municipales. Le Conseil connaît de cette question qui a fait l'objet, à propos du contentieux des élections législatives de 1978, de nombreux commentaires, discussions ou critiques. Le Conseil a rendu,  sur la régularité de ces inscriptions, un certain nombre de décisions sur lesquelles il ne convient pas de revenir. Monsieur le rapporteur se propose de résumer simplement les grandes étapes du régime particulier prévu par l'article 12 du Code électoral.</seg>
-                <seg>Dans un premier temps, avant comme après la suppression du vote par correspondance, les français de l'étranger pouvaient demander leur inscription sur la liste de différentes communes en France, à savoir celles de leur naissance, de leur dernier domicile, de leur dernière résidence, du domicile d'un ascendant ou d'un descendant ou, même, de leur conjoint (en cas d'immatriculation dans un consulat [article 14 du Code électoral]). Ce système était satisfaisant et répondait au cas de la majorité des français de l'étranger.</seg>
-                <seg>En France, on sait mal que se sont constituées, depuis la décolonisation, de véritables communautés françaises dans le monde entier, depuis Pondichéry jusqu'au Paraguay, l'Espagne, l'Australie ou le Canada, sans oublier Israël. Ces français qui ne sont pas nés en métropole, avec le développement des moyens de communication, se sont rapprochés de la France. Il faut rappeler, à ce sujet, l'effort entrepris par 1'Alliance-France ou la Mission laïque.</seg>
-                <seg>C'est ainsi qu'en 1972, puis en 1977, le législateur a étendu le droit d'inscription au seul fait de payer des impôts dans une commune et cela dès la première année. Puis, on a ouvert le droit à inscription à tous les français de l'étranger dans la commune de leur choix, à condition qu'il s'agisse d'une commune de plus de 30 000 habitants et que ces inscriptions ne dépassent pas 2% des électeurs inscrits.</seg>
-                <seg>L'élection présidentielle de 1974, puis celle de 1981, ont souligné le poids de cet électorat qui pouvait constituer un appoint décisif, en cas de partage serré des voix. Sans doute, la loi de 1977 était-elle allée aussi loin que possible en reconnaissant à ces français, même récemment émigrés, pensons aux coopérants ou aux fonctionnaires détachés, le droit de s'inscrire dans la commune de leur choix. Comme toujours, en pareil cas, quand le balancier a un mouvement d'une trop grande amplitude dans un sens, l'excès se retrouve dans le mouvement inverse.</seg>
-                <seg>L'abrogation de la loi de 1977 se comprenait, celle de 1972 est plus discutable. Le retour à la rédaction antérieure à 1972 de l'article 12 du Code électoral, en laissant survivre, par oubli sans doute, une disposition de l'article 14 en faveur des français immatriculés dans un consulat, crée un régime boiteux en retirant aux français établis hors de France, qui n'ont, ni par eux-mêmes, ni par ascendant ou descendant, d'attaches avec une commune, le droit de participer à l'élection des conseillers municipaux. Le législateur n'a pas, cependant, outrepassé sa compétence puisqu'on retrouve, à l'article 11, à l'article 14, à l'article 228 et dans divers articles du Code des communes, la régie de la territorialité <pb n="14"/> de l'établissement des listes en matière municipale. Il est certain que le Parlement et le Gouvernement, pris par l'urgence de faire voter un texte qui doit s'appliquer aux prochaines élections municipales du mois de mars 1983, ont négligé une conséquence de l'abrogation de la loi de 1977. En effet, il n'existe pas plusieurs listes électorales (sauf en ce qui concerne l'élection présidentielle et l'élection aux communautés européennes pour les français de l'étranger), mais une seule liste sur laquelle l'inscription est obligatoire, en vertu de l'article 9 du Code électoral. La loi prévoit d'ailleurs la procédure d'inscription et de radiation sur cette liste unique qui est utilisée pour les élections municipales et pour toutes les autres élections politiques, cantonales, législatives et présidentielles.</seg>
-                <seg>En ordonnant la radiation de cette liste de certains électeurs français établis hors de France qui n'ont aucun lien avec une commune, le législateur n'a pas prévu comment ces mêmes citoyens pourront participer aux élections législatives puisqu'ils n'ont le droit de s'inscrire sur aucune liste électorale. A cette question qui lui a été posée, le ministre chargé des relations avec le Parlement a répondu :</seg>
-                <seg>"Je remercie également Monsieur FOYER de son intervention, s'agissant, en particulier de la discrimination opérée pour l'inscription sur les listes électorales de plus de 30 000 habitants. Ayant moi-même vécu très longtemps à l'étranger, je reconnais qu'il serait regrettable de priver certains français de l'étranger de participer aux élections législatives. Le Gouvernement étudiera cette question" (J.O. A.N. 88, page 4 936).</seg>
-                <seg>Cette réponse est étrange. Elle reconnaît que la loi a eu pour conséquence de priver un certain nombre de citoyens de l'exerice de leurs droits civiques et politiques. Elle consiste à demander au Parlement de voter une disposition sur la simple promesse, par le Gouvernement, d'étudier la difficulté. Aucune loi ne doit ainsi violer une règle constitutionnelle aux motifs que le vide législatif sera comblé ultérieurement. Cependant, une décision d'annulation paraîtrait difficile à justifier. Le Conseil pourrait dire qu'en l'état, faute de n'avoir rien prévu pour assurer une inscription effective lors d'élections autres que des élections municipales, les articles 6 et 7 de la présente loi sont non conformes à la Constitution.</seg>
-                <seg>Monsieur le rapporteur avoue avoir hésité sur ce point particulier, plus théorique que pratique. Il estime qu'aujourd'hui la conjoncture ambiante ne postule pas à une déclaration d'annulation. Il se déclare, cependant, prêt à écouter très volontier l'avis, sur ce point, du Conseil. Pour sa part, il n'a pas mentionné cette irrégularité dans son projet de décision. Il croit, cependant, de son devoir de le signaler à ses collègues.</seg>
-                <seg>II convient, à présent, <hi rend="underline">d'examiner l'article L. 260 bis nouveau</hi> du Code électoral.</seg>
-                <seg>La loi soumise au Conseil comporte, à son article 4, une disposition nouvelle et très originale dans le système électoral français.</seg>
-                <pb n="15"/>
-                <seg>Cette disposition qui figure à la section I du chapitre III du Code électoral, section relative au mode de scrutin, dispose :</seg>
-                <seg>"Art. L. 260 bis - Les listes de candidats ne peuvent comporter plus de 75 p. 100 de personnes du même sexe. Cette proportion s'apprécie au sein de l'ensemble de la liste et au sein de chaque groupe entier de douze candidats dans l'ordre de présentation de la liste".</seg>
-                <seg>Cet article ne figurait pas dans le projet de loi du Gouvernement. Il n'a pas fait l'objet d'un amendement lors de la discussion en commission. Le rapport de Monsieur POPEREN n'y fait pas allusion. C'est seulement en séance publique, au cours de la discussion générale, que Madame Gisèle HALIMI a déposé un amendement, lors de la séance du 26 juillet 1982. Un amendement similaire avait d'ailleurs été déposé à la même séance. Ces amendements ont créé une obligation de mixité de sexe dans une proportion minimum de 75% à 25% sur les listes des candidats. Cette obligation doit être observée par groupe de 12 candidats.</seg>
-                <seg>La discussion de cette disposition est instructive et révélatrice de l'intention du législateur. Pour Madame HALIMI et Monsieur RICHARD, auteurs des amendements, il s'agit bien de réserver, par la loi, une place déterminée aux femmes dans la gestion municipale, place que d'habitude les hommes politiques et les partis, à l'exception du parti socialiste, ne veulent pas laisser de bon gré.</seg>
-                <seg>Plus nuancés dans l'expression, tous les autres intervenants, à une ou deux exceptions près, ont approuvé l'esprit de cette mesure discutant des pourcentages, des modalités d'application et des inconvénients pratiques de cette mesure. Il a été soutenu que les acquis des candidats sortants étaient négligés par cette disposition. Cependant, d'une façon générale, personne n'a contesté que la participation de tout homme et femme à la vie publique constitue un progrès vers une meilleure gestion. Il faut bien reconnaître que cette question a été en suspend depuis plusieurs années. Madame PELLETIER avait présenté un projet identique au pourcentage près, 20% au lieu de 25%. Ce projet n'avait toutefois pas dépassé, avant 1981, le stade d'une première lecture à l'Assemblée nationale.</seg>
-                <seg>Dès 1980 déjà, l'opinion publique avait été alertée. L'article du Doyen Georges VEDEL, à cette époque, avait créé quelque émotion bien qu'une lecture attentive de cette chronique ne justifie peut-être pas les titres journalistiques qui l'avaient accompagnée. Ces titres, en effet, paraissent seuls avoir été retenus par le public et aussi par les parlementaires qui, en juillet 1982, ont cru pouvoir les citer.</seg>
-                <seg>Monsieur le rapporteur déclare avoir relu de nombreux articles de presse parus entre 1980 et 1982 sur ce sujet. La question de constitutionnalité, si elle est abordée, n'est que plus ou moins sérieusement discutée.</seg>
-                <seg>Avant de proposer une solution au Conseil, Monsieur le rapporteur se propose de résumer la discussion parlementaire sur ce point.</seg>
-                <seg>A l’Assemblée nationale, Madame HALIMI et les députés de la majorité ont plus affirmé que démontré. Leur raisonnement consiste à reconnaître que prévoir, à propos d'élections, un quota en faveur des candidats féminins serait contraire à la Constitution mais que la rédaction <pb n="16"/> proposée qui pose l'interdiction de plus de 75% de candidats du même sexe "tourne" la difficulté en rétablissant l'égalité des uns et des autres, la mixité n'établissant pas en faveur de qui elle doit exister.</seg>
-                <seg>C'est l'exemple type d'un sophisme. Il faut souligner que les députés, ont, sur ce point, insisté sur la nécessité politique d'une mesure dont le bien-fondé institutionnel et juridique est, pour les uns, discutable et, pour les autres, habilement exprimé. Certains considéraient qu'on escamotait la difficulté, d'autres qu'on la réservait. Ainsi, un député de l'opposition qui figure parmi les signataires du recours, Monsieur GANTIER, a déclaré qu'il votait le texte "sous réserve de la décision du Conseil constitutionnel" Un autre a déclaré que, sur le point de la conformité à la Constitution "il est possible de s'interroger", parce que le problème n'a jamais été posé au Conseil constitutionnel. C'est encore une réponse du ministre d'Etat, ministre de l'intérieur, à la question qui lui a été posée en séance pour connaître l'avis du Gouvernement, qui est la plus significative . Monsieur DEFFERRE a, en effet, déclaré, lors de la troisième séance du 27 juillet 1982 :</seg>
-                <seg>"Le Gouvernement n'a pas inclus dans le texte de disposition semblable à celle que vient de défendre Monsieur Alain RICHARD. En effet, il pense qu'il revient aux formations politiques de décider en la matière et de composer des listes comprenant une proportion de femmes comparables à celle que vient d'indiquer Monsieur Alain RICHARD.</seg>
-                <seg>J'ajoute que, à l'occasion des élections à l'Assemblée européenne, la direction du parti socialiste de l'époque, dont certains membres sont aujourd'hui au Gouvernement, avait décidé que des femmes seraient candidates dans un pourcentage tel que, compte tenu des résultats escomptés au scrutin proportionnel, 25 p. 100 à 30 p. 100 de femmes seraient finalement élues sur les listes présentées par le parti socialiste. C'est, me semble-t-il, notre formation qui a le plus veillé à respecter cette règle.</seg>
-                <seg>Certes,il ne m'appartient pas de m'exprimer ici en tant qu'ancien député ou militant socialiste, mais en tant que membre du Gouvernement. Je me suis simplement borné à rappeler la position du parti socialiste sur un sujet précis. Mais, je le répète, le Gouvernement considère que c'est aux partis politiques qu'il appartient de prendre de telles décisions et de les faire appliquer dans leurs rangs.</seg>
-                <seg>En outre, Monsieur Alain RICHARD a fait allusion à l'aspect constitutionnel du problème. Je souhaite, si la disposition qu'il a proposée est adoptée, qu'elle figure dans un article séparé de façon que, au cas où le Conseil constitutionnel l'annulerait, la loi puisse néanmoins être appliquée.</seg>
-                <seg>Cependant, les groupes de la majorité ayant insisté pour que le Gouvernement se rallie à cet amendement, je laisse le soin à l'Assemblée de se prononcer dans toute sa sagesse".</seg>
-                <seg>Il convient de citer une dernière déclaration. Celle faite le 26 juillet 1982, en des termes pittoresques, par Madame Denise CACHEUX, député socialiste. Ce parlementaire qui traduit, semble-t-il, ce que pense nombre de ses collègues à propos des "risques constitutionnels",  déclare :</seg>
-                <seg>"Pour qu'elle soit déclarée, il faudrait que soixante députés aient le courage d'affronter sur ce point le Conseil constitutionnel. Permettez-moi d'en douter...".</seg>
-                <pb n="17"/>
-                <seg>Ce même député, à propos du projet de Madame PELLETIER de 1980 cite le Conseil d'Etat (dont elle connaissait, on ne sait comment, l'avis) qui aurait estimé que le projet n'était pas contraire aux règles constitutionelles mais qu'il portait atteinte à la liberté des électeurs. Comprenne qui pourra !</seg>
-                <seg>Au Sénat, le rapprochement du texte du rapport de la commission des lois, du rapport oral en séance et l'absence de discussion en séance révèle que le Sénat, en accord avec son rapporteur et sa commission, a préféré ne pas prendre la responsabilité d'une position, tranchée sur la question de la mixité.</seg>
-                <seg>Selon l'expression du rapporteur : "L'habileté de cette formule, découverte par Monsieur VEDEL, ne saurait masquer l'objectif poursuivi". Le rapporteur n'a pas manqué d'émettre, dans son rapport, des réserves sur cette disposition dont la constitutionnalité est discutable, moyennant quoi, et après ces réserves, le rapporteur et la commission ont demandé aux sénateurs de voter le texte de l'Assemblée nationale.</seg>
-                <seg>En séance, un amendement de Madame GROS, ayant pour objet de porter de 75% à 70% le pourcentage de mixité, a été repoussé alors qu'un amendement de Monsieur CARAT, sénateur socialiste, modifiant la fraction des douze pour l'application de la règle de mixité, a été adopté. Cet amendement n'a pas survécu aux deuxième et troisième lectures à l'Assemblée nationale.</seg>
-                <seg>Ces citations tendent à démontrer que les parlementaires sont conscients que toute catégorisation du Code électoral est contraire à la Constitution.</seg>
-                <seg>S'il a épargné au Conseil la lecture des discours de Madame HALIMI, Monsieur le rapporteur déclare vouloir, cependant, citer ce parlementaire qui a déclaré :</seg>
-                <seg>"Les femmes ne sont pas une catégorie. Elles constituent une majorité au statut minoritaire qui englobe toutes les catégories. Par conséquent, l'objection ne tient pas et ne peut pas être retenue".</seg>
-                <seg>Il est inutile de commenter cette déclaration. Ce qu'il faut retenir, c'est que le droit a été absent des débats parlementaires. Il a été absent sur l'avant-scène, il a été absent de la tribune mais il n'a pas été absent des esprits et les références aux décisions du Conseil constitutionnel qui jalonnent la discussion, ou à des opinions exprimées par tel ou tel juriste, révèlent que la position que prendra le Conseil sur cette question est attendue et souhaitée pour mettre fin à une querelle.</seg>
-                <seg>Monsieur le rapporteur qui n'a pas eu, pour sa part, comme le député qu'il vient de citer, connaissance de l'avis du Conseil d'Etat à propos de la loi PELLETIER de 1980, ne retient quant à lui, de tout ce qui a été dit, que le projet aurait violé une liberté publique. Il ne pense pas s'en tenir à ce terrain. Pour sa part, son raisonnement sera un peu différent et plus simple. Le projet qu'il propose au Conseil se fonde sur l'article 3 de la Constitution. C'est pourquoi il cite cet article en entier dans son projet. La portée du principe énoncé par cet article et son architecture sont simples. Le principe figure à 1'alinéa 1er :</seg>
-                <seg>"La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum".</seg>
-                <pb n="18"/>
-                <seg>L'exercice de la souveraineté revient aux représentants élus du peuple. Le suffrage doit être direct ou indirect, dans les conditions fixées par la Constitution. Il est toujours universel, égal et secret.</seg>
-                <seg>"Sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques".</seg>
-                <seg>Monsieur le rapporteur souligne que ce dernier adjectif "politiques" prend, ici, toute sa valeur et son sens plein, par un véritable retour à sa racine éthymo1ogique grecque : "qui se rapporte à la cité".</seg>
-                <seg>L'analyse devient désormais simple. Le suffrage est universel et appartient au corps électoral de tous les français des deux sexes. La loi ne peut déterminer la composition de ce corps électoral, si ce n'est en ce qui concerne les conditions d'âge, d'éligibilité, d'incapacité ou d'indignité. Ces conditions s'appliquent, d'ailleurs, à tous les citoyens, sans distinction et sans création de catégories. Ce qui caractérise le suffrage c'est l'universalité et l'égalité de tous les "nationaux français", à l'intérieur de ce corps constitué par l'ensemble de ces électeurs. Le vieux dicton démocratique qui rappelle que les voix ne se pèsent pas mais se comptent n'est que la traduction populaire de cette égalité entre les citoyens, c'est-à-dire entre les suffrages. L'article 3 de la Constitution, en énonçant que le suffrage "est toujours égal" énonce très simplement mais très positivement qu'il ne peut pas exister de catégorisation des suffrages.</seg>
-                <seg>A ce point de son rapport, Monsieur le Président GROS pense avoir clairement exposé au Conseil le double objet de sa réflexion, de ses observations et du sens de ses conclusions.</seg>
-                <seg>D'une part, l'article 260 bis, en introduisant, à l'occasion de l'élection des conseillers municipaux, une catégorisation au sein de l'électorat, est contraire à la Constitution.</seg>
-                <seg>D'autre part, le fait que les requérants n'en aient pas fait un moyen de leur saisine n'est pas un motif suffisant pour que le Conseil constitutionnel ne sanctionne pas cette inconstitutionnalité. Le considérant qu'adopte le Conseil, à la fin de ses décisions, pour informer "qu'en l'espèce, il n'y a lieu à soulever d'office aucune question de conformité à la Constitution, en ce qui concerne les autres dispositions de la loi soumise à son examen", ne serait plus qu'une clause de style inutile si, dans un cas, à ses yeux, aussi net de non conformité à la Constitution, le Conseil constitutionnel ne soulevait pas le moyen.</seg>
-                <seg>Il ne s'agit pas d'une interprétation ou d'une application d'un principe ou d'une règle ayant valeur constitutionnelle ou encore d'une loi fondamentale de la République mais bien de l'application et du respect du texte même de la Constitution.</seg>
-                <seg>Qu'il faille user avec prudence et sagesse du droit d'évocation est certain, bien que, sur ce point, Monsieur le rapporteur ait toujours craint que le Conseil constitutionnel, de précédents mineurs aux précédents plus sérieux, soit conduit à se trouver un jour devant un ensemble de décisions gênantes.</seg>
-                <pb n="19"/>
-                <seg>Aujourd'hui, l'affirmation de l'étendue du contrôle constitutionnel ne paraît pas devoir être contestée.</seg>
-                <seg>Monsieur le Rapporteur déclare qu'il en aura terminé quand il aura exposé, en quelques mots, le moyen de la saisine.</seg>
-                <seg>Comme il a été résumé ci-dessus, le recours ne soulève qu'un moyen à propos de l'article 4 de la loi qui contient <hi rend="underline">un article L. 262</hi>. Cet article dispose :</seg>
-                <seg>"Au premier tour de scrutin, il est attribué à la liste qui a recueilli la majorité absolue des suffrages exprimés un nombre de sièges égal à la moitié du nombre des sièges à pourvoir, arrondi, le cas échéant, à l'entier supérieur lorsqu'il y a plus de quatre sièges à pourvoir et à l'entier inférieur lorsqu'il y a moins de quatre sièges à pourvoir. Cette attribution opérée, les autres sièges sont répartis entre toutes les listes à la représentation proportionnelle suivant la règle de la plus forte moyenne, sous réserve de l'application des dispositions du troisième alinéa ci-après.</seg>
-                <seg>Si aucune liste n'a recueilli la majorité absolue des suffrages exprimés au premier tour, il est procédé à un deuxième tour. Il est attribué à la liste qui a obtenu le plus de voix un nombre de sièges égal à la moitié du nombre des sièges à pourvoir, arrondi, le cas échéant, à l'entier supérieur quand il y a plus de quatre sièges à pourvoir et à l'entier inférieur lorsqu'il y a moins de quatre sièges à pourvoir. En cas d'égalité de suffrages entre les listes arrivées en tête, ces sièges sont attribués à la liste dont les candidats ont la moyenne d'âge la plus élevée. Cette attribution opérée, les autres sièges sont répartis entre toutes les listes à la représentation proportionnelle suivant la règle de la plus forte moyenne, sous réserve de l'application des dispositions du troisième alinéa ci-après.</seg>
-                <seg>Les listes qui n'ont pas obtenu au moins 5 p. 100 des suffrages exprimés ne sont pas admises à répartition des sièges.</seg>
-                <seg>Les sièges sont attribués aux candidats dans l'ordre de présentation sur chaque liste.</seg>
-                <seg>Si plusieurs listes ont la même moyenne pour l'attribution du dernier siège, celui-ci revient à la liste qui a obtenu le plus grand nombre de suffrages. En cas d'égalité de suffrages, le siège est attribué au plus âgé des candidats susceptibles d'être proclamés élus".</seg>
-                <seg>Aux dires des requérants, cette différence de méthode de calcul constituerait une inégalité à l'égard des électeurs, le mode de calcul devant être le même dans tous les cas.</seg>
-                <seg>Ce moyen mérite deux observations. En premier lieu, l'égalité à respecter ne se confond pas avec l'identité des dispositions législatives. Il suffit, pour que le principe d'égalité soit respecté, que la mesure prise pour le calcul des voix soit la même à l'égard de tous, chaque fois que le cas envisagé se présente. En deuxième lieu, il s'agit de cas très marginaux d'élections partielles ne portant que sur trois sièges à pourvoir. L'arrière-pensée politique partisane paraît évidente et cela ne concerne pas le Conseil constitutionnel, la mesure prise étant du domaine législatif et ne transgressant aucune disposition de la Constitution, ni aucun principe, ni aucune règle de valeur constitutionnelle.</seg>
-                <pb n="20"/>
-                <seg>Monsieur le rapporteur propose donc au Conseil de rejeter ce moyen.</seg>
-                <seg>Monsieur le rapporteur déclare en avoir terminé avec son rapport.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#gros_louis">
+                    <seg>Le 21 octobre 1982, l'Assemblée nationale a adopté à mains levées, en troisième lecture, après échec d'une commission mixte paritaire, le texte d'un projet de loi déposé, après déclaration d'urgence, sur son bureau le 16 juillet 1982.</seg>
+                    <seg>Le Conseil constitutionnel a été saisi, le 23 octobre 1982, d'un recours, en application de l'article 61, de la Constitution, signé par plus de <hi rend="underline">soixante députés</hi>. La saisine des députés est recevable en la forme.</seg>
+                    <seg>Le 23 octobre 1982, <hi rend="underline">un particulier</hi> a également saisi le Conseil constitutionnel d'un recours à l'encontre de cette même loi, recours invoquant, d'une part, pour justifier sa recevabilité, une décision du 11 juin 1981 relative à une demande d'annulation du décret de convocation des électeurs pour l'élection présidentielle présentée par Monsieur DELMAS (ce recours avait été déclaré recevable mais mal fondé) et, d'autre part, une décision du 20 avril 1982 sur requête de Messieurs BERNARD et autres.</seg>
+                    <seg>Dans cette-dernière décision, le Conseil se fondant sur l'article 59 de la Constitution ne s'est pas déclaré compétent mais a précisé que, si sa compétence s'étendait à tous les actes de procédure électorale, il ne lui appartenait de statuer sur leur totalité, sauf cas exceptionnel, qu'à l'occasion du contentieux relatif à une élection déterminée.</seg>
+                    <seg>Dans ces deux décisions DELMAS et BERNARD, le Conseil avait statué, par application de l'article 59 de la Constitution, sur la régularité de décrets ou arrêtés mais non sur celle d'une loi votée par le Parlement. Pour examiner la conformité d'une loi à la Constitution, il faut, bien entendu, respecter les conditions de l'article 61 de la Constitution.</seg>
+                    <seg>On peut cependant s'arrêter quelques instants sur le recours de ce particulier, Monsieur TOURRET.</seg>
+                    <seg>Il soutient que la loi électorale des conseillers municipaux a un double objet :</seg>
+                    <seg>1° celui d'élire les responsables de la gestion municipale ;</seg>
+                    <seg>2° celui d'élire au premier degré les électeurs des membres du Sénat, les sénateurs étant élus au suffrage universel indirect.</seg>
+                    <seg>Monsieur TOURRET conteste que le caractère universel de ce suffrage soit respecté et ceci du fait de l'élimination complète des listes n'ayant pas recueilli 5% des voix lors du premier tour. Malgré la séduction apparente de ce raisonnement, il faut souligner son erreur d'interprétation des décisions du Conseil constitutionnel qui ne visent que des actes administratifs qui font partie d'une procédure électorale et dont le Conseil d'Etat, de ce fait, n'est plus juge. Une loi électorale fixe les règles des élections mais ne fait pas partie de la procédure électorale. L'article 61 de la Constitution a prévu une procédure particulière de contrôle de la constitutionnalité des lois.</seg>
+                    <seg>Il y a donc lieu de déclarer irrecevable, sans la discuter au fonds, la requête de ce particulier étant, bien entendu, que cette déclaration d'irrecevabilité n'interdit pas au Conseil constitutionnel de se poser la question soulevée par ce particulier quant à l'élimination des listes ayant obtenu 5% des suffrages.</seg>
+                    <pb n="11"/>
+                    <seg>Il convient, à présent, d'examiner brièvement la procédure parlementaire.</seg>
+                    <seg>Le projet de loi a été longuement discuté à l'Assemblée nationale, au cours des séances des 26, 27 et 28 juillet 1982, date à laquelle il a été adopté, en première lecture, par 275 voix contre 155, après rejet, au début des débats, d'une question préalable.</seg>
+                    <seg>Le débat s'est engagé au Sénat, en première lecture, les 12 et 13 octobre 1982. La haute assemblée a adopté un projet très amendé, par 194 voix contre 103.</seg>
+                    <seg>Le 19 octobre 1982, la Commission mixte paritaire n'a pas abouti à un procès-verbal de textes communs.</seg>
+                    <seg>Les dernières lectures ont eu lieu les 20 et 21 octobre 1982.</seg>
+                    <seg><hi rend="underline">Quel est l'objet de cette loi ?</hi></seg>
+                    <seg>Cet objet est double. Peut-être aurait-il été d'une meilleure méthode de soumettre au Parlement deux projets distincts. Si les deux parties de la loi traitent d'une même question, elles l'abordent sous des angles différents, au point, nous le verrons, que l'adoption du chapitre II a pour effet de créer un vide législatif. Le Gouvernement a dû en convenir et s'est engagé à déposer un projet de loi le plus tôt possible, ce qui d'ailleurs ne veut pas dire grand chose.</seg>
+                    <seg>L'intitulé de cette loi est : "Loi modifiant le Code électoral et le Code des communes et relative à l'élection des conseillers municipaux et aux conditions d'inscription des français établis hors de France sur les listes électorales".</seg>
+                    <seg>Cette loi constitue un des épisodes de la discussion entre les théoriciens du droit institutionnel sur les mérites respectifs du système électoral majoritaire à un ou deux tours et du système de la représentation proportionnelle. Ouverte depuis des décennies, cette discussion ne paraît pas sur le point de prendre fin car il est difficile de ne pas s'apercevoir que, transposés au plan parlementaire, les politiques et non plus les sociologues ne peuvent s'abstenir de rechercher, sans bien sûr l'avouer, quelles sont les conséquences de l'adoption de tel ou tel système sur l'avenir de leur parti. Ce genre de préoccupation n'est et ne peut être un élément de la réflexion du Conseil constitutionnel, ni avoir d'incidences sur sa décision.</seg>
+                    <seg>Chacun des membres du Conseil connaissant le régime électoral créé par la nouvelle loi, Monsieur le rapporteur se propose de limiter son propos à l'énoncé des grandes lignes du projet.</seg>
+                    <seg>Depuis 1964, les conseillers municipaux sont élus au scrutin majoritaire à deux tours. La distinction entre les villes de plus et de moins de 30 000 habitants n'a d'intérêt que pour la question du panachage et du vote préférentiel. Le principe du système majoritaire est général.</seg>
+                    <pb n="12"/>
+                    <seg>Dans le projet soumis au Conseil, il est instauré un système proportionnel combiné, au premier tour, avec une prime à la majorité absolue. Le système de la représentation proportionnelle devient une règle générale le système majoritaire ne demeurant en vigueur que pour les communes de moins de 3 500 habitants.</seg>
+                    <seg>Le Conseil n'a pas à porter de jugement de valeur sur le système nouveau, les régimes électoraux des assemblées locales étant, en effet, de la compétence de la loi. Il sera obligé néanmoins de se pencher sur un point particulier visé par la saisine, à propos de l'application de la règle proportionnelle au seul cas de l'élection de trois conseillers municipaux. Cette application aboutirait, aux dires des requérants, à l'inégalité des règles du suffrage.</seg>
+                    <seg>Dans ses grandes lignes, il faut retenir que le système nouveau cherche à concilier la représentation des minorités avec la nécessité de maintenir, au sein des conseils, une majorité cohérente de gestion. Tel est l'objet de la loi.</seg>
+                    <seg>Sera-t-il atteint ? Les années à venir nous le dirons.</seg>
+                    <seg>La loi prévoit un scrutin de listes sans modification, panachage ou vote préférentiel. La liste qui obtient la majorité absolue au premier tour se voit attribuer la moitié des sièges, arrondie à l'entier supérieur. Les autres sièges sont attribués selon la règle proportionnelle de la plus forte moyenne. Il faut remarquer que le nombre des conseillers municipaux étant toujours impair, il en résulte qu'en cas de majorité absolue en faveur d'une liste, celle-ci obtiendra, avec la règle de la moitié arrondie à l'entier supérieur, dans tous les cas, une majorité absolue au sein du conseil. L'unique exception visée par la saisine est le cas d'élection des trois conseillers où la liste majoritaire ne se voit attribuer qu'un siège parce que, dans ce cas, la moitié est arrondie à l'entier inférieur, c'est-à-dire 1, les deux sièges restants étant attribués,selon la règle proportionnelle, à la plus forte moyenne.</seg>
+                    <seg>La loi, au chapitre IV, contient des dispositions diverses modifiant certains articles du Code électoral relatifs à l'âge d'éligibilité qui est fixé à 18 ans et non plus à 21 ans, tout en maintenant à 21 ans l'âge d'éligibilité à la fonction de maire. C'est dire qu'il y aura, à l'avenir, des conseillers municipaux qui ne pourront pas être maires.</seg>
+                    <seg>La loi apporte aussi quelques changements à propos des inéligibilités des fonctionnaires de police ou de préfecture, des services des conseils généraux et des conseils régionaux.</seg>
+                    <seg>Elle contient quelques dispositions relatives aux délégations, par le maire, de ses attributions (article L. 254).</seg>
+                    <seg>Toutes les dispositions qui viennent d'être envisagées sont, sans discussion, du domaine législatif.</seg>
+                    <pb n="13"/>
+                    <seg>Le deuxième objet de la loi est relatif <hi rend="underline">aux conditions d'inscription des français établis hors de France sur les listes électorales</hi>.</seg>
+                    <seg>Le seul lien entre ces deux parties de la loi se trouve dans la proximité des élections municipales. Le Conseil connaît de cette question qui a fait l'objet, à propos du contentieux des élections législatives de 1978, de nombreux commentaires, discussions ou critiques. Le Conseil a rendu,  sur la régularité de ces inscriptions, un certain nombre de décisions sur lesquelles il ne convient pas de revenir. Monsieur le rapporteur se propose de résumer simplement les grandes étapes du régime particulier prévu par l'article 12 du Code électoral.</seg>
+                    <seg>Dans un premier temps, avant comme après la suppression du vote par correspondance, les français de l'étranger pouvaient demander leur inscription sur la liste de différentes communes en France, à savoir celles de leur naissance, de leur dernier domicile, de leur dernière résidence, du domicile d'un ascendant ou d'un descendant ou, même, de leur conjoint (en cas d'immatriculation dans un consulat [article 14 du Code électoral]). Ce système était satisfaisant et répondait au cas de la majorité des français de l'étranger.</seg>
+                    <seg>En France, on sait mal que se sont constituées, depuis la décolonisation, de véritables communautés françaises dans le monde entier, depuis Pondichéry jusqu'au Paraguay, l'Espagne, l'Australie ou le Canada, sans oublier Israël. Ces français qui ne sont pas nés en métropole, avec le développement des moyens de communication, se sont rapprochés de la France. Il faut rappeler, à ce sujet, l'effort entrepris par 1'Alliance-France ou la Mission laïque.</seg>
+                    <seg>C'est ainsi qu'en 1972, puis en 1977, le législateur a étendu le droit d'inscription au seul fait de payer des impôts dans une commune et cela dès la première année. Puis, on a ouvert le droit à inscription à tous les français de l'étranger dans la commune de leur choix, à condition qu'il s'agisse d'une commune de plus de 30 000 habitants et que ces inscriptions ne dépassent pas 2% des électeurs inscrits.</seg>
+                    <seg>L'élection présidentielle de 1974, puis celle de 1981, ont souligné le poids de cet électorat qui pouvait constituer un appoint décisif, en cas de partage serré des voix. Sans doute, la loi de 1977 était-elle allée aussi loin que possible en reconnaissant à ces français, même récemment émigrés, pensons aux coopérants ou aux fonctionnaires détachés, le droit de s'inscrire dans la commune de leur choix. Comme toujours, en pareil cas, quand le balancier a un mouvement d'une trop grande amplitude dans un sens, l'excès se retrouve dans le mouvement inverse.</seg>
+                    <seg>L'abrogation de la loi de 1977 se comprenait, celle de 1972 est plus discutable. Le retour à la rédaction antérieure à 1972 de l'article 12 du Code électoral, en laissant survivre, par oubli sans doute, une disposition de l'article 14 en faveur des français immatriculés dans un consulat, crée un régime boiteux en retirant aux français établis hors de France, qui n'ont, ni par eux-mêmes, ni par ascendant ou descendant, d'attaches avec une commune, le droit de participer à l'élection des conseillers municipaux. Le législateur n'a pas, cependant, outrepassé sa compétence puisqu'on retrouve, à l'article 11, à l'article 14, à l'article 228 et dans divers articles du Code des communes, la régie de la territorialité <pb n="14"/> de l'établissement des listes en matière municipale. Il est certain que le Parlement et le Gouvernement, pris par l'urgence de faire voter un texte qui doit s'appliquer aux prochaines élections municipales du mois de mars 1983, ont négligé une conséquence de l'abrogation de la loi de 1977. En effet, il n'existe pas plusieurs listes électorales (sauf en ce qui concerne l'élection présidentielle et l'élection aux communautés européennes pour les français de l'étranger), mais une seule liste sur laquelle l'inscription est obligatoire, en vertu de l'article 9 du Code électoral. La loi prévoit d'ailleurs la procédure d'inscription et de radiation sur cette liste unique qui est utilisée pour les élections municipales et pour toutes les autres élections politiques, cantonales, législatives et présidentielles.</seg>
+                    <seg>En ordonnant la radiation de cette liste de certains électeurs français établis hors de France qui n'ont aucun lien avec une commune, le législateur n'a pas prévu comment ces mêmes citoyens pourront participer aux élections législatives puisqu'ils n'ont le droit de s'inscrire sur aucune liste électorale. A cette question qui lui a été posée, le ministre chargé des relations avec le Parlement a répondu :</seg>
+                    <seg>"Je remercie également Monsieur FOYER de son intervention, s'agissant, en particulier de la discrimination opérée pour l'inscription sur les listes électorales de plus de 30 000 habitants. Ayant moi-même vécu très longtemps à l'étranger, je reconnais qu'il serait regrettable de priver certains français de l'étranger de participer aux élections législatives. Le Gouvernement étudiera cette question" (J.O. A.N. 88, page 4 936).</seg>
+                    <seg>Cette réponse est étrange. Elle reconnaît que la loi a eu pour conséquence de priver un certain nombre de citoyens de l'exerice de leurs droits civiques et politiques. Elle consiste à demander au Parlement de voter une disposition sur la simple promesse, par le Gouvernement, d'étudier la difficulté. Aucune loi ne doit ainsi violer une règle constitutionnelle aux motifs que le vide législatif sera comblé ultérieurement. Cependant, une décision d'annulation paraîtrait difficile à justifier. Le Conseil pourrait dire qu'en l'état, faute de n'avoir rien prévu pour assurer une inscription effective lors d'élections autres que des élections municipales, les articles 6 et 7 de la présente loi sont non conformes à la Constitution.</seg>
+                    <seg>Monsieur le rapporteur avoue avoir hésité sur ce point particulier, plus théorique que pratique. Il estime qu'aujourd'hui la conjoncture ambiante ne postule pas à une déclaration d'annulation. Il se déclare, cependant, prêt à écouter très volontier l'avis, sur ce point, du Conseil. Pour sa part, il n'a pas mentionné cette irrégularité dans son projet de décision. Il croit, cependant, de son devoir de le signaler à ses collègues.</seg>
+                    <seg>II convient, à présent, <hi rend="underline">d'examiner l'article L. 260 bis nouveau</hi> du Code électoral.</seg>
+                    <seg>La loi soumise au Conseil comporte, à son article 4, une disposition nouvelle et très originale dans le système électoral français.</seg>
+                    <pb n="15"/>
+                    <seg>Cette disposition qui figure à la section I du chapitre III du Code électoral, section relative au mode de scrutin, dispose :</seg>
+                    <seg>"Art. L. 260 bis - Les listes de candidats ne peuvent comporter plus de 75 p. 100 de personnes du même sexe. Cette proportion s'apprécie au sein de l'ensemble de la liste et au sein de chaque groupe entier de douze candidats dans l'ordre de présentation de la liste".</seg>
+                    <seg>Cet article ne figurait pas dans le projet de loi du Gouvernement. Il n'a pas fait l'objet d'un amendement lors de la discussion en commission. Le rapport de Monsieur POPEREN n'y fait pas allusion. C'est seulement en séance publique, au cours de la discussion générale, que Madame Gisèle HALIMI a déposé un amendement, lors de la séance du 26 juillet 1982. Un amendement similaire avait d'ailleurs été déposé à la même séance. Ces amendements ont créé une obligation de mixité de sexe dans une proportion minimum de 75% à 25% sur les listes des candidats. Cette obligation doit être observée par groupe de 12 candidats.</seg>
+                    <seg>La discussion de cette disposition est instructive et révélatrice de l'intention du législateur. Pour Madame HALIMI et Monsieur RICHARD, auteurs des amendements, il s'agit bien de réserver, par la loi, une place déterminée aux femmes dans la gestion municipale, place que d'habitude les hommes politiques et les partis, à l'exception du parti socialiste, ne veulent pas laisser de bon gré.</seg>
+                    <seg>Plus nuancés dans l'expression, tous les autres intervenants, à une ou deux exceptions près, ont approuvé l'esprit de cette mesure discutant des pourcentages, des modalités d'application et des inconvénients pratiques de cette mesure. Il a été soutenu que les acquis des candidats sortants étaient négligés par cette disposition. Cependant, d'une façon générale, personne n'a contesté que la participation de tout homme et femme à la vie publique constitue un progrès vers une meilleure gestion. Il faut bien reconnaître que cette question a été en suspend depuis plusieurs années. Madame PELLETIER avait présenté un projet identique au pourcentage près, 20% au lieu de 25%. Ce projet n'avait toutefois pas dépassé, avant 1981, le stade d'une première lecture à l'Assemblée nationale.</seg>
+                    <seg>Dès 1980 déjà, l'opinion publique avait été alertée. L'article du Doyen Georges VEDEL, à cette époque, avait créé quelque émotion bien qu'une lecture attentive de cette chronique ne justifie peut-être pas les titres journalistiques qui l'avaient accompagnée. Ces titres, en effet, paraissent seuls avoir été retenus par le public et aussi par les parlementaires qui, en juillet 1982, ont cru pouvoir les citer.</seg>
+                    <seg>Monsieur le rapporteur déclare avoir relu de nombreux articles de presse parus entre 1980 et 1982 sur ce sujet. La question de constitutionnalité, si elle est abordée, n'est que plus ou moins sérieusement discutée.</seg>
+                    <seg>Avant de proposer une solution au Conseil, Monsieur le rapporteur se propose de résumer la discussion parlementaire sur ce point.</seg>
+                    <seg>A l'Assemblée nationale, Madame HALIMI et les députés de la majorité ont plus affirmé que démontré. Leur raisonnement consiste à reconnaître que prévoir, à propos d'élections, un quota en faveur des candidats féminins serait contraire à la Constitution mais que la rédaction <pb n="16"/> proposée qui pose l'interdiction de plus de 75% de candidats du même sexe "tourne" la difficulté en rétablissant l'égalité des uns et des autres, la mixité n'établissant pas en faveur de qui elle doit exister.</seg>
+                    <seg>C'est l'exemple type d'un sophisme. Il faut souligner que les députés, ont, sur ce point, insisté sur la nécessité politique d'une mesure dont le bien-fondé institutionnel et juridique est, pour les uns, discutable et, pour les autres, habilement exprimé. Certains considéraient qu'on escamotait la difficulté, d'autres qu'on la réservait. Ainsi, un député de l'opposition qui figure parmi les signataires du recours, Monsieur GANTIER, a déclaré qu'il votait le texte "sous réserve de la décision du Conseil constitutionnel" Un autre a déclaré que, sur le point de la conformité à la Constitution "il est possible de s'interroger", parce que le problème n'a jamais été posé au Conseil constitutionnel. C'est encore une réponse du ministre d'Etat, ministre de l'intérieur, à la question qui lui a été posée en séance pour connaître l'avis du Gouvernement, qui est la plus significative . Monsieur DEFFERRE a, en effet, déclaré, lors de la troisième séance du 27 juillet 1982 :</seg>
+                    <seg>"Le Gouvernement n'a pas inclus dans le texte de disposition semblable à celle que vient de défendre Monsieur Alain RICHARD. En effet, il pense qu'il revient aux formations politiques de décider en la matière et de composer des listes comprenant une proportion de femmes comparables à celle que vient d'indiquer Monsieur Alain RICHARD.</seg>
+                    <seg>J'ajoute que, à l'occasion des élections à l'Assemblée européenne, la direction du parti socialiste de l'époque, dont certains membres sont aujourd'hui au Gouvernement, avait décidé que des femmes seraient candidates dans un pourcentage tel que, compte tenu des résultats escomptés au scrutin proportionnel, 25 p. 100 à 30 p. 100 de femmes seraient finalement élues sur les listes présentées par le parti socialiste. C'est, me semble-t-il, notre formation qui a le plus veillé à respecter cette règle.</seg>
+                    <seg>Certes,il ne m'appartient pas de m'exprimer ici en tant qu'ancien député ou militant socialiste, mais en tant que membre du Gouvernement. Je me suis simplement borné à rappeler la position du parti socialiste sur un sujet précis. Mais, je le répète, le Gouvernement considère que c'est aux partis politiques qu'il appartient de prendre de telles décisions et de les faire appliquer dans leurs rangs.</seg>
+                    <seg>En outre, Monsieur Alain RICHARD a fait allusion à l'aspect constitutionnel du problème. Je souhaite, si la disposition qu'il a proposée est adoptée, qu'elle figure dans un article séparé de façon que, au cas où le Conseil constitutionnel l'annulerait, la loi puisse néanmoins être appliquée.</seg>
+                    <seg>Cependant, les groupes de la majorité ayant insisté pour que le Gouvernement se rallie à cet amendement, je laisse le soin à l'Assemblée de se prononcer dans toute sa sagesse".</seg>
+                    <seg>Il convient de citer une dernière déclaration. Celle faite le 26 juillet 1982, en des termes pittoresques, par Madame Denise CACHEUX, député socialiste. Ce parlementaire qui traduit, semble-t-il, ce que pense nombre de ses collègues à propos des "risques constitutionnels",  déclare :</seg>
+                    <seg>"Pour qu'elle soit déclarée, il faudrait que soixante députés aient le courage d'affronter sur ce point le Conseil constitutionnel. Permettez-moi d'en douter...".</seg>
+                    <pb n="17"/>
+                    <seg>Ce même député, à propos du projet de Madame PELLETIER de 1980 cite le Conseil d'Etat (dont elle connaissait, on ne sait comment, l'avis) qui aurait estimé que le projet n'était pas contraire aux règles constitutionelles mais qu'il portait atteinte à la liberté des électeurs. Comprenne qui pourra !</seg>
+                    <seg>Au Sénat, le rapprochement du texte du rapport de la commission des lois, du rapport oral en séance et l'absence de discussion en séance révèle que le Sénat, en accord avec son rapporteur et sa commission, a préféré ne pas prendre la responsabilité d'une position, tranchée sur la question de la mixité.</seg>
+                    <seg>Selon l'expression du rapporteur : "L'habileté de cette formule, découverte par Monsieur VEDEL, ne saurait masquer l'objectif poursuivi". Le rapporteur n'a pas manqué d'émettre, dans son rapport, des réserves sur cette disposition dont la constitutionnalité est discutable, moyennant quoi, et après ces réserves, le rapporteur et la commission ont demandé aux sénateurs de voter le texte de l'Assemblée nationale.</seg>
+                    <seg>En séance, un amendement de Madame GROS, ayant pour objet de porter de 75% à 70% le pourcentage de mixité, a été repoussé alors qu'un amendement de Monsieur CARAT, sénateur socialiste, modifiant la fraction des douze pour l'application de la règle de mixité, a été adopté. Cet amendement n'a pas survécu aux deuxième et troisième lectures à l'Assemblée nationale.</seg>
+                    <seg>Ces citations tendent à démontrer que les parlementaires sont conscients que toute catégorisation du Code électoral est contraire à la Constitution.</seg>
+                    <seg>S'il a épargné au Conseil la lecture des discours de Madame HALIMI, Monsieur le rapporteur déclare vouloir, cependant, citer ce parlementaire qui a déclaré :</seg>
+                    <seg>"Les femmes ne sont pas une catégorie. Elles constituent une majorité au statut minoritaire qui englobe toutes les catégories. Par conséquent, l'objection ne tient pas et ne peut pas être retenue".</seg>
+                    <seg>Il est inutile de commenter cette déclaration. Ce qu'il faut retenir, c'est que le droit a été absent des débats parlementaires. Il a été absent sur l'avant-scène, il a été absent de la tribune mais il n'a pas été absent des esprits et les références aux décisions du Conseil constitutionnel qui jalonnent la discussion, ou à des opinions exprimées par tel ou tel juriste, révèlent que la position que prendra le Conseil sur cette question est attendue et souhaitée pour mettre fin à une querelle.</seg>
+                    <seg>Monsieur le rapporteur qui n'a pas eu, pour sa part, comme le député qu'il vient de citer, connaissance de l'avis du Conseil d'Etat à propos de la loi PELLETIER de 1980, ne retient quant à lui, de tout ce qui a été dit, que le projet aurait violé une liberté publique. Il ne pense pas s'en tenir à ce terrain. Pour sa part, son raisonnement sera un peu différent et plus simple. Le projet qu'il propose au Conseil se fonde sur l'article 3 de la Constitution. C'est pourquoi il cite cet article en entier dans son projet. La portée du principe énoncé par cet article et son architecture sont simples. Le principe figure à 1'alinéa 1er :</seg>
+                    <seg>"La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum".</seg>
+                    <pb n="18"/>
+                    <seg>L'exercice de la souveraineté revient aux représentants élus du peuple. Le suffrage doit être direct ou indirect, dans les conditions fixées par la Constitution. Il est toujours universel, égal et secret.</seg>
+                    <seg>"Sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques".</seg>
+                    <seg>Monsieur le rapporteur souligne que ce dernier adjectif "politiques" prend, ici, toute sa valeur et son sens plein, par un véritable retour à sa racine éthymo1ogique grecque : "qui se rapporte à la cité".</seg>
+                    <seg>L'analyse devient désormais simple. Le suffrage est universel et appartient au corps électoral de tous les français des deux sexes. La loi ne peut déterminer la composition de ce corps électoral, si ce n'est en ce qui concerne les conditions d'âge, d'éligibilité, d'incapacité ou d'indignité. Ces conditions s'appliquent, d'ailleurs, à tous les citoyens, sans distinction et sans création de catégories. Ce qui caractérise le suffrage c'est l'universalité et l'égalité de tous les "nationaux français", à l'intérieur de ce corps constitué par l'ensemble de ces électeurs. Le vieux dicton démocratique qui rappelle que les voix ne se pèsent pas mais se comptent n'est que la traduction populaire de cette égalité entre les citoyens, c'est-à-dire entre les suffrages. L'article 3 de la Constitution, en énonçant que le suffrage "est toujours égal" énonce très simplement mais très positivement qu'il ne peut pas exister de catégorisation des suffrages.</seg>
+                    <seg>A ce point de son rapport, Monsieur le Président GROS pense avoir clairement exposé au Conseil le double objet de sa réflexion, de ses observations et du sens de ses conclusions.</seg>
+                    <seg>D'une part, l'article 260 bis, en introduisant, à l'occasion de l'élection des conseillers municipaux, une catégorisation au sein de l'électorat, est contraire à la Constitution.</seg>
+                    <seg>D'autre part, le fait que les requérants n'en aient pas fait un moyen de leur saisine n'est pas un motif suffisant pour que le Conseil constitutionnel ne sanctionne pas cette inconstitutionnalité. Le considérant qu'adopte le Conseil, à la fin de ses décisions, pour informer "qu'en l'espèce, il n'y a lieu à soulever d'office aucune question de conformité à la Constitution, en ce qui concerne les autres dispositions de la loi soumise à son examen", ne serait plus qu'une clause de style inutile si, dans un cas, à ses yeux, aussi net de non conformité à la Constitution, le Conseil constitutionnel ne soulevait pas le moyen.</seg>
+                    <seg>Il ne s'agit pas d'une interprétation ou d'une application d'un principe ou d'une règle ayant valeur constitutionnelle ou encore d'une loi fondamentale de la République mais bien de l'application et du respect du texte même de la Constitution.</seg>
+                    <seg>Qu'il faille user avec prudence et sagesse du droit d'évocation est certain, bien que, sur ce point, Monsieur le rapporteur ait toujours craint que le Conseil constitutionnel, de précédents mineurs aux précédents plus sérieux, soit conduit à se trouver un jour devant un ensemble de décisions gênantes.</seg>
+                    <pb n="19"/>
+                    <seg>Aujourd'hui, l'affirmation de l'étendue du contrôle constitutionnel ne paraît pas devoir être contestée.</seg>
+                    <seg>Monsieur le Rapporteur déclare qu'il en aura terminé quand il aura exposé, en quelques mots, le moyen de la saisine.</seg>
+                    <seg>Comme il a été résumé ci-dessus, le recours ne soulève qu'un moyen à propos de l'article 4 de la loi qui contient <hi rend="underline">un article L. 262</hi>. Cet article dispose :</seg>
+                    <seg>"Au premier tour de scrutin, il est attribué à la liste qui a recueilli la majorité absolue des suffrages exprimés un nombre de sièges égal à la moitié du nombre des sièges à pourvoir, arrondi, le cas échéant, à l'entier supérieur lorsqu'il y a plus de quatre sièges à pourvoir et à l'entier inférieur lorsqu'il y a moins de quatre sièges à pourvoir. Cette attribution opérée, les autres sièges sont répartis entre toutes les listes à la représentation proportionnelle suivant la règle de la plus forte moyenne, sous réserve de l'application des dispositions du troisième alinéa ci-après.</seg>
+                    <seg>Si aucune liste n'a recueilli la majorité absolue des suffrages exprimés au premier tour, il est procédé à un deuxième tour. Il est attribué à la liste qui a obtenu le plus de voix un nombre de sièges égal à la moitié du nombre des sièges à pourvoir, arrondi, le cas échéant, à l'entier supérieur quand il y a plus de quatre sièges à pourvoir et à l'entier inférieur lorsqu'il y a moins de quatre sièges à pourvoir. En cas d'égalité de suffrages entre les listes arrivées en tête, ces sièges sont attribués à la liste dont les candidats ont la moyenne d'âge la plus élevée. Cette attribution opérée, les autres sièges sont répartis entre toutes les listes à la représentation proportionnelle suivant la règle de la plus forte moyenne, sous réserve de l'application des dispositions du troisième alinéa ci-après.</seg>
+                    <seg>Les listes qui n'ont pas obtenu au moins 5 p. 100 des suffrages exprimés ne sont pas admises à répartition des sièges.</seg>
+                    <seg>Les sièges sont attribués aux candidats dans l'ordre de présentation sur chaque liste.</seg>
+                    <seg>Si plusieurs listes ont la même moyenne pour l'attribution du dernier siège, celui-ci revient à la liste qui a obtenu le plus grand nombre de suffrages. En cas d'égalité de suffrages, le siège est attribué au plus âgé des candidats susceptibles d'être proclamés élus".</seg>
+                    <seg>Aux dires des requérants, cette différence de méthode de calcul constituerait une inégalité à l'égard des électeurs, le mode de calcul devant être le même dans tous les cas.</seg>
+                    <seg>Ce moyen mérite deux observations. En premier lieu, l'égalité à respecter ne se confond pas avec l'identité des dispositions législatives. Il suffit, pour que le principe d'égalité soit respecté, que la mesure prise pour le calcul des voix soit la même à l'égard de tous, chaque fois que le cas envisagé se présente. En deuxième lieu, il s'agit de cas très marginaux d'élections partielles ne portant que sur trois sièges à pourvoir. L'arrière-pensée politique partisane paraît évidente et cela ne concerne pas le Conseil constitutionnel, la mesure prise étant du domaine législatif et ne transgressant aucune disposition de la Constitution, ni aucun principe, ni aucune règle de valeur constitutionnelle.</seg>
+                    <pb n="20"/>
+                    <seg>Monsieur le rapporteur propose donc au Conseil de rejeter ce moyen.</seg>
+                    <seg>Monsieur le rapporteur déclare en avoir terminé avec son rapport.</seg>
+                </writing>
+            </div4>
             <div4 type="discussion">
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur GROS pour son exposé complet, détaillé et vivant. Il déclare ouverte la discussion générale.</seg>
@@ -11944,10 +11959,8 @@
                 <u who="#brouillet_rene">
                     <seg><hi rend="underline">Monsieur BROUILLET</hi> rend hommage à Monsieur GROS et déclare se rallier à ses conclusions. Il considère que la décision proposée par Monsieur GROS ne se fonde pas sur la notion de souveraineté nationale. Monsieur BROUILLET regrette enfin que le Parlement français ait cru bon priver nombreux des français résidant hors de France de leurs droits politiques.</seg>                        
                 </u>
-                <div5 type="vote" n="1">
-                    <p><hi rend="underline">Monsieur le Président</hi>, aucun autre membre du Conseil ne souhaitant intervenir, constate que les conclusions présentées par Monsieur le Président GROS sont adoptées par le Conseil constitutionnel. Il demande à Monsieur GROS de bien vouloir donner lecture de son projet de décision.</p>
-                </div5>
                 <u who="#frey_roger">
+                    <seg><span type="vote"><hi rend="underline">Monsieur le Président</hi>, aucun autre membre du Conseil ne souhaitant intervenir, constate que les conclusions présentées par Monsieur le Président GROS sont adoptées par le Conseil constitutionnel. Il demande à Monsieur GROS de bien vouloir donner lecture de son projet de décision.</span></seg>
                     <seg>Après lecture par Monsieur GROS de son projet, Monsieur le Président invite les membres du Conseil à présenter toutes observations qu'ils jugeront nécessaires quant à la forme de ce projet.</seg>
                 </u>
                 <u who="#lecourt_robert">
@@ -11971,9 +11984,9 @@
                     <seg><hi rend="underline">Monsleur GROS</hi> propose alors au Conseil d'inverser les deux parties essentielles de son projet, afin de satisfaire les suggestions de Messieurs LECOURT et SEGALAT. Il s'oppose cependant fermement à ce que le considérant final, même modifié, soit inséré en tête de la deuxième partie, comme le suggère Monsieur LECOURT.</seg>
                     <seg>Ainsi donc, les développements sur l'article L. 262 du Code électoral attaqué par les députés, auteurs de la saisine, font l'objet des premiers développements pages 2 et 3. Ils seront suivis de l'examen du moyen soulevé d'office en ce qui concerne l'article L. 260 bis, pages 4 et 5.</seg>
                 </u>
-                <div5 type="vote" n="2">
-                    <p><hi rend="underline">Monsieur le Président</hi> constatant l'accord, du Conseil sur ce point, invite ses membres à formuler toutes autres observations.</p>
-                </div5>
+                <u who="#frey_roger">
+                    <seg><span type="vote"><hi rend="underline">Monsieur le Président</hi> constatant l'accord, du Conseil sur ce point, invite ses membres à formuler toutes autres observations.</span></seg>
+                </u>
                 <u who="#lecourt_robert">
                     <seg><hi rend="underline">Monsieur LECOURT</hi> fait valoir à nouveau qu'à ses yeux il est inutile de mentionner (page 4) la notion de souveraineté nationale. Il considère qu'il est superflu de citer l'article 3 de la Constitution dans son intégralité. La mention des deux derniers alinéas de cet article serait suffisante pour justifier la décision qui repose sur l'idée de discrimination.</seg>
                     <seg>Ce qui est central est donc l'idée que le suffrage doit être universel, secret et égal. La notion de souveraineté nationale n'a rien à faire dans l'affaire, elle risque de diluer la signification de la décision.</seg>
@@ -11994,14 +12007,14 @@
                 </u>
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> constatant qu'aucun autre membre du Conseil ne souhaite intervenir, déclare close la discussion relative à la forme du projet proposé au Conseil par Monsieur GROS.</seg>
+                    <seg><span type="vote">Il soumet ce projet en la forme au vote du Conseil. Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.</span></seg>
                 </u>
-                <div5 type="vote" n="3">
-                    <p>Il soumet ce projet en la forme au vote du Conseil. Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.</p>
-                </div5>
             </div4>
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président constatant que l'ordre du jour est épuisé lève la séance à 13 h 40.</p>
+            <writing>
+                <seg>Monsieur le Président constatant que l'ordre du jour est épuisé lève la séance à 13 h 40.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
