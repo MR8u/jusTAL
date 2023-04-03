@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,79 +11682,93 @@
         <head type="1">SEANCE DU MERCREDI 10 NOVEMBRE 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p>Le Conseil se réunit à 10 heures tous ses membres étant présents à l'exception de Monsieur Valéry GISCARD d'ESTAING, excusé.</p>	   
+                <writing>
+                    <seg>Le Conseil se réunit à 10 heures tous ses membres étant présents à l'exception de Monsieur Valéry GISCARD d'ESTAING, excusé.</seg>
+                </writing>
             </div4>
             <div4 type="ordreDuJour">
-                <p>Monsieur le Président indique que l'ordre du jour est le suivant :</p>
-                <p>- Examen, en application de l'article 37, alinéa 2, de la Constitution, de la nature juridique de dispositions de l'article 4, deuxième alinéa, de la loi n° 75-1 du 3 janvier 1975 portant création du centre national d'art et de culture Georges POMPIDOU.</p>
-                <p><hi rend="underline">Rapporteur</hi> : Monsieur Robert LECOURT</p>
-                <p>- Examen, en application de l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci de la loi relative à la négociation collective et aux conflits collectifs du travail.</p>
-                <p><hi rend="underline">Rapporteur</hi> : Monsieur Georges VEDEL</p>
+                <writing>
+                    <seg>Monsieur le Président indique que l'ordre du jour est le suivant :</seg>
+                    <seg>- Examen, en application de l'article 37, alinéa 2, de la Constitution, de la nature juridique de dispositions de l'article 4, deuxième alinéa, de la loi n° 75-1 du 3 janvier 1975 portant création du centre national d'art et de culture Georges POMPIDOU.</seg>
+                    <seg><hi rend="underline">Rapporteur</hi> : Monsieur Robert LECOURT</seg>
+                    <seg>- Examen, en application de l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci de la loi relative à la négociation collective et aux conflits collectifs du travail.</seg>
+                    <seg><hi rend="underline">Rapporteur</hi> : Monsieur Georges VEDEL</seg>
+                </writing>
             </div4>
         </div3>
         <!--rappel du numéro de la décision prise -->
         <div3 type="question" n="1" corresp="#L-82-127">
             <div4 type="introduction">
-                <p>Monsieur le Président donne alors la parole à Monsieur LECOURT.</p>
-                <p><hi rend="underline">I. Examen des dispositions de l'article 4, deuxième alinéa, de la loi du 3 janvier 1975 portant création du centre Georges POMPIDOU.</hi></p>            
+                <writing>
+                    <seg>Monsieur le Président donne alors la parole à Monsieur LECOURT.</seg>
+                    <seg><hi style="titre2">I. Examen des dispositions de l'article 4, deuxième alinéa, de la loi du 3 janvier 1975 portant création du centre Georges POMPIDOU.</hi></seg>
+                </writing>
             </div4>
-            <writing type="rapport" who="#lecourt_robert">
-                <seg><hi rend="underline">Monsieur LECOURT</hi> présente le rapport suivant : La loi du 3 janvier 1975 a créé le centre d'art et de culture Georges POMPIDOU sous la forme d'un établissement public à caractère culturel sous la tutelle du Ministre des affaires culturelles. L'article premier fixe les diverses missions de ce centre. L'article 4 définit son organisation. Le centre est administré par un Président assisté d'un conseil de direction chargé de voter le budget. Ce centre de direction est composé des directeurs des départements du centre POMPIDOU.</seg>
-                <seg>A la suite du grand succès de ce centre, le Gouvernement a décidé de renforcer sa direction en adjoignant un délégué général au côté du Président. C'est pour introduire ce délégué au sein du Conseil de direction que le Premier ministre a demandé au Conseil constitutionnel d'apprécier la nature juridique à l'article 4, deuxième alinéa, des mots "les directeurs des départements de l'établissement public".</seg>
-                <seg>Le caractère réglementaire de ces dispositions semble peu douteux. Dans sa décision sur les comités et agences de bassins du 23 juin 1982, n° 82-124 L, le Conseil constitutionnel considère que sont législatives les dispositions qui pour une catégorie d'établissements publics fixent les groupes de personnes siégeant dans les conseils d'administrations ainsi que les proportions existant entre ces groupes. En l'espèce, il n'y a pas d'équilibre fixé entre les diverses catégories de personnes siégeant au conseil de direction.</seg>
-                <pb n="2"/>
-                <seg>En revanche, la loi a spécifié clairement que doivent figurer dans ce conseil de direction les chefs de service du centre POMPIDOU. Le délégué général devant être considéré lui aussi comme un chef de service. Son introduction au conseil d’administration  ne méconnaît en rien l'esprit du texte de loi. Dans la mesure où la loi vise les responsables de service du centre POMPIDOU, elle désigne une catégorie de personnes devant siéger au conseil d'administration par là même, elle est assimilable à une règle constitutive de la catégorie d'établissements publics. Le centre POMPIDOU, constituant, en effet, à lui seul une catégorie d'établissements publics. En revanche, dans la mesure où la loi fait une incursion dans le détail de l'administration de l'établissement public en désignant nommément les directeurs de ses départements, elle empiète sur le domaine réglementaire.</seg>
-                <seg>C'est en ce sens qu'a été rédigée la décision proposée au Conseil.</seg>
-                <seg>Monsieur le Rapporteur expose que le Premier ministre, dans sa note avait subsidiairement fait valoir que le centre POMPIDOU pouvait se rattacher à une catégorie d'établissements publics préexistante. Dans ce cas, bien entendu, l'ensemble de la loi de 1975 aurait eu un caractère réglementaire puisqu'elle ne créait pas une catégorie d'établissements publics.</seg>
-                <seg>Cette thèse, d'ailleurs exposée sans grande conviction, peut être retenue car si le centre POMPIDOU est placé sous une tutelle nationale comme d'autres établissements publics et si son activité est relativement analogue à celle de divers autres établissements publics tels le centre national des lettres ou la caisse nationale des monuments historiques en revanche son organisation et ses règles de fonctionnement n'ont rien de commun avec celles des autres établissements publics mentionnés dans la note du Premier ministre.</seg>
-                <seg>En définitive, le centre POMPIDOU constitue une catégorie d'établissements  publics mais les dispositions de l'article 4, deuxième alinéa, dans la mesure où elles entrent dans le détail de la vie administrative de ce centre ne peuvent être considérées comme des règles constitutives de la catégorie et ont donc le caractère réglementaire.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#lecourt_robert">
+                    <seg><hi rend="underline">Monsieur LECOURT</hi> présente le rapport suivant : La loi du 3 janvier 1975 a créé le centre d'art et de culture Georges POMPIDOU sous la forme d'un établissement public à caractère culturel sous la tutelle du Ministre des affaires culturelles. L'article premier fixe les diverses missions de ce centre. L'article 4 définit son organisation. Le centre est administré par un Président assisté d'un conseil de direction chargé de voter le budget. Ce centre de direction est composé des directeurs des départements du centre POMPIDOU.</seg>
+                    <seg>A la suite du grand succès de ce centre, le Gouvernement a décidé de renforcer sa direction en adjoignant un délégué général au côté du Président. C'est pour introduire ce délégué au sein du Conseil de direction que le Premier ministre a demandé au Conseil constitutionnel d'apprécier la nature juridique à l'article 4, deuxième alinéa, des mots "les directeurs des départements de l'établissement public".</seg>
+                    <seg>Le caractère réglementaire de ces dispositions semble peu douteux. Dans sa décision sur les comités et agences de bassins du 23 juin 1982, n° 82-124 L, le Conseil constitutionnel considère que sont législatives les dispositions qui pour une catégorie d'établissements publics fixent les groupes de personnes siégeant dans les conseils d'administrations ainsi que les proportions existant entre ces groupes. En l'espèce, il n'y a pas d'équilibre fixé entre les diverses catégories de personnes siégeant au conseil de direction.</seg>
+                    <pb n="2"/>
+                    <seg>En revanche, la loi a spécifié clairement que doivent figurer dans ce conseil de direction les chefs de service du centre POMPIDOU. Le délégué général devant être considéré lui aussi comme un chef de service. Son introduction au conseil d'administration  ne méconnaît en rien l'esprit du texte de loi. Dans la mesure où la loi vise les responsables de service du centre POMPIDOU, elle désigne une catégorie de personnes devant siéger au conseil d'administration par là même, elle est assimilable à une règle constitutive de la catégorie d'établissements publics. Le centre POMPIDOU, constituant, en effet, à lui seul une catégorie d'établissements publics. En revanche, dans la mesure où la loi fait une incursion dans le détail de l'administration de l'établissement public en désignant nommément les directeurs de ses départements, elle empiète sur le domaine réglementaire.</seg>
+                    <seg>C'est en ce sens qu'a été rédigée la décision proposée au Conseil.</seg>
+                    <seg>Monsieur le Rapporteur expose que le Premier ministre, dans sa note avait subsidiairement fait valoir que le centre POMPIDOU pouvait se rattacher à une catégorie d'établissements publics préexistante. Dans ce cas, bien entendu, l'ensemble de la loi de 1975 aurait eu un caractère réglementaire puisqu'elle ne créait pas une catégorie d'établissements publics.</seg>
+                    <seg>Cette thèse, d'ailleurs exposée sans grande conviction, peut être retenue car si le centre POMPIDOU est placé sous une tutelle nationale comme d'autres établissements publics et si son activité est relativement analogue à celle de divers autres établissements publics tels le centre national des lettres ou la caisse nationale des monuments historiques en revanche son organisation et ses règles de fonctionnement n'ont rien de commun avec celles des autres établissements publics mentionnés dans la note du Premier ministre.</seg>
+                    <seg>En définitive, le centre POMPIDOU constitue une catégorie d'établissements  publics mais les dispositions de l'article 4, deuxième alinéa, dans la mesure où elles entrent dans le détail de la vie administrative de ce centre ne peuvent être considérées comme des règles constitutives de la catégorie et ont donc le caractère réglementaire.</seg>
+                </writing>
+            </div4>
             <div4 type="discussion">
-                <div5 type="vote" n="1">
-                    <p>Monsieur le Président remercie Monsieur LECOURT pour son rapport et lui demande de bien vouloir donner lecture de son projet de décision. Aucune observation n'étant présentées par les membres du Conseil,  Monsieur le Président soumet le projet de Monsieur le Rapporteur au vote du Conseil. Ce projet est adopté à l'unanimité.</p>
-                </div5>
+                <writing>
+                    <seg><span type="vote">Monsieur le Président remercie Monsieur LECOURT pour son rapport et lui demande de bien vouloir donner lecture de son projet de décision. Aucune observation n'étant présentées par les membres du Conseil,  Monsieur le Président soumet le projet de Monsieur le Rapporteur au vote du Conseil. Ce projet est adopté à l'unanimité.</span></seg>
+                </writing>
             </div4>
         </div3>
         <div3 type="question" n="2" corresp="#DC-82-145">
             <div4 type="introduction">
-                <p><hi rend="underline">II. Examen de la loi relative à la négociation collective et au réglement des conflits collectifs du travail.</hi></p>
-                <p><hi rend="underline">Monsieur le Président</hi> donne la parole au rapporteur dans cette affaire, Monsieur le Doyen VEDEL. Monsieur VEDEL présente le rapport suivant.</p>                 
+                <writing>
+                    <seg><hi style="titre2">II. Examen de la loi relative à la négociation collective et au réglement des conflits collectifs du travail.</hi></seg>
+                </writing>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> donne la parole au rapporteur dans cette affaire, Monsieur le Doyen VEDEL. Monsieur VEDEL présente le rapport suivant.</seg>                 
+                </u>
             </div4>
             <pb n="3"/>
-            <writing type="rapport" who="#vedel_georges">
-                <seg>La présente loi relative à la négociation collective et au règlement des conflits collectifs du travail est l'une des quatre lois AUROUX. Le Conseil vient d'ailleurs d'examiner celle relative aux institutions représentatives du personnel.</seg>
-                <seg>La première partie de la loi, articles 1 à 11, a pour objet essentiel de mettre à jour et d'étendre le champ d'application des conventions et accords collectifs. Les innovations essentielles introduites par le Législateur concernent l'obligation de procéder périodiquement à des négociations soit par branche, soit par entreprise. Il est prévu, également, un droit de dénonciation des accords collectifs au profit des syndicats majoritaires. La loi prévoit de plus, l'extension même aux petites entreprises de ces procédures collectives qui doivent s'appliquer à tous les salariés.</seg>
-                <seg>Cette première partie contient enfin l'article L. 153-1 nouveau du Code du travail, disposition qui fait l'objet de la saisine.</seg>
-                <seg>Il convient de signaler que la seconde partie de la loi traite du réglement des conflits collectifs du travail. Ces développements sont moins novateurs que ceux de la première partie, le Législateur s'efforçant simplement de faciliter le recours à la conciliation et à la médiation en matière de conflits du travail.</seg>
-                <seg>L'élaboration parlementaire de cette loi fait l'objet de peu de remarques. Le projet déclaré d'urgence a été adopté par l'Assemblée nationale. Le Sénat ayant voté la question préalable n'est pas entré dans une discussion de détail. Il faut noter cependant qu'au cours des débats relatifs à cette question préalable, le problème soulevé par l'article L. 153-1 du Code du travail a été évoqué par les intervenants.</seg>
-                <seg>Il convient tout d'abord de lire le texte de l'article critiqué : "Lorsqu'en vertu d'une disposition législative expresse dans une matière déterminée, une convention ou un accord collectif étendu déroge à des dispositions législatives ou réglementaires, les infractions aux stipulations dérogatoires sont passibles des sanctions qu'entraînerait la violation des dispositions législatives ou réglementaires en cause".</seg>
-                <seg>Il faut essayer à présent de replacer ce texte dans le cadre juridique des conventions et accords collectifs.</seg>
-                <seg>Une convention collective est un accord entre une ou plusieurs organisations syndicales de salariés et des employeurs. Elle traite des conditions auxquelles sont conclues les contrats individuels du travail et fixe divers droits et obligations des parties à ces conventions.</seg>
-                <seg>L'accord collectif a un objet similaire mais sa portée est restreinte.</seg>
-                <seg>Il a toujours été admis que ces conventions peuvent comporter des dispositions dérogeant au droit commun à l'exception des règles d'ordre public. En pratique ces règles dérogatoires sont le plus souvent favorables aux salariés. Il se peut cependant, que ce ne soit pas le cas. Telle serait la situation d'un accord <pb n="4"/> prévoyant un aménagement de la durée légale du travail sur six  jours au lieu de cinq jours et demi.</seg>
-                <seg>La particularité de ces conventions collectives bien qu'elles soient considérées comme des actes de droit privé est de pouvoir faire l'objet de mesures d'extension de la part des pouvoirs publics. C'est, en effet, le Ministre du travail qui par arrêté étend une convention collective au delà de ses signataires. L'arrêté d’extension rend obligatoire pour tout employeur et pour tout salarié dans la région ou dans la branche considérée les clauses de la convention. Ainsi, l'arrêté d'extension rend la convention applicable aux personnes qui n'en sont pas signataires.</seg>
-                <seg>L'article L. 153-1 vise à assurer aux clauses dérogatoires des conventions collectives la même sanction qu'aux clauses législatives  ou réglementaires auxquelles elles dérogent. Cette disposition  qui peut paraître en droit commun inhabituelle s'explique par la nature particulière des conventions collectives qui peuvent, comme il a été vu, déroger au droit commun. Il convient d’ajouter que la jurisprudence de la cour de cassation n'a jamais hésité à sanctionner la violation des clauses des conventions collectives dérogatoires. Ainsi, dans un arrêt du 14 février 1978 la chambre criminelle a t-elle considéré que le délit d'entrave à l'exercice des fonctions représentatives du personnel était constitué dès lors qu'un employeur méconnaît les clauses d'un accord qui consent aux délégués du personnel un crédit d'heures supérieur à celui déterminé par la loi. Cette jurisprudence peut être considérée comme établie.</seg>
-                <seg>La présente saisine ne peut manquer de susciter un sentiment de surprise. Généralement en effet, les saisines sénatoriales sont mieux inspirées. Il paraît étrange d'attaquer l'article L. 153-1 qui est un texte de bon sens. Il serait en effet anormal qu'un employeur qui ne respecterait pas les clauses d'une convention, collective dérogatoire puisse échapper à toute sanction , alors qu'un employeur qui méconnaîtrait le droit commun serait, lui, passible de poursuites. L'absence de ce texte
-                serait constitutive d'une inégalité.</seg>
-                <seg>Comment donc expliquer cette saisine ?</seg>
-                <seg>Il ne s'agit pas d'un recours irréfléchi car les arguments qu'il développe ont été exposés tant devant l'Assemblée nationale que devant le Sénat et notamment dans le rapport de Monsieur LARCHE. Il semble qu'en réalité, nous sommes en présence de ce que l'on peut qualifier de vertige juridique. Affection qui atteint les juristes même les plus confirmés lorsqu'ils partent de fausses prémices. Le point de départ étant spécieux on en arrive tout naturellement à des conclusions tout aussi ér nées. C'est ce travers que connaissent bien les professeurs de droit, qui souvent voient leurs meilleurs étudiants arriver à l'issue d’un raisonnement rigoureux à des solutions indéfendables.</seg>
-                <seg>En l'espèce, quelle est l'erreur commise par les saisissants ?</seg>
-                <seg>Il considèrent que le texte attaqué autorise la détermination par des personnes privées d'infractions pénales dont la définition relève de la loi ou du réglement. Pour eux, il est interdit d'établir par actes privés des infractions et des peines, ce qui bien entendu est exact.</seg>
-                <pb n="5"/>
-                <seg>Leur erreur provient du fait qu'ils estiment qu'en prévoyant une sanction à la méconnaissance de clauses d'une convention collective, le Législateur remet aux auteurs de cette convention le droit de poser des délits et les peines qui leur sont attachées.</seg>
-                <seg>Ceci est manifestement faux. Le principe de la légalité des délits et des peines affirmé par l'article 8 de la Déclaration de 1789 impose simplement au législateur de poser lui-même les éléments constitutifs des infractions qu'il sanctionne. Cette définition doit être suffisamment claire et précise pour exclure tout arbitraire. L'article L. 153-1 prévoit les éléments constitutifs de 1’infraction -existence de dispositions punies par des sanctions existence d'une disposition législative prévoyant la possibilité pour des conventions collectives d'y déroger, existence de conventions étendues, méconnaissance des dispositions, de ces conventions-. L'infraction ne sera constituée que s'il est relevé l'existence d'une violation aux stipulations de la convention collective.</seg>
-                <seg>Comment répondre aux moyens soulevés par les saisissants ?</seg>
-                <seg>Il serait possible de considérer comme l'ont fait certains intervenants au Sénat qu'une convention collective étendue par l’autorité publique a une nature réglementaire. Cette solution  ne semble pas devoir être retenue. Le Conseil constitutionnel n’est pas en effet une cour suprême, s’il est souverain dans son ordre, il doit respecter les ordres judiciaires et administratifs. Or tant la cour de cassation que le Conseil d'Etat estiment que l'arrêté d'extension d'une convention collective ne change pas la nature de cette convention qui reste un acte de droit privé. Il semble donc inutile que le Conseil constitutionnel heurte de front cette jurisprudence concordante de la cour de cassation et du Conseil d'Etat en donnant la qualification de réglement à une convention collective étendue. Il n'appartient pas au Conseil constitutionnel d'imposer son point de vue sur une question qui n'est pas de nature constitutionnelle.</seg>
-                <seg>Il convient donc pour le Conseil constitutionnel de répondre sur le terrain du droit privé. La loi ou le réglement peuvent considérer que des violation de contrats privés sont constitutives d’infractions pénales. Certes en cas de méconnaissance des obligations civiles et commerciales, la réparation du dommage causé s'exerce normalement par les voies civiles. Le législateur répugne à sanctionner pénalement la violation de conventions passées entre des particuliers. Il existe cependant, des exceptions à cette règle. Ainsi, dans la procédure du divorce nouveau, les époux peuvent-ils fixer par convention le montant de la pension alimentaire qui sera versée après le prononcé du divorce. Si le juge valide cette convention et que l'époux débiteur omet de verser la pension alimentaire, le délit d'abandon de famille peut être constitué et ceci dans les mêmes conditions que si la pension avait été fixée par voie judiciaire.</seg>
-                <seg>C'est que dans certains cas, la loi peut décider pour des contrats qui lui paraissent importants que leur méconnaissance doit être pénalement sanctionnée. Nous sommes en l'espèce dans cette situation. Les saisissants confondent le fait concret qui est à la source de la réalisation de l'infraction avec les éléments constitutifs de cette infraction. La loi définit une infraction et ce sont les particuliers qui par la méconnaissance de certaines <pb n="6"/> clauses des conventions collectives données sont à la source de l'application de la loi pénale. Les griefs des saisissants sur ce terrain ne peuvent donc être retenus.</seg>
-                <seg>Les sénateurs auteurs de la saisine font valoir un second moyen. L'article L. 153-1 violerait le principe de l'égalité des citoyens devant la loi. Selon eux ce texte appliquerait la même peine à des agissements différents. Cet argument est des plus étonnants, il impliquerait que le Code pénal devrait prévoir des peines différentes pour chaque délit qu'il pose. En réalité, il n'y a pas lieu de s'arrêter à cet argument. Rien n'interdit à la loi pour des délits différents de fixer un même régime de peines. Il serait absurde d'interdire par exemple au Code pénal de réprimer deux délits distincts par des peines d'un même quantum.</seg>
-                <seg> Par ailleurs, l'article L. 153-1 loin de violer l'égalité, la rétablit. Il serait curieux que les personnes valablement soustraites à l'application de la loi du fait des clauses dérogatoires se voient exempter de toute répression pénale en cas de violation des stipulations de ces clauses, alors qu'en droit commun toute violation de la loi ou du réglement peut être source de poursuites.</seg>
-                <seg>Avant de terminer son rapport, Monsieur le rapporteur indique que depuis la décision sur la loi relative aux prix et revenus, le Conseil n'a pas à s'interroger sur la constitutionnalité d'une règle législative empiétant sur le domaine du pouvoir réglementaire. Cette question aurait pu se poser en effet, du fait que l'article L. 153-1 vise aussi bien les délits que les contraventions.</seg>
-                <seg>Monsieur le rapporteur propose donc au Conseil de ne pas retenir les critiques formulées à l'encontre de l'article L. 153-1 du Code du travail. Il précise enfin que les autres dispositions  de la loi ne lui paraissent pas contenir des dispositions contraires à la Constitution.</seg>
-                <seg><hi rend="underline">Monsieur le Président</hi> remercie le Doyen VEDEL pour son exposé complet et très scrupuleux. Il lui demande de bien vouloir donner lecture de son projet de décision.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#vedel_georges">
+                    <seg>La présente loi relative à la négociation collective et au règlement des conflits collectifs du travail est l'une des quatre lois AUROUX. Le Conseil vient d'ailleurs d'examiner celle relative aux institutions représentatives du personnel.</seg>
+                    <seg>La première partie de la loi, articles 1 à 11, a pour objet essentiel de mettre à jour et d'étendre le champ d'application des conventions et accords collectifs. Les innovations essentielles introduites par le Législateur concernent l'obligation de procéder périodiquement à des négociations soit par branche, soit par entreprise. Il est prévu, également, un droit de dénonciation des accords collectifs au profit des syndicats majoritaires. La loi prévoit de plus, l'extension même aux petites entreprises de ces procédures collectives qui doivent s'appliquer à tous les salariés.</seg>
+                    <seg>Cette première partie contient enfin l'article L. 153-1 nouveau du Code du travail, disposition qui fait l'objet de la saisine.</seg>
+                    <seg>Il convient de signaler que la seconde partie de la loi traite du réglement des conflits collectifs du travail. Ces développements sont moins novateurs que ceux de la première partie, le Législateur s'efforçant simplement de faciliter le recours à la conciliation et à la médiation en matière de conflits du travail.</seg>
+                    <seg>L'élaboration parlementaire de cette loi fait l'objet de peu de remarques. Le projet déclaré d'urgence a été adopté par l'Assemblée nationale. Le Sénat ayant voté la question préalable n'est pas entré dans une discussion de détail. Il faut noter cependant qu'au cours des débats relatifs à cette question préalable, le problème soulevé par l'article L. 153-1 du Code du travail a été évoqué par les intervenants.</seg>
+                    <seg>Il convient tout d'abord de lire le texte de l'article critiqué : "Lorsqu'en vertu d'une disposition législative expresse dans une matière déterminée, une convention ou un accord collectif étendu déroge à des dispositions législatives ou réglementaires, les infractions aux stipulations dérogatoires sont passibles des sanctions qu'entraînerait la violation des dispositions législatives ou réglementaires en cause".</seg>
+                    <seg>Il faut essayer à présent de replacer ce texte dans le cadre juridique des conventions et accords collectifs.</seg>
+                    <seg>Une convention collective est un accord entre une ou plusieurs organisations syndicales de salariés et des employeurs. Elle traite des conditions auxquelles sont conclues les contrats individuels du travail et fixe divers droits et obligations des parties à ces conventions.</seg>
+                    <seg>L'accord collectif a un objet similaire mais sa portée est restreinte.</seg>
+                    <seg>Il a toujours été admis que ces conventions peuvent comporter des dispositions dérogeant au droit commun à l'exception des règles d'ordre public. En pratique ces règles dérogatoires sont le plus souvent favorables aux salariés. Il se peut cependant, que ce ne soit pas le cas. Telle serait la situation d'un accord <pb n="4"/> prévoyant un aménagement de la durée légale du travail sur six  jours au lieu de cinq jours et demi.</seg>
+                    <seg>La particularité de ces conventions collectives bien qu'elles soient considérées comme des actes de droit privé est de pouvoir faire l'objet de mesures d'extension de la part des pouvoirs publics. C'est, en effet, le Ministre du travail qui par arrêté étend une convention collective au delà de ses signataires. L'arrêté d'extension rend obligatoire pour tout employeur et pour tout salarié dans la région ou dans la branche considérée les clauses de la convention. Ainsi, l'arrêté d'extension rend la convention applicable aux personnes qui n'en sont pas signataires.</seg>
+                    <seg>L'article L. 153-1 vise à assurer aux clauses dérogatoires des conventions collectives la même sanction qu'aux clauses législatives  ou réglementaires auxquelles elles dérogent. Cette disposition  qui peut paraître en droit commun inhabituelle s'explique par la nature particulière des conventions collectives qui peuvent, comme il a été vu, déroger au droit commun. Il convient d'ajouter que la jurisprudence de la cour de cassation n'a jamais hésité à sanctionner la violation des clauses des conventions collectives dérogatoires. Ainsi, dans un arrêt du 14 février 1978 la chambre criminelle a t-elle considéré que le délit d'entrave à l'exercice des fonctions représentatives du personnel était constitué dès lors qu'un employeur méconnaît les clauses d'un accord qui consent aux délégués du personnel un crédit d'heures supérieur à celui déterminé par la loi. Cette jurisprudence peut être considérée comme établie.</seg>
+                    <seg>La présente saisine ne peut manquer de susciter un sentiment de surprise. Généralement en effet, les saisines sénatoriales sont mieux inspirées. Il paraît étrange d'attaquer l'article L. 153-1 qui est un texte de bon sens. Il serait en effet anormal qu'un employeur qui ne respecterait pas les clauses d'une convention, collective dérogatoire puisse échapper à toute sanction , alors qu'un employeur qui méconnaîtrait le droit commun serait, lui, passible de poursuites. L'absence de ce texte
+                    serait constitutive d'une inégalité.</seg>
+                    <seg>Comment donc expliquer cette saisine ?</seg>
+                    <seg>Il ne s'agit pas d'un recours irréfléchi car les arguments qu'il développe ont été exposés tant devant l'Assemblée nationale que devant le Sénat et notamment dans le rapport de Monsieur LARCHE. Il semble qu'en réalité, nous sommes en présence de ce que l'on peut qualifier de vertige juridique. Affection qui atteint les juristes même les plus confirmés lorsqu'ils partent de fausses prémices. Le point de départ étant spécieux on en arrive tout naturellement à des conclusions tout aussi ér nées. C'est ce travers que connaissent bien les professeurs de droit, qui souvent voient leurs meilleurs étudiants arriver à l'issue d'un raisonnement rigoureux à des solutions indéfendables.</seg>
+                    <seg>En l'espèce, quelle est l'erreur commise par les saisissants ?</seg>
+                    <seg>Il considèrent que le texte attaqué autorise la détermination par des personnes privées d'infractions pénales dont la définition relève de la loi ou du réglement. Pour eux, il est interdit d'établir par actes privés des infractions et des peines, ce qui bien entendu est exact.</seg>
+                    <pb n="5"/>
+                    <seg>Leur erreur provient du fait qu'ils estiment qu'en prévoyant une sanction à la méconnaissance de clauses d'une convention collective, le Législateur remet aux auteurs de cette convention le droit de poser des délits et les peines qui leur sont attachées.</seg>
+                    <seg>Ceci est manifestement faux. Le principe de la légalité des délits et des peines affirmé par l'article 8 de la Déclaration de 1789 impose simplement au législateur de poser lui-même les éléments constitutifs des infractions qu'il sanctionne. Cette définition doit être suffisamment claire et précise pour exclure tout arbitraire. L'article L. 153-1 prévoit les éléments constitutifs de 1'infraction -existence de dispositions punies par des sanctions existence d'une disposition législative prévoyant la possibilité pour des conventions collectives d'y déroger, existence de conventions étendues, méconnaissance des dispositions, de ces conventions-. L'infraction ne sera constituée que s'il est relevé l'existence d'une violation aux stipulations de la convention collective.</seg>
+                    <seg>Comment répondre aux moyens soulevés par les saisissants ?</seg>
+                    <seg>Il serait possible de considérer comme l'ont fait certains intervenants au Sénat qu'une convention collective étendue par l'autorité publique a une nature réglementaire. Cette solution  ne semble pas devoir être retenue. Le Conseil constitutionnel n'est pas en effet une cour suprême, s'il est souverain dans son ordre, il doit respecter les ordres judiciaires et administratifs. Or tant la cour de cassation que le Conseil d'Etat estiment que l'arrêté d'extension d'une convention collective ne change pas la nature de cette convention qui reste un acte de droit privé. Il semble donc inutile que le Conseil constitutionnel heurte de front cette jurisprudence concordante de la cour de cassation et du Conseil d'Etat en donnant la qualification de réglement à une convention collective étendue. Il n'appartient pas au Conseil constitutionnel d'imposer son point de vue sur une question qui n'est pas de nature constitutionnelle.</seg>
+                    <seg>Il convient donc pour le Conseil constitutionnel de répondre sur le terrain du droit privé. La loi ou le réglement peuvent considérer que des violation de contrats privés sont constitutives d'infractions pénales. Certes en cas de méconnaissance des obligations civiles et commerciales, la réparation du dommage causé s'exerce normalement par les voies civiles. Le législateur répugne à sanctionner pénalement la violation de conventions passées entre des particuliers. Il existe cependant, des exceptions à cette règle. Ainsi, dans la procédure du divorce nouveau, les époux peuvent-ils fixer par convention le montant de la pension alimentaire qui sera versée après le prononcé du divorce. Si le juge valide cette convention et que l'époux débiteur omet de verser la pension alimentaire, le délit d'abandon de famille peut être constitué et ceci dans les mêmes conditions que si la pension avait été fixée par voie judiciaire.</seg>
+                    <seg>C'est que dans certains cas, la loi peut décider pour des contrats qui lui paraissent importants que leur méconnaissance doit être pénalement sanctionnée. Nous sommes en l'espèce dans cette situation. Les saisissants confondent le fait concret qui est à la source de la réalisation de l'infraction avec les éléments constitutifs de cette infraction. La loi définit une infraction et ce sont les particuliers qui par la méconnaissance de certaines <pb n="6"/> clauses des conventions collectives données sont à la source de l'application de la loi pénale. Les griefs des saisissants sur ce terrain ne peuvent donc être retenus.</seg>
+                    <seg>Les sénateurs auteurs de la saisine font valoir un second moyen. L'article L. 153-1 violerait le principe de l'égalité des citoyens devant la loi. Selon eux ce texte appliquerait la même peine à des agissements différents. Cet argument est des plus étonnants, il impliquerait que le Code pénal devrait prévoir des peines différentes pour chaque délit qu'il pose. En réalité, il n'y a pas lieu de s'arrêter à cet argument. Rien n'interdit à la loi pour des délits différents de fixer un même régime de peines. Il serait absurde d'interdire par exemple au Code pénal de réprimer deux délits distincts par des peines d'un même quantum.</seg>
+                    <seg> Par ailleurs, l'article L. 153-1 loin de violer l'égalité, la rétablit. Il serait curieux que les personnes valablement soustraites à l'application de la loi du fait des clauses dérogatoires se voient exempter de toute répression pénale en cas de violation des stipulations de ces clauses, alors qu'en droit commun toute violation de la loi ou du réglement peut être source de poursuites.</seg>
+                    <seg>Avant de terminer son rapport, Monsieur le rapporteur indique que depuis la décision sur la loi relative aux prix et revenus, le Conseil n'a pas à s'interroger sur la constitutionnalité d'une règle législative empiétant sur le domaine du pouvoir réglementaire. Cette question aurait pu se poser en effet, du fait que l'article L. 153-1 vise aussi bien les délits que les contraventions.</seg>
+                    <seg>Monsieur le rapporteur propose donc au Conseil de ne pas retenir les critiques formulées à l'encontre de l'article L. 153-1 du Code du travail. Il précise enfin que les autres dispositions  de la loi ne lui paraissent pas contenir des dispositions contraires à la Constitution.</seg>
+                </writing>
+            </div4>
             <div4 type="discussion">
                 <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> remercie le Doyen VEDEL pour son exposé complet et très scrupuleux. Il lui demande de bien vouloir donner lecture de son projet de décision.</seg>
                     <seg>Monsieur le Président déclare alors ouverte la discussion générale.</seg>
                 </u>
                 <u who="#segalat_andre">
@@ -11762,17 +11777,19 @@
                 </u>
                 <pb n="7"/>
                 <u who="#vedel_georges">
-                    <seg><hi rend="underline">Monsieur VEDEL</hi> reconnaît la justesse de cette observation. Il fait observer que son projet de decision ne souligne pas le fait que l’article L. 153-1 ne vise que les conventions ayant fait l’objet d'une mesure d'extension.</seg>
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> reconnaît la justesse de cette observation. Il fait observer que son projet de decision ne souligne pas le fait que l'article L. 153-1 ne vise que les conventions ayant fait l'objet d'une mesure d'extension.</seg>
                     <seg>Est-ce à dire que la jurisprudence précitée de la chambre criminelle serait gommée ?</seg>
                     <seg>Il est difficile de se prononcer. Monsieur le rapporteur ne voit d'ailleurs pas comment le Conseil constitutionnel pourrait tenter de sauver cette jurisprudence.</seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>Aucune autre observation n'étant formulée par les membres du Conseil, <hi rend="underline">Monsieur le Président</hi> déclare close la discussion générale et il soumet au Conseil le projet de décision élaboré par le rapporteur.  Ce projet est adopté à l'unanimité des membres du Conseil.</p>
-                </div5>
+                <writing>
+                    <seg><span type="vote">Aucune autre observation n'étant formulée par les membres du Conseil, <hi rend="underline">Monsieur le Président</hi> déclare close la discussion générale et il soumet au Conseil le projet de décision élaboré par le rapporteur.  Ce projet est adopté à l'unanimité des membres du Conseil.</span></seg>
+                </writing>
             </div4>    
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président lève la séance à 11 h 30.</p>
+            <writing>
+                <seg>Monsieur le Président lève la séance à 11 h 30.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
