@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,119 +11682,133 @@
         <head type="1">SEANCE DU 30 JUILLET 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p>Le Conseil se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</p>		   
+                <writing>
+                    <seg>Le Conseil se réunit à 10 heures, tous ses membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.</seg>
+                </writing>
             </div4>
             <div4 type="ordreDuJour">
-                <p>Le Président rappelle que l'ordre du jour de la présente séance porte :</p>
-                <p>1° sur l'examen d'une requête à caractère électoral présentée par Monsieur CHAUFFOUR ;</p>
-                <p>2° sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci de la loi sur les prix et les revenus.</p>
+                <writing>
+                    <seg>Le Président rappelle que l'ordre du jour de la présente séance porte :</seg>
+                    <seg>1° sur l'examen d'une requête à caractère électoral présentée par Monsieur CHAUFFOUR ;</seg>
+                    <seg>2° sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci de la loi sur les prix et les revenus.</seg>
+                </writing>
             </div4>
         </div3>
         <div3 type="question" n="1">
             <div4 type="introduction">
-                <p><hi rend="underline">I. REQUETE A CARACTERE ELECTORAL : </hi></p>  
+                <writing>
+                    <seg><hi style="title2">I. REQUETE A CARACTERE ELECTORAL : </hi></seg>
+                </writing>
             </div4>
-            <writing type="rapport" who="#frey_roger">
-                <seg><hi rend="underline">Monsieur le Président</hi> présente alors son rapport sur la requête en révision de la décision électorale du 9 septembre 1981 présentée par Monsieur René CHAUFFOUR.</seg>
-                <seg>Il conclut à l'irrecevabilité de cette requête, en vertu de l'article 62, de la Constitution, au terme du rapport qui est joint au dossier n° 82-963 classé aux archives.</seg>
-            </writing>	
+            <div4 type="rapport">
+                <writing who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> présente alors son rapport sur la requête en révision de la décision électorale du 9 septembre 1981 présentée par Monsieur René CHAUFFOUR.</seg>
+                    <seg>Il conclut à l'irrecevabilité de cette requête, en vertu de l'article 62, de la Constitution, au terme du rapport qui est joint au dossier n° 82-963 classé aux archives.</seg>
+                </writing>
+            </div4>
         </div3>
         <div3 type="question" n="2" corresp="#DC-82-143">
             <div4 type="introduction">
-                <p><hi rend="underline">II. EXAMEN DE LA LOI SUR LES PRIX ET LES REVENUS : </hi></p>
-                <p><hi rend="underline">Monsieur le Président</hi> donne alors la parole au rapporteur, Monsieur André SEGALAT.</p>            
+                <writing>
+                    <seg><hi style="title2">II. EXAMEN DE LA LOI SUR LES PRIX ET LES REVENUS : </hi></seg>
+                </writing>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> donne alors la parole au rapporteur, Monsieur André SEGALAT.</seg>
+                </u>
             </div4>
-            <writing type="rapport" who="#segalat_andre">
-                <seg><hi rend="underline">Monsieur SEGALAT</hi> présente alors le rapport suivant :</seg>
-                <seg>Le 12 juin 1982, le Gouvernement français, après consultation de ses partenaires européens, a procédé à un réajustement monétaire. Quelques jours plus tard, il a fait connaître les mesures d'accompagnement destinées à assainir la situation de la monnaie nationale. Il s'agit essentiellement d'un système instituant un blocage des prix et revenus. Le projet de loi ayant été adopté par le Parlement a fait l'objet d'un recours de la part de 68 députés.</seg>
-                <seg>La recevabilité de ce recours ne suscite aucune observation. Sur le fond, il faut noter que Monsieur DAILLY a écrit au Président du Conseil constitutionnel en sa qualité de Président de la commission des lois du Sénat afin de lui exposer une erreur commise par les députés signataires. En effet, la saisine dont il s'agit est dirigée, non contre le texte définitivement voté par le Parlement mais contre le texte initial du projet déposé par le Gouvernement. C'est d'ailleurs  sur des observations de Monsieur DAILLY que le Gouvernement a largement corrigé son texte initial.</seg>
-                <pb n="2"/>
-                <seg>Quels sont les moyens soutenus par les saisissants ? Il est possible de les regrouper en trois rubriques.</seg>
-                <seg>Le texte méconnaîtrait 1° le partage entre la loi et le règlement,  2° les principes de non-rétroactivité et d'égalité devant la loi, 3° le principe du non-cumul des peines en matière de crimes et délits. Pour plus de clarté, le projet qui sera proposé au Conseil regroupe ces divers moyens dans l'ordre même des articles litigieux, à savoir les articles 1er, 3 et 4 de la loi.</seg>
-                <seg>Avant d'examiner le texte déféré, il est nécessaire d'évoquer rapidement l'évolution de la politique en matière des prix.</seg>
-                <seg>Les textes de base en la matière sont les ordonnances du 30 juin 1945. La première, relative aux prix, a été très souvent remaniée, la seconde concerne les règles de la constatation de la poursuite et de la répression des infractions économiques. Ces textes nés de la pénurie de l'après-guerre ont été appliqués avec plénitude jusqu'en 1953. La phase qui a suivi a été caractérisée par des périodes de liberté entrecoupées de périodes de blocage partiel ou total. C'est ainsi qu'ont été institués divers blocages des prix en 1963, 1968, 1971, 1974 et en 1976. Ce n'est qu'à partir de 1978 que le Gouvernement de Monsieur BARRE, sous l'impulsion du ministre de l'économie, Monsieur MONORY, a entrepris une politique systématique de libération des prix. Celle-ci était très avancée au moment de la dernière élection présidentielle. Il faut cependant signaler qu'à cette époque il restait encore un certain nombre de produits soumis à réglementation.</seg>
-                <seg>La nouvelle politique du Gouvernement se situe dans le cadre juridique de ces ordonnances de 1945. Il faut bien comprendre en effet que l'outil constitué par ces ordonnances reste en place dans l'ordonnancement juridique. Le fait qu'il ait été procédé à une politique de libération des prix ne rend pas ces ordonnances pour autant caduques. A ce sujet, il faut observer que le dispositif des ordonnances de 1945 a déjà été utilisé en octobre 1981 lors d'un premier réajustement monétaire. A cette époque, il avait été procédé au blocage des prix de certains produits et services, d'autres branches d'activité ayant été invitées à signer des "accords de modération" (le législateur nous parle aujourd'hui d'accords de régulation).</seg>
-                <seg>Pour comprendre le champ d'application de la loi déférée, il faut distinguer entre les produits et services couverts par l'ordonnance de 1945 et ceux qui échappent à cette ordonnance. Il peut aussi bien s'agir de produits et services qui sont sortis du domaine de cette ordonnance que de produits ou services qui n'y avaient jamais pris place (les loyers et les revenus, par exemple). L'objet de la loi est d'appréhender cette dernière catégorie qui ne peut, en effet, être régie par le système de l'ordonnance de 1945. En résumé, l'ordonnance de 1945, tel un volcan en sommeil, connaît une nouvelle éruption. Elle revit au moyen de divers arrêtés ministériels mais ne concerne que certains prix et revenus.</seg>
-                <seg>Pour les revenus qui n'entrent pas dans son champ d'application, il a été recouru à la loi objet de la saisine.</seg>
-                <pb n="3"/>
-                <seg>Il convient à présent d'examiner successivement les trois articles litigieux.</seg>
-                <seg><hi rend="underline">Article 1er :</hi></seg>
-                <seg>Le projet du Gouvernement reposait sur une extension pure et simple des règles de l'ordonnance du 30 juin 1945 à l'ensemble des produits qui y échappaient. L'Assemblée nationale a adopté ce système en rejetant la motion de censure déposée par l'opposition.</seg>
-                <seg>Au sénat, Monsieur DAILLY a exposé que ce système d'extension de l'ordonnance de 1945 qui se traduit juridiquement par un élargissement des prérogatives du Gouvernement remet en cause la répartition des compétences entre la loi et le réglement telle qu'elle est fixée par l'article 34 de la Constitution.</seg>
-                <seg>Le Sénat a rejeté le projet en adoptant une question préalable. Bien que la commission mixte paritaire ait échoué, le Gouvernement, sensible aux objections de Monsieur DAILLY, a changé le fondement juridique de son projet. C'est ainsi qu'en deuxième lecture à l'Assemblée nationale il a institué un système de réglementation autonome. C'est de ce système que le Conseil constitutionnel a à connaître. Les auteurs de la saisine ont, d'ailleurs en retard d'une navette, oublié de noter ce changement de fondement juridique.</seg>
-                <seg>L'article 1er de la loi définit les règles du blocage. Il dispose :</seg>
-                <seg>"I. Nonobstant toute disposition contraire, et jusqu'au 31 décembre 1983 :</seg>
-                <seg>1° Les prix figurant sur les factures d'eau et d'assainissement émises après le 11 juin ne peuvent dépasser ceux qui figurent sur la dernière facture reçue par le même abonné. Les nouveaux abonnés ne peuvent se voir appliquer des prix supérieurs à ceux pratiqués à l'égard des anciens abonnés facturés le même jour.</seg>
-                <seg>2° Les prix des transports routiers de marchandises et des commissions de transports, à l'exception de ceux qui sont fixés dans le cadre de la tarification routière obligatoire, ne peuvent dépasser les niveaux ayant fait l'objet de paiement, de facturation d'arrhes ou de versement d'accomptes à la date du 11 juin ou, à défaut, à la date antérieure la plus proche.</seg>
-                <seg>3° Les rémunérations versées sous forme d'honoraires ou assimilés, lorsqu'elles ne sont pas déjà soumises à l'ordonnance n° 45-1483 du 30 juin 1945 modifiée ou à une disposition réglementaire fixant leur montant, ne peuvent dépasser les niveaux atteints le 11 juin 1982 ou, à défaut, à la date antérieure la plus proche.</seg>
-                <seg>II. A compter de la promulgation de la présente loi, le maintien ou l'application de prix ou de rémunérations non conformes aux dispositions du présent article constitue une infraction constatée, poursuivie et réprimée dans les conditions prévues par l'ordonnance n° 45-1484 du 30 juin 1945 modifiée.</seg>
-                <seg>III. A compter du 1er novembre 1982, il est mis fin au blocage par décret, au vu notamment des accords de régulation qui auront pu être conclus avec les professionnels".</seg>
-                <pb n="4"/>
-                <seg>Les trois paragraphes de ce texte font l'objet de critiques.</seg>
-                <seg><hi rend="underline">Paragraphes I et II :</hi></seg>
-                <seg>Il est fait grief à ces dispositions d'étendre le champ d'application de l'ordonnance du 30 juin 1945. Ce raisonnement est manifestement faux. En effet, l'article 1er définit lui-même les règles du blocage des prix et des revenus. En ce qui concerne plus précisément le paragraphe II qui, en visant la deuxième ordonnance de 1945 relative aux pouvoirs en matière économique, institue un mécanisme de pénalités par référence, il ne semble pas possible de retenir le grief des saisissants. Ce texte se contente d'emprunter des règles pénales à l'ordonnance n° 45-1484 en s'y référant plutôt que de reproduire intégralement les dispositions de cette ordonnance.</seg>
-                <seg>Il est également soutenu que la redevance d'assainissement visée au paragraphe I ayant le caractère d'une taxe fiscale ne pouvait être modifiée sans utiliser la procédure des lois de finances et les règles de l'ordonnance du 2 janvier 1959. Cette allégation paraît peu fondée. Rien n'oblige à recourir à une loi de finances pour plafonner le taux d'une taxe fiscale. Il est spécieux de faire grief à la présente loi de plafonner ce taux.</seg>
-                <seg>Un dernier grief est formulé de façon sibylline à l'encontre de ces dispositions. La loi sur le blocage des prix et des revenus serait contraire à la Constitution en ce qu'elle se heurterait à d'autres dispositions législatives mettant notamment en péril l'équilibre budgétaire des collectivités locales. Les saisissants évoquent à ce sujet la notion de conflit de lois. Ce moyen ne paraît pas non plus pouvoir être retenu. La circonstance que l'article 1er soit de nature à compromettre l'application d'autres dispositions législatives est la rançon nécessaire d'un système de blocage des prix et des revenus. Elle est cependant sans influence sur la constitutionnalité de cet article.</seg>
-                <seg><hi rend="underline">Paragraphe III :</hi></seg>
-                <seg>Ce texte dispose, rappelons-le, qu'à compter du 1er novembre 1981 il est mis fin au blocage par décret, au vu, notamment, des accords de régulation qui auront pu être conclus avec les professionnels.  Pour les auteurs de la saisine, cette disposition est manifestement contraire à la Constitution, le Parlement ne pouvant, en effet, sans méconnaître l'étendue de ses compétences, déléguer au Gouvernement le soin de mettre discrétionnairement fin au régime de blocage. Cette disposition méconnaîtrait donc l'article 34 de la Constitution. Cet argument a été éloquemment développé par Monsieur DAILLY pour qui il aurait fallu recourir à une loi pour sortir du blocage.</seg>
-                <seg>Que penser de ce grief ?</seg>
-                <seg>Pour saisir la portée de ce paragraphe III, il faut le combiner avec les dispositions des paragraphes I et II. Il apparaît en effet que les pouvoirs accordés au Gouvernement ne le sont que pendant une durée limitée, à savoir entre le 1er novembre 1982 et le 31 décembre 1983. D'autre part, la levée du blocage ne peut être décidée discrétionnairement par l'autorité gouvernementale mais doit être opérée au vu des accords de régulation. La loi fixe donc des limites de temps et de procédure encadrant ainsi le pouvoir <pb n="5"/> réglementaire. Cet argument suffirait à lui-même pour rejeter le grief des saisissants. Il convient d'ajouter au surplus qu'un système de contrôle des prix et des revenus exige nécessairement que le Gouvernement puisse adapter les règles de droit à la spécificité de chaque secteur de l'économie. Dès qu'on entre dans un système de blocage, une certaine marge doit être laissée au Gouvernement à la condition, bien entendu, que la loi lui fixe des limites générales. Tel semble bien être le cas en l'espèce.</seg>
-                <seg><hi rend="underline">Article 3 : </hi></seg>
-                <seg>Cet article qui institue le blocage des dividendes distribués par les sociétés commerciales dispose :</seg>
-                <seg>"I. La somme des bénéfices par titre distribuée par les sociétés en 1982 et 1983 ne pourra excéder celle constituée par le bénéfice de référence défini ci-après et ce bénéfice majoré de 8 p. 100.</seg>
-                <seg>Le bénéfice de référence est le montant du plus élevé des bénéfices distribués au cours de l'une des années 1979, 1980 et 1981 majoré de 8 p. 100. Si aucun bénéfice n'a été distribué au cours des années 1979, 1980 et 1981, le bénéfice de référence est fixé à 5,4 p. 100 de la valeur nominale des titres.</seg>
-                <seg>II. Les sociétés qui ont décidé, avant le 11 juin 1982, la mise en distribution de bénéfices qui excèdent le plafond fixé au paragraphe ci-dessus ne pourront procéder à aucune distribution de bénéfices en 1983.</seg>
-                <seg>III. Par dérogation aux paragraphes I et II ci-dessus, la limitation prévue auxdits paragraphes porte sur la masse totale des bénéfices distribués lorsque le nombre de titres a varié sans que soient modifiés les capitaux propres de la société depuis la fin de l'exercice dont l'ouverture est antérieure d'au plus un an au début de l'année choisie comme base de référence.</seg>
-                <seg>IV. Les dispositions des paragraphes I et II ne sont pas applicables aux sociétés qui auront procédé depuis le 1er janvier 1982 ou procéderont à une augmentation de capital en numéraire d'un montant égal ou supérieure à 10 p. 100 du capital.</seg>
-                <seg>Elles ne sont pas applicables non plus aux sociétés d'investissement du titre II de l'ordonnance du 2 novembre 1945, aux sociétés immobilières d'investissement, aux sociétés immobilières pour le commerce et l'industrie et aux sociétés d'investissement à capital variable, qui sont assujetties à des obligations de distribution.</seg>
-                <seg>Elles ne sont pas applicables non plus aux sociétés dont 95 p. 100 au moins du capital est détenu directement ou indirectement par une autre société ou par l'Etat.</seg>
-                <seg>V. Les sociétés qui contreviennent aux dispositions du présent article sont passibles d'une amende d'un montant de 20 à 50 F par titre."</seg>
-                <seg>Les critiques des saisissants concernent les paragraphes II et IV.</seg>
-                <seg><hi rend="underline">Paragraphe II : </hi></seg>
-                <seg>Ce paragraphe fait l'objet d'une double critique. Il violerait la règle de la non-rétroactivité des lois pénales et le principe de l'égalité devant la loi.</seg>
-                <seg>En ce qui concerne la méconnaissance de la règle de la non-rétroactivité, il est nécessaire de situer ce principe, d'analyser la saisine et de saisir enfin la portée de la disposition critiquée.</seg>
-                <pb n="6"/>
-                <seg>La règle de la non-rétroactivité des lois est une notion pénaliste. Elle postule qu'une loi nouvelle s'applique aux faits accomplis postérieurement à son entrée en vigueur. Un fait ne peut être poursuivi s'il a été perpétré avant cette entrée en vigueur. Cette apparente simplicité est trompeuse. Si un fait se réalise en un instant, nous sommes en présence d'un délit instantané. Il n'y a alors guère de difficultés. En revanche, le problème est plus difficile pour des faits qui sont constitués par une action se prolongeant dans le temps. Il s'agit alors de délits continus. Dans ce cas, il est admis que la loi nouvelle peut s'appliquer dès lors que le fait incriminé, même s'il naît avant son entrée en vigueur, se prolonge sous l'empire de la loi nouvelle, ne fût-ce qu'un instant.</seg>
-                <seg>Quels sont les arguments des saisissants ?</seg>
-                <seg>Selon eux, une décision de distribution des dividendes affectés entre le 11 juin et la date d'entrée en vigueur de la loi, si elle est supérieure au plafond des dividendes défini au paragraphe I de l'article 3 pourrait donner lieu, en méconnaissance du principe de la non-rétroactivité des lois, à une sanction pénale. En réalité, l'argument des saisissants est quelque peu confus car, dans le cas qu'ils soulignent, si en 1983 il n'y a pas de distribution nouvelle de dividendes, aucune poursuite pénale ne peut avoir lieu. Par contre, en cas de nouvelle distribution, on entre dans le cas de figure prévu au paragraphe I de l'article 3 qui fixe des plafonds en matière de distribution de dividendes. La confusion relevée dans l'argument des saisissants est largement excusable, le texte de loi n'étant pas d'une grande clarté. Il est difficile, en effet, de comprendre la portée exacte du paragraphe II. On pourrait même le trouver superflu. En effet, la société ayant décidé, avant le 11 juin 1982, de distribuer des bénéfices excédant le plafond du paragraphe I, il ne peut y avoir aucune poursuite en 1982. En revanche, ce ne serait qu'en 1983, en cas de nouvelle distribution, que des poursuites pénales pourraient être engagées. Dès lors, ce paragraphe II paraît superflu. A ce sujet, le rapporteur a jugé utile de demander des explications au service du ministère des finances et de la chancellerie.</seg>
-                <seg>Monsieur VIGNON du ministère des finances a fourni les explications suivantes :</seg>
-                <seg>"Enfin, je dois vous confirmer la justesse de l'interprétation à laquelle vous étiez vous-même parvenu du paragraphe II de l'article 3. Ce paragraphe, qui spécifie la situation des Sociétés ayant décidé ou mis en distribution un dividende pour 1982 avant le 11 juin découle directement du paragraphe I. De ce fait, les Sociétés qui auraient décidé ou mis en distribution un dividende entre le 11 juin et la date de promulgation de la loi sont dans la même situation que celles visées au paragraphe II, puisqu'il ne saurait être fait aucune interprétation rétroactive de la loi elle-même. Il en résulte une certaine "redite" entre les paragraphes I et II, mais cette redite n'est pas une redondance, car le paragraphe II retire toute ambiguité par rapport à l'éventuelle question d'une "répétition" du dividende de 1983. En effet, on aurait pu argumenter que les Sociétés ayant dépassé le plafond du dividende cumulé dès 1982, en raison de décisions prises avant la date de promulgation de la loi (a fortiori avant le 11 juin 1982) se trouveraient en infraction dès lors qu'ayant connaissance du texte de la loi promulguée, elles n'auraient pas procédé à répétition de tout ou partie du dividende en 1983".</seg>
-                <pb n="7"/>
-                <seg>Le représentant du ministère de la justice a été plus nuancé. Selon lui, dans l'hypothèse où la décision et la distribution de dividendes se situent, l'une et l'autre, entre le 1er juin et le 1er août, il y a, en réalité, une neutralisation. Ni le paragraphe I de la loi n'étant pas encore en vigueur, ni le paragraphe II de la décision n'étant pas antérieur au 11 juin, ne sont susceptibles de s'appliquer. En conséquence, le paragraphe IV serait lui-même inapplicable.</seg>
-                <seg>Ces interprétations sont bien subtiles.</seg>
-                <seg>Monsieur le rapporteur propose plus modestement une rédaction qui n'entre pas dans les nuances et interprétations de ces paragraphes mais qui énonce clairement que seuls peuvent faire l'objet de poursuites les faits commis après l'entrée en vigueur de la loi. Cette rédaction a d'ailleurs le mérite de répondre à l'argument de rétroactivité développé dans la saisine.</seg>
-                <seg>Le paragraphe II est également critiqué en ce qu'il méconnaîtrait le principe d'égalité. Ce grief n'est d'ailleurs pas formulé avec précision. Il semble peu fondé. La diversité des situations devant le blocage justifie des mesures différentes sans aucunement violer l'égalité devant la loi.</seg>
-                <seg><hi rend="underline">Paragraphe IV :</hi></seg>
-                <seg>Pour les saisissants, cette disposition est doublement contraire à la Constitution. D'une part, elle punit de sanctions pénales les personnes morales, ce qui serait contraire au principe selon lequel seules les personnes physiques sont passibles de sanctions pénales. D'autre part, en ce qu'elle institue une contravention, elle aurait pénétré dans le domaine du réglement dépassant la compétence de la loi.</seg>
-                <seg><hi rend="underline">En ce qui concerne la responsabilité pénale des personnes morales</hi> :</seg>
-                <seg>S'il est exact qu'il n'existe pas de principe général instituant la responsabilité des personnes morales, il n'en demeure pas moins que la législation fourmille de mesures particulières instituant des cas de responsabilité pénale des personnes morales. A supposer même qu'il existe un principe de non-responsabilité pénale des personnes morales, ce principe n'aurait pas valeur constitutionnelle.</seg>
-                <seg><hi rend="underline">En ce qui concerne la violation de l'article 34 de la Constitution</hi> :</seg>
-                <seg>Pour les saisissants, en édictant une contravention, la loi aurait pénétré dans le domaine du règlement excédant sa compétence et serait, ainsi, contraire à la Constitution.</seg>
-                <seg>Ce n'est pas la première fois que cette difficile question surgit devant le Conseil. Cependant, bien que cela puisse paraître étonnant après un quart de siècle de cohabitation avec les articles 34 et 37, le Conseil constitutionnel ne s'est jamais prononcé, nettement sur cette difficulté, préférant la contourner. Mardi dernier, lors de la séance consacrée à la loi portant réforme de la planification, Monsieur le Doyen VEDEL, avec science et élégance, est parvenu à éluder ce difficile obstacle. Aujourd'hui, il appartient cependant au Conseil de répondre à la question nettement soulevée par les saisissants. Pour aborder ce sujet, il faut avoir à l'esprit la conception générale qui a guidé le constituant dans l'élaboration des articles 34 et 37. Une première lecture pourrait faire croire que la Constitution sépare de façon rigide les domaines de la loi et du réglement. En réalité, la distinction opérée par la Constitution est beaucoup plus souple.</seg>
-                <pb n="8"/>
-                <seg>L'apport de la Constitution de 1958 n'est pas constitué par le concept d'un domaine propre à la loi. Le droit public français reconnaît, en effet, traditionnellement, que le réglement ne peut pas porter atteinte au domaine de la loi. Cet apport essentiel n'est pas non plus constitué par la fixation d'un domaine d'attribution de la loi. En effet, si avant la Vème République, le législateur allait sans cesse de l'avant de façon envahissante, les nécessités de la vie publique conduisaient à des limitations de cet impérialisme. C'est ainsi, afin de procurer une certaine liberté à l'exécutif, qu'étaient adoptés des décrets-lois et lois cadres.</seg>
-                <seg>L'innovation réelle de la Constitution de 1958 est située ailleurs, d'une part, dans l'attribution au pouvoir réglementaire d'un domaine réservé et, d'autre part, dans l'existence des procédures permettant au Gouvernement de se défendre contre des empiètements du législateur.</seg>
-                <seg>Les articles 34 et 37, alinéa 1, doivent être interprétés en les rapprochant des articles 37, alinéa 2, et 41, de la Constitution. L'article 41 permet au Gouvernement, en cours de procédure parlementaire, d'opposer l'irrecevabilité à une intervention parlementaire dans le domaine réglementaire. Il paralyse ainsi l'initiative du Parlement.</seg>
-                <seg>Si une loi est promulguée, le Gouvernement n'en est pas pour autant désarmé. Il dispose de la procédure de l'article 37, alinéa 2, pour défendre son empire. Une loi qui aurait enfreint le domaine réglementaire demeure valable, mais, après constatation de la nature réglementaire de certaines de ces dispositions, le Gouvernement peut la modifier par décret. Il convient de souligner, par ailleurs, que l'une et l'autre de ces procédures ont un caractère facultatif.</seg>
-                <seg>Le Gouvernement apprécie souverainement l'opportunité de faire usage d'articles 41 ou 37, alinéa 2. C'est dire que la Constitution, devant une irruption de la loi dans le domaine règlementaire ne frappe pas pour autant cette loi d'inconstitutionnalité. Seul le Gouvernement dispose d'une faculté de se défendre contre les empiètements du législateur. Cette interprétation est celle des pères fondateurs de la Constitution de 1958. Elle a été expressément défendue par Monsieur DEBRE à l'occasion d'un dépôt d'une proposition de loi.</seg>
-                <seg>Monsieur POMPIDOU, alors Premier ministre, a défendu la même thèse lors d'une de ses interventions devant l'Assemblée nationale.</seg>
-                <seg>Outre ces arguments de fonds, un argument d'opportunité plaide en faveur de l'interprétation souple des articles 34 et 37. Si, en effet, le Conseil constitutionnel devait adopter une attitude rigide en ce qui concerne les domaines respectifs de la loi et du réglement, les assemblées parlementaires seraient constamment obligées de se poser la question de savoir si les textes qu'elles examinent sont de nature législative ou réglementaire. Les nécessités de la vie législative commandent l'adoption par le Conseil  constitutionnel d'une position souple.</seg>
-                <pb n="9"/>
-                <seg>Il y a lieu de souligner, enfin, que si le Conseil n'adopte pas la thèse qui lui est proposée par le rapporteur, il y a fort à craindre qu'il ne soit rapidement envahi par de multiples saisines. C'est qu'en effet peu de lois, depuis 1958, ne contiennent pas de dispositions réglementaires.</seg>
-                <seg>Pour l'ensemble de ces raisons, Monsieur le rapporteur propose au Conseil constitutionnel une interprétation souple des dispositions des articles 34 et 37. Il ne peut y avoir de rideau de fer entre les domaines de la loi et du réglement.</seg>
-                <seg><hi rend="underline">Article 4, paragraphe VII :</hi></seg>
-                <seg>Cet article dispose :</seg>
-                <seg>"I. Nonobstant toutes dispositions législatives, réglementaires, statutaires ou stipulations contractuelles contraires, la rémunération brute de l'ensemble des salariés, du secteur public et du secteur privé, quel que soit leur statut juridique, leur lieu d'emploi et la qualité de leurs employeurs ne peut, sous réserve des dispositions qui suivent, faire l'objet d'une majoration durant la période allant du 1er juin au 31 octobre 1982.</seg>
-                <seg>Cette disposition s'applique notamment aux personnels civils et militaires, titulaires ou non, de toutes les collectivités publiques ainsi que des établissements publics.</seg>
-                <seg>VII. A compter de l'entrée en vigueur de la présente loi et jusqu'au 31 octobre 1982, tout employeur qui aura procédé à une augmentation des rémunérations ou maintenu une augmentation contraire aux dispositions des paragraphes I à V ci-dessus sera puni d'une amende de 300 à 8 000 F qui sera appliquée autant de fois qu'il y aura eu de salariés concernés et pour chaque mois de cette période".</seg>
-                <seg>Ces dispositions font l'objet de deux critiques. D'une part, elles méconnaîtraient la règle de la non-rétroactivité et, d'autre part, elles seraient contraires au principe du non-cumul des peines.</seg>
-                <seg><hi rend="underline">Sur la non-rétroactivité</hi> :</seg>
-                <seg>Il ne paraît pas utile de revenir sur les développements ci-dessus exposés. En l'espèce, il n'y a pas d'atteinte au principe de la non-rétroactivité des lois pénales. En effet, si un employeur augmente les rémunérations de ses salariés postérieurement à l'entrée en vigueur de la loi, celle-ci s'appliquera tout-à-fait normalement. Si un employeur a consenti une augmentation à ses salariés entre le 1er juin et la date d'entrée en vigueur de la loi et qu'à cette date, il ramène ces salaires à leur niveau du 1er juin, il ne pourra pas faire l'objet de poursuites. En revanche, si cet employeur a maintenu l'augmentation de salaires consentie avant la date d'entrée en vigueur de la loi, postérieurement à celle-ci, il y aura alors un délit continu et il pourra faire l'objet de poursuites. La loi appréhende l'infraction après son entrée en vigueur. Elle ne méconnaît pas la règle de la non-rétroactivité.</seg>
-                <seg><hi rend="underline">Sur le principe du non-cumul des peines</hi> :</seg>
-                <seg>Ce principe veut qu'en matière de crimes et délits l'auteur de plusieurs infractions qui n'ont pas fait l'objet de condamnations définitives soit poursuivi pour l'ensemble de ces infractions et ne soit sanctionné que par une seule peine pour l'ensemble. L'article 5 du Code pénal dispose, en effet : "En cas de conviction de plusieurs crimes et délits, la peine la plus forte est seule prononcée". Ce principe ne s'applique donc pas aux contraventions qui, elles, peuvent <pb n="10"/> se cumuler autant de fois qu'il y a d'infractions. En l'espèce, l'article 3-VII prévoit des peines d'amende de 300 à 8 000 Frs. Il s'agit donc d'amendes délictuelles puisque le seuil des amendes contraventionnelles est de 6 000 Frs. L'objection soulevée par les saisissants ne paraît pas devoir être retenue. Il n'existe pas de principe constitutionnel de non-cumul des peines. Ce principe a simplement valeur législative et, d'ailleurs, les exceptions à cette règle abondent (rébellion, évasion). Le législateur apprécie la nécessité des peines. Rien ne lui interdit, comme en l'espèce, d'édicter une mesure en matière de blocage des rémunérations permettant de cumuler les pénalités "autant de fois qu'il y aura de salariés concernés et pour chaque mois de la période".</seg>
-                <seg><hi rend="underline">Monsieur le rapporteur</hi> déclare en avoir alors terminé de son rapport.</seg>
-                <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT d'avoir accepté de répondre dans des délais aussi brefs aux difficiles questions soulevées par la saisine. Il l'invite alors à donner lecture de son projet de décision.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#segalat_andre">
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> présente alors le rapport suivant :</seg>
+                    <seg>Le 12 juin 1982, le Gouvernement français, après consultation de ses partenaires européens, a procédé à un réajustement monétaire. Quelques jours plus tard, il a fait connaître les mesures d'accompagnement destinées à assainir la situation de la monnaie nationale. Il s'agit essentiellement d'un système instituant un blocage des prix et revenus. Le projet de loi ayant été adopté par le Parlement a fait l'objet d'un recours de la part de 68 députés.</seg>
+                    <seg>La recevabilité de ce recours ne suscite aucune observation. Sur le fond, il faut noter que Monsieur DAILLY a écrit au Président du Conseil constitutionnel en sa qualité de Président de la commission des lois du Sénat afin de lui exposer une erreur commise par les députés signataires. En effet, la saisine dont il s'agit est dirigée, non contre le texte définitivement voté par le Parlement mais contre le texte initial du projet déposé par le Gouvernement. C'est d'ailleurs  sur des observations de Monsieur DAILLY que le Gouvernement a largement corrigé son texte initial.</seg>
+                    <pb n="2"/>
+                    <seg>Quels sont les moyens soutenus par les saisissants ? Il est possible de les regrouper en trois rubriques.</seg>
+                    <seg>Le texte méconnaîtrait 1° le partage entre la loi et le règlement,  2° les principes de non-rétroactivité et d'égalité devant la loi, 3° le principe du non-cumul des peines en matière de crimes et délits. Pour plus de clarté, le projet qui sera proposé au Conseil regroupe ces divers moyens dans l'ordre même des articles litigieux, à savoir les articles 1er, 3 et 4 de la loi.</seg>
+                    <seg>Avant d'examiner le texte déféré, il est nécessaire d'évoquer rapidement l'évolution de la politique en matière des prix.</seg>
+                    <seg>Les textes de base en la matière sont les ordonnances du 30 juin 1945. La première, relative aux prix, a été très souvent remaniée, la seconde concerne les règles de la constatation de la poursuite et de la répression des infractions économiques. Ces textes nés de la pénurie de l'après-guerre ont été appliqués avec plénitude jusqu'en 1953. La phase qui a suivi a été caractérisée par des périodes de liberté entrecoupées de périodes de blocage partiel ou total. C'est ainsi qu'ont été institués divers blocages des prix en 1963, 1968, 1971, 1974 et en 1976. Ce n'est qu'à partir de 1978 que le Gouvernement de Monsieur BARRE, sous l'impulsion du ministre de l'économie, Monsieur MONORY, a entrepris une politique systématique de libération des prix. Celle-ci était très avancée au moment de la dernière élection présidentielle. Il faut cependant signaler qu'à cette époque il restait encore un certain nombre de produits soumis à réglementation.</seg>
+                    <seg>La nouvelle politique du Gouvernement se situe dans le cadre juridique de ces ordonnances de 1945. Il faut bien comprendre en effet que l'outil constitué par ces ordonnances reste en place dans l'ordonnancement juridique. Le fait qu'il ait été procédé à une politique de libération des prix ne rend pas ces ordonnances pour autant caduques. A ce sujet, il faut observer que le dispositif des ordonnances de 1945 a déjà été utilisé en octobre 1981 lors d'un premier réajustement monétaire. A cette époque, il avait été procédé au blocage des prix de certains produits et services, d'autres branches d'activité ayant été invitées à signer des "accords de modération" (le législateur nous parle aujourd'hui d'accords de régulation).</seg>
+                    <seg>Pour comprendre le champ d'application de la loi déférée, il faut distinguer entre les produits et services couverts par l'ordonnance de 1945 et ceux qui échappent à cette ordonnance. Il peut aussi bien s'agir de produits et services qui sont sortis du domaine de cette ordonnance que de produits ou services qui n'y avaient jamais pris place (les loyers et les revenus, par exemple). L'objet de la loi est d'appréhender cette dernière catégorie qui ne peut, en effet, être régie par le système de l'ordonnance de 1945. En résumé, l'ordonnance de 1945, tel un volcan en sommeil, connaît une nouvelle éruption. Elle revit au moyen de divers arrêtés ministériels mais ne concerne que certains prix et revenus.</seg>
+                    <seg>Pour les revenus qui n'entrent pas dans son champ d'application, il a été recouru à la loi objet de la saisine.</seg>
+                    <pb n="3"/>
+                    <seg>Il convient à présent d'examiner successivement les trois articles litigieux.</seg>
+                    <seg><hi style="titre3">Article 1er :</hi></seg>
+                    <seg>Le projet du Gouvernement reposait sur une extension pure et simple des règles de l'ordonnance du 30 juin 1945 à l'ensemble des produits qui y échappaient. L'Assemblée nationale a adopté ce système en rejetant la motion de censure déposée par l'opposition.</seg>
+                    <seg>Au sénat, Monsieur DAILLY a exposé que ce système d'extension de l'ordonnance de 1945 qui se traduit juridiquement par un élargissement des prérogatives du Gouvernement remet en cause la répartition des compétences entre la loi et le réglement telle qu'elle est fixée par l'article 34 de la Constitution.</seg>
+                    <seg>Le Sénat a rejeté le projet en adoptant une question préalable. Bien que la commission mixte paritaire ait échoué, le Gouvernement, sensible aux objections de Monsieur DAILLY, a changé le fondement juridique de son projet. C'est ainsi qu'en deuxième lecture à l'Assemblée nationale il a institué un système de réglementation autonome. C'est de ce système que le Conseil constitutionnel a à connaître. Les auteurs de la saisine ont, d'ailleurs en retard d'une navette, oublié de noter ce changement de fondement juridique.</seg>
+                    <seg>L'article 1er de la loi définit les règles du blocage. Il dispose :</seg>
+                    <seg>"I. Nonobstant toute disposition contraire, et jusqu'au 31 décembre 1983 :</seg>
+                    <seg>1° Les prix figurant sur les factures d'eau et d'assainissement émises après le 11 juin ne peuvent dépasser ceux qui figurent sur la dernière facture reçue par le même abonné. Les nouveaux abonnés ne peuvent se voir appliquer des prix supérieurs à ceux pratiqués à l'égard des anciens abonnés facturés le même jour.</seg>
+                    <seg>2° Les prix des transports routiers de marchandises et des commissions de transports, à l'exception de ceux qui sont fixés dans le cadre de la tarification routière obligatoire, ne peuvent dépasser les niveaux ayant fait l'objet de paiement, de facturation d'arrhes ou de versement d'accomptes à la date du 11 juin ou, à défaut, à la date antérieure la plus proche.</seg>
+                    <seg>3° Les rémunérations versées sous forme d'honoraires ou assimilés, lorsqu'elles ne sont pas déjà soumises à l'ordonnance n° 45-1483 du 30 juin 1945 modifiée ou à une disposition réglementaire fixant leur montant, ne peuvent dépasser les niveaux atteints le 11 juin 1982 ou, à défaut, à la date antérieure la plus proche.</seg>
+                    <seg>II. A compter de la promulgation de la présente loi, le maintien ou l'application de prix ou de rémunérations non conformes aux dispositions du présent article constitue une infraction constatée, poursuivie et réprimée dans les conditions prévues par l'ordonnance n° 45-1484 du 30 juin 1945 modifiée.</seg>
+                    <seg>III. A compter du 1er novembre 1982, il est mis fin au blocage par décret, au vu notamment des accords de régulation qui auront pu être conclus avec les professionnels".</seg>
+                    <pb n="4"/>
+                    <seg>Les trois paragraphes de ce texte font l'objet de critiques.</seg>
+                    <seg><hi style="title4">Paragraphes I et II :</hi></seg>
+                    <seg>Il est fait grief à ces dispositions d'étendre le champ d'application de l'ordonnance du 30 juin 1945. Ce raisonnement est manifestement faux. En effet, l'article 1er définit lui-même les règles du blocage des prix et des revenus. En ce qui concerne plus précisément le paragraphe II qui, en visant la deuxième ordonnance de 1945 relative aux pouvoirs en matière économique, institue un mécanisme de pénalités par référence, il ne semble pas possible de retenir le grief des saisissants. Ce texte se contente d'emprunter des règles pénales à l'ordonnance n° 45-1484 en s'y référant plutôt que de reproduire intégralement les dispositions de cette ordonnance.</seg>
+                    <seg>Il est également soutenu que la redevance d'assainissement visée au paragraphe I ayant le caractère d'une taxe fiscale ne pouvait être modifiée sans utiliser la procédure des lois de finances et les règles de l'ordonnance du 2 janvier 1959. Cette allégation paraît peu fondée. Rien n'oblige à recourir à une loi de finances pour plafonner le taux d'une taxe fiscale. Il est spécieux de faire grief à la présente loi de plafonner ce taux.</seg>
+                    <seg>Un dernier grief est formulé de façon sibylline à l'encontre de ces dispositions. La loi sur le blocage des prix et des revenus serait contraire à la Constitution en ce qu'elle se heurterait à d'autres dispositions législatives mettant notamment en péril l'équilibre budgétaire des collectivités locales. Les saisissants évoquent à ce sujet la notion de conflit de lois. Ce moyen ne paraît pas non plus pouvoir être retenu. La circonstance que l'article 1er soit de nature à compromettre l'application d'autres dispositions législatives est la rançon nécessaire d'un système de blocage des prix et des revenus. Elle est cependant sans influence sur la constitutionnalité de cet article.</seg>
+                    <seg><hi style="title4">Paragraphe III :</hi></seg>
+                    <seg>Ce texte dispose, rappelons-le, qu'à compter du 1er novembre 1981 il est mis fin au blocage par décret, au vu, notamment, des accords de régulation qui auront pu être conclus avec les professionnels.  Pour les auteurs de la saisine, cette disposition est manifestement contraire à la Constitution, le Parlement ne pouvant, en effet, sans méconnaître l'étendue de ses compétences, déléguer au Gouvernement le soin de mettre discrétionnairement fin au régime de blocage. Cette disposition méconnaîtrait donc l'article 34 de la Constitution. Cet argument a été éloquemment développé par Monsieur DAILLY pour qui il aurait fallu recourir à une loi pour sortir du blocage.</seg>
+                    <seg>Que penser de ce grief ?</seg>
+                    <seg>Pour saisir la portée de ce paragraphe III, il faut le combiner avec les dispositions des paragraphes I et II. Il apparaît en effet que les pouvoirs accordés au Gouvernement ne le sont que pendant une durée limitée, à savoir entre le 1er novembre 1982 et le 31 décembre 1983. D'autre part, la levée du blocage ne peut être décidée discrétionnairement par l'autorité gouvernementale mais doit être opérée au vu des accords de régulation. La loi fixe donc des limites de temps et de procédure encadrant ainsi le pouvoir <pb n="5"/> réglementaire. Cet argument suffirait à lui-même pour rejeter le grief des saisissants. Il convient d'ajouter au surplus qu'un système de contrôle des prix et des revenus exige nécessairement que le Gouvernement puisse adapter les règles de droit à la spécificité de chaque secteur de l'économie. Dès qu'on entre dans un système de blocage, une certaine marge doit être laissée au Gouvernement à la condition, bien entendu, que la loi lui fixe des limites générales. Tel semble bien être le cas en l'espèce.</seg>
+                    <seg><hi style="title3">Article 3 : </hi></seg>
+                    <seg>Cet article qui institue le blocage des dividendes distribués par les sociétés commerciales dispose :</seg>
+                    <seg>"I. La somme des bénéfices par titre distribuée par les sociétés en 1982 et 1983 ne pourra excéder celle constituée par le bénéfice de référence défini ci-après et ce bénéfice majoré de 8 p. 100.</seg>
+                    <seg>Le bénéfice de référence est le montant du plus élevé des bénéfices distribués au cours de l'une des années 1979, 1980 et 1981 majoré de 8 p. 100. Si aucun bénéfice n'a été distribué au cours des années 1979, 1980 et 1981, le bénéfice de référence est fixé à 5,4 p. 100 de la valeur nominale des titres.</seg>
+                    <seg>II. Les sociétés qui ont décidé, avant le 11 juin 1982, la mise en distribution de bénéfices qui excèdent le plafond fixé au paragraphe ci-dessus ne pourront procéder à aucune distribution de bénéfices en 1983.</seg>
+                    <seg>III. Par dérogation aux paragraphes I et II ci-dessus, la limitation prévue auxdits paragraphes porte sur la masse totale des bénéfices distribués lorsque le nombre de titres a varié sans que soient modifiés les capitaux propres de la société depuis la fin de l'exercice dont l'ouverture est antérieure d'au plus un an au début de l'année choisie comme base de référence.</seg>
+                    <seg>IV. Les dispositions des paragraphes I et II ne sont pas applicables aux sociétés qui auront procédé depuis le 1er janvier 1982 ou procéderont à une augmentation de capital en numéraire d'un montant égal ou supérieure à 10 p. 100 du capital.</seg>
+                    <seg>Elles ne sont pas applicables non plus aux sociétés d'investissement du titre II de l'ordonnance du 2 novembre 1945, aux sociétés immobilières d'investissement, aux sociétés immobilières pour le commerce et l'industrie et aux sociétés d'investissement à capital variable, qui sont assujetties à des obligations de distribution.</seg>
+                    <seg>Elles ne sont pas applicables non plus aux sociétés dont 95 p. 100 au moins du capital est détenu directement ou indirectement par une autre société ou par l'Etat.</seg>
+                    <seg>V. Les sociétés qui contreviennent aux dispositions du présent article sont passibles d'une amende d'un montant de 20 à 50 F par titre."</seg>
+                    <seg>Les critiques des saisissants concernent les paragraphes II et IV.</seg>
+                    <seg><hi style="title4">Paragraphe II : </hi></seg>
+                    <seg>Ce paragraphe fait l'objet d'une double critique. Il violerait la règle de la non-rétroactivité des lois pénales et le principe de l'égalité devant la loi.</seg>
+                    <seg>En ce qui concerne la méconnaissance de la règle de la non-rétroactivité, il est nécessaire de situer ce principe, d'analyser la saisine et de saisir enfin la portée de la disposition critiquée.</seg>
+                    <pb n="6"/>
+                    <seg>La règle de la non-rétroactivité des lois est une notion pénaliste. Elle postule qu'une loi nouvelle s'applique aux faits accomplis postérieurement à son entrée en vigueur. Un fait ne peut être poursuivi s'il a été perpétré avant cette entrée en vigueur. Cette apparente simplicité est trompeuse. Si un fait se réalise en un instant, nous sommes en présence d'un délit instantané. Il n'y a alors guère de difficultés. En revanche, le problème est plus difficile pour des faits qui sont constitués par une action se prolongeant dans le temps. Il s'agit alors de délits continus. Dans ce cas, il est admis que la loi nouvelle peut s'appliquer dès lors que le fait incriminé, même s'il naît avant son entrée en vigueur, se prolonge sous l'empire de la loi nouvelle, ne fût-ce qu'un instant.</seg>
+                    <seg>Quels sont les arguments des saisissants ?</seg>
+                    <seg>Selon eux, une décision de distribution des dividendes affectés entre le 11 juin et la date d'entrée en vigueur de la loi, si elle est supérieure au plafond des dividendes défini au paragraphe I de l'article 3 pourrait donner lieu, en méconnaissance du principe de la non-rétroactivité des lois, à une sanction pénale. En réalité, l'argument des saisissants est quelque peu confus car, dans le cas qu'ils soulignent, si en 1983 il n'y a pas de distribution nouvelle de dividendes, aucune poursuite pénale ne peut avoir lieu. Par contre, en cas de nouvelle distribution, on entre dans le cas de figure prévu au paragraphe I de l'article 3 qui fixe des plafonds en matière de distribution de dividendes. La confusion relevée dans l'argument des saisissants est largement excusable, le texte de loi n'étant pas d'une grande clarté. Il est difficile, en effet, de comprendre la portée exacte du paragraphe II. On pourrait même le trouver superflu. En effet, la société ayant décidé, avant le 11 juin 1982, de distribuer des bénéfices excédant le plafond du paragraphe I, il ne peut y avoir aucune poursuite en 1982. En revanche, ce ne serait qu'en 1983, en cas de nouvelle distribution, que des poursuites pénales pourraient être engagées. Dès lors, ce paragraphe II paraît superflu. A ce sujet, le rapporteur a jugé utile de demander des explications au service du ministère des finances et de la chancellerie.</seg>
+                    <seg>Monsieur VIGNON du ministère des finances a fourni les explications suivantes :</seg>
+                    <seg>"Enfin, je dois vous confirmer la justesse de l'interprétation à laquelle vous étiez vous-même parvenu du paragraphe II de l'article 3. Ce paragraphe, qui spécifie la situation des Sociétés ayant décidé ou mis en distribution un dividende pour 1982 avant le 11 juin découle directement du paragraphe I. De ce fait, les Sociétés qui auraient décidé ou mis en distribution un dividende entre le 11 juin et la date de promulgation de la loi sont dans la même situation que celles visées au paragraphe II, puisqu'il ne saurait être fait aucune interprétation rétroactive de la loi elle-même. Il en résulte une certaine "redite" entre les paragraphes I et II, mais cette redite n'est pas une redondance, car le paragraphe II retire toute ambiguité par rapport à l'éventuelle question d'une "répétition" du dividende de 1983. En effet, on aurait pu argumenter que les Sociétés ayant dépassé le plafond du dividende cumulé dès 1982, en raison de décisions prises avant la date de promulgation de la loi (a fortiori avant le 11 juin 1982) se trouveraient en infraction dès lors qu'ayant connaissance du texte de la loi promulguée, elles n'auraient pas procédé à répétition de tout ou partie du dividende en 1983".</seg>
+                    <pb n="7"/>
+                    <seg>Le représentant du ministère de la justice a été plus nuancé. Selon lui, dans l'hypothèse où la décision et la distribution de dividendes se situent, l'une et l'autre, entre le 1er juin et le 1er août, il y a, en réalité, une neutralisation. Ni le paragraphe I de la loi n'étant pas encore en vigueur, ni le paragraphe II de la décision n'étant pas antérieur au 11 juin, ne sont susceptibles de s'appliquer. En conséquence, le paragraphe IV serait lui-même inapplicable.</seg>
+                    <seg>Ces interprétations sont bien subtiles.</seg>
+                    <seg>Monsieur le rapporteur propose plus modestement une rédaction qui n'entre pas dans les nuances et interprétations de ces paragraphes mais qui énonce clairement que seuls peuvent faire l'objet de poursuites les faits commis après l'entrée en vigueur de la loi. Cette rédaction a d'ailleurs le mérite de répondre à l'argument de rétroactivité développé dans la saisine.</seg>
+                    <seg>Le paragraphe II est également critiqué en ce qu'il méconnaîtrait le principe d'égalité. Ce grief n'est d'ailleurs pas formulé avec précision. Il semble peu fondé. La diversité des situations devant le blocage justifie des mesures différentes sans aucunement violer l'égalité devant la loi.</seg>
+                    <seg><hi style="title4">Paragraphe IV :</hi></seg>
+                    <seg>Pour les saisissants, cette disposition est doublement contraire à la Constitution. D'une part, elle punit de sanctions pénales les personnes morales, ce qui serait contraire au principe selon lequel seules les personnes physiques sont passibles de sanctions pénales. D'autre part, en ce qu'elle institue une contravention, elle aurait pénétré dans le domaine du réglement dépassant la compétence de la loi.</seg>
+                    <seg><hi rend="underline">En ce qui concerne la responsabilité pénale des personnes morales</hi> :</seg>
+                    <seg>S'il est exact qu'il n'existe pas de principe général instituant la responsabilité des personnes morales, il n'en demeure pas moins que la législation fourmille de mesures particulières instituant des cas de responsabilité pénale des personnes morales. A supposer même qu'il existe un principe de non-responsabilité pénale des personnes morales, ce principe n'aurait pas valeur constitutionnelle.</seg>
+                    <seg><hi rend="underline">En ce qui concerne la violation de l'article 34 de la Constitution</hi> :</seg>
+                    <seg>Pour les saisissants, en édictant une contravention, la loi aurait pénétré dans le domaine du règlement excédant sa compétence et serait, ainsi, contraire à la Constitution.</seg>
+                    <seg>Ce n'est pas la première fois que cette difficile question surgit devant le Conseil. Cependant, bien que cela puisse paraître étonnant après un quart de siècle de cohabitation avec les articles 34 et 37, le Conseil constitutionnel ne s'est jamais prononcé, nettement sur cette difficulté, préférant la contourner. Mardi dernier, lors de la séance consacrée à la loi portant réforme de la planification, Monsieur le Doyen VEDEL, avec science et élégance, est parvenu à éluder ce difficile obstacle. Aujourd'hui, il appartient cependant au Conseil de répondre à la question nettement soulevée par les saisissants. Pour aborder ce sujet, il faut avoir à l'esprit la conception générale qui a guidé le constituant dans l'élaboration des articles 34 et 37. Une première lecture pourrait faire croire que la Constitution sépare de façon rigide les domaines de la loi et du réglement. En réalité, la distinction opérée par la Constitution est beaucoup plus souple.</seg>
+                    <pb n="8"/>
+                    <seg>L'apport de la Constitution de 1958 n'est pas constitué par le concept d'un domaine propre à la loi. Le droit public français reconnaît, en effet, traditionnellement, que le réglement ne peut pas porter atteinte au domaine de la loi. Cet apport essentiel n'est pas non plus constitué par la fixation d'un domaine d'attribution de la loi. En effet, si avant la Vème République, le législateur allait sans cesse de l'avant de façon envahissante, les nécessités de la vie publique conduisaient à des limitations de cet impérialisme. C'est ainsi, afin de procurer une certaine liberté à l'exécutif, qu'étaient adoptés des décrets-lois et lois cadres.</seg>
+                    <seg>L'innovation réelle de la Constitution de 1958 est située ailleurs, d'une part, dans l'attribution au pouvoir réglementaire d'un domaine réservé et, d'autre part, dans l'existence des procédures permettant au Gouvernement de se défendre contre des empiètements du législateur.</seg>
+                    <seg>Les articles 34 et 37, alinéa 1, doivent être interprétés en les rapprochant des articles 37, alinéa 2, et 41, de la Constitution. L'article 41 permet au Gouvernement, en cours de procédure parlementaire, d'opposer l'irrecevabilité à une intervention parlementaire dans le domaine réglementaire. Il paralyse ainsi l'initiative du Parlement.</seg>
+                    <seg>Si une loi est promulguée, le Gouvernement n'en est pas pour autant désarmé. Il dispose de la procédure de l'article 37, alinéa 2, pour défendre son empire. Une loi qui aurait enfreint le domaine réglementaire demeure valable, mais, après constatation de la nature réglementaire de certaines de ces dispositions, le Gouvernement peut la modifier par décret. Il convient de souligner, par ailleurs, que l'une et l'autre de ces procédures ont un caractère facultatif.</seg>
+                    <seg>Le Gouvernement apprécie souverainement l'opportunité de faire usage d'articles 41 ou 37, alinéa 2. C'est dire que la Constitution, devant une irruption de la loi dans le domaine règlementaire ne frappe pas pour autant cette loi d'inconstitutionnalité. Seul le Gouvernement dispose d'une faculté de se défendre contre les empiètements du législateur. Cette interprétation est celle des pères fondateurs de la Constitution de 1958. Elle a été expressément défendue par Monsieur DEBRE à l'occasion d'un dépôt d'une proposition de loi.</seg>
+                    <seg>Monsieur POMPIDOU, alors Premier ministre, a défendu la même thèse lors d'une de ses interventions devant l'Assemblée nationale.</seg>
+                    <seg>Outre ces arguments de fonds, un argument d'opportunité plaide en faveur de l'interprétation souple des articles 34 et 37. Si, en effet, le Conseil constitutionnel devait adopter une attitude rigide en ce qui concerne les domaines respectifs de la loi et du réglement, les assemblées parlementaires seraient constamment obligées de se poser la question de savoir si les textes qu'elles examinent sont de nature législative ou réglementaire. Les nécessités de la vie législative commandent l'adoption par le Conseil  constitutionnel d'une position souple.</seg>
+                    <pb n="9"/>
+                    <seg>Il y a lieu de souligner, enfin, que si le Conseil n'adopte pas la thèse qui lui est proposée par le rapporteur, il y a fort à craindre qu'il ne soit rapidement envahi par de multiples saisines. C'est qu'en effet peu de lois, depuis 1958, ne contiennent pas de dispositions réglementaires.</seg>
+                    <seg>Pour l'ensemble de ces raisons, Monsieur le rapporteur propose au Conseil constitutionnel une interprétation souple des dispositions des articles 34 et 37. Il ne peut y avoir de rideau de fer entre les domaines de la loi et du réglement.</seg>
+                    <seg><hi style="title3">Article 4, paragraphe VII :</hi></seg>
+                    <seg>Cet article dispose :</seg>
+                    <seg>"I. Nonobstant toutes dispositions législatives, réglementaires, statutaires ou stipulations contractuelles contraires, la rémunération brute de l'ensemble des salariés, du secteur public et du secteur privé, quel que soit leur statut juridique, leur lieu d'emploi et la qualité de leurs employeurs ne peut, sous réserve des dispositions qui suivent, faire l'objet d'une majoration durant la période allant du 1er juin au 31 octobre 1982.</seg>
+                    <seg>Cette disposition s'applique notamment aux personnels civils et militaires, titulaires ou non, de toutes les collectivités publiques ainsi que des établissements publics.</seg>
+                    <seg>VII. A compter de l'entrée en vigueur de la présente loi et jusqu'au 31 octobre 1982, tout employeur qui aura procédé à une augmentation des rémunérations ou maintenu une augmentation contraire aux dispositions des paragraphes I à V ci-dessus sera puni d'une amende de 300 à 8 000 F qui sera appliquée autant de fois qu'il y aura eu de salariés concernés et pour chaque mois de cette période".</seg>
+                    <seg>Ces dispositions font l'objet de deux critiques. D'une part, elles méconnaîtraient la règle de la non-rétroactivité et, d'autre part, elles seraient contraires au principe du non-cumul des peines.</seg>
+                    <seg><hi rend="underline">Sur la non-rétroactivité</hi> :</seg>
+                    <seg>Il ne paraît pas utile de revenir sur les développements ci-dessus exposés. En l'espèce, il n'y a pas d'atteinte au principe de la non-rétroactivité des lois pénales. En effet, si un employeur augmente les rémunérations de ses salariés postérieurement à l'entrée en vigueur de la loi, celle-ci s'appliquera tout-à-fait normalement. Si un employeur a consenti une augmentation à ses salariés entre le 1er juin et la date d'entrée en vigueur de la loi et qu'à cette date, il ramène ces salaires à leur niveau du 1er juin, il ne pourra pas faire l'objet de poursuites. En revanche, si cet employeur a maintenu l'augmentation de salaires consentie avant la date d'entrée en vigueur de la loi, postérieurement à celle-ci, il y aura alors un délit continu et il pourra faire l'objet de poursuites. La loi appréhende l'infraction après son entrée en vigueur. Elle ne méconnaît pas la règle de la non-rétroactivité.</seg>
+                    <seg><hi rend="underline">Sur le principe du non-cumul des peines</hi> :</seg>
+                    <seg>Ce principe veut qu'en matière de crimes et délits l'auteur de plusieurs infractions qui n'ont pas fait l'objet de condamnations définitives soit poursuivi pour l'ensemble de ces infractions et ne soit sanctionné que par une seule peine pour l'ensemble. L'article 5 du Code pénal dispose, en effet : "En cas de conviction de plusieurs crimes et délits, la peine la plus forte est seule prononcée". Ce principe ne s'applique donc pas aux contraventions qui, elles, peuvent <pb n="10"/> se cumuler autant de fois qu'il y a d'infractions. En l'espèce, l'article 3-VII prévoit des peines d'amende de 300 à 8 000 Frs. Il s'agit donc d'amendes délictuelles puisque le seuil des amendes contraventionnelles est de 6 000 Frs. L'objection soulevée par les saisissants ne paraît pas devoir être retenue. Il n'existe pas de principe constitutionnel de non-cumul des peines. Ce principe a simplement valeur législative et, d'ailleurs, les exceptions à cette règle abondent (rébellion, évasion). Le législateur apprécie la nécessité des peines. Rien ne lui interdit, comme en l'espèce, d'édicter une mesure en matière de blocage des rémunérations permettant de cumuler les pénalités "autant de fois qu'il y aura de salariés concernés et pour chaque mois de la période".</seg>
+                    <seg><hi rend="underline">Monsieur le rapporteur</hi> déclare en avoir alors terminé de son rapport.</seg>
+                    <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT d'avoir accepté de répondre dans des délais aussi brefs aux difficiles questions soulevées par la saisine. Il l'invite alors à donner lecture de son projet de décision.</seg>
+                </writing>
+            </div4>
             <div4 type="discussion">
                 <u who="#frey_roger">
                     <seg>Après que Monsieur le rapporteur ait lu son projet, Monsieur le Président déclare ouverte la discussion générale.</seg>
@@ -11825,7 +11840,7 @@
                     <seg><hi rend="underline">Monsieur GROS</hi> réitère qu'il ne peut accepter de voir donner caractère législatif à la seconde ordonnance de 1945 en ce que la procédure qu'elle détaille méconnaît les droits de la défense et la liberté individuelle.</seg>
                 </u>
                 <u who="#vedel_georges">
-                    <seg><hi rend="underline">Monsieur VEDEL</hi> estime que la censure de tout empiètement de la loi sur le domaine du réglement rendrait tout travail législatif et tout travail au Conseil constitutionnel impossible. Il faut conserver à l'esprit que l'élaboration d'une loi est le fruit de marchandage entre le Gouvernement et sa majorité, le Gouvernement acceptant en effet, consciemment, que sa majorité puisse faire adopter les dispositions de nature réglementaire. Si l'on admettait que l’opposition <pb n="12"/> puisse intervenir dans ce marchandage par le biais d'une exception d'inconstitutionnalité pour empiètement de la loi sur le réglement, ce serait lui accorder une arme redoutable, une arme atomique, pourrait-on dire.</seg>
+                    <seg><hi rend="underline">Monsieur VEDEL</hi> estime que la censure de tout empiètement de la loi sur le domaine du réglement rendrait tout travail législatif et tout travail au Conseil constitutionnel impossible. Il faut conserver à l'esprit que l'élaboration d'une loi est le fruit de marchandage entre le Gouvernement et sa majorité, le Gouvernement acceptant en effet, consciemment, que sa majorité puisse faire adopter les dispositions de nature réglementaire. Si l'on admettait que l'opposition <pb n="12"/> puisse intervenir dans ce marchandage par le biais d'une exception d'inconstitutionnalité pour empiètement de la loi sur le réglement, ce serait lui accorder une arme redoutable, une arme atomique, pourrait-on dire.</seg>
                     <seg>En ce qui concerne l'objection formulée par Monsieur GROS, s'il est exact que la seconde ordonnance du 30 juin 1945 est rigoureuse et parfois dérogatoire au droit commun, il paraît difficile d'y trouver une violation des droits de l'Homme. Il estime qu'il n'y a donc pas lieu de soulever d'office ce moyen.</seg>
                 </u>
                 <u who="#brouillet_rene #monnerville_gaston">
@@ -11842,14 +11857,14 @@
                 </u>
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> constatant qu'aucun membre du Conseil ne souhaite intervenir, déclare close la discussion générale.</seg>
+                    <seg><span type="vote">Il soumet au vote la décision proposée. Celle-ci est adoptée à l'unanimité des membres, à l'exception de Monsieur GROS qui vote contre.</span></seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>Il soumet au vote la décision proposée. Celle-ci est adoptée à l'unanimité des membres, à l'exception de Monsieur GROS qui vote contre.</p>
-                </div5>
             </div4>
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président lève alors la séance à 12 h 50.</p>
+            <writing>
+                <seg>Monsieur le Président lève alors la séance à 12 h 50.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
