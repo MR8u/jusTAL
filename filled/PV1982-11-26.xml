@@ -26,7 +26,7 @@
     <!-- 0 -->
     <respStmt>
      <resp>
-      Construction d’un corpus analysable et préparation des données
+      Construction d'un corpus analysable et préparation des données
      </resp>
      <name>
       AMBLARD Maxime
@@ -56,7 +56,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      La construction progressive du principe d’égalité
+      La construction progressive du principe d'égalité
      </resp>
      <name>
       DISANT Mathieu
@@ -71,7 +71,7 @@
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
      <resp>
-      Le Conseil constitutionnel et l’évolution de l’État providence en France
+      Le Conseil constitutionnel et l'évolution de l'État providence en France
      </resp>
      <name>
       BLAIRON Katia
@@ -608,13 +608,13 @@
      Agence nationale de la Recherche
     </funder>
     <!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
     <sponsor>
      Maison des Sciences de l'Homme Lorraine
     </sponsor>
     <!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
    </titleStmt>
    <publicationStmt>
     <authority>
@@ -1698,7 +1698,8 @@
        </placeName>
       </birth>
       <death when="1996-12-28"/>
-      <affiliation from="1983-03-04" ref="#CC" role="president" to="1992-03-04"/>
+      <affiliation role="president" ref="#CC" from="1983-03-04" to="1986-03-04" />
+      <affiliation role="membre" ref="#CC" from="1986-03-04" to="1992-03-04" />
      </person>
      <person xml:id="mazeaud_pierre">
       <persName>
@@ -2248,35 +2249,35 @@
 					constitutionnel
     </p>
     <p>
-     L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+     L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.
     </p>
     <p>
      Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.
     </p>
     <p>
-     Il s’agit d’un ensemble de données uniques puisque sont fournies les
+     Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)
     </p>
     <p>
-     C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+     C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -2291,7 +2292,7 @@
    </projectDesc>
    <samplingDecl>
     <!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
     <p>
      L'élément de base du corpus est le procès-verbal
     </p>
@@ -2316,7 +2317,7 @@
    </samplingDecl>
    <editorialDecl>
     <!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
     <!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -2329,15 +2330,15 @@
        Les corrections ne sont pas encodées.
       </item>
       <item>
-       Les fautes d’orthographe sont corrigées si elles proviennent d’une
+       Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.
       </item>
       <item>
-       Les lettres majuscules accentuées présentes dans le texte d’origine
+       Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.
       </item>
@@ -11681,46 +11682,54 @@
         <head type="1">SEANCE DU 26 NOVEMBRE 1982</head>
         <div3 type="ouverture">
             <div4 type="membrePresent">
-                <p>Le Conseil se réunit à 10 heures tous ses membres étant présents à l'exception de Messieurs Valéry GISCARD d'ESTAING et VEDEL, excusés.</p>			   
+                <writing>
+                    <seg>Le Conseil se réunit à 10 heures tous ses membres étant présents à l'exception de Messieurs Valéry GISCARD d'ESTAING et VEDEL, excusés.</seg>
+                </writing>
             </div4>
             <div4 type="ordreDuJour">
-                <p><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour est le suivant :</p>
-                <p>- Examen, en application de l'article 37, alinéa 2, de la Constitution, d'une demande d'appréciation de la nature juridique de diverses dispositions du Code des douanes.</p>
-                <p>Rapporteur : Monsieur André SEGALAT</p>
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> indique que l'ordre du jour est le suivant :</seg>
+                    <seg>- Examen, en application de l'article 37, alinéa 2, de la Constitution, d'une demande d'appréciation de la nature juridique de diverses dispositions du Code des douanes.</seg>
+                    <seg>Rapporteur : Monsieur André SEGALAT</seg>
+                </u>
             </div4>
         </div3>
         <div3 type="question" n="1" corresp="#L-82-129">
             <div4 type="introduction">
-                <p><hi rend="underline">Monsieur le Président</hi> passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.</p>                 
+                <u who="#frey_roger">
+                    <seg><hi rend="underline">Monsieur le Président</hi> passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.</seg>
+                </u>
             </div4>
-            <writing type="rapport" who="#segalat_andre">
-                <seg>C'est la première fois que le Conseil constitutionnel aura à apprécier des dispositions du Code des douanes. Ce Code est né à la suite d'une invitation faite à l'article 5 d’une loi du 17 août 1948, au Gouvernement de refondre l'ensemble des textes et codes fiscaux jusque-là épars. Cette codification devait être annexée au projet de loi de finances pour 1949. C'est ainsi qu'un décret du 10 décembre 1948 a mis en vigueur le nouveau Code des douanes. Code qui a acquis force de loi le 1er janvier 1949. Depuis lors, ce Code des douanes a été modifié suivant deux techniques. Des lois postérieures ont modifié tel ou tel article expressément en s'incorporant au Code. Par ailleurs, il a été recouru à des modifications que l'on peut qualifier d'autonomes sans référence expresse à une disposition. L'incorporation d'une disposition s'effectuant par voie de décret ayant force exécutoire. Ce procédé est d'ailleurs exceptionnel. Citons l'article 221 tiré d'une ordonnance du 27 décembre 1958.</seg>
-                <seg>La Constitution de 1958 a ouvert une nouvelle période dans la vie du Code des douanes. Avec l'extension du domaine de la matière réglementaire, l'administration des douanes s'est préoccupée de dresser le catalogue des dispositions de ce Code ayant une nature réglementaire. C'est d'ailleurs ce travail qui est à l'origine de la présente demande.</seg>
-                <seg>La saisine dont le Conseil a à connaître se révèle très prudente, l'administration a en effet décanté sa saisine initiale au moyen de deux lettres rectificatives qui ont soustrait un certain nombre de dispositions à l'appréciation du Conseil. On serait tenté de dire que les services des douanes qui n'ont guère d'expérience n'ont pas mesuré l'aventure dans laquelle ils se sont lancés.</seg>
-                <seg>Monsieur le Rapporteur rappelle à ses collègues que lors de l'examen d'une loi de finances, il leur avait signalé l'audace vis-à-vis des règles constitutionnelles de certaines dispositions douanières.</seg>
-                <pb n="2"/>
-                <seg>Par ailleurs, des règles découlant d'une réglementation européenne ont encore compliqué la matière. La saisine ne concerne que des dispositions postérieures à 1958. Toutes ont pour origine des textes législatifs à l'exception de trois articles pris en vertu d'ordonnances de l'article 92 de la Constitution. La saisine se présente matériellement  sur un document qui est familier au Conseil à savoir un tableau mis au point sous les directives du Conseil et divisé en cinq colonnes. La première colonne vise le numéro de l'article concerné. La deuxième colonne cite le texte de ces dispositions. La troisième colonne vise 1'origine de ces textes. La quatrième colonne mentionne le texte réglementaire de substitution proposé et la cinquième colonne contient les observations.</seg>
-                <seg>Soixante douze dispositions sont soumises à l'appréciation du Conseil. On peut les regrouper en trois catégories. Celles qui désignent des autorités, celles-qui sont relatives à des modalités d'application et celles qui ont trait à des procédures douanières. Monsieur le Rapporteur indique à ses collègues qu'il s'est efforcé de retenir le plan du Code des douanes dans son projet de décision.</seg>
-                <seg><hi rend="underline">Monsieur SEGALAT</hi> propose alors à ses collègues d'examiner rapidement les dispositions dont il s'agit :</seg>
-                <seg>- Les dispositions comportant désignation d'une autorité compétente. Cette question a fait l'objet d’une jurisprudence constante et abondante du Conseil. Il convient de citer par exemple l'article 7 qui fait référence à un arrêt du Ministre de l'économie et des finances. La désignation de ce Ministre est manifestement réglementaire. Notons que désormais, il y aura un émiettement des dispositions douanières.  Nous sommes bien loin de la simplification qu'implique une codification. Dorénavant, il faudra que le lecteur se réfère au minimum à deux textes, l'un législatif, et l'autre réglementaire.</seg>
-                <seg>- Mesures d'application. Si les règles de principe doivent demeurer dans la partie législative du Code, leurs conditions et modalités d'application sont de nature réglementaire. Ces mesures d'application sont relatives à des règles de transport, de magasins, de dédouanement etc. L'article 77-3 constitue un exemple de ce type de mesures d'application. Cet article prend en quelque sorte le contribuable par la main pour le guider dans les questions de détails.</seg>
-                <seg>- Opérations de dédouanement. Ces règles traitent du régime de la déclaration en détail suivant une terminologie ancienne. Citons les articles 85 , 99 bis, 100-3 ou 100 bis. Il s'agit : de mesures d’application de la règle de l'article 84 du Code des douanes qui pose le principe de la déclaration en détail.</seg>
-                <seg>- Régime douanier suspensif. Il s'agit là de questions de transit, d'entrepôts de stockage qui ne posent guère de difficultés. Citons l'article 127-1 à titre d'exemple.</seg>
-                <seg>- Les zones franches. L'article 289 traite des procédures relatives aux marchandises lorsqu'elles sont placées en zones franches. Là encore, il s'agit d'une disposition réglementaire qui ne mérite guère de retenir l'attention du Conseil.</seg>
-                <seg>Monsieur le Rapporteur déclare en avoir alors terminé. Il demande à ses collègues de bien vouloir l'excuser pour l'aridité de son exposé. Aridité qu'il s'est efforcé de compenser par sa brièveté.</seg>
-            </writing>
+            <div4 type="rapport">
+                <writing who="#segalat_andre">
+                    <seg>C'est la première fois que le Conseil constitutionnel aura à apprécier des dispositions du Code des douanes. Ce Code est né à la suite d'une invitation faite à l'article 5 d'une loi du 17 août 1948, au Gouvernement de refondre l'ensemble des textes et codes fiscaux jusque-là épars. Cette codification devait être annexée au projet de loi de finances pour 1949. C'est ainsi qu'un décret du 10 décembre 1948 a mis en vigueur le nouveau Code des douanes. Code qui a acquis force de loi le 1er janvier 1949. Depuis lors, ce Code des douanes a été modifié suivant deux techniques. Des lois postérieures ont modifié tel ou tel article expressément en s'incorporant au Code. Par ailleurs, il a été recouru à des modifications que l'on peut qualifier d'autonomes sans référence expresse à une disposition. L'incorporation d'une disposition s'effectuant par voie de décret ayant force exécutoire. Ce procédé est d'ailleurs exceptionnel. Citons l'article 221 tiré d'une ordonnance du 27 décembre 1958.</seg>
+                    <seg>La Constitution de 1958 a ouvert une nouvelle période dans la vie du Code des douanes. Avec l'extension du domaine de la matière réglementaire, l'administration des douanes s'est préoccupée de dresser le catalogue des dispositions de ce Code ayant une nature réglementaire. C'est d'ailleurs ce travail qui est à l'origine de la présente demande.</seg>
+                    <seg>La saisine dont le Conseil a à connaître se révèle très prudente, l'administration a en effet décanté sa saisine initiale au moyen de deux lettres rectificatives qui ont soustrait un certain nombre de dispositions à l'appréciation du Conseil. On serait tenté de dire que les services des douanes qui n'ont guère d'expérience n'ont pas mesuré l'aventure dans laquelle ils se sont lancés.</seg>
+                    <seg>Monsieur le Rapporteur rappelle à ses collègues que lors de l'examen d'une loi de finances, il leur avait signalé l'audace vis-à-vis des règles constitutionnelles de certaines dispositions douanières.</seg>
+                    <pb n="2"/>
+                    <seg>Par ailleurs, des règles découlant d'une réglementation européenne ont encore compliqué la matière. La saisine ne concerne que des dispositions postérieures à 1958. Toutes ont pour origine des textes législatifs à l'exception de trois articles pris en vertu d'ordonnances de l'article 92 de la Constitution. La saisine se présente matériellement  sur un document qui est familier au Conseil à savoir un tableau mis au point sous les directives du Conseil et divisé en cinq colonnes. La première colonne vise le numéro de l'article concerné. La deuxième colonne cite le texte de ces dispositions. La troisième colonne vise 1'origine de ces textes. La quatrième colonne mentionne le texte réglementaire de substitution proposé et la cinquième colonne contient les observations.</seg>
+                    <seg>Soixante douze dispositions sont soumises à l'appréciation du Conseil. On peut les regrouper en trois catégories. Celles qui désignent des autorités, celles-qui sont relatives à des modalités d'application et celles qui ont trait à des procédures douanières. Monsieur le Rapporteur indique à ses collègues qu'il s'est efforcé de retenir le plan du Code des douanes dans son projet de décision.</seg>
+                    <seg><hi rend="underline">Monsieur SEGALAT</hi> propose alors à ses collègues d'examiner rapidement les dispositions dont il s'agit :</seg>
+                    <seg>- Les dispositions comportant désignation d'une autorité compétente. Cette question a fait l'objet d'une jurisprudence constante et abondante du Conseil. Il convient de citer par exemple l'article 7 qui fait référence à un arrêt du Ministre de l'économie et des finances. La désignation de ce Ministre est manifestement réglementaire. Notons que désormais, il y aura un émiettement des dispositions douanières.  Nous sommes bien loin de la simplification qu'implique une codification. Dorénavant, il faudra que le lecteur se réfère au minimum à deux textes, l'un législatif, et l'autre réglementaire.</seg>
+                    <seg>- Mesures d'application. Si les règles de principe doivent demeurer dans la partie législative du Code, leurs conditions et modalités d'application sont de nature réglementaire. Ces mesures d'application sont relatives à des règles de transport, de magasins, de dédouanement etc. L'article 77-3 constitue un exemple de ce type de mesures d'application. Cet article prend en quelque sorte le contribuable par la main pour le guider dans les questions de détails.</seg>
+                    <seg>- Opérations de dédouanement. Ces règles traitent du régime de la déclaration en détail suivant une terminologie ancienne. Citons les articles 85 , 99 bis, 100-3 ou 100 bis. Il s'agit : de mesures d'application de la règle de l'article 84 du Code des douanes qui pose le principe de la déclaration en détail.</seg>
+                    <seg>- Régime douanier suspensif. Il s'agit là de questions de transit, d'entrepôts de stockage qui ne posent guère de difficultés. Citons l'article 127-1 à titre d'exemple.</seg>
+                    <seg>- Les zones franches. L'article 289 traite des procédures relatives aux marchandises lorsqu'elles sont placées en zones franches. Là encore, il s'agit d'une disposition réglementaire qui ne mérite guère de retenir l'attention du Conseil.</seg>
+                    <seg>Monsieur le Rapporteur déclare en avoir alors terminé. Il demande à ses collègues de bien vouloir l'excuser pour l'aridité de son exposé. Aridité qu'il s'est efforcé de compenser par sa brièveté.</seg>
+                </writing>
+            </div4>
             <pb n="3"/>
             <div4 type="discussion">
                 <u who="#frey_roger">
                     <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de ce projet de décision. Après lecture de son projet de décision, Monsieur le Président invite les membres du Conseil à formuler toutes les observations qui leur semblent utiles.</seg>
+                    <seg><span type="vote">Aucune observation n'étant présentée Monsieur le Président soumet le projet de décision de Monsieur SEGALAT au vote du Conseil. Ce projet est adopté à l'unanimité.</span></seg>
                 </u>
-                <div5 type="vote" n="1">
-                    <p>Aucune observation n'étant présentée Monsieur le Président soumet le projet de décision de Monsieur SEGALAT au vote du Conseil. Ce projet est adopté à l'unanimité.</p>
-                </div5>
             </div4>
         </div3>
         <div3 type="cloture">
-            <p>Monsieur le Président lève la séance à 10 h 55.</p>
+            <writing>
+                <seg>Monsieur le Président lève la séance à 10 h 55.</seg>
+            </writing>
         </div3>
     </div2>
    </div1>
