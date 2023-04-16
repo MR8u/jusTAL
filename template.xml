@@ -18,7 +18,7 @@
 
 				<!-- 0 -->
 				<respStmt>
-					<resp>Construction d’un corpus analysable et préparation des données</resp>
+					<resp>Construction d'un corpus analysable et préparation des données</resp>
 					<name>AMBLARD Maxime<affiliation /></name>
 					<!--on
 					peut préciser l'affiliation -->
@@ -38,7 +38,7 @@
 				<respStmt><!--faut-il
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
-					<resp>La construction progressive du principe d’égalité</resp>
+					<resp>La construction progressive du principe d'égalité</resp>
 					<name>DISANT Mathieu<affiliation /></name>
 					<!--on
 					peut préciser l'affiliation -->
@@ -48,7 +48,7 @@
 				<respStmt><!--faut-il
 					ne conserver que les responsables d'un traitement appliqué au corpus déposé dans
 					ortolang ou tous les responsables dans le projet scientifique? -->
-					<resp>Le Conseil constitutionnel et l’évolution de l’État providence en France</resp>
+					<resp>Le Conseil constitutionnel et l'évolution de l'État providence en France</resp>
 					<name>BLAIRON Katia<affiliation /></name>
 					<!--on
 					peut préciser l'affiliation -->
@@ -247,11 +247,11 @@
 
 				<funder>Agence nationale de la Recherche</funder>
 				<!--désigne
-				le nom d’une personne ou d’un organisme responsable du financement d’un projet ou
-				d’un texte, Isabelle -->
+				le nom d'une personne ou d'un organisme responsable du financement d'un projet ou
+				d'un texte, Isabelle -->
 				<sponsor>Maison des Sciences de l'Homme Lorraine</sponsor>
 				<!--(commanditaire)
-				indique le nom d’une institution ou d’un organisme partenaires, Isabelle -->
+				indique le nom d'une institution ou d'un organisme partenaires, Isabelle -->
 
 			</titleStmt>
 			<publicationStmt>
@@ -1338,30 +1338,30 @@
 					de tenter de lever le voile des modalités des délibérations du Conseil
 					constitutionnel</p>
 
-				<p>L’objectif du projet Isovote est de reprendre la question de l’interprétation des
+				<p>L'objectif du projet Isovote est de reprendre la question de l'interprétation des
 					principes constitutionnels par une instance collégiale, depuis ses modalités
 					jusque
-					dans ses conséquences et sa légitimité et d’ouvrir la boîte noire sur la manière
+					dans ses conséquences et sa légitimité et d'ouvrir la boîte noire sur la manière
 					dont
-					le principe d’égalité s’est trouvé constitué puis décliné par le Conseil
+					le principe d'égalité s'est trouvé constitué puis décliné par le Conseil
 					constitutionnel français.</p>
 				<p>Mais contrairement aux recherches existantes qui se concentrent sur les décisions
-					finales du Conseil, le projet repose sur l’étude systématique du principe
-					d’égalité
+					finales du Conseil, le projet repose sur l'étude systématique du principe
+					d'égalité
 					dans les délibérations elles-mêmes du Conseil constitutionnel. Nous utilisons un
-					corpus largement sous-estimé et peu étudié jusqu’à présent : les comptes-rendus
+					corpus largement sous-estimé et peu étudié jusqu'à présent : les comptes-rendus
 					dactylographiés des délibérations du Conseil.</p>
-				<p>Il s’agit d’un ensemble de données uniques puisque sont fournies les
+				<p>Il s'agit d'un ensemble de données uniques puisque sont fournies les
 					transcriptions,
 					détaillées et nominatives, des prises de parole des conseillers. Elles
 					comportent
 					aussi les échanges oraux en séance qui ont mené à la décision et qui lèvent
 					ainsi le
-					voile sur le processus concret de la décision. C’est donc un corpus unique par
+					voile sur le processus concret de la décision. C'est donc un corpus unique par
 					son
 					importance (plus de 500 délibérations exploitables pour de 1959 à 1995)</p>
 
-				<p>C’est donc un corpus unique comparé aux juridictions françaises qui ne mettent
+				<p>C'est donc un corpus unique comparé aux juridictions françaises qui ne mettent
 					que
 					rarement à disposition des chercheurs leurs documents préparatoires ou leur
 					délibération Comment se détermine une décision devant le Conseil constitutionnel
@@ -1373,7 +1373,7 @@
 			</projectDesc>
 			<samplingDecl>
 				<!-- description en texte libre du raisonnement et des méthodes utilisés pour
-				l'échantillonnage des textes dans la création d’un corpus-->
+				l'échantillonnage des textes dans la création d'un corpus-->
 				<p>L'élément de base du corpus est le procès-verbal</p>
 				<p>Dans les textes OCRisés, les annexes n'ont pas été transcrites et ont été
 					retirées.</p>
@@ -1390,7 +1390,7 @@
 			</samplingDecl>
 			<editorialDecl>
 				<!--précisions
-				sur les pratiques et les principes éditoriaux appliqués au cours de l’encodage du
+				sur les pratiques et les principes éditoriaux appliqués au cours de l'encodage du
 				texte sur le modèle utilisé dans cartohugo_travailleursdelamer -->
 				<!--<revision>
 				et <hyphenation> n'ont pas été utilisés -->
@@ -1398,13 +1398,13 @@
 					premières structurations: <lb />
                   <list>
 						<item>Les corrections ne sont pas encodées.</item>
-						<item>Les fautes d’orthographe sont corrigées si elles proviennent d’une
+						<item>Les fautes d'orthographe sont corrigées si elles proviennent d'une
 					erreur de
-							l’océrisation. En revanche, elles sont conservées si elles viennent du
+							l'océrisation. En revanche, elles sont conservées si elles viennent du
 					document
 							lui-même, dans ce cas une correction a été proposée sous forme de
 					commentaire.</item>
-						<item>Les lettres majuscules accentuées présentes dans le texte d’origine
+						<item>Les lettres majuscules accentuées présentes dans le texte d'origine
 					sont
 							remplacées par la lettre équivalente sans accent.</item>
 						<item>Les numéros de page dans les documents d'origine sont indiqués par une
