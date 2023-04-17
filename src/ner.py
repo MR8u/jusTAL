@@ -7,7 +7,7 @@ from src.utils import write_jsonl
 
 INPUT = Path('data/filled/')
 MODEL = 'en_core_web_trf'
-OUTPUT = Path(f'data/{MODEL}.jsonl')
+OUTPUT = Path(f'data/82_{MODEL}.jsonl')
 
 nlp = spacy.load(MODEL)
 
