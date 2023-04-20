@@ -1,0 +1,491 @@
+sent_id,sent_text,mention_start,mention_end,mention_text,is_speaker,is_target
+0,Monsieur le Président remercie Monsieur LECOURT de son rapport et déclare que la discussion générale est ouverte.,12,21,Président,True,False
+0,Monsieur le Président remercie Monsieur LECOURT de son rapport et déclare que la discussion générale est ouverte.,40,47,LECOURT,False,True
+1,"Monsieur VEDEL, après avoir souligné que la procédure de l'article 38 est de nature à réduire l'étendue du contrôle du Conseil constitutionnel qui, après l'examen de la loi d'habilitation, n'est plus susceptible de porter que sur la loi de ratification qui n'est examinée bien souvent que très tardivement par le Parlement, précise, sur le fond, qu'il redoute que l'appréciation du critère de l'âge n'autorise le Gouvernement à instaurer un système extrêmement contraignant.",9,14,VEDEL,True,False
+3,Monsieur GROS rappelle que bien souvent les retraites sont alimentées par des cotisations volontaires.,9,13,GROS,True,False
+5,Monsieur BROUILLET se déclare sensible à la première partie de l'argumentation de Monsieur VEDEL sur la diminution du champ de contrôle du Conseil constitutionnel dans le cadre de la procédure de l'article 38 de la Constitution.,9,18,BROUILLET,True,False
+5,Monsieur BROUILLET se déclare sensible à la première partie de l'argumentation de Monsieur VEDEL sur la diminution du champ de contrôle du Conseil constitutionnel dans le cadre de la procédure de l'article 38 de la Constitution.,91,96,VEDEL,False,True
+7,Monsieur SEGALAT approuve l'intervention de Monsieur BROUILLET qui est d'ordre psychologique.,9,16,SEGALAT,True,False
+7,Monsieur SEGALAT approuve l'intervention de Monsieur BROUILLET qui est d'ordre psychologique.,53,62,BROUILLET,False,True
+9,Monsieur PERETTI et Monsieur JOXE sont d'accord pour considérer que le texte de la loi est obscur et mal rédigé.,9,16,PERETTI,True,False
+9,Monsieur PERETTI et Monsieur JOXE sont d'accord pour considérer que le texte de la loi est obscur et mal rédigé.,29,33,JOXE,True,False
+10,Monsieur MONNERVILLE est du même avis.,9,20,MONNERVILLE,True,False
+13,Monsieur le President ne méconnaît pas la finesse de l'observation psychologique de Monsieur BROUILLET mais il se déclare également frappé par l'imprécision de la loi en matière de cumul.,12,21,President,True,False
+13,Monsieur le President ne méconnaît pas la finesse de l'observation psychologique de Monsieur BROUILLET mais il se déclare également frappé par l'imprécision de la loi en matière de cumul.,93,102,BROUILLET,False,True
+14,Monsieur SEGALAT considère qu'il serait regrettable pour le Conseil de censurer cette loi sur le fondement de l'imprécision du critère de l'âge.,9,16,SEGALAT,True,False
+17,Monsieur VEDEL se déclare d'accord sur ce point avec Monsieur SEGALAT.,9,14,VEDEL,True,False
+17,Monsieur VEDEL se déclare d'accord sur ce point avec Monsieur SEGALAT.,62,69,SEGALAT,False,True
+22,Monsieur MONNERVILLE estime que le projet de décision répond exclusivement aux moyens de la saisine.,9,20,MONNERVILLE,True,False
+24,Monsieur LECOURT approuve cette suggestion de Monsieur MONNERVILLE.,9,16,LECOURT,True,False
+24,Monsieur LECOURT approuve cette suggestion de Monsieur MONNERVILLE.,55,66,MONNERVILLE,False,True
+25,En explicitant sa décision le Conseil constitutionnel pourra faire comprendre au Gouvernement qu'il ne peut méconnaître les principes constitutionnels évoqués par Monsieur VEDEL.,172,177,VEDEL,False,False
+26,Monsieur VEDEL se rallie à cette proposition.,9,14,VEDEL,True,False
+31,Monsieur LECOURT déclare approuver la modification proposée par Monsieur VEDEL.,9,16,LECOURT,True,False
+31,Monsieur LECOURT déclare approuver la modification proposée par Monsieur VEDEL.,73,78,VEDEL,False,True
+32,Monsieur le Président déclare que la discussion générale est close et met le projet de décision au vote.,12,21,Président,True,False
+33,"Monsieur VEDEL termine son rapport en disant que les deux décisions rendues sur la matière des nationalisations conduiront les analystes, une fois les passions retombées, à conclure que le Conseil a donné une solution très raisonnable qui revient à dire que le Parlement peut nationaliser des entreprises, à la condition, bien évidemment, de payer pour cela des prix convenables.",9,14,VEDEL,True,False
+34,"Le Président remercie Monsieur VEDEL de cet excellent rapport et regrette, quant à lui, que si, comme le dit Monsieur VEDEL, l'attitude du Gouvernement a été parfaitement convenable après la première décision du Conseil, certains parlementaires aient jugé bon d'attaquer le Conseil et même d'insulter ses membres.",3,12,Président,True,False
+34,"Le Président remercie Monsieur VEDEL de cet excellent rapport et regrette, quant à lui, que si, comme le dit Monsieur VEDEL, l'attitude du Gouvernement a été parfaitement convenable après la première décision du Conseil, certains parlementaires aient jugé bon d'attaquer le Conseil et même d'insulter ses membres.",31,36,VEDEL,False,True
+34,"Le Président remercie Monsieur VEDEL de cet excellent rapport et regrette, quant à lui, que si, comme le dit Monsieur VEDEL, l'attitude du Gouvernement a été parfaitement convenable après la première décision du Conseil, certains parlementaires aient jugé bon d'attaquer le Conseil et même d'insulter ses membres.",118,123,VEDEL,False,True
+35,"Monsieur PERETTI rappelle, à propos de la procédure d'urgence, qu'il avait dit, avant que le Conseil ne fût saisi de la première loi, que si l'urgence était demandée sur une affaire aussi complexe il ne participerait pas aux travaux que le Conseil devrait alors menés dans une telle hâte.",9,16,PERETTI,True,False
+36,Il rappelle que Monsieur VEDEL avait d'ailleurs indiqué qu'il n'estimait pas que l'appréciation d'urgence fût à la seule discrétion du Gouvernement.,25,30,VEDEL,False,True
+38,"Monsieur GROS estime, sur ce point également, qu'il y a une question de fond qui risque de devenir très sérieuse et sur laquelle il serait utile que le Conseil prenne position.",9,13,GROS,True,False
+39,Monsieur LECOURT se demande si se contenter de viser l'urgence comme on le fait dans le projet soumis au Conseil n'est pas lui reconnaître une force indépendante de toute appréciation du Conseil.,9,16,LECOURT,True,False
+40,"Il note que l'on vise la demande d'urgence comme on vise plus bas la Constitution, c'est-à-dire comme s'il s'agissait d'un texte qui s'impose absolument au Conseil sans qu'il ait rien à dire sur l'appréciation contenue par la lettre du Premier ministre.",236,252,Premier ministre,False,False
+42,"Le Président indique, quant à lui, que le visa ne lui paraît pas du tout avoir la portée que semble craindre Monsieur LECOURT.",3,12,Président,True,False
+42,"Le Président indique, quant à lui, que le visa ne lui paraît pas du tout avoir la portée que semble craindre Monsieur LECOURT.",118,125,LECOURT,False,True
+45,Monsieur SEGALAT estime qu'il n'est pas possible de se dispenser de viser la lettre demandant l'urgence.,9,16,SEGALAT,True,False
+47,Le Premier ministre tient de la Constitution le pouvoir de demander au Conseil de statuer selon la procédure d'urgence.,3,19,Premier ministre,False,False
+52,Monsieur VEDEL : il est certain qu'il faut viser cette lettre.,9,14,VEDEL,True,False
+54,"Monsieur SEGALAT propose que l'on dise, au début de la décision, ""sans qu'il soit besoin de se prononcer sur l'urgence"".",9,16,SEGALAT,True,False
+55,Monsieur MONNERVILLE préfère infiniment la rédaction actuelle qui n'engage en rien l'avenir.,9,20,MONNERVILLE,True,False
+57,"Pour le President, l'article 61 de la Constitution prévoit la demande d'urgence.",8,17,President,True,False
+58,Le Premier ministre en a fait application.,3,19,Premier ministre,False,False
+61,Monsieur PERETTI est d'accord pour que l'avenir soit ainsi réservé si le visa proposé ne nous engage pas déjà pour la solution qui serait donnée en cas de discussion.,9,16,PERETTI,True,False
+62,Monsieur VEDEL : aller au-delà de la rédaction actuelle serait créer une équivoque.,9,14,VEDEL,True,False
+64,"Monsieur SEGALAT indique que la rédaction en réponse sur l'argument tiré de l'article 34, selon lequel après avoir énuméré les critères le législateur ne saurait donner la liste des banques nationalisées par application de ces critères, ne lui paraît pas satisfaisante.",9,16,SEGALAT,True,False
+82,Le Président donne encore les indications suivantes sur la suite des travaux du Conseil.,3,12,Président,True,False
+85,"Le Conseil se réunira à nouveau le jeudi 18 à 10 heures du matin et, s'il y a lieu, 1'après-midi, pour entendre la présentation générale des questions qui se posent sur la décentralisation par le rapporteur, Monsieur LECOURT.",196,206,rapporteur,False,False
+85,"Le Conseil se réunira à nouveau le jeudi 18 à 10 heures du matin et, s'il y a lieu, 1'après-midi, pour entendre la présentation générale des questions qui se posent sur la décentralisation par le rapporteur, Monsieur LECOURT.",217,224,LECOURT,False,False
+87,"Le mardi 2 mars, une réunion qui durera également toute la journée s'il est nécessaire sera consacrée à l'examen de la loi portant statut de la Corse, au rapport de Monsieur BROUILLET.",174,183,BROUILLET,False,False
+88,Monsieur GROS pose la question du caractère contradictoire des procédures.,9,13,GROS,True,False
+89,"Monsieur le Président indique que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions dont le Conseil a été saisi, par soixante députés et par soixante sénateurs, en application de l'article 61, alinéa 2, de la Constitution.",12,21,Président,True,False
+90,Monsieur LECOURT déclare en avoir alors terminé avec son exposé.,9,16,LECOURT,True,False
+91,Monsieur le Président remercie Monsieur LECOURT pour son remarquable rapport.,12,21,Président,True,False
+91,Monsieur le Président remercie Monsieur LECOURT pour son remarquable rapport.,40,47,LECOURT,False,True
+92,Monsieur le Président déclare que la discussion générale est alors ouverte.,12,21,Président,True,False
+93,"Monsieur PERETTI, après avoir fait observer que la loi déférée est mal rédigée et parfois ambiguë",9,16,PERETTI,True,False
+96,"Monsieur GROS s'interroge sur le sens qu'il faut donner aux mots ""autre collectivité territoriale "" qui figurent à l'article 72 de la Constitution.",9,13,GROS,True,False
+97,"Le rapporteur peut-il lui indiquer, de façon certaine, si les régions sont érigées ou non en collectivités locales ?",3,13,rapporteur,False,True
+100,"Monsieur LECOURT indique que si l'article 60 de la loi diffère de la transformation des établissements publics régionaux en collectivités locales jusqu'à la première réunion des conseils élus, il n'en demeure pas moins que la collectivité locale régionale existe en puissance.",9,16,LECOURT,True,False
+101,"Il estime qu'il est exact, comme l'a souligné Monsieur GROS, que l'article 72 peut prêter à interrogation.",55,59,GROS,False,True
+102,"Au cours des discussions parlementaires, des thèses contradictoires ont été défendues par Monsieur FOYER.",99,104,FOYER,False,True
+104,"En réalité, Monsieur LECOURT estime que ces deux possibilités restent ouvertes.",21,28,LECOURT,True,False
+108,Monsieur VEDEL remercie Monsieur LECOURT pour son exposé lumineux et dense.,9,14,VEDEL,True,False
+108,Monsieur VEDEL remercie Monsieur LECOURT pour son exposé lumineux et dense.,33,40,LECOURT,False,True
+110,"Il approuve pleinement l'analyse du rapporteur sur les trois termes : contrôle administratif, respect des lois et intérêts nationaux figurant à l'alinéa 3 de l'article 72.",36,46,rapporteur,False,True
+122,"Sur ce point, Monsieur VEDEL se déclare quelque peu choqué car il lui apparaît que le représentant de l'Etat se trouve parfois dans une situation inférieure à celle d'un simple citoyen.",23,28,VEDEL,True,False
+127,Monsieur LECOURT souhaite évoquer un point qu'il n'a pas abordé lors de son rapport.,9,16,LECOURT,True,False
+138,Monsieur MONNERVILLE remercie Monsieur LECOURT d'avoir évoqué cette question.,9,20,MONNERVILLE,True,False
+138,Monsieur MONNERVILLE remercie Monsieur LECOURT d'avoir évoqué cette question.,39,46,LECOURT,False,True
+140,"Monsieur GROS considère que, conformément à l'article L. 280 du Code électoral, ce sont les départements qui sont représentés au Sénat.",9,13,GROS,True,False
+142,"Monsieur MONNERVILLE estime que, dès qu'une collectivité locale nouvelle est créée, elle doit être représentée au Sénat.",9,20,MONNERVILLE,True,False
+146,"Monsieur BROUILLET fait remarquer que le texte dont il est rapporteur, portant statut particulier de la région de Corse, est en étroite corrélation avec le texte général sur la décentralisation qu'examine, à présent, le Conseil.",9,18,BROUILLET,True,False
+146,"Monsieur BROUILLET fait remarquer que le texte dont il est rapporteur, portant statut particulier de la région de Corse, est en étroite corrélation avec le texte général sur la décentralisation qu'examine, à présent, le Conseil.",59,69,rapporteur,False,False
+150,Monsieur LECOURT rappelle que le problème de la représentation des régions au Sénat n'a pas été soulevé par les auteurs des saisines déférant au Conseil la loi générale de décentralisation,9,16,LECOURT,True,False
+151,"Il suggère donc que, dans la présente décision, il soit fait une simple et rapide allusion à cette question qui est expressément soulevée à propos de la loi portant statut particulier de la Corse et dont Monsieur BROUILLET est rapporteur.",213,222,BROUILLET,False,False
+151,"Il suggère donc que, dans la présente décision, il soit fait une simple et rapide allusion à cette question qui est expressément soulevée à propos de la loi portant statut particulier de la Corse et dont Monsieur BROUILLET est rapporteur.",227,237,rapporteur,False,True
+155,Monsieur VEDEL rappelle à ses collègues qu'une difficulté du même ordre avait été déjà soulevée à l'occasion d'un recours contre l'élection sénatoriale de l'Eure.,9,14,VEDEL,True,False
+162,"Monsieur SEGALAT considère que si le Conseil se bornait à une annulation partielle de la présente loi, elle pourra être promulguée par le Gouvernement et, dans ce cas, rien ne s'opposera à ce que le Conseil rende sa décision sur la saisine relative à la Corse.",9,16,SEGALAT,True,False
+163,"Monsieur VEDEL indique qu'il y a, néanmoins, une difficulté, dans la mesure où la loi sur la région de Corse, dans son article 1, se réfère à deux reprises à la loi générale de décentralisation ""n° 82- du février 1982"".",9,14,VEDEL,True,False
+164,"Si cette loi ne peut être promulguée avant la fin du présent mois, la promulgation ne pourra intervenir car le Président de la République ne pourrait remplacer la référence au mois de février par une autre au mois de mars.",111,137,Président de la République,False,True
+165,"Monsieur PERETTI souhaite vivement, néanmoins, que les deux décisions soient rendues en même temps.",9,16,PERETTI,True,False
+167,"Monsieur BROUILLET déplore à son tour la méthode des lois ""gigognes"".",9,18,BROUILLET,True,False
+169,"Monsieur le Président, après avoir demandé si d'autres membres souhaitent intervenir, lève la séance à 18h05, après avoir indiqué que l'examen de la loi relative aux droits et libertés des communes, des départements et des régions, sera poursuivi lors de la séance du 23 février 1980 à 10 heures.",12,21,Président,True,False
+170,"M. Le Président rappelle l'ordre du jour porte sur la poursuite de l'examen de la conformité à la Constitution de la loi relative aux droits et libertés des communes, des départements et des régions.",6,15,Président,True,False
+171,"Monsieur LECOURT indique qu'éclairé par la délibération du Conseil, lors de sa séance du 18 février 1982, il est en mesure de lui proposer un projet de décision.",9,16,LECOURT,True,False
+178,Monsieur LECOURT donne alors lecture de son projet de décision.,9,16,LECOURT,True,False
+179,Monsieur le Président remercie Monsieur LECOURT et déclare que la discussion générale portant sur ce projet est ouverte.,12,21,Président,True,False
+179,Monsieur le Président remercie Monsieur LECOURT et déclare que la discussion générale portant sur ce projet est ouverte.,40,47,LECOURT,False,True
+180,Monsieur VEDEL rend hommage au projet clair et remarquablement rédigé que Monsieur LECOURT a élaboré.,9,14,VEDEL,True,False
+180,Monsieur VEDEL rend hommage au projet clair et remarquablement rédigé que Monsieur LECOURT a élaboré.,83,90,LECOURT,False,True
+182,Monsieur LECOURT lui confirme que tel est le cas.,9,16,LECOURT,True,False
+191,"Monsieur GROS indique qu'il ne comprend pas le sens qu'il convient de donner aux articles 4, 47 et 69-11 de la loi.",9,13,GROS,True,False
+193,Monsieur VEDEL indique à ses collègues qu'après mûres réflexions une déclaration de non-conformité lui paraît moins fondée qu'il ne le pensait à première vue.,9,14,VEDEL,True,False
+194,"En effet, la loi contestée qui permet à un particulier d'attaquer directement un acte administratif devant le tribunal administratif sans le soumettre, comme le fait la législation actuelle, à l'obligation de procéder à un recours préalable devant le préfet, est de nature à porter un remède aux parenthèses dans l'exercice du contrôle administratif qu'a fortement mis en évidence Monsieur LECOURT.",390,397,LECOURT,False,True
+197,"Monsieur LECOURT ne voit pas pourquoi il n'y aurait pas lieu d'annuler ces articles 4, 47 et 69-11 qui, manifestement, améliorent la situation des particuliers qui s'estiment lésés par un acte administratif.",9,16,LECOURT,True,False
+203,"Monsieur VEDEL fait remarquer qu'il ne peut y avoir de contrôle, par une juridiction administrative, d'un intérêt national, que pour autant qu'il est fixé par une loi.",9,14,VEDEL,True,False
+213,Monsieur SEGALAT souligne que subordonner le caractère exécutoire d'un acte administratif à sa transmission au représentant de l'Etat permet simplement d'avancer la mise en oeuvre de son contrôle administratif d'un délai maximum de quinze jours.,9,16,SEGALAT,True,False
+214,"Pour ce qui est du délai d'attente de vingt jours auquel est soumis le préfet avant de pouvoir saisir le tribunal, il estime que les développements précédents du Doyen VEDEL tendraient à le convaincre que cette paralysie restera assez théorique.",168,173,VEDEL,False,True
+216,Monsieur VEDEL confirme que c'est là un problème essentiel.,9,14,VEDEL,True,False
+218,Cette interprétation positive serait alors de nature à couvrir le vide dans le déroulement du contrôle administratif mis en évidence par Monsieur LECOURT.,146,153,LECOURT,False,True
+219,Monsieur SEGALAT se rallie pleinement à cette position.,9,16,SEGALAT,True,False
+220,Monsieur LECOURT rappelle à ses collègues les termes de l'article 72 de la Constitution.,9,16,LECOURT,True,False
+223,"Il rappelle qu'en tout état de cause, même si on adopte la suggestion de Monsieur VEDEL quant à une interprétation à donner aux articles 4, 47 et 69-11, restera le fait que l'absence de transmission, dans les quinze jours, d'un acte administratif au représentant de l'Etat, n'est pas sanctionnée.",82,87,VEDEL,False,True
+231,"Monsieur BROUILLET indique que, quelle que soit l'interprétation donnée à ces articles 4, 47 et 69-11, il est extrêmement troublé car l'article 72 de la Constitution donne, de façon formelle, une mission essentielle au représentant de l'Etat.",9,18,BROUILLET,True,False
+234,"Monsieur PERETTI rappelle, comme il l'a dit précédemment, qu'il est difficile d'examiner la présente loi sans avoir présent à l'esprit celle portant statut particulier de la région de Corse.",9,16,PERETTI,True,False
+235,Il regrette que le projet de Monsieur LECOURT ne fasse pas allusion au caractère un et indivisible de la République.,38,45,LECOURT,False,True
+238,Monsieur MONNERVILLE comprend les préoccupations de Monsieur PERETTI.,9,20,MONNERVILLE,True,False
+238,Monsieur MONNERVILLE comprend les préoccupations de Monsieur PERETTI.,61,68,PERETTI,False,True
+242,Monsieur JOXE partage les préoccupations de Messieurs PERETTI et MONNERVILLE.,9,13,JOXE,True,False
+242,Monsieur JOXE partage les préoccupations de Messieurs PERETTI et MONNERVILLE.,54,61,PERETTI,False,True
+242,Monsieur JOXE partage les préoccupations de Messieurs PERETTI et MONNERVILLE.,65,76,MONNERVILLE,False,True
+247,"Monsieur le Président donne connaissance au Conseil d'une proposition de de loi portant statut particulier de la Corse, déposée par Monsieur DEFFERRE et d'autres membres du Groupe Socialiste lors de la première session 1980/1981.",12,21,Président,True,False
+247,"Monsieur le Président donne connaissance au Conseil d'une proposition de de loi portant statut particulier de la Corse, déposée par Monsieur DEFFERRE et d'autres membres du Groupe Socialiste lors de la première session 1980/1981.",141,149,DEFFERRE,False,False
+254,"Il rappelle, d'autre part, qu'il est intéressant de souligner que c'est Monsieur DEFFERRE lui-même qui avait proposé, en seconde lecture, au Sénat, un amendement qui subordonnait le caractère exécutoire des actes administratifs des collectivités locales à leur transmission au représentant de l'Etat.",81,89,DEFFERRE,False,True
+258,Monsieur le Président fait connaître qu'il approuver pleinement le projet de décision de Monsieur LECOURT.,12,21,Président,True,False
+258,Monsieur le Président fait connaître qu'il approuver pleinement le projet de décision de Monsieur LECOURT.,98,105,LECOURT,False,True
+260,Monsieur BROUILLET estime que le Conseil doit être extrêmement attentif aux implications qu'aura sa présente décision.,9,18,BROUILLET,True,False
+261,"Si le Conseil estime devoir mettre en relief certaines notions fondamentales, telles l'unité de la République ou la défense des intérêts nationaux, il serait souhaitable qu'il le fasse dans la présente décision plutôt que lors de la décision sur le texte particulier relatif à la Corse dont il est rapporteur, sinon il se demande si le Conseil n'arriverait pas à un but autre que celui qu'il vise.",298,308,rapporteur,False,False
+262,Monsieur VEDEL résume donc la situation.,9,14,VEDEL,True,False
+264,Monsieur le Président invite alors le Conseil à se prononcer sur le projet de décision soutenu par Monsieur LECOURT.,12,21,Président,True,False
+264,Monsieur le Président invite alors le Conseil à se prononcer sur le projet de décision soutenu par Monsieur LECOURT.,108,115,LECOURT,False,False
+265,"Monsieur le Président indique au Conseil qu'il lui soumettra, pour relecture définitive, la décision adoptée ce jour, lors de la prochaine séance prévue le 25 février 1982 à 10 heures.",12,21,Président,True,False
+266,Monsieur le Président rappelle que l'ordre du jour porte sur l'examen de la conformité à la Constitution de la loi de finances rectificative pour 1982.,12,21,Président,True,False
+267,"Après la lecture de ce projet de décision, Monsieur le Président déclare ouverte la discussion générale.",55,64,Président,True,False
+268,"Monsieur GROS déclare que s'il a été séduit par le rapport, celui-ci ne l'a pas convaincu.",9,13,GROS,True,False
+275,"Par ailleurs, il récuse les explications de Monsieur SEGALAT en ce qui concerne la personnalité morale du fonds de compensation.",53,60,SEGALAT,False,True
+280,Monsieur GROS précise enfin qu'il ne peut souscrire à la décision qui affirme qu'un impôt d'Etat peut être affecté à une personne morale sans respecter strictement les dispositions de l'ordonnance du 2 janvier 1959.,9,13,GROS,True,False
+282,La solution proposée par Monsieur SEGALAT méconnaît l'article 18 de l'ordonnance qui fait état de toutes les recettes et de toutes les dépenses de l'Etat.,34,41,SEGALAT,False,True
+283,Monsieur VEDEL indique à ses collègues qu'il est important de distinguer la notion d'organisme de celle des personnes morales.,9,14,VEDEL,True,False
+291,"Monsieur VEDEL ajoute que si le pouvoir fiscal appartient à l'Etat exclusivement, le produit des impositions peut ne pas être exclusivement affecté au budget de l'Etat.",9,14,VEDEL,True,False
+293,Monsieur SEGALAT souscrit entièrement à ce que vient d'indiquer Monsieur le Doyen VEDEL.,9,16,SEGALAT,True,False
+293,Monsieur SEGALAT souscrit entièrement à ce que vient d'indiquer Monsieur le Doyen VEDEL.,82,87,VEDEL,False,True
+294,Monsieur BROUILLET partage la perplexité de Monsieur GROS.,9,18,BROUILLET,True,False
+294,Monsieur BROUILLET partage la perplexité de Monsieur GROS.,53,57,GROS,False,True
+296,Monsieur SEGALAT indique à Monsieur BROUILLET qu'à ses yeux l'article 18 de l'ordonnance ne doit être considéré que comme un article d'application de l'article 34 de la Constitution.,9,16,SEGALAT,True,False
+296,Monsieur SEGALAT indique à Monsieur BROUILLET qu'à ses yeux l'article 18 de l'ordonnance ne doit être considéré que comme un article d'application de l'article 34 de la Constitution.,36,45,BROUILLET,False,True
+299,Monsieur GROS rappelle qu'il était rapporteur dans cette affaire.,9,13,GROS,True,False
+299,Monsieur GROS rappelle qu'il était rapporteur dans cette affaire.,35,45,rapporteur,True,False
+302,Monsieur VEDEL rappelle qu'en tant qu'universitaire il a pu constater les efforts faits par les diverses U.E.R. afin de créer les instituts les plus divers dans le but de bénéficier du produit de la taxe d'apprentissage versée par les employeurs.,9,14,VEDEL,True,False
+307,Monsieur JOXE demande à Monsieur SEGALAT quelle serait la définition qu'il donne désormais à la taxe parafiscale.,9,13,JOXE,True,False
+307,Monsieur JOXE demande à Monsieur SEGALAT quelle serait la définition qu'il donne désormais à la taxe parafiscale.,33,40,SEGALAT,False,True
+308,Monsieur SEGALAT indique que la définition qu'il donne aux taxes parafiscales est contenue à l'article 4 de l'ordonnance du 2 janvier 1959.,9,16,SEGALAT,True,False
+310,Monsieur VEDEL comprend tout à fait l'objection qu'a formulée Monsieur JOXE.,9,14,VEDEL,True,False
+310,Monsieur VEDEL comprend tout à fait l'objection qu'a formulée Monsieur JOXE.,71,75,JOXE,False,True
+314,Monsieur le Président se déclare très troublé par la facilité avec laquelle le Gouvernement a abandonné l'exercice de ses prérogatives.,12,21,Président,True,False
+317,Monsieur SEGALAT considère qu'il serait encore plus grave de priver le Gouvernement du choix entre la voie de l'imposition et la voie de la parafiscalité.,9,16,SEGALAT,True,False
+319,Monsieur le Président rappelle que le Conseil constitutionnel est un organe régulateur dans le fonctionnement de l'Etat.,12,21,Président,True,False
+322,"Monsieur GROS souhaiterait savoir si, le Conseil constitutionnel ayant décidé que la redevance du fonds de compensation a une nature fiscale, il lui serait possible, saisi en vertu de l'article 37, alinéa 2, de déclasser cette disposition.",9,13,GROS,True,False
+323,"Monsieur SEGALAT lui répond que, dans ce cas, le Conseil ne pourrait que répondre au Gouvernement qu'ayant fait un choix celui-ci est irrévocable.",9,16,SEGALAT,True,False
+324,Monsieur VEDEL confirme cette opinion.,9,14,VEDEL,True,False
+327,Monsieur GROS considère que la question qu'il vient de soulever n'a rien d'une hypothèse d'école.,9,13,GROS,True,False
+330,"Monsieur VEDEL souhaiterait, à moins que ses collègues aient d'autres interventions à formuler, que le Conseil se penche sur le problème de l'égalité.",9,14,VEDEL,True,False
+334,"Si les explications fournies à ce sujet par Monsieur SEGALAT sont pleinement conformes à l'intention des techniciens rédacteurs de ce texte, elles ne sont pas fidèles à l'intention du législateur telles qu'elles ressortent des débats parlementaires.",53,60,SEGALAT,False,True
+335,"Il serait donc regrettable que le Conseil constitutionnel, dans la rédaction proposée par Monsieur SEGALAT, prenne parti sur le sens à donner à cet article 30 alors que rien ne l'y oblige et qu'il n'a pas à se substituer aux tribunaux judiciaires qui auront très certainement à connaître de l'interprétation de ce texte.",99,106,SEGALAT,False,False
+339,Monsieur SEGALAT comprend les objections formulées par Monsieur le Doyen VEDEL.,9,16,SEGALAT,True,False
+339,Monsieur SEGALAT comprend les objections formulées par Monsieur le Doyen VEDEL.,73,78,VEDEL,False,True
+354,"Ceci dit, Monsieur le rapporteur accepterait toutes propositions de Monsieur VEDEL quant à la rédaction.",22,32,rapporteur,True,False
+354,"Ceci dit, Monsieur le rapporteur accepterait toutes propositions de Monsieur VEDEL quant à la rédaction.",77,82,VEDEL,False,True
+355,Monsieur PERETTI tient à rappeler au Conseil qu'il a le devoir de répondre aux arguments des saisissants.,9,16,PERETTI,True,False
+357,"Monsieur VEDEL souhaiterait que les mentions suivantes : ""que la différenciation des taux est justifiée par l'inégale étendue des risques pour lesquels les assureurs feront intervenir le fonds dans son rôle de compensation selon qu'il s'agit des entreprises artisanales ou des autres assurés..."" soient remplacées par le membre de phrase ""que la différenciation des taux est justifiée par la situation particulière des entreprises artisanales..."".",9,14,VEDEL,True,False
+358,Monsieur SEGALAT déclare se rallier à la proposition de Monsieur VEDEL qui est prudente.,9,16,SEGALAT,True,False
+358,Monsieur SEGALAT déclare se rallier à la proposition de Monsieur VEDEL qui est prudente.,65,70,VEDEL,False,True
+359,"Monsieur le Président, après avoir demandé si d'autres membres du Conseil souhaitent intervenir, déclare close la discussion générale.",12,21,Président,True,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",32,43,MONNERVILLE,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",45,49,JOXE,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",51,58,LECOURT,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",60,65,VEDEL,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",69,76,SEGALAT,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",99,103,GROS,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",133,142,Président,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",154,163,BROUILLET,False,False
+361,"Ce projet est adopté, Messieurs MONNERVILLE, JOXE, LECOURT, VEDEL et SEGALAT votant pour, Monsieur GROS votant contre et Monsieur le Président, Messieurs BROUILLET et PERETTI s'abstenant.",167,174,PERETTI,False,False
+362,"Monsieur le Président rappelle que l'ordre du jour de la présente séance porte sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci, d'une part, de la loi sur la communication audiovisuelle et, d'autre part, de la loi portant réforme de la planification.",12,21,Président,True,False
+363,"Monsieur le Président donne alors la parole au rapporteur, Monsieur Louis GROS.",12,21,Président,True,False
+363,"Monsieur le Président donne alors la parole au rapporteur, Monsieur Louis GROS.",47,57,rapporteur,False,True
+363,"Monsieur le Président donne alors la parole au rapporteur, Monsieur Louis GROS.",68,78,Louis GROS,False,True
+364,Monsieur GROS déclare alors en avoir terminé avec son rapport.,9,13,GROS,True,False
+365,Monsieur le Président remercie Monsieur GROS pour son exposé fort intéressant et détaillé et lui demande de bien vouloir lire son projet de décision.,12,21,Président,True,False
+365,Monsieur le Président remercie Monsieur GROS pour son exposé fort intéressant et détaillé et lui demande de bien vouloir lire son projet de décision.,40,44,GROS,False,True
+366,"Après la lecture de ce projet de décision, Monsieur le Président déclare ouverte la discussion générale.",55,64,Président,True,False
+367,Monsieur VEDEL déclare se rallier aux conclusions du rapporteur.,9,14,VEDEL,True,False
+367,Monsieur VEDEL déclare se rallier aux conclusions du rapporteur.,53,63,rapporteur,False,True
+371,Il serait dangereux d'affirmer que le pouvoir réglementaire n'appartient qu'au premier ministre.,79,95,premier ministre,False,False
+376,"Pour toutes ces raisons, il ne paraît pas opportun d'indiquer, à propos de ce texte inoffensif, que seul le Premier ministre dispose du pouvoir réglementaire.",108,124,Premier ministre,False,False
+377,Monsieur GROS indique que le problème posé par l'article 14-III n'a pas été soulevé par les saisines et qu'il s'était lui-même aperçu de cette difficulté lors d'une lecture très attentive du texte.,9,13,GROS,True,False
+381,Monsieur SEGALAT déclare rejoindre pleinement les conclusions de Monsieur GROS.,9,16,SEGALAT,True,False
+381,Monsieur SEGALAT déclare rejoindre pleinement les conclusions de Monsieur GROS.,74,78,GROS,False,True
+383,Il est tout a fait d'accord avec le rapporteur sur la question de la méconnaissance du principe d'égalité à propos du droit de réponse des personnes morales mais il éprouve des hésitations sur les conséquences qu'en tire le rapporteu.,36,46,rapporteur,False,True
+389,"Monsieur LECOURT se demande jusqu'à quel point le Conseil constitutionnel peut se liver à des ""manipulations génétiques"" sur les textes qui sont soumis à son appréciation.",9,16,LECOURT,True,False
+391,Pour sa part Monsieur LECOURT en doute.,22,29,LECOURT,True,False
+394,Pour Monsieur LECOURT la disposition critiquée relative à l'exclusion du droit de réponse des personnes morales à but lucratif est inséparable de l'ensemble du texte de l'article 6.,14,21,LECOURT,True,False
+395,"En ce qui concerne l'article 109 sur l'extension de la loi au Territoires d'outre-mer, Monsieur LECOURT considère que pour respecter les dispositions de l'article 74, le Conseil constitutionnel doit veiller à ce que la procédure de consultation soit sérieusement appliquée.",96,103,LECOURT,False,False
+397,", c'est- à-dire dans un délai raisonnable avant le dépôt du projet sur le bureau de l'Assemblée nationale, il aurait peut-être alors été possible de reprocher à ces assemblées comme le suggère M. SEGALAT de s'être livrées à des manoeuvres dilatoires.",196,203,SEGALAT,False,False
+400,Monsieur LECOURT souhaiterait enfin que Monsieur le Rapporteur lui apporte des précisions sur l'article 8 de la loi.,9,16,LECOURT,True,False
+400,Monsieur LECOURT souhaiterait enfin que Monsieur le Rapporteur lui apporte des précisions sur l'article 8 de la loi.,52,62,Rapporteur,False,True
+402,Monsieur GROS s'est lui-même posé la question que vient de formuler Monsieur LECOURT qui concerne l'article 8.,9,13,GROS,True,False
+402,Monsieur GROS s'est lui-même posé la question que vient de formuler Monsieur LECOURT qui concerne l'article 8.,77,84,LECOURT,False,True
+406,Monsieur VEDEL estime qu'il est à la fois tentant et dangereux pour le Conseil de se livrer à des suppressions de certains membres de phrase.,9,14,VEDEL,True,False
+414,"Monsieur GROS ne partage pas l'opinion de Messieurs LECOURT, VEDEL et SEGALAT.",9,13,GROS,True,False
+414,"Monsieur GROS ne partage pas l'opinion de Messieurs LECOURT, VEDEL et SEGALAT.",52,59,LECOURT,False,True
+414,"Monsieur GROS ne partage pas l'opinion de Messieurs LECOURT, VEDEL et SEGALAT.",61,66,VEDEL,False,True
+414,"Monsieur GROS ne partage pas l'opinion de Messieurs LECOURT, VEDEL et SEGALAT.",70,77,SEGALAT,False,True
+418,"Si jamais le Conseil constitutionnel avait déformé l'intention du législateur, le Président de la République peut toujours demander aux chambres une nouvelle lecture (article 23).",82,108,Président de la République,False,False
+419,Monsieur GROS ne comprend pas pourquoi le Conseil constitutionnel reviendrait sur une jurisprudence établie en matière de retranchement de membres de phrase.,9,13,GROS,True,False
+420,"Monsieur le Président rappelle aux membres du Conseil que jusqu'à une date récente le Conseil constitutionnel, dans l'exercice de sa mission, retranchait des membres de phrase jugés inconstitutionnels d'un texte de loi, dans la mesure où ces amputations étaient séparables de l'ensemble.",12,21,Président,True,False
+426,Monsieur PERETTI déclare ne pas comprendre pour quelle raison le Conseil constitutionnel reviendrait sur sa jurisprudence traditionnelle en matière de retranchement de mots ou membres de phrase jugés inconstitutionnels.,9,16,PERETTI,True,False
+429,Monsieur VEDEL déclare ne pas contester la technique du retranchement mais émet des doutes sur son application en l'espèce.,9,14,VEDEL,True,False
+432,Monsieur MONNERVILLE constate que le débat sur la question de la consultation des assemblées territoriales est sans cesse renouvelé.,9,20,MONNERVILLE,True,False
+434,"Pour sa part, Monsieur MONNERVILLE considère que l'article 74 n'est pas un appendice de la Constitution.",23,34,MONNERVILLE,True,False
+440,"Le fait que l'Assemblée nationale ait adopté le projet en première lecture, sans avoir eu connaissance des avis des assemblées territoriales, constitue aux yeux du Président MONNERVILLE une violation caractérisée de l'article 74 de la Constitution.",174,185,MONNERVILLE,False,False
+441,Monsieur le Président constatant qu'aucun autre membre ne désire intervenir propose alors au Conseil de se prononcer.,12,21,Président,True,False
+442,"Il propose à ses collègues de recourir à un vote, d'une part, sur le fonds de la décision proposée par le rapporteur et, d'autre part, sur la question litigieuse des retranchements de mots ou de membres de phrase.",106,116,rapporteur,False,True
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",92,101,Président,False,False
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",113,124,MONNERVILLE,False,False
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",126,130,JOXE,False,False
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",132,136,GROS,False,False
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",138,147,BROUILLET,False,False
+444,"- Ont voté pour le principe des retranchements de mots ou de membres de phrase, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI.",151,158,PERETTI,False,False
+445,"Ont voté contre, Messieurs LECOURT, VEDEL et SEGALAT.",27,34,LECOURT,False,False
+445,"Ont voté contre, Messieurs LECOURT, VEDEL et SEGALAT.",36,41,VEDEL,False,False
+445,"Ont voté contre, Messieurs LECOURT, VEDEL et SEGALAT.",45,52,SEGALAT,False,False
+446,Monsieur le Doyen VEDEL déclare alors en avoir terminé avec son rapport.,18,23,VEDEL,True,False
+448,"Monsieur le Président remercie Monsieur VEDEL pour son exposé brillant, détaillé et convaincant.",12,21,Président,True,False
+448,"Monsieur le Président remercie Monsieur VEDEL pour son exposé brillant, détaillé et convaincant.",40,45,VEDEL,False,True
+450,"Après la lecture de ce projet de décision, Monsieur le Président déclare ouverte la discussion générale.",55,64,Président,True,False
+451,Monsieur LECOURT déclare se ralier pleinement aux conclusions du Doyen VEDEL.,9,16,LECOURT,True,False
+451,Monsieur LECOURT déclare se ralier pleinement aux conclusions du Doyen VEDEL.,71,76,VEDEL,False,True
+455,"Monsieur VEDEL approuve la suggestion de Monsieur LECOURT et propose la rédaction suivante : "" que, d'ailleurs, par l'application de l'article 70 de la Consitution, l'article 2 de l'ordonnance 58-1360 ..."".",9,14,VEDEL,True,False
+455,"Monsieur VEDEL approuve la suggestion de Monsieur LECOURT et propose la rédaction suivante : "" que, d'ailleurs, par l'application de l'article 70 de la Consitution, l'article 2 de l'ordonnance 58-1360 ..."".",50,57,LECOURT,False,True
+456,Monsieur GROS déclare ne pas retirer une entière satisfaction intellectuelle du projet proposé.,9,13,GROS,True,False
+458,Monsieur VEDEL comprend les réticences de Monsieur GROS.,9,14,VEDEL,True,False
+458,Monsieur VEDEL comprend les réticences de Monsieur GROS.,51,55,GROS,False,True
+466,Monsieur BROUILLET se déclare troublé par la censure proposée par le rapporteur quant à la désignation de ministres.,9,18,BROUILLET,True,False
+466,Monsieur BROUILLET se déclare troublé par la censure proposée par le rapporteur quant à la désignation de ministres.,69,79,rapporteur,False,True
+468,Dire que le ministre chargé du Plan n'est pas compétent pour préparer ce plan apparaît un peu faible.,12,35,ministre chargé du Plan,False,False
+470,Monsieur VEDEL remercie très vivement Monsieur BROUILLET.,9,14,VEDEL,True,False
+470,Monsieur VEDEL remercie très vivement Monsieur BROUILLET.,47,56,BROUILLET,False,True
+474,De l'interprétation proposée par Monsieur BROUILLET on doit déduire que la loi n'a donc pas de portée et qu'elle n'a donc pas de venin.,42,51,BROUILLET,False,True
+475,"Monsieur VEDEL demande donc à ses collègues,s'ils en sont d'accord, de lui accorder quelques instants afin de proposer une rédaction modificatrice à sa décision en ce qui concerne la question de la désignation du ministre chargé du Plan et du budget.",9,14,VEDEL,True,False
+475,"Monsieur VEDEL demande donc à ses collègues,s'ils en sont d'accord, de lui accorder quelques instants afin de proposer une rédaction modificatrice à sa décision en ce qui concerne la question de la désignation du ministre chargé du Plan et du budget.",213,249,ministre chargé du Plan et du budget,False,False
+476,"A l'issue de cette suspension, Monsieur VEDEL propose la rédaction suivante : ""Considérant que, si l'article 10, alinéa 1er, de la loi confie aux ministres chargés du Plan et du budget le soin de préparer le rapport prévu par ce texte et si l'article 17, alinéas 1er et 2, confie au ministre chargé du Plan et de l'aménagement du territoire certaines compétences intéressant les rapports avec les régions, ces dispositions qui n'excluent pas, le cas échéant, l'intervention d'autres membres du Gouvernement et qui ne font que se référer à la répartition des fonctions ministérielles telle qu'elle est décidée par chaque Gouvernement ne sont pas contraires à la Constitution ;""",40,45,VEDEL,True,False
+476,"A l'issue de cette suspension, Monsieur VEDEL propose la rédaction suivante : ""Considérant que, si l'article 10, alinéa 1er, de la loi confie aux ministres chargés du Plan et du budget le soin de préparer le rapport prévu par ce texte et si l'article 17, alinéas 1er et 2, confie au ministre chargé du Plan et de l'aménagement du territoire certaines compétences intéressant les rapports avec les régions, ces dispositions qui n'excluent pas, le cas échéant, l'intervention d'autres membres du Gouvernement et qui ne font que se référer à la répartition des fonctions ministérielles telle qu'elle est décidée par chaque Gouvernement ne sont pas contraires à la Constitution ;""",283,340,ministre chargé du Plan et de l'aménagement du territoire,False,False
+477,Monsieur le Président constatant qu'aucun autre membre du Conseil ne souhaite intervenir déclare close la discussion générale.,12,21,Président,True,False
+480,"Monsieur le Président donne alors la parole au rapporteur, Monsieur André SEGALAT.",12,21,Président,True,False
+480,"Monsieur le Président donne alors la parole au rapporteur, Monsieur André SEGALAT.",47,57,rapporteur,False,True
+480,"Monsieur le Président donne alors la parole au rapporteur, Monsieur André SEGALAT.",68,81,André SEGALAT,False,True
+481,"Après que Monsieur le rapporteur ait lu son projet, Monsieur le Président déclare ouverte la discussion générale.",22,32,rapporteur,False,False
+481,"Après que Monsieur le rapporteur ait lu son projet, Monsieur le Président déclare ouverte la discussion générale.",64,73,Président,True,False
+482,"Monsieur VEDEL, après avoir souligné l'aspect lumineux du rapport présenté et le caractère admirable de la rédaction du projet, indique qu'il est prêt à succomber à la thèse défendue par le rapporteur qui semble faire l'objet d'un consensus quasi-général.",9,14,VEDEL,True,False
+482,"Monsieur VEDEL, après avoir souligné l'aspect lumineux du rapport présenté et le caractère admirable de la rédaction du projet, indique qu'il est prêt à succomber à la thèse défendue par le rapporteur qui semble faire l'objet d'un consensus quasi-général.",190,200,rapporteur,False,True
+487,Monsieur SEGALAT craint que le raisonnement qui vient d'être développé n'entraîne le Conseil dans une zone de pénombre qui risque de se terminer en véritable coupe-gorge.,9,16,SEGALAT,True,False
+488,"Selon le Doyen VEDEL, l'article 34 n'invoquant que les crimes et délits, le législateur pourrait restreindre la portée de cette règle en déplaçant la frontière entre les délits et les contraventions.",15,20,VEDEL,True,False
+493,Monsieur VEDEL admet la justesse des objections formulées par Monsieur SEGALAT.,9,14,VEDEL,True,False
+493,Monsieur VEDEL admet la justesse des objections formulées par Monsieur SEGALAT.,71,78,SEGALAT,False,True
+498,Monsieur GROS souscrit entièrement au point de vue du rapporteur.,9,13,GROS,True,False
+498,Monsieur GROS souscrit entièrement au point de vue du rapporteur.,54,64,rapporteur,False,True
+501,"En revanche, Monsieur GROS ne se déclare pas totalement convaincu en ce qui concerne l'extension en vertu des régles de la pénalité par référence, à la seconde ordonnance n° 45-1484 du 30 juin 1945.",22,26,GROS,True,False
+505,Monsieur GROS déclare ne pouvoir souscrire à cette extension.,9,13,GROS,True,False
+506,"En ce qui concerne la sortie du blocage par le décret, Monsieur GROS émet également des réserves.",64,68,GROS,True,False
+508,"Pour ces deux motifs et malgré son adhésion sur le fond, Monsieur GROS déclare ne pouvoir voter le projet soumis au Conseil.",66,70,GROS,True,False
+509,Monsieur SEGALAT considère que le texte déféré définit des infractions qu'il sanctionne en faisant simplement référence à des règles de répression définies dans un autre texte.,9,16,SEGALAT,False,False
+512,Monsieur GROS réitère qu'il ne peut accepter de voir donner caractère législatif à la seconde ordonnance de 1945 en ce que la procédure qu'elle détaille méconnaît les droits de la défense et la liberté individuelle.,9,13,GROS,True,False
+513,Monsieur VEDEL estime que la censure de tout empiètement de la loi sur le domaine du réglement rendrait tout travail législatif et tout travail au Conseil constitutionnel impossible.,9,14,VEDEL,True,False
+516,"En ce qui concerne l'objection formulée par Monsieur GROS, s'il est exact que la seconde ordonnance du 30 juin 1945 est rigoureuse et parfois dérogatoire au droit commun, il paraît difficile d'y trouver une violation des droits de l'Homme.",53,57,GROS,False,True
+518,Messieurs BROUILLET et MONNERVILLE déclarent adhérer entièrement aux conclusions du rapporteur.,10,19,BROUILLET,True,False
+518,Messieurs BROUILLET et MONNERVILLE déclarent adhérer entièrement aux conclusions du rapporteur.,23,34,MONNERVILLE,True,False
+518,Messieurs BROUILLET et MONNERVILLE déclarent adhérer entièrement aux conclusions du rapporteur.,84,94,rapporteur,False,True
+519,Monsieur LECOURT est du même avis.,9,16,LECOURT,True,False
+524,"Dès lors, la thèse développée par le rapporteur paraît pleinement conforme à la Constitution.",37,47,rapporteur,False,False
+525,Monsieur PERETTI approuve les conclusions du rapporteur.,9,16,PERETTI,True,False
+525,Monsieur PERETTI approuve les conclusions du rapporteur.,45,55,rapporteur,False,True
+529,Monsieur SEGALAT approuve l'observation qui vient d'être présentée par Monsieur PERETTI.,9,16,SEGALAT,True,False
+529,Monsieur SEGALAT approuve l'observation qui vient d'être présentée par Monsieur PERETTI.,80,87,PERETTI,False,True
+530,"Monsieur le Président constatant qu'aucun membre du Conseil ne souhaite intervenir, déclare close la discussion générale.",12,21,Président,True,False
+532,"Celle-ci est adoptée à l'unanimité des membres, à l'exception de Monsieur GROS qui vote contre.",74,78,GROS,False,False
+533,"Monsieur le Président indique que l'ordre du jour porte sur	 1'examen, en application de l'article 61, alinéa 2, de la Constitution,  du texte de la loi relative au développement des institutions représentatives du personnel, telle qu'elle a été adoptée par le Parlement.",12,21,Président,True,False
+534,Monsieur le Président remercie Monsieur le rapporteur.,12,21,Président,True,False
+534,Monsieur le Président remercie Monsieur le rapporteur.,43,53,rapporteur,False,True
+535,Il invite alors le Conseil à se prononcer sur le fond de la décision proposée par Monsieur Georges VEDEL.,91,104,Georges VEDEL,False,False
+536,La Solution proposée par le rapporteur sur le fondement de l'égalité est alors adoptée à l'unanimité des membres du Conseil.,28,38,rapporteur,False,False
+537,Monsieur le Président demande à Monsieur le Rapporteur de bien vouloir donner lecture de son projet de décision.,12,21,Président,True,False
+537,Monsieur le Président demande à Monsieur le Rapporteur de bien vouloir donner lecture de son projet de décision.,44,54,Rapporteur,False,True
+539,Monsieur LECOURT considère que l'article 1 382 du Code civil traduit l'idée que nul n'a le droit nuire à autrui.,9,16,LECOURT,True,False
+542,"Aucune autre observation n'ayant été présentée quant à la forme, Monsieur le Président soumet le projet de décision au Conseil.",77,86,Président,True,False
+544,"Monsieur le Président donne la parole au rapporteur dans cette affaire, Monsieur le Doyen VEDEL",12,21,Président,True,False
+544,"Monsieur le Président donne la parole au rapporteur dans cette affaire, Monsieur le Doyen VEDEL",41,51,rapporteur,False,True
+544,"Monsieur le Président donne la parole au rapporteur dans cette affaire, Monsieur le Doyen VEDEL",90,95,VEDEL,False,True
+546,Monsieur VEDEL présente le rapport suivant.,9,14,VEDEL,True,False
+547,Monsieur le Président remercie le Doyen VEDEL pour son exposé complet et très scrupuleux.,12,21,Président,True,False
+547,Monsieur le Président remercie le Doyen VEDEL pour son exposé complet et très scrupuleux.,40,45,VEDEL,False,True
+549,Monsieur le Président déclare alors ouverte la discussion générale.,12,21,Président,True,False
+550,Monsieur SEGALAT approuve les conclusions de Monsieur le rapporteur.,9,16,SEGALAT,True,False
+550,Monsieur SEGALAT approuve les conclusions de Monsieur le rapporteur.,57,67,rapporteur,False,True
+557,Monsieur VEDEL reconnaît la justesse de cette observation.,9,14,VEDEL,True,False
+561,Monsieur le rapporteur ne voit d'ailleurs pas comment le Conseil constitutionnel pourrait tenter de sauver cette jurisprudence.,12,22,rapporteur,True,False
+562,"Le Président déclare ouverte la séance à 10 heures, tous les membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.",3,12,Président,True,False
+562,"Le Président déclare ouverte la séance à 10 heures, tous les membres étant présents, à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.",111,135,Valéry GISCARD d'ESTAING,False,False
+563,Monsieur le Président rappelle que l'ordre du jour est le suivant :,12,21,Président,True,False
+565,Rapporteur : Monsieur Achille PERETTI,0,10,Rapporteur,False,True
+565,Rapporteur : Monsieur Achille PERETTI,22,37,Achille PERETTI,False,True
+567,Rapporteur : Monsieur Louis GROS,0,10,Rapporteur,False,True
+567,Rapporteur : Monsieur Louis GROS,22,32,Louis GROS,False,True
+568,Monsieur le Président donne la parole à Monsieur PERETTI.,12,21,Président,True,False
+568,Monsieur le Président donne la parole à Monsieur PERETTI.,49,56,PERETTI,False,True
+569,Monsieur le Président remercie Monsieur PERETTI pour son rapport très vivant et complet.,12,21,Président,True,False
+569,Monsieur le Président remercie Monsieur PERETTI pour son rapport très vivant et complet.,40,47,PERETTI,False,True
+571,Monsieur VEDEL demande à ses collègues de bien vouloir l'excuser s'il commence son intervention en leur racontant une anecdote.,9,14,VEDEL,True,False
+573,"Très étonné par cette déclaration, Monsieur VEDEL a alors demandé à son interlocuteur de bien vouloir s'expliquer.",44,49,VEDEL,True,False
+579,"En effet, Monsieur PERETTI expose que la loi du 19 juillet 1970 n'a été votée que dans la mesure où les amendements soutenus par Monsieur SANGUINETTI ont été adoptés.",19,26,PERETTI,True,False
+579,"En effet, Monsieur PERETTI expose que la loi du 19 juillet 1970 n'a été votée que dans la mesure où les amendements soutenus par Monsieur SANGUINETTI ont été adoptés.",138,149,SANGUINETTI,False,False
+580,"Ces amendements auraient une importance telle, selon le rapporteur, que le Gouvernement ne serait pas fondé à en demander le déclassement.",56,66,rapporteur,False,True
+584,Monsieur VEDEL se souvient de son grand-père qui devait être maréchal des logis chef de la gendarmerie.,9,14,VEDEL,True,False
+592,Monsieur VEDEL n'est pas convaincu par les arguments du rapporteur.,9,14,VEDEL,True,False
+592,Monsieur VEDEL n'est pas convaincu par les arguments du rapporteur.,56,66,rapporteur,False,True
+594,"Monsleur PERETTI précise que, lors de la discussion de la loi, en 1970, c'était Monsieur DEBRE, un des pères de la Constitution, qui était ministre de la Défense.",9,16,PERETTI,True,False
+594,"Monsleur PERETTI précise que, lors de la discussion de la loi, en 1970, c'était Monsieur DEBRE, un des pères de la Constitution, qui était ministre de la Défense.",89,94,DEBRE,False,False
+594,"Monsleur PERETTI précise que, lors de la discussion de la loi, en 1970, c'était Monsieur DEBRE, un des pères de la Constitution, qui était ministre de la Défense.",139,161,ministre de la Défense,False,True
+596,"Ne serait-ce pas, tout simplement, parce que, d'après Monsieur DEBRE, il s'agissait de principes fondamentaux relatifs à l'organisation générale de la Défense Nationale.",63,68,DEBRE,False,True
+597,Monsieur SEGALAT déclare qu'à ses yeux il n'y a aucun problème.,9,16,SEGALAT,True,False
+600,"Il est surpris que Monsieur DEBRE se soit montré timide, en cette matière, lors de la discussion parlementaire.",28,33,DEBRE,False,True
+602,Monsleur BROUILLET fait part de sa grande perplexité.,9,18,BROUILLET,True,False
+603,"Il se déclare, cependant, séduit par la démonstration de Monsieur PERETTI.",66,73,PERETTI,False,True
+606,Monsieur GROS déclare qu'il est difficile de résister à la séduction des arguments de Monsieur SEGALAT.,9,13,GROS,True,False
+606,Monsieur GROS déclare qu'il est difficile de résister à la séduction des arguments de Monsieur SEGALAT.,95,102,SEGALAT,False,True
+607,"Néanmoins, il parvient aux mêmes conclusions que Monsieur BROUILLET.",58,67,BROUILLET,False,True
+611,Monsieur MONNERVILLE approuve pleinement le raisonnement que viennent de développer Messieurs GROS et BROUILLET.,9,20,MONNERVILLE,True,False
+611,Monsieur MONNERVILLE approuve pleinement le raisonnement que viennent de développer Messieurs GROS et BROUILLET.,94,98,GROS,False,True
+611,Monsieur MONNERVILLE approuve pleinement le raisonnement que viennent de développer Messieurs GROS et BROUILLET.,102,111,BROUILLET,False,True
+612,"Monsieur JOXE, après avoir mûrement pesé le pour et le contre, estime, tout comme Monsieur BROUILLET, qu'il appartient, à présent, au Conseil constitutionnel, d'éviter tout laxisme et de défendre, dans le respect des textes, le domaine législatif des empiètements du règlement.",9,13,JOXE,True,False
+612,"Monsieur JOXE, après avoir mûrement pesé le pour et le contre, estime, tout comme Monsieur BROUILLET, qu'il appartient, à présent, au Conseil constitutionnel, d'éviter tout laxisme et de défendre, dans le respect des textes, le domaine législatif des empiètements du règlement.",91,100,BROUILLET,False,True
+613,"Monsieur LECOURT considère que le texte même de l'alinéa 13 de l'article 34 (""Principes fondamentaux de l'organisation générale de la Défense Nationale"") est extrêmement lâche.",9,16,LECOURT,True,False
+616,Il rappelle que le texte du projet de loi soutenu par Monsieur DEBRE était extrêmement large.,63,68,DEBRE,False,True
+617,N'est-ce pas une présomption quant à l'interprétation donnée par Monsieur DEBRE à l'alinéa 13 de l'article 34 ?,74,79,DEBRE,False,True
+618,"Aucune autre observation n'étant présentée, Monsieur le Président invite Monsieur PERETTI à lire son projet de décision.",56,65,Président,True,False
+618,"Aucune autre observation n'étant présentée, Monsieur le Président invite Monsieur PERETTI à lire son projet de décision.",82,89,PERETTI,False,True
+619,Monsieur le Président indique que le Conseil va examiner à présent la loi relative à l'élection des conseillers municipaux.,12,21,Président,True,False
+620,Monsieur le Président rend hommage aux scrupules de Monsieur VEDEL.,12,21,Président,True,False
+620,Monsieur le Président rend hommage aux scrupules de Monsieur VEDEL.,61,66,VEDEL,False,True
+621,"Monsieur VEDEL s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant",9,14,VEDEL,False,True
+621,"Monsieur VEDEL s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant",43,52,Président,True,False
+621,"Monsieur VEDEL s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant",78,88,rapporteur,False,True
+621,"Monsieur VEDEL s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant",99,103,GROS,True,False
+623,"Monsieur le Président remercie Monsieur GROS pour son exposé complet, détaillé et vivant.",12,21,Président,True,False
+623,"Monsieur le Président remercie Monsieur GROS pour son exposé complet, détaillé et vivant.",40,44,GROS,False,True
+625,Monsieur MONNERVILLE déclare approuver pleinement les conclusions de Monsieur le rapporteur.,9,20,MONNERVILLE,True,False
+625,Monsieur MONNERVILLE déclare approuver pleinement les conclusions de Monsieur le rapporteur.,81,91,rapporteur,False,True
+628,Monsleur JOXE se déclare en plein accord avec les conclusions de Monsieur GROS.,9,13,JOXE,True,False
+628,Monsleur JOXE se déclare en plein accord avec les conclusions de Monsieur GROS.,74,78,GROS,False,True
+629,"Monsieur LECOURT, lui aussi, partage le point de vue exprimé par Monsieur le rapporteur.",9,16,LECOURT,True,False
+629,"Monsieur LECOURT, lui aussi, partage le point de vue exprimé par Monsieur le rapporteur.",77,87,rapporteur,False,True
+635,"Monsieur LECOURT s'interroge sur le fait que le Conseil soulève d'office, aujourd'hui, cette question de catégorisation, alors que dans d'autres décisions il n'a pas jugé bon de soulever d'office d'autres moyens de constitutionnalité.",9,16,LECOURT,True,False
+637,"Monsieur PERETTI approuve, lui aussi, les conclusions de Monsieur GROS.",9,16,PERETTI,True,False
+637,"Monsieur PERETTI approuve, lui aussi, les conclusions de Monsieur GROS.",66,70,GROS,False,True
+641,"Monsieur PERETTI précise que dans la décision n° 82-144 DC du 22 octobre 1982 relative aux institutions représentatives du personnel le Conseil, tout en censurant une disposition qui instituait, au profit des syndicalistes et des syndicats, un régime d'irresponsabi1ité civile, avait cru bon d'atténuer la rigueur de sa censure en justifiant l'intention louable du législateur.",9,16,PERETTI,True,False
+643,Monsieur SEGALAT se déclare d'accord avec les conclusions de Monsieur GROS.,9,16,SEGALAT,True,False
+643,Monsieur SEGALAT se déclare d'accord avec les conclusions de Monsieur GROS.,70,74,GROS,False,True
+645,"Il estime qu'il est délicat de faire intervenir le principe de la souveraineté nationale qui s'exerce, d'une part, par le référendum et, d'autre part par les représentants élus du peuple (Président de la République et parlementaires des deux chambres).",188,214,Président de la République,False,False
+648,"Monsieur SEGALAT partage, par ailleurs, l'appréhension de Monsieur PERETTI quant au choc psychologique provoqué par cette décision.",9,16,SEGALAT,True,False
+648,"Monsieur SEGALAT partage, par ailleurs, l'appréhension de Monsieur PERETTI quant au choc psychologique provoqué par cette décision.",67,74,PERETTI,False,True
+651,"Monsieur SEGALAT s'interroge, enfin, sur le fait de savoir s'il n'appartient pas au Conseil de mentionner ouvertement qu'il a soulevé d'office le moyen.",9,16,SEGALAT,True,False
+652,Monsieur BROUILLET rend hommage à Monsieur GROS et déclare se rallier à ses conclusions.,9,18,BROUILLET,True,False
+652,Monsieur BROUILLET rend hommage à Monsieur GROS et déclare se rallier à ses conclusions.,43,47,GROS,False,True
+653,Il considère que la décision proposée par Monsieur GROS ne se fonde pas sur la notion de souveraineté nationale.,51,55,GROS,False,True
+654,Monsieur BROUILLET regrette enfin que le Parlement français ait cru bon priver nombreux des français résidant hors de France de leurs droits politiques.,9,18,BROUILLET,True,False
+655,"Monsieur le Président, aucun autre membre du Conseil ne souhaitant intervenir, constate que les conclusions présentées par Monsieur le Président GROS sont adoptées par le Conseil constitutionnel.",12,21,Président,True,False
+655,"Monsieur le Président, aucun autre membre du Conseil ne souhaitant intervenir, constate que les conclusions présentées par Monsieur le Président GROS sont adoptées par le Conseil constitutionnel.",135,144,Président,False,False
+655,"Monsieur le Président, aucun autre membre du Conseil ne souhaitant intervenir, constate que les conclusions présentées par Monsieur le Président GROS sont adoptées par le Conseil constitutionnel.",145,149,GROS,False,False
+656,Il demande à Monsieur GROS de bien vouloir donner lecture de son projet de décision.,22,26,GROS,False,True
+657,"Après lecture par Monsieur GROS de son projet, Monsieur le Président invite les membres du Conseil à présenter toutes observations qu'ils jugeront nécessaires quant à la forme de ce projet.",27,31,GROS,False,True
+657,"Après lecture par Monsieur GROS de son projet, Monsieur le Président invite les membres du Conseil à présenter toutes observations qu'ils jugeront nécessaires quant à la forme de ce projet.",59,68,Président,True,False
+658,"Monsieur LECOURT pense, comme le Conseil soulève un moyen d'office, qu'il serait opportun de répondre, en premier lieu, à la saisine des députés (article L. 262), avant d'examiner, dans un deuxième temps, le moyen soulevé d'office par le Conseil (article L. 260 bis).",9,16,LECOURT,True,False
+660,Monsieur GROS déclare ne pouvoir souscrire à la proposition deMonsieur LECOURT.,9,13,GROS,True,False
+660,Monsieur GROS déclare ne pouvoir souscrire à la proposition deMonsieur LECOURT.,71,78,LECOURT,False,True
+666,Monsieur GROS souhaiterait que le Conseil ne bouleverse pas leséquilibres de son projet.,9,13,GROS,True,False
+667,Monsieur SEGALAT considère que le problème soulevé par Monsieur LECOURT est délicat.,9,16,SEGALAT,True,False
+667,Monsieur SEGALAT considère que le problème soulevé par Monsieur LECOURT est délicat.,64,71,LECOURT,False,True
+672,Monsieur MONNERVILLE estime qu'il faut garder à l'esprit le fait que le Conseil constitutionnel est saisi de l'ensemble de la loi.,9,20,MONNERVILLE,True,False
+673,Il comprend les préoccupations de courtoisie à l'égard des parlementaires dont fait état Monsieur LECOURT.,98,105,LECOURT,False,True
+675,"Monsieur BROUILLET est sensible, notamment aux arguments de Monsieur GROS, rédacteur de la décision.",9,18,BROUILLET,True,False
+675,"Monsieur BROUILLET est sensible, notamment aux arguments de Monsieur GROS, rédacteur de la décision.",69,73,GROS,False,True
+678,"Monsleur GROS propose alors au Conseil d'inverser les deux parties essentielles de son projet, afin de satisfaire les suggestions de Messieurs LECOURT et SEGALAT.",9,13,GROS,True,False
+678,"Monsleur GROS propose alors au Conseil d'inverser les deux parties essentielles de son projet, afin de satisfaire les suggestions de Messieurs LECOURT et SEGALAT.",143,150,LECOURT,False,False
+678,"Monsleur GROS propose alors au Conseil d'inverser les deux parties essentielles de son projet, afin de satisfaire les suggestions de Messieurs LECOURT et SEGALAT.",154,161,SEGALAT,False,False
+679,"Il s'oppose cependant fermement à ce que le considérant final, même modifié, soit inséré en tête de la deuxième partie, comme le suggère Monsieur LECOURT.",146,153,LECOURT,False,True
+682,"Monsieur le Président constatant l'accord, du Conseil sur ce point, invite ses membres à formuler toutes autres observations.",12,21,Président,True,False
+683,Monsieur LECOURT fait valoir à nouveau qu'à ses yeux il est inutile de mentionner (page 4) la notion de souveraineté nationale.,9,16,LECOURT,True,False
+688,Monsieur GROS déclare ne pouvoir souscrire à cette affirmation de Monsieur LECOURT,9,13,GROS,True,False
+688,Monsieur GROS déclare ne pouvoir souscrire à cette affirmation de Monsieur LECOURT,75,82,LECOURT,False,True
+691,"Monsieur SEGALAT considère qu'il n'est nullement besoin, en l'espèce, de faire appel à la notion de souveraineté nationale.",9,16,SEGALAT,True,False
+697,"C'est pourquoi Monsieur SEGALAT considère que la référence au premier considérant de la page 5 au ""suffrage politique"" est ambiguë.",24,31,SEGALAT,True,False
+699,"Monsieur SEGALAT souhaiterait, pour que la décision gagne en force, qu'elle élimine, d'une part, la référence aux deux premiers alinéas de l'article 3 de la Constitution, que disparaisse aussi la notion de suffrage politique.",9,16,SEGALAT,True,False
+701,Monsieur GROS considère qu'il serait regrettable d'amputer l'article 3 de ses deux premiers alinéas.,9,13,GROS,True,False
+706,Messieurs PERETTI et BROUILLET considèrent qu'il est souhaitable que le Conseil cite l'article 3 de la Constitution dans son ensemble.,10,17,PERETTI,True,False
+706,Messieurs PERETTI et BROUILLET considèrent qu'il est souhaitable que le Conseil cite l'article 3 de la Constitution dans son ensemble.,21,30,BROUILLET,True,False
+707,"Pour Monsieur PERETTI, cette citation ne peut conduire les commentateurs et électeurs de la décision à en tirer des conclusions abusives.",14,21,PERETTI,True,False
+708,"Monsieur BROUILLET, quant à lui, considère que la non-citation des deux premiers alinéas de l'article 3 est véritablement injustifiée.",9,18,BROUILLET,True,False
+709,"Monsieur le Président constatant qu'aucun autre membre du Conseil ne souhaite intervenir, déclare close la discussion relative à la forme du projet proposé au Conseil par Monsieur GROS.",12,21,Président,True,False
+709,"Monsieur le Président constatant qu'aucun autre membre du Conseil ne souhaite intervenir, déclare close la discussion relative à la forme du projet proposé au Conseil par Monsieur GROS.",180,184,GROS,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",68,77,Président,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",89,100,MONNERVILLE,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",102,106,JOXE,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",108,112,GROS,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",114,123,BROUILLET,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",127,134,PERETTI,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",158,165,LECOURT,False,False
+711,"Ledit projet est adopté par le Conseil constitutionnel, Monsieur le Président, Messieurs MONNERVILLE, JOXE, GROS, BROUILLET et PERETTI votant pour, Messieurs LECOURT et SEGALAT s'abstenant.",169,176,SEGALAT,False,False
+712,Monsieur le Président indique que l'ordre du jour est le suivant :,12,21,Président,True,False
+714,Rapporteur : Monsieur André SEGALAT,0,10,Rapporteur,False,True
+714,Rapporteur : Monsieur André SEGALAT,22,35,André SEGALAT,False,True
+715,"Monsieur le Président passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.",12,21,Président,True,False
+715,"Monsieur le Président passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.",47,57,rapporteur,False,True
+715,"Monsieur le Président passe alors la parole au rapporteur, Monsieur SEGALAT qui présente le rapport suivant.",68,75,SEGALAT,False,True
+716,Monsieur le Président remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de ce projet de décision.,12,21,Président,True,False
+716,Monsieur le Président remercie Monsieur SEGALAT pour son rapport et lui demande de bien vouloir donner lecture de ce projet de décision.,40,47,SEGALAT,False,True
+717,"Après lecture de son projet de décision, Monsieur le Président invite les membres du Conseil à formuler toutes les observations qui leur semblent utiles.",53,62,Président,True,False
+718,Aucune observation n'étant présentée Monsieur le Président soumet le projet de décision de Monsieur SEGALAT au vote du Conseil.,49,58,Président,True,False
+718,Aucune observation n'étant présentée Monsieur le Président soumet le projet de décision de Monsieur SEGALAT au vote du Conseil.,100,107,SEGALAT,False,True
+720,"Monsieur MONNERVILLE, après avoir rappelé que l'ordre du jour porte sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la loi de finances pour 1983, donne la parole à Monsieur SEGALAT qui présente le rapport suivant :",9,20,MONNERVILLE,True,False
+720,"Monsieur MONNERVILLE, après avoir rappelé que l'ordre du jour porte sur l'examen, en application de l'article 61, alinéa 2, de la Constitution, de la loi de finances pour 1983, donne la parole à Monsieur SEGALAT qui présente le rapport suivant :",204,211,SEGALAT,False,False
+721,"Monsieur MONNERVILLE invite alors Monsieur SEGALAT à lire son projet de décision, après quoi il déclare ouverte la discussion sur le premier point.",9,20,MONNERVILLE,True,False
+721,"Monsieur MONNERVILLE invite alors Monsieur SEGALAT à lire son projet de décision, après quoi il déclare ouverte la discussion sur le premier point.",43,50,SEGALAT,False,True
+722,"Monsieur LECOURT craint que la mention ""Les membres du Parlement"", au dernier considérant de la page 2, laisse croire que le Conseil oublie les impératifs du travail de la Commission des finances.",9,16,LECOURT,True,False
+723,"Monsieur SEGALAT : en réalité, chacun sait que la Commission des finances dispose du projet et des annexes bien avant leur dépôt officiel.",9,16,SEGALAT,True,False
+725,"Monsieur GROS craint que la décision proposée n'institue le Conseil constitutionnel en juge de la valeur des dé1ais constitutionnels Ne serait-il pas préférable que la décision indique, comme le soutient le Président de l'Assemblée nationale, que les délais ont été respectés.",9,13,GROS,True,False
+725,"Monsieur GROS craint que la décision proposée n'institue le Conseil constitutionnel en juge de la valeur des dé1ais constitutionnels Ne serait-il pas préférable que la décision indique, comme le soutient le Président de l'Assemblée nationale, que les délais ont été respectés.",207,241,Président de l'Assemblée nationale,False,False
+727,Monsleur VEDEL ; il serait ubuesque d'annuler une loi de finances si le délai de l'article 38 de l'ordonnance n'était pas respecté.,9,14,VEDEL,True,False
+733,"La solution proposée par le rapporteur est la plus sage car elle laisse entendre que le Conseil n'annulerait pas une loi de finances si le projet, au lieu d'être déposé le premier mardi, était déposé le premier mercredi, par exemple.",28,38,rapporteur,False,True
+734,Monsieur SEGALAT : il faut distinguer l'article 47 de la Constitution de l'article 38 de l'ordonnance.,9,16,SEGALAT,True,False
+742,Monsieur PERETTI se déclare embarassé par le dernier considérant en ce qu'il serait de nature à mettre en doute la parole du Président de l'Assemblée nationale.,9,16,PERETTI,True,False
+742,Monsieur PERETTI se déclare embarassé par le dernier considérant en ce qu'il serait de nature à mettre en doute la parole du Président de l'Assemblée nationale.,125,159,Président de l'Assemblée nationale,False,False
+745,Monsieur VEDEL : les dispositions des articles 47 et 38 ne doivent pas être interprétées comme des textes destinés à des huissiers.,9,14,VEDEL,True,False
+747,Il y a une contradiction entre les affirmations du Président de l'Assemblée nationale et celles des députés saisissants.,51,85,Président de l'Assemblée nationale,False,False
+749,"Mieux vaut donc trancher en droit, comme le suggère le rapporteur.",55,65,rapporteur,False,True
+750,"Monsieur PERETTI considère, pour sa part, que le Conseil doit croire le Président de l'Assemblée nationale.",9,16,PERETTI,True,False
+750,"Monsieur PERETTI considère, pour sa part, que le Conseil doit croire le Président de l'Assemblée nationale.",72,106,Président de l'Assemblée nationale,False,False
+752,Monsieur VEDEL : il n'est pas rare que le droit mentionne des délais en laissant aux juges la faculté d'apprécier s'ils sont dépassés.,9,14,VEDEL,True,False
+755,Monsieur MONNERVILLE confirme les propos de Monsieur SEGALAT en ce qui concerne la pratique du dépôt de fait anticipé.,9,20,MONNERVILLE,True,False
+755,Monsieur MONNERVILLE confirme les propos de Monsieur SEGALAT en ce qui concerne la pratique du dépôt de fait anticipé.,53,60,SEGALAT,False,True
+756,Monsieur SEGALAT considère que le Conseil constitutionnel doit faire respecter les délais de l'article 47 de la Constitution.,9,16,SEGALAT,True,False
+759,Monsieur LECOURT n'éprouve aucune difficulté pour aller dans le sens des conclusions du rapporteur.,9,16,LECOURT,True,False
+759,Monsieur LECOURT n'éprouve aucune difficulté pour aller dans le sens des conclusions du rapporteur.,88,98,rapporteur,False,True
+761,Monsleur SEGALAT comprend les appréhensions de Monsieur LECOURT.,9,16,SEGALAT,True,False
+761,Monsleur SEGALAT comprend les appréhensions de Monsieur LECOURT.,47,63,Monsieur LECOURT,False,True
+763,"Il ajoute, pour répondre à Monsieur PERETTI, que la mention ""à le supposer établi"" constitue, à ses yeux, une courtoisie du Conseil à l'égard du Président de l'Assemblée nationale.",36,43,PERETTI,False,True
+763,"Il ajoute, pour répondre à Monsieur PERETTI, que la mention ""à le supposer établi"" constitue, à ses yeux, une courtoisie du Conseil à l'égard du Président de l'Assemblée nationale.",145,179,Président de l'Assemblée nationale,False,False
+764,Monsieur BROUILLET regrette la rédaction trop générale et péremptoire proposée par le rapporteur.,9,18,BROUILLET,True,False
+764,Monsieur BROUILLET regrette la rédaction trop générale et péremptoire proposée par le rapporteur.,86,96,rapporteur,False,True
+766,"Monsieur VEDEL réplique à Monsieur BROUILLET que, si un fait n'est pas établi, il ne peut avoir de conséquences, d'où l'emploi du conditionnel.",9,14,VEDEL,True,False
+766,"Monsieur VEDEL réplique à Monsieur BROUILLET que, si un fait n'est pas établi, il ne peut avoir de conséquences, d'où l'emploi du conditionnel.",35,44,BROUILLET,False,True
+768,"Monsieur SEGALAT propose alors la formule suivante avec l'agrément de Monsieur BROUILLET : ""le retard invoqué, à le supposer établi, n'a pu avoir pour effet de priver le Parlement..."".",9,16,SEGALAT,True,False
+768,"Monsieur SEGALAT propose alors la formule suivante avec l'agrément de Monsieur BROUILLET : ""le retard invoqué, à le supposer établi, n'a pu avoir pour effet de priver le Parlement..."".",79,88,BROUILLET,False,True
+769,Monsieur MONNERVILLE constatant l'accord des membres du Conseil sur le fond et la forme invite Monsieur SEGALAT à poursuivre son rapport.,9,20,MONNERVILLE,True,False
+769,Monsieur MONNERVILLE constatant l'accord des membres du Conseil sur le fond et la forme invite Monsieur SEGALAT à poursuivre son rapport.,104,111,SEGALAT,False,False
+770,Monsieur MONNERVILLE invite alors le rapporteur à lire son projet de décision sur le deuxième point.,9,20,MONNERVILLE,True,False
+770,Monsieur MONNERVILLE invite alors le rapporteur à lire son projet de décision sur le deuxième point.,37,47,rapporteur,False,True
+772,"Monsieur SEGALAT, suite à une question de Monsieur VEDEL, lui précise que le regroupement en services votés de certains crédits présente un intérêt non seulement pour la répartition de ces crédits par décrets mais essentiellement au moment du déroulement de la discussion parlementaire qui se trouve allégée.",9,16,SEGALAT,True,False
+772,"Monsieur SEGALAT, suite à une question de Monsieur VEDEL, lui précise que le regroupement en services votés de certains crédits présente un intérêt non seulement pour la répartition de ces crédits par décrets mais essentiellement au moment du déroulement de la discussion parlementaire qui se trouve allégée.",51,56,VEDEL,False,True
+773,Monsieur MONNERVILLE constatant l'accord du Conseil au projet du rapporteur invite celui-ci à poursuivre son exposé.,9,20,MONNERVILLE,True,False
+773,Monsieur MONNERVILLE constatant l'accord du Conseil au projet du rapporteur invite celui-ci à poursuivre son exposé.,65,75,rapporteur,False,False
+774,Monsieur MONNERVILLE invite Monsieur SEGALAT à lire son projet de décision.,9,20,MONNERVILLE,True,False
+774,Monsieur MONNERVILLE invite Monsieur SEGALAT à lire son projet de décision.,37,44,SEGALAT,False,True
+776,Monsieur LECOURT approuve les conclusions du rapporteur.,9,16,LECOURT,True,False
+776,Monsieur LECOURT approuve les conclusions du rapporteur.,45,55,rapporteur,False,True
+778,Monsieur SEGALAT indique qu'il s'agit du même concept.,9,16,SEGALAT,True,False
+780,Monsieur VEDEL approuve les observations du rapporteur.,9,14,VEDEL,True,False
+780,Monsieur VEDEL approuve les observations du rapporteur.,44,54,rapporteur,False,True
+782,"Monsieur BROUILLET souhaiterait que le terme ""dénaturé"" soit remplacé par celui d'""a1téré"".",9,18,BROUILLET,True,False
+783,Monsieur SEGALAT accepte cette suggestion de Monsieur BROUILLET.,9,16,SEGALAT,True,False
+783,Monsieur SEGALAT accepte cette suggestion de Monsieur BROUILLET.,54,63,BROUILLET,False,True
+784,"Monsieur VEDEL, en la forme, rappelle que le Conseil avait adopté, en matière de division, le classement suivant :",9,14,VEDEL,True,False
+788,Monsieur SEGALAT propose de rectifier son projet danS le sens des divisions rappelées par Monsieur VEDEL.,9,16,SEGALAT,True,False
+788,Monsieur SEGALAT propose de rectifier son projet danS le sens des divisions rappelées par Monsieur VEDEL.,99,104,VEDEL,False,True
+789,Monsieur MONNERVILLE constatant que le troisième point est adopté par le Consei1 invite Monsieur SEGALAT à poursuivre son exposé.,9,20,MONNERVILLE,True,False
+789,Monsieur MONNERVILLE constatant que le troisième point est adopté par le Consei1 invite Monsieur SEGALAT à poursuivre son exposé.,97,104,SEGALAT,False,False
+790,Monsieur MONNERVILLE demande alors à Monsieur SEGALAT de lire son projet de décision et déclare ouverte la discussion générale.,9,20,MONNERVILLE,True,False
+790,Monsieur MONNERVILLE demande alors à Monsieur SEGALAT de lire son projet de décision et déclare ouverte la discussion générale.,46,53,SEGALAT,False,True
+791,Monsieur VEDEL approuve le projet du rapporteur qui a le mérite d'institutionna1iser une technique qui doit être canalisée.,9,14,VEDEL,True,False
+791,Monsieur VEDEL approuve le projet du rapporteur qui a le mérite d'institutionna1iser une technique qui doit être canalisée.,37,47,rapporteur,False,True
+795,Monsieur MONNERVILLE constatant l'accord du Conseil sur cette partie du rapport demande â Monsieur SEGALAT de poursuivre son exposé.,9,20,MONNERVILLE,True,False
+795,Monsieur MONNERVILLE constatant l'accord du Conseil sur cette partie du rapport demande â Monsieur SEGALAT de poursuivre son exposé.,99,106,SEGALAT,False,False
+796,Monsieur MONNERVILLE manifeste son étonnement.,9,20,MONNERVILLE,True,False
+798,Monsieur GROS considère que cela pose le problème plus général de 1'opposabilité de l'article 42 aux amendements gouvernementaux.,9,13,GROS,True,False
+799,"Monsieur MONNERVILLE, aucune autre observation n'étant formulée, constate que leprojet du rapporteur est adopté.",9,20,MONNERVILLE,True,False
+799,"Monsieur MONNERVILLE, aucune autre observation n'étant formulée, constate que leprojet du rapporteur est adopté.",90,100,rapporteur,False,True
+800,Monsieur MONNERVILLE déclare ouverte la discussion générale.,9,20,MONNERVILLE,True,False
+801,Monsieur VEDEL se demande si les postes créés par le présent budget de 1'éducation nationale ne sont pas liés à leur attribution aux enseignants coopérants ?,9,14,VEDEL,True,False
+802,Monsieur SEGALAT lui répond que ce n'est pas le cas.,9,16,SEGALAT,True,False
+803,"Monsieur MONNERVILLE constatant qu'aucune observation n'est formulée, soumet l'ensemble du projet de Monsieur SEGALAT au vote du Consei1.",9,20,MONNERVILLE,True,False
+803,"Monsieur MONNERVILLE constatant qu'aucune observation n'est formulée, soumet l'ensemble du projet de Monsieur SEGALAT au vote du Consei1.",110,117,SEGALAT,False,True
+805,Monsieur MONNERVILLE lève alors la séance à 18 h 10.,9,20,MONNERVILLE,True,False
