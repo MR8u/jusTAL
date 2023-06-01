@@ -1,15 +1,14 @@
 import argparse
 from pathlib import Path
-from bs4 import BeautifulSoup
-
 import bs4
+from utils import parse_inputs, parse_output
 
-TEMPLATE_PATH = Path('template.xml')
-OUTPUT_PATH = Path('templated')
+TEMPLATE_PATH = [Path('template.xml')]
+OUTPUT_PATH = [Path('templated')]
 
-def process_input(input_path, output_path, template_path):
-    template = BeautifulSoup(template_path.read_text(encoding='utf-8'), features='xml')
-    xml_input = BeautifulSoup(input_path.read_text(encoding='utf-8'), features='xml')
+def process(input_path, output_path, template_path):
+    template = bs4.BeautifulSoup(template_path.read_text(encoding='utf-8'), features='xml')
+    xml_input = bs4.BeautifulSoup(input_path.read_text(encoding='utf-8'), features='xml')
 
     input_session_title = xml_input.find('title').text.strip()
     input_proofreader_name = xml_input.find('meta', attrs={'name':'relecteur'}).attrs['content'].strip()
@@ -28,16 +27,6 @@ def process_input(input_path, output_path, template_path):
 
     (output_path / input_path.name).write_text(template.prettify(formatter=bs4.formatter.XMLFormatter()), encoding='utf-8')
 
-def process_inputs(inputs):
-    paths = []
-    for input in inputs:
-        input = Path(input)
-
-        if input.is_dir():
-            paths.extend(input.glob('*.xml'))
-        elif input.suffix == '.xml':
-            paths.append(input)
-    return paths
 
 def get_cli_args() -> argparse.Namespace:
     """Get command line arguments"""
@@ -58,8 +47,9 @@ def get_cli_args() -> argparse.Namespace:
 if __name__ == '__main__':
     args = get_cli_args()
 
-    output_path = Path(args.output)
-    template_path = Path(args.template)
+    output_path = parse_output(args.output)
 
-    for input_path in process_inputs(args.inputs):
-        process_input(input_path, output_path, template_path)
+    template_path = Path(args.template[0])
+
+    for input_path in parse_inputs(args.inputs):
+        process(input_path, output_path, template_path)

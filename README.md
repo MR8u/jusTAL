@@ -1,10 +1,22 @@
 # jusTAL
 
-# TODO :
+
+## Checklist
+    + Template fix (Daniel Mayer)
+    + Remplacer les ” -> " et ’ -> ' problèmatique
+    + Remplace [A-Za-z]- [A-Za-z] -> [A-Za-z]- [A-Za-z]
+    - normaliser la structure
+    - normaliser les incidents 
+    - normaliser les p restants
+    - finaliser les votes
+    - finaliser les membres présents
+
+## TODO :
 
     - Trailer et incident 
     - Remplacer les " et ' problèmatique (commande du script)
     - [A-z]- [A-z] et inverse
+    - incident > pause ?
 
 ## Template : 
 
@@ -19,7 +31,7 @@
 
 '''
 <div1 type="pv" corresp="#pv">
-    <div2 type="seance" date="#date_seance">
+    <div2 type="seance" corresp="#date_[a-z]">
         <div3 type="ouverture">
             <div4 type="membrePresent"></div4>
             <div4 type="ordreDuJour"></div4>
@@ -27,14 +39,27 @@
         <div3 type="question" n="n" corresp="#decision">
             <div4 type="introduction"></div4>
             <writing type="rapport" who="#membre"></writing>
-            <div4 type="discussion">
-                <div4 type="vote" n="n">
-                </div4>
-            </div4>
+            <div4 type="discussion"></div4>
+            <div4 type="conclusion"></div4>
         </div3>
+        <div3 type="cloture"></div3>
     </div2>
 </div1>
 '''
+
+'''
+<u who="#frey_roger">
+    <seg>Après lecture par Monsieur GROS de son projet, Monsieur le Président invite les membres du Conseil à présenter toutes observations qu'ils jugeront nécessaires quant à la forme de ce projet.</seg>
+</u>
+'''
+
+'''
+<incident>
+    <desc><hi rend="underline">Monsieur VEDEL</hi> demande au Président de bien vouloir l'excuser. Il souhaite, en effet, se retirer ayant, comme chacun le sait, dans un article du 3 février 1979, paru dans le journal "Le Monde", pris position sur la question essentielle qu'aura à connaître le Conseil c'est-à-dire l'obligation de mixité.</desc>
+    <desc>Cet article ne peut être assimilé à une chronique de droit, même s'il ne présente pas un caractère polémique. Ne voulant pas être dans la position de "Barbe molle", avocat cher à Courteline, qui est tantôt juge, tantôt avocat, Monsieur VEDEL préfère se retirer.</desc>
+</incident>
+'''
+
 
 ## Problèmes :
 
@@ -109,27 +134,27 @@
 
 '''PV1982-02-18-23
 <incident>
-<p>
-	<u>Monsieur le Président</u>, après avoir demandé si d'autres membres
-souhaitent intervenir, lève la séance à 18h05, après avoir
-indiqué que l'examen de la loi relative aux droits et libertés
-des communes, des départements et des régions, sera poursuivi
-lors de la séance du 23 février 1980 à 10 heures.
-</p>
-<pb n="18"/>
-<p>
-	<h1>SEANCE DU MARDI 23 FEVRIER 1982</h1>
-</p>
-<p>
-	Le Conseil se réunit à 10 heures 30, tous ses membres étant présents,
-à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.
-</p>
-<p>
-	<u>M. Le Président</u> rappelle l'ordre du jour porte sur la poursuite
-de l'examen de la conformité à la Constitution de la loi relative
-aux droits et libertés des communes, des départements et des
-régions.
-</p>
+    <p>
+        <u>Monsieur le Président</u>, après avoir demandé si d'autres membres
+        souhaitent intervenir, lève la séance à 18h05, après avoir
+        indiqué que l'examen de la loi relative aux droits et libertés
+        des communes, des départements et des régions, sera poursuivi
+        lors de la séance du 23 février 1980 à 10 heures.
+        </p>
+    <pb n="18"/>
+    <p>
+        <h1>SEANCE DU MARDI 23 FEVRIER 1982</h1>
+    </p>
+    <p>
+        Le Conseil se réunit à 10 heures 30, tous ses membres étant présents,
+        à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.
+    </p>
+    <p>
+        <u>M. Le Président</u> rappelle l'ordre du jour porte sur la poursuite
+        de l'examen de la conformité à la Constitution de la loi relative
+        aux droits et libertés des communes, des départements et des
+        régions.
+    </p>
 </incident>
 '''
 
@@ -207,4 +232,83 @@ lire son projet de décision.
 
 '''PV1982-07-30
 <div3 type="question" n="1"></div3>
+'''
+
+    - Can't work 
+
+'''PV1982-11-10
+<p>
+	Monsieur le Président remercie Monsieur LECOURT pour son rapport
+et lui demande de bien vouloir donner lecture de son projet
+de décision. Aucune observation n'étant présentées par les
+membres du Conseil, 
+<div4 type="vote" n="1">
+Monsieur le Président soumet le projet de
+Monsieur le Rapporteur au vote du Conseil. Ce projet est adopté
+à l'unanimité.
+</div4>
+</p>
+'''
+
+    - Empty p ?
+
+'''PV1982-11-18
+    <p>
+    "LES JEUNES GENS ACCOMPLISSANT LE SERVICE MILITAIRE ACTIF DOIVENT
+    ETRE AFFECTES A DES EMPLOIS MILITAIRES".
+    </p>
+    <p>
+    </p>
+    <p>
+    La règle de l'article 14 a justement pour effet d'enlever du
+    personnel aux armées auxquelles sont confiées les missions traditionnellement
+    militaires pour l'affecter à ce corps spécialisé qu'est la
+    gendarmerie et dont les tâches se rapprochent infiniment plus de
+    celles citées par l'exposé des motifs rappelé ci-dessus.
+    </p>
+'''
+
+    - Observation
+
+'''PV1982-11-18
+<p>
+    <u>Monsieur le Président</u> remercie Monsieur PERETTI pour son rapport
+    très vivant et complet.</p> 
+</writing>
+    <div3 type="discussion">
+    <p>
+    Il déclare ouverte la discussion générale.
+    </p>
+
+'''
+
+    - Structurer correctement cette incident
+
+'''PV1982-11-18
+<incident>
+    <desc><hi rend="underline">Monsieur VEDEL</hi> demande au Président de bien vouloir l'excuser. Il souhaite, en effet, se retirer ayant, comme chacun le sait, dans un article du 3 février 1979, paru dans le journal "Le Monde", pris position sur la question essentielle qu'aura à connaître le Conseil c'est-à-dire l'obligation de mixité.</desc>
+    <desc>Cet article ne peut être assimilé à une chronique de droit, même s'il ne présente pas un caractère polémique. Ne voulant pas être dans la position de "Barbe molle", avocat cher à Courteline, qui est tantôt juge, tantôt avocat, Monsieur VEDEL préfère se retirer.</desc>
+</incident>
+<p><hi rend="underline">Monsieur le Président</hi> rend hommage aux scrupules de Monsieur VEDEL.</p>
+<p><hi rend="underline">Monsieur VEDEL</hi> s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant.</p>
+'''
+
+    - <u> ? who gros ou frey ? <incident> ? <writing> ?
+
+'''
+ <p>
+Après lecture par Monsieur GROS de son projet, Monsieur le Président
+invite les membres du Conseil à présenter toutes observations qu'ils
+jugeront nécessaires quant à la forme de ce projet.
+</p>
+ '''
+
+    - vote ? parce que sur la méthode
+
+'''
+<incident>
+    <desc><hi rend="underline">Monsieur VEDEL</hi> suggère à ses collègues qu'après l'examen de chaque moyen de la saisine une discussion puisse s'engager, ce qui aurait le mérite d'éviter des risques d'oubli ou de chevauchement si le Conseil, comme il le fait habituellement, n'engage la discussion général qu'à la fin du rapport complet.</desc>
+    <pb n="2"/>
+    <desc><hi rend="underline">Monsieur MONNERVILLE</hi> soumet cette proposition de Monsieur VEDEL qui recuei1le 1'accord de l'ensemble des membres du Conseil.</desc>
+</incident>
 '''
