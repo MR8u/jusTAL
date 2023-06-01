@@ -632,7 +632,7 @@
 						<birth when="1946-08-20">
 							<placeName>Paris (16ème)</placeName>
 						</birth>
-						<affiliation role="president" ref="#CC" from="2016-03-08" />
+						<affiliation role="president" ref="#CC" from="2016-03-08"/>
 					</person>
 					<person xml:id="fabre_robert">
 						<persName>
@@ -692,8 +692,7 @@
 							<placeName>Coblence (Allemagne)</placeName>
 						</birth>
 						<death when="2020-12-02"></death>
-						<affiliation role="membrededroit" ref="#CC" from="1981-05-21"
-							to="2020-12-02" />
+						<affiliation role="membrededroit" ref="#CC" from="1981-05-21" to="2020-12-02" />
 					</person>
 					<person xml:id="goguel_francois">
 						<persName>
@@ -7603,13 +7602,6 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div1 type="seance" corresp="#"><!--identifiant
-				de la délibération -->
-				<head>
-					<title></title><!--identifiant
-					de la délibération -->
-				</head>
-			</div1>
 		</body>
 	</text>
 </TEI>
