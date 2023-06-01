@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 import bs4
-from utils import parse_inputs, parse_output
+from tools.utils import parse_inputs, parse_output
 
 TEMPLATE_PATH = [Path('template.xml')]
 OUTPUT_PATH = [Path('templated')]
