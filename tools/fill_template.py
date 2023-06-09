@@ -6,9 +6,14 @@ from src.postprocess import PERSONS
 import re
 import datetime
 from functools import reduce
+from xml.dom import minidom
 
 TEMPLATE_PATH = [Path('template.xml')]
 OUTPUT_PATH = [Path('templated')]
+VALID_TYPES = ['discussion']
+TEXT_TAGS = ['writing','u']
+
+HEADER_PATTERN = re.compile(r'h[0-9]')
 
     # + Remplacer les ” -> " et ’ -> ' problèmatique
     # + Remplace [A-Za-z]- [A-Za-z] -> [A-Za-z][A-Za-z]
@@ -32,19 +37,22 @@ def process_back(input, output):
 def process_underline(output):
     for u in output.find_all('u'):
         if 'who' not in u.attrs:
-            u.name = 'hi'
-            u.attrs['rend'] = 'underline'
+            rewrite_u(u)
+
+def rewrite_u(u):
+    u.name = 'hi'
+    u.attrs['rend'] = 'underline'
 
 def parse_date(text):
     return datetime.datetime(int(text[0:4]), int(text[5:7]), int(text[8:10]))
     
 def get_pattern(names_ids):
-    return re.compile(f"({'|'.join(reduce(lambda a, b: a + ['|'.join(b)], names_ids.values(), []))})", re.I)
+    return re.compile(f"({'|'.join(reduce(lambda a, b: a + ['|'.join(b)], filter(lambda x: len(x)>0, names_ids.values()), []))})", re.I)
 
 def extract_name_ids(template):
     date_pv = template.find('div1').attrs['corresp']
     date_pv = parse_date(date_pv[3:])
-    name_ids = {}
+    name_ids = {"#all":[], "#default":[]}
     for person in template.find('profileDesc').find_all('person'):
         for affiliation in person.find_all('affiliation'):
             from_date, to_date = parse_date(affiliation['from']), parse_date(affiliation['to']) if 'to' in affiliation.attrs else datetime.datetime.now()
@@ -55,6 +63,22 @@ def extract_name_ids(template):
             if affiliation['role']=='president':
                 name_ids[k].append('pr[ée]sident')
     return name_ids
+
+def extract_reporter(tag):
+    tag = [t for t in tag.parents if 'type' in t.attrs and t.attrs['type'] == 'question']
+    if len(tag) == 0:
+        return ''
+    tag = tag[0]
+
+    tag = tag.find(attrs={'type':'rapport'})
+    if not tag:
+        return ''
+    
+    tag = tag.find(lambda x: 'who' in x.attrs)
+    if not tag:
+        return ''
+    
+    return tag.attrs['who']
 
 def match_person(x, name_ids):
     for k, v in name_ids.items():
@@ -75,31 +99,79 @@ def match_speaker(a, b):
     return set(a.split(' ')) == set(b.split(' '))
 
 def process_speaker(output):
-    names_ids = extract_name_ids(output)
-    pattern = get_pattern(names_ids)
-    current_speaker = match_person('president', names_ids)
-    for p in output.find('text').find_all('p'):
-        if (p.parent.name == 'u' or 'writing') and ('who' in p.parent.attrs.keys()):
-            current_speaker = p.parent.attrs['who']
-        else:
-            hi = p.find('hi')
-            if hi:
-                tmp = pattern.search(hi.text)
-                current_speaker = match_person(tmp.group(), names_ids) if tmp else current_speaker
-            utterances = p.parent.find_all('u')
-            if len(utterances)>0 and match_speaker(utterances[-1].attrs['who'], current_speaker): #writing?
-                utterances[-1].append(p)
+    # current_speaker = match_person('president', names_ids)
+    # TODO : Refactor 
+    for tag in output.find_all(lambda x: 'type' in x.attrs and x.attrs['type'] in VALID_TYPES):
+
+        names_ids = extract_name_ids(output)
+        reporter = extract_reporter(tag)
+        if reporter:
+            names_ids[reporter].append('rapporteur')
+        pattern = get_pattern(names_ids)
+
+        current_speaker = '#default'
+
+        for p in tag.find_all('p'):
+            if p.parent.name in TEXT_TAGS:
+                if 'who' in p.parent.attrs.keys():
+                    current_speaker = p.parent.attrs['who']
             else:
-                u=output.new_tag('u', attrs={'who':current_speaker})
-                p.insert_before(u)
-                u.append(p)
-        p.name = 'seg'
-    
+                u = p.find('u')
+                if u:
+                    tmp = pattern.search(u.text)
+                    current_speaker = match_person(tmp.group(), names_ids) if tmp else current_speaker
+                    rewrite_u(u)
+                
+                utterances = [ut for ut in p.previous_siblings]
+                utterances = [ut for ut in utterances if isinstance(ut, bs4.element.Tag) and 'who' in ut.attrs]
+                # print(current_speaker, [ut.attrs for ut in utterances])
+                if len(utterances) > 0 and match_speaker(utterances[0].attrs['who'], current_speaker):
+                    utterances[0].append(p)
+                else:
+                    u = output.new_tag('u', attrs={'who':current_speaker})
+                    p.insert_before(u)
+                    u.append(p)
+
+def process_targets(output):
+    for tag in output.find_all(lambda x: 'type' in x.attrs and x.attrs['type'] in VALID_TYPES):
+
+        names_ids = extract_name_ids(output)
+        reporter = extract_reporter(tag)
+        if reporter:
+            names_ids[reporter].append('rapporteur')
+        pattern = get_pattern(names_ids)
+        
+        for p in tag.find_all('p'):
+            txt = str(p)
+            for m in pattern.findall(txt):
+                t = match_person(m, names_ids)
+                if t != p.parent.attrs['who']:
+                    txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
+            p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
+
+        while True:
+            sp = output.find(lambda x: x.name=='span' and x.parent.name=='span' and 'ana' in x.attrs)
+            if not sp:
+                break
+            sp.replace_with(sp.string)
+                
+def rewrite_all_p(output):  
+    for tag in output.find_all(lambda x: x.name in TEXT_TAGS):
+        for p in tag.find_all('p'):
+            p.name = 'seg'
+
+def process_headers(output):
+    for h in output.find_all(lambda x: HEADER_PATTERN.match(x.name)):
+        style = f'titre{h.name[1]}'
+        h.name = 'hi'
+        h.attrs['style'] = style
+
+def format_xml(output):
+    return output.prettify(formatter=bs4.formatter.XMLFormatter())
 
 def process(input_path, output_path, template_path):
-    template = bs4.BeautifulSoup(template_path.read_text(encoding='utf-8'), features='xml')
+    template = bs4.BeautifulSoup(normalize_text(template_path.read_text(encoding='utf-8')), features='xml')
     xml_input = bs4.BeautifulSoup(normalize_text(input_path.read_text(encoding='utf-8')), features='xml')
-
     #handle proofreader
     input_proofreader_name = xml_input.find('meta', attrs={'name':'relecteur'}).attrs['content'].strip()
     proofreader_name = template.findAll('respStmt')[6].find('name')
@@ -108,12 +180,15 @@ def process(input_path, output_path, template_path):
     process_div1(xml_input, template)
     process_back(xml_input, template)
 
-    process_underline(template)
-
     process_who(template)
     process_speaker(template)
+    process_targets(template)
+    process_headers(template)
+    # underline should be process after speaker.
+    process_underline(template)
+    rewrite_all_p(template)
     
-    (output_path / input_path.name).write_text(template.prettify(formatter=bs4.formatter.XMLFormatter()), encoding='utf-8')
+    (output_path / input_path.name).write_text(format_xml(template), encoding='utf-8')
 
 def get_cli_args() -> argparse.Namespace:
     """Get command line arguments"""
