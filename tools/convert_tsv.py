@@ -36,12 +36,12 @@ def tokenize_element(tag, tokens):
 
 def tokenize_uts(path):
     xml = bs4.BeautifulSoup(path.read_text(encoding='utf-8'), features='xml')
-    president = list(filter(lambda x: len(x) == 2, extract_name_ids(xml).values()))[0]
+    president = list(filter(lambda x: len(x[1]) == 2, extract_name_ids(xml).items()))[0][0]
     tokens = []
     for disc in xml.find_all(attrs={'type':'discussion'}):
         reporter = extract_reporter(disc)
         for ut in disc.find_all('u'):
-            tokens.append([f'<!-- {president} {reporter} -->'] + tokenize_element(ut))
+            tokens.append([f'<!-- {president} {reporter} -->'] + tokenize_xml(ut))
     return tokens
 
 def convert(input_path, output_path):
