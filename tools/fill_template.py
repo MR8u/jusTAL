@@ -56,9 +56,9 @@ def extract_name_ids(template):
             if from_date > date_pv or to_date < date_pv:
                 continue
             k ='#' + person.attrs['xml:id']
-            name_ids[k] = [person.surname.text]
+            name_ids[k] = [f'({person.surname.text})\W']
             if affiliation['role']=='president':
-                name_ids[k].append('pr[ée]sident')
+                name_ids[k].append("(pr[ée]sident)\W(?!d[eu'])")
     return name_ids
 
 def extract_reporter(tag):
@@ -94,10 +94,11 @@ def match_persons(x, name_ids):
 
 def process_who(output):
     names_ids = extract_name_ids(output)
+    print(names_ids)
     for tag in output.find('text').find_all(lambda x: 'who' in x.attrs):
         ids = []
         for i in tag.attrs['who'].split(' '):
-            ids.append(i if i in names_ids.keys() else match_person(i, names_ids))
+            ids.append(i if i in names_ids.keys() else match_person(i + ' ', names_ids))
         tag.attrs['who'] = ' '.join(ids)
 
 def match_speaker(a, b):
@@ -111,7 +112,7 @@ def process_speaker(output):
         names_ids = extract_name_ids(output)
         reporter = extract_reporter(tag)
         if reporter:
-            names_ids[reporter].append('rapporteur')
+            names_ids[reporter].append('(rapporteur)\W')
 
         current_speaker = '#default'
 
@@ -142,7 +143,7 @@ def process_targets(output):
         names_ids = extract_name_ids(output)
         reporter = extract_reporter(tag)
         if reporter:
-            names_ids[reporter].append('rapporteur')
+            names_ids[reporter].append('(rapporteur)\W')
         
         for p in tag.find_all('p'):
             txt = str(p)
