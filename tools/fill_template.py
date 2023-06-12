@@ -94,7 +94,6 @@ def match_persons(x, name_ids):
 
 def process_who(output):
     names_ids = extract_name_ids(output)
-    print(names_ids)
     for tag in output.find('text').find_all(lambda x: 'who' in x.attrs):
         ids = []
         for i in tag.attrs['who'].split(' '):
