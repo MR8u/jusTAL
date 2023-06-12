@@ -45,9 +45,6 @@ def rewrite_u(u):
 
 def parse_date(text):
     return datetime.datetime(int(text[0:4]), int(text[5:7]), int(text[8:10]))
-    
-def get_pattern(names_ids):
-    return re.compile(f"({'|'.join(reduce(lambda a, b: a + ['|'.join(b)], filter(lambda x: len(x)>0, names_ids.values()), []))})", re.I)
 
 def extract_name_ids(template):
     date_pv = template.find('div1').attrs['corresp']
@@ -87,6 +84,14 @@ def match_person(x, name_ids):
                 return k
     return ''
 
+def match_persons(x, name_ids):
+    persons = []
+    for k, v in name_ids.items():
+        for r in v:
+            for m in re.findall(r, x, re.I):
+                persons.append((m,k))
+    return persons
+
 def process_who(output):
     names_ids = extract_name_ids(output)
     for tag in output.find('text').find_all(lambda x: 'who' in x.attrs):
@@ -107,7 +112,6 @@ def process_speaker(output):
         reporter = extract_reporter(tag)
         if reporter:
             names_ids[reporter].append('rapporteur')
-        pattern = get_pattern(names_ids)
 
         current_speaker = '#default'
 
@@ -118,8 +122,8 @@ def process_speaker(output):
             else:
                 u = p.find('u')
                 if u:
-                    tmp = pattern.search(u.text)
-                    current_speaker = match_person(tmp.group(), names_ids) if tmp else current_speaker
+                    tmp = match_person(u.text, names_ids)
+                    current_speaker = tmp if tmp else current_speaker
                     rewrite_u(u)
                 
                 utterances = [ut for ut in p.previous_siblings]
@@ -139,12 +143,10 @@ def process_targets(output):
         reporter = extract_reporter(tag)
         if reporter:
             names_ids[reporter].append('rapporteur')
-        pattern = get_pattern(names_ids)
         
         for p in tag.find_all('p'):
             txt = str(p)
-            for m in pattern.findall(txt):
-                t = match_person(m, names_ids)
+            for m, t in match_persons(txt, names_ids):
                 if t != p.parent.attrs['who']:
                     txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
             p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
