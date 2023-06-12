@@ -5,6 +5,7 @@ import spacy
 import re
 
 from tools.utils import parse_inputs, parse_output
+from tools.fill_template import extract_name_ids, extract_reporter
 
 OUTPUT_PATH = Path('data/tsv/')
 
@@ -33,26 +34,23 @@ def tokenize_element(tag, tokens):
     else:
         raise TypeError(f"Unrecognize type: {tag} ({type(tag)}) when parsing xml")
 
+def tokenize_uts(path):
+    xml = bs4.BeautifulSoup(path.read_text(encoding='utf-8'), features='xml')
+    president = list(filter(lambda x: len(x) == 2, extract_name_ids(xml).values()))[0]
+    tokens = []
+    for disc in xml.findAll(attrs={'type':'discussion'}):
+        reporter = extract_reporter(disc)
+        for ut in disc.findall('u'):
+            tokens.append([f'<!-- {president} {reporter} -->'] + tokenize_element(ut))
+    return tokens
 
-def load_tags(path):
-    return bs4.BeautifulSoup(path.read_text(encoding='utf-8'), features='xml').findAll(attrs={'type':'discussion'})
-
-def convert(tags, output_path):
+def convert(input_path, output_path):
 
     tab = []
-    list_tokens = []
+    tokens = tokenize_uts(input_path)
     len_words = -1
-    for tag in tags:
-        tokens_init = tokenize_xml(tag)
-        i=0
-        # print(f'#Text={" ".join(tokens)}')
-        list_cpt = 0
-        for c, el in enumerate(tokens_init): #divide into lists of tokens by </u>
-            if el=='</u>':
-                list_tokens.append(tokens_init[list_cpt:c+1])
-                list_cpt = c+1
 
-    for m, tokens in enumerate(list_tokens):
+    for m, tokens in enumerate(tokens):
         tab.append(f'\r#Text={" ".join(tokens)}')
         cur_speaker = '_'
         for n, token in enumerate(tokens):
@@ -99,6 +97,6 @@ if __name__ == '__main__':
 
     for input_path in input_path:
         if output_path.is_dir():
-            convert(load_tags(input_path), output_path / f'{input_path.stem}.tsv')
+            convert(input_path, output_path / f'{input_path.stem}.tsv')
         else:
-            convert(load_tags(input_path), output_path)
+            convert(input_path, output_path)
