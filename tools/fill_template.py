@@ -9,7 +9,7 @@ from functools import reduce
 from xml.dom import minidom
 
 TEMPLATE_PATH = [Path('template.xml')]
-OUTPUT_PATH = [Path('templated')]
+OUTPUT_PATH = Path('templated')
 VALID_TYPES = ['discussion']
 TEXT_TAGS = ['writing','u']
 
