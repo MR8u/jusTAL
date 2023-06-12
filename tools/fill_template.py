@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
     output_path = parse_output(args.output[0])
 
-    template_path = Path(args.template[0])
+    template_path = parse_output(args.template[0])
 
     for input_path in parse_inputs(args.inputs):
         process(input_path, output_path, template_path)
