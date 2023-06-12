@@ -9,7 +9,7 @@ from functools import reduce
 from xml.dom import minidom
 
 TEMPLATE_PATH = [Path('template.xml')]
-OUTPUT_PATH = Path('templated')
+OUTPUT_PATH = [Path('templated')]
 VALID_TYPES = ['discussion']
 TEXT_TAGS = ['writing','u']
 
@@ -212,7 +212,7 @@ def get_cli_args() -> argparse.Namespace:
 if __name__ == '__main__':
     args = get_cli_args()
 
-    output_path = parse_output(args.output)
+    output_path = parse_output(args.output[0])
 
     template_path = Path(args.template[0])
 
