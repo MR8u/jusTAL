@@ -97,6 +97,7 @@ def process_who(output):
     for tag in output.find('text').find_all(lambda x: 'who' in x.attrs):
         ids = []
         for i in tag.attrs['who'].split(' '):
+            # TODO: Raise error/warning when match_person return ''
             ids.append(i if i in names_ids.keys() else match_person(i + ' ', names_ids))
         tag.attrs['who'] = ' '.join(ids)
 
@@ -147,7 +148,7 @@ def process_targets(output):
         for p in tag.find_all('p'):
             txt = str(p)
             for m, t in match_persons(txt, names_ids):
-                if t != p.parent.attrs['who']:
+                if t in p.parent.attrs['who'].split(' '):
                     txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
             p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
 
