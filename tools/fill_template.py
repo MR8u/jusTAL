@@ -123,7 +123,7 @@ def process_speaker(output):
             else:
                 u = p.find('u')
                 if u:
-                    tmp = match_person(u.text, names_ids)
+                    tmp = match_person(u.text + ' ', names_ids)
                     current_speaker = tmp if tmp else current_speaker
                     rewrite_u(u)
                 
@@ -147,7 +147,7 @@ def process_targets(output):
         
         for p in tag.find_all('p'):
             txt = str(p)
-            for m, t in match_persons(txt, names_ids):
+            for m, t in match_persons(txt + ' ', names_ids):
                 if t in p.parent.attrs['who'].split(' '):
                     txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
             p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
