@@ -148,7 +148,7 @@ def process_targets(output):
         for p in tag.find_all('p'):
             txt = str(p)
             for m, t in match_persons(txt + ' ', names_ids):
-                if t in p.parent.attrs['who'].split(' '):
+                if t not in p.parent.attrs['who'].split(' '):
                     txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
             p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
 
