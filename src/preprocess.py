@@ -8,10 +8,10 @@ from tools.fill_template import normalize_text
 
 PE_PATTERN = re.compile(r"principe d('|e l')[eé]galit[eé]", re.I)
 
-def get_pe_paragraphs(path):
+def get_pe_paragraphs(paths):
     paragraphs = []
 
-    for path in list(path.glob('*.xml')):
+    for path in paths:
         soup = BeautifulSoup(normalize_text(path.read_text(encoding='utf-8')), features='xml')
         for p in soup.find_all('p'):
             paragraphs.append((path.stem, p.text.strip()))
