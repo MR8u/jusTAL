@@ -6,7 +6,7 @@ import pandas as pd
 
 from tools.fill_template import normalize_text
 
-PE_PATTERN = re.compile(r"principe d('|e l')[eé]galit[eé]", re.I)
+PE_PATTERN = re.compile(r"principe d(e l)?'[ée]galit[ée]", re.I)
 
 def get_pe_paragraphs(paths):
     paragraphs = []
