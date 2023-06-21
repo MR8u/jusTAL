@@ -19,7 +19,9 @@ def parse_ut(ut):
 
 def parse_sent(ut):
     sents = []
-    target_ids, target_types, sent = [], [], []
+    target_ids, target_types, target_values, sent = [], [], [], []
+    target_value = ''
+    catch_target = False
     for tid, cid, t, st, rv, rco in ut:
         
         if t.startswith('<!--'):
@@ -35,22 +37,82 @@ def parse_sent(ut):
             if len(list(filter(lambda x: x[0] == _id and x[1] == rv, zip(target_ids, target_types)))) == 0:
                 target_ids.append(_id)
                 target_types.append(rv)
+                catch_target = True
 
         elif t.strip() in ['.', ';']:
             if len(target_ids) > 0:
                 sent.append(t)
                 sents.append({
                     'speaker':speaker, 
-                    'target_ids':target_ids, 'target_types':target_types,
+                    'target_ids':target_ids, 'target_types':target_types,'target_values':target_values,
                     'president':president, 'reporter':reporter,
                     'text': ' '.join(sent)
                 })
             target_ids = []
             target_types = []
+            target_values = []
             sent = []
             
         elif not t.startswith('<') and t.strip() != '':
             sent.append(t)
+            if catch_target:
+                target_value += " " + t
+        
+        elif t.startswith('<') and catch_target:
+            target_values.append(target_value.strip())
+            catch_target = False
+            target_value = ''
+    
+    return sents
+
+def parse_chunk(ut):
+    sents = []
+    target_ids, target_types, target_values, sent = [], [], [], []
+    target_value = ''
+    catch_target = False
+    for tid, cid, t, st, rv, rco in ut:
+        
+        if t.startswith('<!--'):
+            s = t.split()
+            president = s[1]
+            reporter = s[2] if len(s) > 3 else None
+        
+        elif st == 'SPEAKER':
+            speaker = t.split('"')[1]
+        
+        elif st == 'TARGET':    
+            _id = t.split('"')[1] 
+            if len(list(filter(lambda x: x[0] == _id and x[1] == rv, zip(target_ids, target_types)))) == 0:
+                target_ids.append(_id)
+                target_types.append(rv)
+                catch_target = True
+
+        elif t.strip() in ['.', ';']:
+            sent.append(t)
+            if len(target_ids) > 0:
+                sents.append({
+                    'speaker':speaker, 
+                    'target_ids':target_ids, 'target_types':target_types,'target_values':target_values,
+                    'president':president, 'reporter':reporter,
+                    'text': ' '.join(sent)
+                })
+                target_ids = []
+                target_types = []
+                target_values = []
+                sent = []
+            elif len(sents) > 0:
+                sents[-1]['text'] += ' ' + ' '.join(sent)
+                sent = []
+            
+        elif not t.startswith('<') and t.strip() != '':
+            sent.append(t)
+            if catch_target:
+                target_value += " " + t
+        
+        elif t.startswith('<') and catch_target:
+            target_values.append(target_value.strip())
+            catch_target = False
+            target_value = ''
     
     return sents
 
@@ -62,6 +124,8 @@ def parse_files(paths, method='ut'):
                 uts.append((path.stem, i, parse_ut(ut)))
             elif method == 'sent':
                 uts.extend([{'pv':path.stem, 'ut_id':i, **sent} for sent in parse_sent(ut)])
+            elif method == 'chunk':
+                uts.extend([{'pv':path.stem, 'ut_id':i, **sent} for sent in parse_chunk(ut)])
     return uts
 
 def get_president_reporter(ut):
