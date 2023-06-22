@@ -15,8 +15,6 @@ TEXT_TAGS = ['writing','u']
 
 HEADER_PATTERN = re.compile(r'h[0-9]')
 
-    # + Remplacer les ” -> " et ’ -> ' problèmatique
-    # + Remplace [A-Za-z]- [A-Za-z] -> [A-Za-z][A-Za-z]
 def normalize_text(text):
     text = text.replace('”', '"')
     text = text.replace("’", "'")
@@ -56,7 +54,7 @@ def extract_name_ids(template):
             if from_date > date_pv or to_date < date_pv:
                 continue
             k ='#' + person.attrs['xml:id']
-            name_ids[k] = [f'({person.surname.text})\W']
+            name_ids[k] = [f'({person.surname.text.strip()})\W']
             if affiliation['role']=='president':
                 name_ids[k].append("(pr[ée]sident)\W(?!d[eu'])")
     return name_ids
@@ -137,20 +135,20 @@ def process_speaker(output):
                     p.insert_before(u)
                     u.append(p)
 
-def process_targets(output):
+def process_targets(output, p_tag='p'):
     for tag in output.find_all(lambda x: 'type' in x.attrs and x.attrs['type'] in VALID_TYPES):
-
         names_ids = extract_name_ids(output)
         reporter = extract_reporter(tag)
+        
         if reporter:
             names_ids[reporter].append('(rapporteur)\W')
-        
-        for p in tag.find_all('p'):
+
+        for p in tag.find_all(p_tag):
             txt = str(p)
             for m, t in match_persons(txt + ' ', names_ids):
                 if t not in p.parent.attrs['who'].split(' '):
                     txt = txt.replace(m, f'<span ana="{t}">{m}</span>')
-            p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find('p'))
+            p.replace_with(bs4.BeautifulSoup(txt, features="lxml").find(p_tag))
 
         while True:
             sp = output.find(lambda x: x.name=='span' and x.parent.name=='span' and 'ana' in x.attrs)
