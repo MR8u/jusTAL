@@ -4,8 +4,7 @@ import pandas as pd
 import json
 import re
 
-PE_PATTERN = re.compile(r"principe d('|e l')[eé]galit[eé]", re.I)
-
+PE_PATTERN = re.compile(r"principe d(e l)?'[ée]galit[ée]", re.I)
 
 def normalize_text(text):
     text = text.replace('”', '"')
