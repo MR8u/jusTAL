@@ -1,26 +1,16 @@
 import argparse
 from pathlib import Path
 import bs4
-from tools.utils import parse_inputs, parse_output
-from src.postprocess import PERSONS
+from src.utils import parse_inputs, parse_output, normalize_text
 import re
 import datetime
-from functools import reduce
-from xml.dom import minidom
 
-TEMPLATE_PATH = [Path('template.xml')]
-OUTPUT_PATH = [Path('templated')]
+TEMPLATE_PATH = [Path('data/template.xml')]
+OUTPUT_PATH = [Path('data/templated')]
 VALID_TYPES = ['discussion']
 TEXT_TAGS = ['writing','u']
 
 HEADER_PATTERN = re.compile(r'h[0-9]')
-
-def normalize_text(text):
-    text = text.replace('”', '"')
-    text = text.replace("’", "'")
-    text = re.sub(r'([A-Za-z])- ([A-Za-z])', r'\1\2', text)
-    text = re.sub(r'([^>])\n+\s*', r'\1 ', text)
-    return text
 
 def process_div1(input, output):
     input_div1 = input.find('div1')

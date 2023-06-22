@@ -1,314 +1,71 @@
 # jusTAL
 
+Github repository: https://github.com/MR8u/jusTAL
 
-## Checklist
-    + Template fix (Daniel Mayer)
-    + Remplacer les ” -> " et ’ -> ' problèmatique
-    + Remplace [A-Za-z]- [A-Za-z] -> [A-Za-z]- [A-Za-z]
-    - normaliser la structure
-    - normaliser les incidents 
-    - normaliser les p restants
-    - finaliser les votes
-    - finaliser les membres présents
+Not all code is well commented and documented. We will improve this in the next few days.
 
-## TODO :
+Install required library with:
 
-    - Trailer et incident 
-    - Remplacer les " et ' problèmatique (commande du script)
-    - [A-z]- [A-z] et inverse
-    - incident > pause ?
+```
+pip install -r requirements.txt
+```
 
-## Template : 
+## Tools
 
-### Remplacer :
+### fill_template
 
-    - TEI.teiHeader.fileDesc.titleStmt.title[@type="sub"] = numPV = #deliberation
-    - TEI.teiHeader.fileDesc.titleStmt.respStmt[6].name = nomDuRelecteur
-    - TEI.text.body.div1[@corresp] = numPV = #deliberation
-    - TEI.text.body.div1.head.title = numPV = #deliberation
+The program used to process structured xml files.
 
-### Nouvelle structure :
+```
+usage: fill_template.py [-h] [--inputs INPUTS [INPUTS ...]] [--output OUTPUT] [--template TEMPLATE]
 
-'''
-<div1 type="pv" corresp="#pv">
-    <div2 type="seance" corresp="#date_[a-z]">
-        <div3 type="ouverture">
-            <div4 type="membrePresent"></div4>
-            <div4 type="ordreDuJour"></div4>
-        </div3>
-        <div3 type="question" n="n" corresp="#decision">
-            <div4 type="introduction"></div4>
-            <writing type="rapport" who="#membre"></writing>
-            <div4 type="discussion"></div4>
-            <div4 type="conclusion"></div4>
-        </div3>
-        <div3 type="cloture"></div3>
-    </div2>
-</div1>
-'''
+Fill Tempalte
 
-'''
-<u who="#frey_roger">
-    <seg>Après lecture par Monsieur GROS de son projet, Monsieur le Président invite les membres du Conseil à présenter toutes observations qu'ils jugeront nécessaires quant à la forme de ce projet.</seg>
-</u>
-'''
+optional arguments:
+  -h, --help            show this help message and exit
+  --inputs INPUTS [INPUTS ...]
+                        List of file/folder paths to process
+  --output OUTPUT       (Optional) Output dir to use when saving results. Default = "[WindowsPath('data/templated')]"     
+  --template TEMPLATE   (Optional) Template file path to use. Default = "[WindowsPath('data/template.xml')]"
+```
 
-'''
-<incident>
-    <desc><hi rend="underline">Monsieur VEDEL</hi> demande au Président de bien vouloir l'excuser. Il souhaite, en effet, se retirer ayant, comme chacun le sait, dans un article du 3 février 1979, paru dans le journal "Le Monde", pris position sur la question essentielle qu'aura à connaître le Conseil c'est-à-dire l'obligation de mixité.</desc>
-    <desc>Cet article ne peut être assimilé à une chronique de droit, même s'il ne présente pas un caractère polémique. Ne voulant pas être dans la position de "Barbe molle", avocat cher à Courteline, qui est tantôt juge, tantôt avocat, Monsieur VEDEL préfère se retirer.</desc>
-</incident>
-'''
+### convert_tsv
 
+The program used to extract utterances and convert them to tsv for annotation.
 
-## Problèmes :
+```
+usage: convert_tsv.py [-h] [--inputs INPUTS [INPUTS ...]] [--output OUTPUT]
 
-    - <h2> >> <hi rend="underline">
-    - <pb> dans un seg  PV1982-01-05.xml (<pb n="2"/>)
-    - <div4 type="vote"> can't containe <seg> so keep <p> atm
-    - toujours le président qui soumet au vote ?
-    - Double speakers :
+Convert xml to tsv
 
-'''PV1982-01-05.xml 
-    <u who="#peretti_achille #joxe_louis">
-        <seg><hi rend="underline">Monsieur PERETTI</hi> et <hi rend="underline">Monsieur JOXE</hi> sont d'accord pour considérer que le texte de la loi est obscur et mal rédigé.</seg>
-    </u>
-'''
-    - Incident : <who> ? <seg> or <p> ? SHOULD ONLY CONTAIN <desc>
+optional arguments:
+  -h, --help            show this help message and exit
+  --inputs INPUTS [INPUTS ...]
+                        List of file/folder paths to process
+  --output OUTPUT       (Optional) Output dir to use when saving results. Default = "data\tsv"
+```
 
-'''PV1982-01-05.xml
-    <incident>
-        <seg><hi rend="underline">Monsieur le Président</hi> suspend la séance pendant quinze minutes puis demande à Monsieur VEDEL de donner lecture de la modification qu'il propose au projet de décision.</seg>
-    </incident>
-'''
-    - Vote : <seg> or <p> ?
-    
-'''PV1982-01-05.xml
-    <div4 type="vote" n="1">
-        <p>Le projet est adopté à l'unanimité par les membres du Conseil.</p>
-    </div4>
-'''
-     - Trailer : <trailer> can't contain <p> but can contain <seg> 
+## src
 
-'''PV1982-01-05.xml
-    <trailer>
-        <seg>La séance est levée à 18 h 25.</seg>
-    </trailer>
-'''
-    
-    - Transcriptor note ? 
+All this file are not CLI ready. Parameters are, most of the time, in top the file.
 
-'''PV1982-02-11
-    <u who="#">
-        <seg>Après cette discussion, il est donc décidé de ne pas modifier le projet et de se contenter du visa tel qu'il est actuellement proposé par le rapporteur.</seg>
-        <seg>Il est donné lecture du projet.</seg>
-    </u>
-    <u who="#">
-        <seg>Une discussion rapide intervient sur ce point et le Conseil n'ayant jamais exprimé clairement sa position dans une décision, il est considéré comme suffisant de faire disparaître, dans le considérant, les termes "en l'absence de toute réserve au profit du pouvoir règlementaire" qui provoquent la difficulté.</seg> 
-    </u>
-'''
+  - utils.py : Contains various functions used throughout the project.
+  - uts.py : Contains functions to process utterances from tsv files to the differents models.
+  - zeroshot.py : The program used to test NLI models.
+  - sentiment.py : The program used to test sentiment analysis models.
+  - fewshot.py : The program used to finetune NLI models on few examples.
 
-    - Trailer who ?
+## data
 
-'''PV1982-02-11
-    <seg><hi rend="underline">Monsieur GROS</hi> pose la question du caractère contradictoire des
-    procédures.</seg>
-'''
-    - Balise pour ce genre de problème :
-    
-'''PV1982-02-18-23
-    <seg>Il apparaît, en conclusion, que le représentant de 1'Etat, <!-- ajout manuscrit illisible --> paralysé temporairement, du fait de la procédure instaurée par la loi,
-    alors qu'un acte administratif illégal est exécutoire. Cette procédure
-    ne respecte donc pas pleinement les dispositions de l'article 72
-    et, dans cette mesure, il est donc proposé une déclaration de
-    non conformité à la Constitution. Celle-ci n'entraînera pas
-    l'inconstitutionnalité de l'ensemble de la loi mais devra amener
-    à revenir sur certaines dispositions d'abrogation.</seg>
-'''
-    - Id de décision introuvable (partiel)
-'''PV1982-02-18-23
-<div2 type="question" n="1" corresp="#DC8">
-'''
+  - corrected : Contains manually structured xml files.
+  - templated : Contains xml files after being processed by fill_template.
+  - tsv : Annotated utterances in tsv format.
+  - zeroshot : Some results of NLI models on tsv files.
+  - template.xml : Template used by fill_template.
 
-    - Incident mal définis :
+## notebooks
 
-'''PV1982-02-18-23
-<incident>
-    <p>
-        <u>Monsieur le Président</u>, après avoir demandé si d'autres membres
-        souhaitent intervenir, lève la séance à 18h05, après avoir
-        indiqué que l'examen de la loi relative aux droits et libertés
-        des communes, des départements et des régions, sera poursuivi
-        lors de la séance du 23 février 1980 à 10 heures.
-        </p>
-    <pb n="18"/>
-    <p>
-        <h1>SEANCE DU MARDI 23 FEVRIER 1982</h1>
-    </p>
-    <p>
-        Le Conseil se réunit à 10 heures 30, tous ses membres étant présents,
-        à l'exception de Monsieur Valéry GISCARD d'ESTAING qui est excusé.
-    </p>
-    <p>
-        <u>M. Le Président</u> rappelle l'ordre du jour porte sur la poursuite
-        de l'examen de la conformité à la Constitution de la loi relative
-        aux droits et libertés des communes, des départements et des
-        régions.
-    </p>
-</incident>
-'''
-
-    - Doit être inclu dans l'utterance ?
-
-'''PV1982-02-18-23
-<p>
-	Monsieur LECOURT donne alors lecture de son projet de décision.
-</p>
-'''
-
-    - Doit être dans la discussion ou dans l'introduction de la séance ?
-
-'''PV1982-02-18-23
-<u who="#lecourt_robert">
-    <seg><hi rend="underline">Monsieur LECOURT</hi> indique qu'éclairé par la délibération du Conseil, lors de sa séance du 18 février 1982, il est en mesure de lui proposer un projet de décision.</seg>
-    <seg>Avant de donner lecture de ce projet, il en indique les lignes directrices.</seg>
-    <seg>Conformément au voeu du Conseil, il a écarté deux systèmes. D'une part, une déclaration de conformité et, d'autre part, une annulation totale de la loi.</seg>
-    <seg>Le projet qu'il propose censure donc seulement certaines dispositions des articles 2, 3, 45, 46 et 69-1, dans la mesure où elles comportent une méconnaissance des dispositions de l’article 72 de la Constitution. Il indique qu'il n'a pas cru devoir proposer l'annulation des articles 4, 47 et 69-11, dans la mesure où ces textes relatifs au recours d'une personne lésée prêtent à des divergences. Sa décision s'efforce de préciser la portée générale qu'il convient de donner à l'article 72 de la Constitution et d'analyser les lacunes procédurales que comporte la présente loi, dans la mise en oeuvre du contrôle administratif qui incombe au représentant de l'Etat.</seg>
-    <seg>Monsieur LECOURT donne alors lecture de son projet de décision.</seg>
-</u>
-<u who="#frey_roger">
-    <seg><hi rend="underline">Monsieur le Président</hi> remercie Monsieur LECOURT et déclare que la discussion générale portant sur ce projet est ouverte.</seg>
-</u>
-'''
-
-    - Doit-on utiliser who ici ?
-
-'''PV1982-06-28
-    <u who="#frey_roger">
-        <seg>Après la lecture de ce projet de décision, Monsieur le Président déclare ouverte la discussion générale.</seg>
-    </u>
-'''
-
-    - Remarque sur les effets de la transcription
-
-'''
-    <u who="#segalat_andre">
-        <seg>Monsieur SEGALAT déclare se rallier à la proposition de Monsieur VEDEL qui est prudente.</seg>
-    </u>
-'''
-
-    - A ca place dans le rapport ? 
-
-'''PV1982-07-27
-<seg>
-    <u>Monsieur GROS</u> déclare alors en avoir terminé avec son rapport.
-</seg>
-
-<seg>
-    <u>Monsieur le Président</u> remercie Monsieur GROS pour son exposé
-fort intéressant et détaillé et lui demande de bien vouloir
-lire son projet de décision.
-</seg>
-'''
-
-    - Introduire un type pause ? / interlude ? / cloture -> réouverture ?
-
-'''PV1982-07-27
-<div3 type="divers">
-    <p>Au terme de la séance, Monsieur le Président MONNERVILLE demande à ses collègues d’excuser son absence lors de la séance de l'après-midi. Il remercie tous les membres du Conseil pour la sympathie qu'ils lui ont témoignée à l'occasion de l'épreuve pénible qui lui a été infligée.</p>
-    <p>La séance est levée à 13 h 15.</p>
-</div3>
-'''
-
-    - n=1 -> n=2
-
-'''PV1982-07-27
-<div5 type="vote" n="2">
-    <p>Il soumet au vote la décision proposée. Celle-ci est adoptée à l'unanimité par les membres du Conseil.</p>
-</div5>
-''' 
-
-    - Manque id decision
-
-'''PV1982-07-30
-<div3 type="question" n="1"></div3>
-'''
-
-    - Can't work 
-
-'''PV1982-11-10
-<p>
-	Monsieur le Président remercie Monsieur LECOURT pour son rapport
-et lui demande de bien vouloir donner lecture de son projet
-de décision. Aucune observation n'étant présentées par les
-membres du Conseil, 
-<div4 type="vote" n="1">
-Monsieur le Président soumet le projet de
-Monsieur le Rapporteur au vote du Conseil. Ce projet est adopté
-à l'unanimité.
-</div4>
-</p>
-'''
-
-    - Empty p ?
-
-'''PV1982-11-18
-    <p>
-    "LES JEUNES GENS ACCOMPLISSANT LE SERVICE MILITAIRE ACTIF DOIVENT
-    ETRE AFFECTES A DES EMPLOIS MILITAIRES".
-    </p>
-    <p>
-    </p>
-    <p>
-    La règle de l'article 14 a justement pour effet d'enlever du
-    personnel aux armées auxquelles sont confiées les missions traditionnellement
-    militaires pour l'affecter à ce corps spécialisé qu'est la
-    gendarmerie et dont les tâches se rapprochent infiniment plus de
-    celles citées par l'exposé des motifs rappelé ci-dessus.
-    </p>
-'''
-
-    - Observation
-
-'''PV1982-11-18
-<p>
-    <u>Monsieur le Président</u> remercie Monsieur PERETTI pour son rapport
-    très vivant et complet.</p> 
-</writing>
-    <div3 type="discussion">
-    <p>
-    Il déclare ouverte la discussion générale.
-    </p>
-
-'''
-
-    - Structurer correctement cette incident
-
-'''PV1982-11-18
-<incident>
-    <desc><hi rend="underline">Monsieur VEDEL</hi> demande au Président de bien vouloir l'excuser. Il souhaite, en effet, se retirer ayant, comme chacun le sait, dans un article du 3 février 1979, paru dans le journal "Le Monde", pris position sur la question essentielle qu'aura à connaître le Conseil c'est-à-dire l'obligation de mixité.</desc>
-    <desc>Cet article ne peut être assimilé à une chronique de droit, même s'il ne présente pas un caractère polémique. Ne voulant pas être dans la position de "Barbe molle", avocat cher à Courteline, qui est tantôt juge, tantôt avocat, Monsieur VEDEL préfère se retirer.</desc>
-</incident>
-<p><hi rend="underline">Monsieur le Président</hi> rend hommage aux scrupules de Monsieur VEDEL.</p>
-<p><hi rend="underline">Monsieur VEDEL</hi> s'étant retiré, Monsieur le Président donne alors la parole au rapporteur, Monsieur GROS, qui présente le rapport suivant.</p>
-'''
-
-    - <u> ? who gros ou frey ? <incident> ? <writing> ?
-
-'''
- <p>
-Après lecture par Monsieur GROS de son projet, Monsieur le Président
-invite les membres du Conseil à présenter toutes observations qu'ils
-jugeront nécessaires quant à la forme de ce projet.
-</p>
- '''
-
-    - vote ? parce que sur la méthode
-
-'''
-<incident>
-    <desc><hi rend="underline">Monsieur VEDEL</hi> suggère à ses collègues qu'après l'examen de chaque moyen de la saisine une discussion puisse s'engager, ce qui aurait le mérite d'éviter des risques d'oubli ou de chevauchement si le Conseil, comme il le fait habituellement, n'engage la discussion général qu'à la fin du rapport complet.</desc>
-    <pb n="2"/>
-    <desc><hi rend="underline">Monsieur MONNERVILLE</hi> soumet cette proposition de Monsieur VEDEL qui recuei1le 1'accord de l'ensemble des membres du Conseil.</desc>
-</incident>
-'''
+  - discussion_application.ipynb : All our work on speaker target relation analysis"application". Including visualation as graph.
+  - egalite_distrib.ipynb : Work on egalite distribution.
+  - egalite_pos.ipynb : Work on egalite POS and dependencies.
+  - zeroshot_ana.ipynb : Analysis of results of NLI models.

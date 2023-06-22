@@ -4,7 +4,7 @@ from pathlib import Path
 import spacy
 import re
 
-from tools.utils import parse_inputs, parse_output
+from src.utils import parse_inputs, parse_output
 from tools.fill_template import extract_name_ids, extract_reporter
 
 OUTPUT_PATH = Path('data/tsv/')
@@ -30,7 +30,7 @@ def tokenize_element(tag, tokens):
             tokenize_element(child, tokens)
         tokens.append(end)
     elif isinstance(tag, bs4.NavigableString):
-        tokens.extend([el.text for el in nlp(tag.text.strip())])
+        tokens.extend([el.text for el in nlp(tag.text.replace('\n', ' ').strip())])
     else:
         raise TypeError(f"Unrecognize type: {tag} ({type(tag)}) when parsing xml")
 

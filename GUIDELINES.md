@@ -17,7 +17,7 @@ Nous avons laissé la div4 pv.seance.question.conclusion même si elle n'est act
             <div4 type="introduction"></div4>
             <div4 type="rapport"></div4>
             <div4 type="discussion"></div4>
-            <div4 type="conclusion"></div4>
+            <div4 type="    "></div4>
         </div3>
         <div3 type="cloture"></div3>
     </div2>
