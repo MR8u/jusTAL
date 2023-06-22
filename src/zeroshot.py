@@ -123,7 +123,7 @@ NAMES = [
 
 OUTPUT_PATH = f"data/zeroshot/{MODEL_NAME.split('/')[-1]}_{TID}_{SEGMENTATION}_{'name' if USE_NAME else ''}.jsonl"
 
-uts = parse_files(list(Path('data/corrected/').glob('*.tsv')), SEGMENTATION)
+uts = parse_files(list(Path('data/tsv/').glob('*.tsv')), SEGMENTATION)
 
 hypothesis_template = TEMPLATES[TID]['hypothesis_template']
 candidate_labels = TEMPLATES[TID]['candidate_labels']

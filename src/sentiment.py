@@ -9,7 +9,7 @@ docs = []
 
 MODEL_NAME = "cmarkea/distilcamembert-base-sentiment"
 OUTPUT_PATH = f"data/sentiment/{MODEL_NAME.split('/')[-1]}.jsonl"
-uts = parse_files(list(Path('data/corrected/').glob('*.tsv')), 'sent')
+uts = parse_files(list(Path('data/tsv/').glob('*.tsv')), 'sent')
 
 for ut in uts:
     for target_id, target_type in zip(ut['target_ids'], ut['target_types']):
